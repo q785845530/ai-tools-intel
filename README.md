@@ -28,6 +28,32 @@ node run.js --cron     # 启动 + 每小时自动采集撰写（7×24）
 
 **站点地址：https://q785845530.github.io/ai-tools-intel/**
 
+## 事故复盘 2026-10-26 00:40 ——「还是跑不起来」的四层真相
+
+用户反馈"跑不起来"。逐层实测后，问题不在引擎（本地流水线一直正常，
+每小时整点 425+ 条审计无断档），而在**产出物的最后一公里**。按因果序：
+
+| # | 真相 | 证据 | 处置 |
+|---|---|---|---|
+| 1 | **GitHub 定时任务从未触发过**（8 次运行全是 push/dispatch，schedule=0 次）。GitHub 对低活跃仓库的 schedule 会静默跳过，这是已知行为 | Actions API `event=schedule` total_count=0 | 新增 `lib/cloud.js`：本地整点跑完流水线后主动 `workflow_dispatch` 触发云端部署；GitHub cron 降级为冗余备份 |
+| 2 | **容器 8765 端口没有公网入站**，用户从自己电脑访问 `http://<容器IP>:8765` 必然超时——这不是故障，是容器网络隔离的边界 | 容器外回连 000；`ss -ltn` 监听正常 | 公网访问唯一入口 = GitHub Pages；本地服务定位为内部管理台 |
+| 3 | **微信草稿箱会重复刷同一篇**：整点重跑给同一天日报重复建草稿（22:48 和 00:37 各一次） | `publish_log` 4 条 draft_created 里 2 条同题 | `syncWechatDraft` 判重（`publish_log` NOT EXISTS），并把选中文章直接交 `makeDraft` 而非 `run()`（后者内部重排序会绕过判重）；已建草稿箱按同题只留最新 |
+| 4 | **知乎采集显示 0 条**：API 实际返回 5 组×10 条，但全部撞 UNIQUE 去重（当天已入库）——"运行正常但零增量"与"挂了"在旧日志里无法区分 | `search.ok {items:10, saved:0}` | 保留 `items/saved` 双字段；诊断时先看 saved 再看 items |
+
+**教训（已刻进 run.js 注释）**：旁路步骤（云端部署、微信草稿）任何一步失败都不得
+阻断主流水线；同时每一步的"跳过/失败/成功"必须是三种可区分的审计事件——
+"没记录"和"没干活"是两回事。
+
+## 运行架构（当前生效）
+
+```
+node run.js --cron（本地常驻，pid 见 ps）
+ ├─ 整点流水线：采集(知乎+HN+GitHub+Lobsters) → 生成(日报+深文) → 适配(4平台) → 建站
+ ├─ 旁路A lib/cloud.js：dispatch GitHub Actions → 云端重采重部署 Pages（公网内容源）
+ └─ 旁路B syncWechatDraft：最新未同步文章 → 微信草稿（判重，每篇一次）
+公网：GitHub Pages（云端整点重建）｜ 内部：http://127.0.0.1:8765（含 /dashboard）
+```
+
 仓库：`q785845530/ai-tools-intel`（公开）· 工作流：`.github/workflows/pages.yml`
 
 上线记录（2026-10-25 20:53）：
