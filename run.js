@@ -59,6 +59,7 @@ async function syncWechatDraft() {
   const row = db.prepare(`
     SELECT a.* FROM articles a
     WHERE a.status IN ('ready','published') AND a.kind IN ('daily','deep')
+      AND a.relevance = 'ok'
       AND NOT EXISTS (
         SELECT 1 FROM publish_log p
         WHERE p.article_id = a.id AND p.channel = 'wechat' AND p.status = 'draft_created'
