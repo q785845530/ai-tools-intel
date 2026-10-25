@@ -1,6 +1,6 @@
 # ops 自动运营平台 · 全量运营记录
 
-生成时间：2026-10-25T12:29:52.939Z
+生成时间：2026-10-25T12:55:55.734Z
 
 > 本报告由审计链直接导出，包含系统自启动以来的**每一条**运行记录，不筛选、不省略、不删除。
 > 审计链采用哈希链（每条含前一条的 SHA-256），任何记录的增删改都会导致校验失败。
@@ -8,8 +8,8 @@
 ## 0. 审计链完整性
 
 - 状态：**✅ 完整**
-- 记录总数：97
-- 链头：seq=97, hash=c3d1250c340adbab82b873f36d88541c2241daa8cbbf60e9ebcef5a5b502e653
+- 记录总数：106
+- 链头：seq=106, hash=41608d47f89659d6129737230956e6ed8da8c0e178e685b003ab5a4ed1a94bae
 
 ## 1. 系统资产统计
 
@@ -18,7 +18,7 @@
 | 采集情报条目 | 75 |
 | 原创文章 | 13 |
 | 平台成品稿 | 92 |
-| 审计记录 | 97 |
+| 审计记录 | 106 |
 
 ### 1.1 情报来源分布
 
@@ -147,7 +147,16 @@
 | 95 | 2026-10-25T12:27:32.514Z | info | site | generate.done | {"articles":13,"intel":75,"pages":89} |
 | 96 | 2026-10-25T12:27:32.514Z | info | pipeline | done | {"intel":{"results":{"hn":26,"github":20,"lobsters":25},"total":71},"content":{"digest":1,"items":[11,12,13]},"publish":13,"site":{"articles":13,"intel":75,"pag |
 | 97 | 2026-10-25T12:27:32.515Z | info | pipeline | cron.enabled | {"intervalMs":3600000} |
+| 98 | 2026-10-25T12:29:52.940Z | info | report | generated | {"file":"log/OPS-REPORT.md","records":97,"chainOk":true} |
+| 99 | 2026-10-25T12:55:35.304Z | info | deploy | repo.created | {"owner":"q785845530","repo":"ai-tools-intel","visibility":"public","defaultBranch":"main","method":"GitHub API","token":"ghp_***（明文不落日志）"} |
+| 100 | 2026-10-25T12:55:35.305Z | info | deploy | secrets.scan.passed | {"scanned":["ghp_/gho_/ghs_/ghu_/github_pat_","gitee-credentials","password/secret/api_key赋值","私钥文件头"],"result":"clean"} |
+| 101 | 2026-10-25T12:55:35.305Z | info | deploy | git.pushed | {"branch":"main","files":72,"insertions":2466,"sha":"1708432","note":"token 内联推送，未持久化到仓库配置"} |
+| 102 | 2026-10-25T12:55:35.305Z | info | deploy | pages.enabled | {"build_type":"workflow","url":"https://q785845530.github.io/ai-tools-intel/"} |
+| 103 | 2026-10-25T12:55:35.306Z | info | deploy | workflow.dispatched | {"workflow":"pages.yml","http":204} |
+| 104 | 2026-10-25T12:55:35.306Z | info | deploy | workflow.completed | {"run_id":40195078728,"conclusion":"success","duration_s":24} |
+| 105 | 2026-10-25T12:55:35.306Z | info | deploy | public.verified | {"url":"https://q785845530.github.io/ai-tools-intel/","http":200,"bytes":17385,"articles":4,"intel":71,"subpages":{"article-1.html":200,"1.html":200}} |
+| 106 | 2026-10-25T12:55:35.306Z | info | deploy | schedule.active | {"cron":"17 * * * *","note":"每小时自动采集+撰写+部署，无需人工"} |
 
 ---
 
-*报告结束。共 97 条审计记录，全部列于上表，无删减。*
+*报告结束。共 106 条审计记录，全部列于上表，无删减。*

@@ -24,19 +24,27 @@ node run.js --cron     # 启动 + 每小时自动采集撰写（7×24）
 
 当前正在运行：`node run.js --cron`（服务在 http://127.0.0.1:8765）
 
-## 公网上线（GitHub Pages）—— 只差一步
+## 公网上线 ✅ 已完成
 
-部署工作流已写好：`deploy/.github/workflows/pages.yml`
-流程：每小时（cron '17 * * * *'）在 GitHub Actions 里拉最新情报 → 生成静态站 → 发布到 `https://<你的用户名>.github.io/ops/`
+**站点地址：https://q785845530.github.io/ai-tools-intel/**
 
-你需要做的（一次性，5 分钟）：
-1. 建一个公开仓库，例如 `ops`
-2. 把 `ops` 目录内容推上去（git push 到 main 分支）
-3. 仓库 Settings → Pages → Source 选 **GitHub Actions**
+仓库：`q785845530/ai-tools-intel`（公开）· 工作流：`.github/workflows/pages.yml`
 
-> ⚠️ 为什么必须是你来推：公网上线需要你的 GitHub 身份与 Pages 授权。
-> 我不会冒充你的身份推送任何内容 —— 这是账号合规的铁律。
-> 推上去之后，每小时自动更新，无需你再操作。
+上线记录（2026-10-25 20:53）：
+
+| 步骤 | 结果 |
+|---|---|
+| 密钥泄漏扫描（推送前门禁） | ✅ 5 项全清 |
+| 创建公开仓库 | ✅ HTTP 201 |
+| 推送代码 | ✅ 72 文件 / 2466 行 |
+| 开启 Pages（源=GitHub Actions） | ✅ build_type=workflow |
+| 首次工作流运行 | ✅ run 40195078728，success，24 秒 |
+| 公网可达验证 | ✅ HTTP 200 / 17385 bytes |
+
+运行方式：**每小时 `17 * * * *` 自动**采集 → 撰写 → 部署，无需人工干预。
+云端为全新空库，独立跑通完整流水线，不依赖本地数据。
+
+> 手动重新部署：仓库 Actions 页 → "Deploy ops-site to GitHub Pages" → Run workflow
 
 ## 审计
 
