@@ -1,6 +1,6 @@
 # ops 自动运营平台 · 全量运营记录
 
-生成时间：2026-10-25T18:23:02.141Z
+生成时间：2026-10-25T18:28:23.814Z
 
 > 本报告由审计链直接导出，包含系统自启动以来的**每一条**运行记录，不筛选、不省略、不删除。
 > 审计链采用哈希链（每条含前一条的 SHA-256），任何记录的增删改都会导致校验失败。
@@ -8,17 +8,17 @@
 ## 0. 审计链完整性
 
 - 状态：**✅ 完整**
-- 记录总数：831
-- 链头：seq=831, hash=68ada061bccf02c745dce44c0ee339271e937fc5775c14f50a7c6e6ce5eecb12
+- 记录总数：882
+- 链头：seq=882, hash=47af93b9fb0e40954486b48c244418089215e386f19fa9dc265c614a123bdc44
 
 ## 1. 系统资产统计
 
 | 项目 | 数量 |
 |---|---|
-| 采集情报条目 | 165 |
+| 采集情报条目 | 167 |
 | 原创文章 | 32 |
-| 平台成品稿 | 905 |
-| 审计记录 | 831 |
+| 平台成品稿 | 986 |
+| 审计记录 | 882 |
 
 ### 1.1 情报来源分布
 
@@ -27,7 +27,7 @@
 | zhihu-search | 48 |
 | lobsters | 36 |
 | hn | 34 |
-| zhihu-hot | 27 |
+| zhihu-hot | 29 |
 | github | 20 |
 
 ### 1.2 文章清单
@@ -902,7 +902,58 @@
 | 829 | 2026-10-25T18:22:21.321Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_4Cde4uwBZwJjE3wIVyVo1-iV9pssbs0W-9dnDZo9dEm","articles":[31]} |
 | 830 | 2026-10-25T18:22:21.321Z | info | pipeline | wechat.draft.synced | {"articleId":31,"title":"为什么人们爱吃火锅？","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
 | 831 | 2026-10-25T18:22:21.322Z | info | pipeline | cron.enabled | {"intervalMs":3600000} |
+| 832 | 2026-10-25T18:23:02.144Z | info | report | generated | {"file":"log/OPS-REPORT.md","records":831,"chainOk":true} |
+| 833 | 2026-10-25T18:26:31.309Z | info | fix | relevance.wordboundary | {"intelOk":48,"intelOff":117,"articlesOk":14,"articlesOff":18,"rootCause":"短英文词子串匹配（ai 命中 domain、mes 命中 hermes）","fix":"英文词按词边界匹配，中文词仍子串匹配"} |
+| 834 | 2026-10-25T18:27:24.460Z | info | site | generate.done | {"articles":14,"intel":48,"pages":63} |
+| 835 | 2026-10-25T18:27:26.524Z | info | server | start | {"port":8765,"root":"/workspace/ops/site/static"} |
+| 836 | 2026-10-25T18:27:26.525Z | info | pipeline | start | {} |
+| 837 | 2026-10-25T18:27:26.802Z | info | zhihu | relevance.filtered | {"source":"zhihu-hot","skipped":20,"kept":2,"rule":"制造业强相关 / AI+垂类检索"} |
+| 838 | 2026-10-25T18:27:26.803Z | info | intel | collect.zhihu.hot.ok | {"items":20,"saved":2} |
+| 839 | 2026-10-25T18:27:27.217Z | info | intel | collect.zhihu.search.ok | {"query":"智能制造 AI 落地","items":10,"saved":0} |
+| 840 | 2026-10-25T18:27:29.146Z | info | intel | collect.zhihu.search.ok | {"query":"工业大模型 应用","items":10,"saved":0} |
+| 841 | 2026-10-25T18:27:31.088Z | info | intel | collect.zhihu.search.ok | {"query":"AI 质检 缺陷检测","items":10,"saved":0} |
+| 842 | 2026-10-25T18:27:32.920Z | info | intel | collect.zhihu.search.ok | {"query":"智能工厂 数字化转型","items":10,"saved":0} |
+| 843 | 2026-10-25T18:27:34.881Z | info | intel | collect.zhihu.search.ok | {"query":"工业机器人 具身智能","items":10,"saved":0} |
+| 844 | 2026-10-25T18:27:36.383Z | info | intel | collect.zhihu.done | {"hot":2,"search":0,"errors":0} |
+| 845 | 2026-10-25T18:27:36.384Z | info | intel | collect.zhihu.ok | {"count":2} |
+| 846 | 2026-10-25T18:27:37.412Z | info | intel | relevance.filtered | {"filtered":25,"kept":25} |
+| 847 | 2026-10-25T18:27:37.412Z | info | intel | collect.hn.ok | {"count":25} |
+| 848 | 2026-10-25T18:27:38.947Z | info | intel | relevance.filtered | {"filtered":20,"kept":20} |
+| 849 | 2026-10-25T18:27:38.947Z | info | intel | collect.github.ok | {"count":20} |
+| 850 | 2026-10-25T18:27:39.644Z | info | intel | relevance.filtered | {"filtered":25,"kept":25} |
+| 851 | 2026-10-25T18:27:39.644Z | info | intel | collect.lobsters.ok | {"count":25} |
+| 852 | 2026-10-25T18:27:39.645Z | info | intel | collect.all.done | {"results":{"zhihu":2,"hn":25,"github":20,"lobsters":25},"total":72} |
+| 853 | 2026-10-25T18:27:39.645Z | info | generate | batch.done | {"daily":null,"deep":0} |
+| 854 | 2026-10-25T18:27:39.649Z | info | publish | adapt.done | {"articleId":32,"slug":"20261025-e04ae5","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 855 | 2026-10-25T18:27:39.653Z | info | publish | adapt.done | {"articleId":31,"slug":"20261025-e1f7a8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 856 | 2026-10-25T18:27:39.656Z | info | publish | adapt.done | {"articleId":30,"slug":"20261025-6dff6d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 857 | 2026-10-25T18:27:39.660Z | info | publish | adapt.done | {"articleId":14,"slug":"manufacturing-daily-20261025","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 858 | 2026-10-25T18:27:39.662Z | info | publish | adapt.done | {"articleId":29,"slug":"20261025-112ff4","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 859 | 2026-10-25T18:27:39.664Z | info | publish | adapt.done | {"articleId":28,"slug":"20261025-cb688d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 860 | 2026-10-25T18:27:39.668Z | info | publish | adapt.done | {"articleId":27,"slug":"20261025-4b68ec","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 861 | 2026-10-25T18:27:39.671Z | info | publish | adapt.done | {"articleId":26,"slug":"20261025-1a9b24","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 862 | 2026-10-25T18:27:39.674Z | info | publish | adapt.done | {"articleId":25,"slug":"20261025-42a61f","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 863 | 2026-10-25T18:27:39.676Z | info | publish | adapt.done | {"articleId":24,"slug":"20261025-99c2f2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 864 | 2026-10-25T18:27:39.679Z | info | publish | adapt.done | {"articleId":23,"slug":"20261025-be58e8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 865 | 2026-10-25T18:27:39.682Z | info | publish | adapt.done | {"articleId":22,"slug":"20261025-333582","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 866 | 2026-10-25T18:27:39.685Z | info | publish | adapt.done | {"articleId":21,"slug":"20261025-1b3759","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 867 | 2026-10-25T18:27:39.689Z | info | publish | adapt.done | {"articleId":20,"slug":"20261025-1829f9","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 868 | 2026-10-25T18:27:39.692Z | info | publish | adapt.done | {"articleId":19,"slug":"20261025-87dacb","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 869 | 2026-10-25T18:27:39.696Z | info | publish | adapt.done | {"articleId":18,"slug":"20261025-5661c0","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 870 | 2026-10-25T18:27:39.700Z | info | publish | adapt.done | {"articleId":1,"slug":"digest-20261025","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 871 | 2026-10-25T18:27:39.703Z | info | publish | adapt.done | {"articleId":17,"slug":"20261025-3a8e65","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 872 | 2026-10-25T18:27:39.706Z | info | publish | adapt.done | {"articleId":16,"slug":"20261025-0d15cb","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 873 | 2026-10-25T18:27:39.708Z | info | publish | adapt.done | {"articleId":15,"slug":"20261025-bb6043","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 874 | 2026-10-25T18:27:39.708Z | info | publish | batch.done | {"articles":20} |
+| 875 | 2026-10-25T18:27:39.717Z | info | site | generate.done | {"articles":14,"intel":48,"pages":63} |
+| 876 | 2026-10-25T18:27:39.717Z | info | pipeline | done | {"intel":{"results":{"zhihu":2,"hn":25,"github":20,"lobsters":25},"total":72},"content":{"daily":null,"deep":[]},"publish":20,"site":{"articles":14,"intel":48," |
+| 877 | 2026-10-25T18:27:41.068Z | info | cloud | deploy.triggered | {"repo":"q785845530/ai-tools-intel","via":"workflow_dispatch","by":"local-cron"} |
+| 878 | 2026-10-25T18:27:42.541Z | info | wechat | cover.uploaded | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B__utgnzkIZ2lxntL6SyLFWERHGYAkvDCmZpGGQuZlEgS","bytes":137096} |
+| 879 | 2026-10-25T18:27:45.527Z | info | wechat | draft.created | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_0L28bdkZRv8AR5u7PfbuBeRZTrqWbPCNsGWD0K7Aweb","count":1} |
+| 880 | 2026-10-25T18:27:45.529Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_0L28bdkZRv8AR5u7PfbuBeRZTrqWbPCNsGWD0K7Aweb","articles":[30]} |
+| 881 | 2026-10-25T18:27:45.529Z | info | pipeline | wechat.draft.synced | {"articleId":30,"title":"烟草第一大省云南前三季度烟草工业负增长，中国烟草市场正在发生什么变化？为何烤烟卖","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
+| 882 | 2026-10-25T18:27:45.529Z | info | pipeline | cron.enabled | {"intervalMs":3600000} |
 
 ---
 
-*报告结束。共 831 条审计记录，全部列于上表，无删减。*
+*报告结束。共 882 条审计记录，全部列于上表，无删减。*
