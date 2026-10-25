@@ -4,7 +4,8 @@
 
 ```
 run.js                主入口：采集→撰写→生成→起 HTTP 服务→每小时 cron
-lib/intel.js          情报采集：Hacker News + GitHub Search + Lobsters（三源已冒烟通过）
+lib/intel.js          情报采集：知乎检索 + 行业媒体（第二支柱）+ HN/GitHub/Lobsters
+lib/media.js          行业垂直媒体：工控网 / OFweek智能制造 / e-works（无 RSS，列表页提取，GBK 解码）
 lib/generator.js      内容撰写：模板引擎 v1（1篇每日精选 + 3条单条速递），全部字段溯源
 lib/site.js           双层静态站：原创速递 + 情报流，含溯源块
 lib/server.js         零依赖 HTTP 服务（端口 8765）
@@ -48,7 +49,7 @@ node run.js --cron     # 启动 + 每小时自动采集撰写（7×24）
 
 ```
 node run.js --cron（本地常驻，pid 见 ps）
- ├─ 整点流水线：采集(知乎+HN+GitHub+Lobsters) → 生成(日报+深文) → 适配(4平台) → 建站
+ ├─ 整点流水线：采集(知乎+行业媒体+HN+GitHub+Lobsters) → 生成(日报+深文) → 适配(4平台) → 建站
  ├─ 旁路A lib/cloud.js：dispatch GitHub Actions → 云端重采重部署 Pages（公网内容源）
  └─ 旁路B syncWechatDraft：最新未同步文章 → 微信草稿（判重，每篇一次）
 公网：GitHub Pages（云端整点重建）｜ 内部：http://127.0.0.1:8765（含 /dashboard）
