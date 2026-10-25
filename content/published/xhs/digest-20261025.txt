@@ -3,33 +3,33 @@
 
 > 本速递覆盖过去 24 小时，按社区热度排序。每条均可点原文核验。
 
-1. Why is AI generated language so hard to understand?
-*Hacker News · 209 分 · 172 评论*
+1. New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors
+*Hacker News · 66 分 · 58 评论*
 
 🔗 原文见评论区
 
-2. Cerebras Deploys Trillion-Parameter AI Models
-*Hacker News · 199 分 · 65 评论*
+2. Kimi K3.1 Pro
+*Hacker News · 60 分 · 2 评论*
 
 🔗 原文见评论区
 
-3. Evolving Threat: http2shell is an RCE in Node, Python, and more
-*Hacker News · 184 分 · 97 评论*
+3. ThinkRail from JetBrains
+*Hacker News · 50 分 · 79 评论*
 
 🔗 原文见评论区
 
-4. Air Purifiers as White Noise Machines
-*Hacker News · 176 分 · 162 评论*
+4. AI Safety Is Mostly a Sex Cult in Berkeley, California
+*Hacker News · 26 分 · 5 评论*
 
 🔗 原文见评论区
 
-5. Dream-1
-*Hacker News · 169 分 · 77 评论*
+5. Making My Blog Readable by AI Agents
+*Hacker News · 21 分 · 2 评论*
 
 🔗 原文见评论区
 
 ---
-*ops-intel 自动生成（template-v1），全部字段来自公开 API 原始数据。生成时间：2026-10-25T12:27:32.402Z*
+*ops-intel 自动生成（template-v1），全部字段来自公开 API 原始数据。生成时间：2026-10-25T13:27:35.826Z*
 
 
-#AI工具 #效率工具 #科技资讯 #AI
+#智能制造 #工业AI #数字化转型 #制造业 #AI落地

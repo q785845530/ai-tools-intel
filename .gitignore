@@ -6,3 +6,9 @@ site/static/
 .DS_Store
 *.log
 node_modules/
+
+# 凭据目录 —— 绝不提交
+config/
+*credentials*
+*.secret
+.env
