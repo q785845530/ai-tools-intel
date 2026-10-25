@@ -3,33 +3,33 @@
 
 > 本速递覆盖过去 24 小时，按社区热度排序。每条均可点原文核验。
 
-1. New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors
-*Hacker News · 66 分 · 58 评论*
+1. AI devours a fifth of companies' IT budgets
+*Hacker News · 21 分 · 5 评论*
 
 🔗 原文见评论区
 
-2. Kimi K3.1 Pro
-*Hacker News · 60 分 · 2 评论*
+2. AI is devastating higher education, but the system was broken
+*Hacker News · 21 分 · 1 评论*
 
 🔗 原文见评论区
 
-3. ThinkRail from JetBrains
-*Hacker News · 50 分 · 79 评论*
+3. AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings
+*Hacker News · 20 分*
 
 🔗 原文见评论区
 
-4. AI Safety Is Mostly a Sex Cult in Berkeley, California
-*Hacker News · 26 分 · 5 评论*
+4. AI Is Not a Tool
+*Hacker News · 20 分 · 37 评论*
 
 🔗 原文见评论区
 
-5. Making My Blog Readable by AI Agents
-*Hacker News · 21 分 · 2 评论*
+5. The attack chain behind the v1.107.0 LiteLLM release
+*Hacker News · 19 分*
 
 🔗 原文见评论区
 
 ---
-*ops-intel 自动生成（template-v1），全部字段来自公开 API 原始数据。生成时间：2026-10-25T13:27:35.826Z*
+*ops-intel 自动生成（template-v1），全部字段来自公开 API 原始数据。生成时间：2026-10-25T14:27:36.381Z*
 
 
-#智能制造 #工业AI #数字化转型 #制造业 #AI落地
+#AI工具 #效率工具 #科技资讯 #AI
