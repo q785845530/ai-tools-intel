@@ -1,0 +1,56 @@
+name: Deploy ops-site to GitHub Pages
+
+# 自动触发：每小时 + 手动触发 + 有新提交时
+on:
+  schedule:
+    - cron: '17 * * * *'        # 每小时第17分钟，避开整点高峰
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      # 在 Actions 里拉一次最新情报并生成静态站（复用同一套零依赖代码）
+      - name: Collect intel & generate site
+        run: |
+          node lib/intel.js
+          node lib/generator.js || true
+          node lib/site.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/static
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

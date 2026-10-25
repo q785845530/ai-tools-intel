@@ -1,0 +1,8 @@
+# 运行时数据（每次 Actions 运行会重新生成）
+data/
+site/static/
+
+# 系统文件
+.DS_Store
+*.log
+node_modules/
