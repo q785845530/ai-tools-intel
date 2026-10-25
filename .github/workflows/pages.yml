@@ -28,13 +28,16 @@ jobs:
           node-version: '24'
 
       # 在 Actions 里拉一次最新情报并生成静态站（复用同一套零依赖代码）
+      # 知乎为垂类主源（智能制造+AI），需 ZHIHU_ACCESS_SECRET
       - name: Collect intel & generate site
         run: |
           node lib/intel.js
           node lib/generator.js || true
+          node lib/publish.js adapt || true
           node lib/site.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ZHIHU_ACCESS_SECRET: ${{ secrets.ZHIHU_ACCESS_SECRET }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
