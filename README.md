@@ -18,16 +18,33 @@ lib/md.js             极简 Markdown 渲染
 
 ```bash
 cd ops
-node run.js            # 单次采集+生成+启动服务
-node run.js --cron     # 启动 + 每小时自动采集撰写（7×24）
+bash scripts/start.sh   # ✅ 推荐：常驻启动（setsid 脱离进程组，会话结束不会跟着死）
+bash scripts/status.sh  # 看进程/本地站点/公网站点状态
+node run.js             # 单次采集+生成+启动服务（前台）
 # 端口默认 8765，可 OPS_PORT=8080 node run.js --cron
 ```
 
-当前正在运行：`node run.js --cron`（服务在 http://127.0.0.1:8765）
+> ⚠️ 别再用 `nohup node run.js --cron &`。在 agent 工具调用 / CI 这类非交互环境里，
+> 父 shell 退出会向整个进程组发信号，进程会"启动成功、几秒后消失"（本仓库实际踩过两次）。
+> `scripts/start.sh` 用 `setsid` 让它自成会话（PPID 变 1）才真正常驻。
+
+## 令牌与凭据
+
+**全局约定：令牌一律去「任务日记 → 关于」令牌库取。**
+
+- 令牌库：`/root/.dsh/.dsh-task-journal/`（`key` + `tokens.json`，均为 0600，AES-GCM 加密）
+- 已存槽位：`github`、`gitee`
+- 项目内读取：`require('./lib/token-source').getToken('github'|'gitee')`
+  - 优先级：环境变量（`GH_TOKEN`/`GITHUB_TOKEN`/`GITEE_TOKEN`）→ 任务日记令牌库 → `config/tokens.json` 兜底
+- 推送：`node lib/push.js`（一条命令推 GitHub + Gitee，令牌用完即从 remote URL 清掉，不落 `.git/config`）
+
+任务日记里没有的凭据（微信 `appid`/`secret`、知乎 `access_secret`）放 `config/tokens.json`
+（0600，**已被 .gitignore 排除，绝不提交**），统一经 `lib/config.js` 读取。
 
 ## 公网上线 ✅ 已完成
 
 **站点地址：https://q785845530.github.io/ai-tools-intel/**
+**Gitee 镜像（私有）：https://gitee.com/wasen/ai-tools-intel**
 
 ## 事故复盘 2026-10-26 00:40 ——「还是跑不起来」的四层真相
 
@@ -166,4 +183,4 @@ node lib/audit.js tail 50  # 看最近记录
 - SQLite：`data/ops.db`（intel 情报 / articles 文章 / publish_log 发布记录 / metrics 数据）
 - 内容原始稿：`content/`（drafts 草稿 / published 已发）
 - 封面图：`data/covers/`（零依赖 PNG 生成，900×383）
-- 凭据：`config/credentials.json`（0600 权限，**已被 .gitignore 排除，绝不提交**）
+- 凭据：令牌走任务日记「关于」令牌库（见上文「令牌与凭据」）；本地兜底 `config/tokens.json`（0600，**已被 .gitignore 排除，绝不提交**）
