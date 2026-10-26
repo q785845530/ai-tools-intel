@@ -12,3 +12,4 @@ config/
 *credentials*
 *.secret
 .env
+config/tokens.json
