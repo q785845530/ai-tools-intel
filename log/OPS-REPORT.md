@@ -1,6 +1,6 @@
 # ops 自动运营平台 · 全量运营记录
 
-生成时间：2026-10-26T05:05:34.364Z
+生成时间：2026-10-27T01:00:38.955Z
 
 > 本报告由审计链直接导出，包含系统自启动以来的**每一条**运行记录，不筛选、不省略、不删除。
 > 审计链采用哈希链（每条含前一条的 SHA-256），任何记录的增删改都会导致校验失败。
@@ -8,28 +8,28 @@
 ## 0. 审计链完整性
 
 - 状态：**✅ 完整**
-- 记录总数：1080
-- 链头：seq=1080, hash=e7fe65041ba32affeebcd428d6f1a6f000e21b9d8db1bd22fa480f150b6b7f0c
+- 记录总数：1390
+- 链头：seq=1390, hash=90f1ad624a086dde950ab48cb474b653c9ec740df20d1967ad120e48727dda2c
 
 ## 1. 系统资产统计
 
 | 项目 | 数量 |
 |---|---|
-| 采集情报条目 | 239 |
-| 原创文章 | 35 |
-| 平台成品稿 | 1148 |
-| 审计记录 | 1080 |
+| 采集情报条目 | 360 |
+| 原创文章 | 49 |
+| 平台成品稿 | 1553 |
+| 审计记录 | 1390 |
 
 ### 1.1 情报来源分布
 
 | 来源 | 条数 |
 |---|---|
-| zhihu-search | 48 |
-| lobsters | 36 |
-| hn | 34 |
-| media-ofweek-im | 31 |
-| media-gongkong | 30 |
-| zhihu-hot | 30 |
+| zhihu-hot | 70 |
+| lobsters | 62 |
+| media-gongkong | 55 |
+| zhihu-search | 53 |
+| hn | 45 |
+| media-ofweek-im | 45 |
 | github | 20 |
 | media-eworks | 10 |
 
@@ -72,6 +72,20 @@
 | 34 | deep | published | 没有不良品样本,怎么做 AI 质检? |
 | 35 | deep | published | CBB 2026 圆满收官/山东明佳,以 AI 视觉检测筑牢包装品质防线 |
 | 36 | deep | published | 京东工业发布JoyIndustrial 2.0及创新应用 落地产业场景 创造真实价值 |
+| 37 | daily | published | 智能制造日报 / 2026-10-26：落地说、技术前沿、产业观察等 8 条动态 |
+| 38 | deep | published | 赛索德SynRobot 03正式亮相工博会:工业世界模型驱动具身智能作业单元落地 |
+| 39 | deep | published | 广交会70周年机器人观察:具身智能告别炫技,商业化大考如何破局? |
+| 40 | deep | published | Xsens&Manus全身数据采集解决方案,用精确数据训练您的具身智能 |
+| 41 | deep | published | 宝洁把AI质检推向全球工厂,废品率最高降20% |
+| 42 | deep | published | 讯强电子×华为:毫厘之间筑品质防线,打造工业AI质检新标杆 |
+| 43 | deep | published | 海康威视亮相2026中国工博会:物联感知+AI,加速工业场景数字化 |
+| 44 | deep | published | 给3万家工厂装上“AI大脑”,黑湖科技工博会工业AI规模落地 |
+| 45 | deep | published | 2026DMP大湾区工博会12月3日启幕：1000+参展企业呈现制造业主线之变 |
+| 46 | deep | published | 2026年AI+制造加速落地：适合制造业的ERP产品推荐与技术趋势展望 |
+| 47 | deep | published | 从手动到自动：易普森防爆伺服电机助力石油鹤管升降换向智能化升级 |
+| 48 | deep | published | 台达9月营收破654亿，但自动化仍在“等风来” |
+| 49 | deep | published | 汇川新合作，瞄准工业AI“下一站”！ |
+| 50 | deep | published | 超37亿！西门子联合英伟达，打造“全AI驱动”工厂 |
 
 ## 2. 全量运行记录（按时间正序，一条不缺）
 
@@ -1157,7 +1171,317 @@
 | 1078 | 2026-10-25T20:14:33.297Z | info | wechat | draft.created | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_2r3HPInF2p7a5AHlbJmZOyePJ778zagXZPyEcKyVo7N","count":1} |
 | 1079 | 2026-10-25T20:14:33.299Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_2r3HPInF2p7a5AHlbJmZOyePJ778zagXZPyEcKyVo7N","articles":[39]} |
 | 1080 | 2026-10-25T20:14:33.299Z | info | pipeline | wechat.draft.synced | {"articleId":39,"title":"智慧工厂数字化转型赋能制造业高质量发展","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
+| 1081 | 2026-10-26T05:05:34.371Z | info | report | generated | {"file":"log/OPS-REPORT.md","records":1080,"chainOk":true} |
+| 1082 | 2026-10-26T05:05:34.426Z | info | server | start | {"port":8765,"root":"/workspace/ops/site/static"} |
+| 1083 | 2026-10-26T05:05:34.428Z | info | pipeline | start | {} |
+| 1084 | 2026-10-26T05:05:34.790Z | info | zhihu | relevance.filtered | {"source":"zhihu-hot","skipped":20,"kept":19,"rule":"制造业强相关 / AI+垂类检索"} |
+| 1085 | 2026-10-26T05:05:34.790Z | info | intel | collect.zhihu.hot.ok | {"items":20,"saved":19} |
+| 1086 | 2026-10-26T05:05:35.478Z | info | intel | collect.zhihu.search.ok | {"query":"智能制造 AI 落地","items":10,"saved":0} |
+| 1087 | 2026-10-26T05:05:37.514Z | info | intel | collect.zhihu.search.ok | {"query":"工业大模型 应用","items":10,"saved":0} |
+| 1088 | 2026-10-26T05:05:39.593Z | info | intel | collect.zhihu.search.ok | {"query":"AI 质检 缺陷检测","items":10,"saved":0} |
+| 1089 | 2026-10-26T05:05:41.824Z | info | intel | collect.zhihu.search.ok | {"query":"智能工厂 数字化转型","items":10,"saved":1} |
+| 1090 | 2026-10-26T05:05:44.067Z | info | intel | collect.zhihu.search.ok | {"query":"工业机器人 具身智能","items":10,"saved":1} |
+| 1091 | 2026-10-26T05:05:45.569Z | info | intel | collect.zhihu.done | {"hot":19,"search":2,"errors":0} |
+| 1092 | 2026-10-26T05:05:45.569Z | info | intel | collect.zhihu.ok | {"count":21} |
+| 1093 | 2026-10-26T05:05:46.495Z | info | media | collect.gongkong.ok | {"found":30,"saved":11,"filtered":10} |
+| 1094 | 2026-10-26T05:05:48.019Z | debug | media | freshness.ofweek-im | {"stale_skipped":13,"undated":0} |
+| 1095 | 2026-10-26T05:05:48.050Z | info | media | collect.ofweek-im.ok | {"found":30,"saved":11,"filtered":13} |
+| 1096 | 2026-10-26T05:05:49.533Z | debug | media | freshness.eworks | {"stale_skipped":0,"undated":10} |
+| 1097 | 2026-10-26T05:05:49.544Z | info | media | collect.eworks.ok | {"found":10,"saved":0,"filtered":1} |
+| 1098 | 2026-10-26T05:05:50.745Z | info | media | collect.done | {"results":{"gongkong":{"found":30,"saved":11,"off":10},"ofweek-im":{"found":30,"saved":11,"off":13},"eworks":{"found":10,"saved":0,"off":1}},"total":22} |
+| 1099 | 2026-10-26T05:05:50.746Z | info | intel | collect.media.ok | {"count":22} |
+| 1100 | 2026-10-26T05:05:52.098Z | info | intel | relevance.filtered | {"filtered":24,"kept":24} |
+| 1101 | 2026-10-26T05:05:52.099Z | info | intel | collect.hn.ok | {"count":24} |
+| 1102 | 2026-10-26T05:05:53.846Z | info | intel | relevance.filtered | {"filtered":20,"kept":20} |
+| 1103 | 2026-10-26T05:05:53.847Z | info | intel | collect.github.ok | {"count":20} |
+| 1104 | 2026-10-26T05:05:54.912Z | info | intel | relevance.filtered | {"filtered":25,"kept":25} |
+| 1105 | 2026-10-26T05:05:54.912Z | info | intel | collect.lobsters.ok | {"count":25} |
+| 1106 | 2026-10-26T05:05:54.912Z | info | intel | collect.all.done | {"results":{"zhihu":21,"media":22,"hn":24,"github":20,"lobsters":25},"total":112} |
+| 1107 | 2026-10-26T05:05:54.926Z | info | generate | article.created | {"articleId":37,"slug":"manufacturing-daily-20261026","kind":"daily","items":8,"themes":["落地说","产业观察","技术前沿","展会动态"]} |
+| 1108 | 2026-10-26T05:05:54.930Z | info | generate | article.created | {"articleId":38,"slug":"20261026-741298","kind":"deep","theme":"expo","source":"zhihu-search"} |
+| 1109 | 2026-10-26T05:05:54.936Z | info | generate | article.created | {"articleId":39,"slug":"20261026-57a98a","kind":"deep","theme":"tech","source":"zhihu-search"} |
+| 1110 | 2026-10-26T05:05:54.939Z | info | generate | article.created | {"articleId":40,"slug":"20261026-f8dc5a","kind":"deep","theme":"tech","source":"zhihu-search"} |
+| 1111 | 2026-10-26T05:05:54.939Z | info | generate | batch.done | {"daily":37,"deep":3} |
+| 1112 | 2026-10-26T05:05:54.947Z | info | publish | adapt.done | {"articleId":40,"slug":"20261026-f8dc5a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1113 | 2026-10-26T05:05:54.954Z | info | publish | adapt.done | {"articleId":39,"slug":"20261026-57a98a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1114 | 2026-10-26T05:05:54.961Z | info | publish | adapt.done | {"articleId":38,"slug":"20261026-741298","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1115 | 2026-10-26T05:05:54.967Z | info | publish | adapt.done | {"articleId":37,"slug":"manufacturing-daily-20261026","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1116 | 2026-10-26T05:05:54.973Z | info | publish | adapt.done | {"articleId":36,"slug":"20261025-5bcd50","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1117 | 2026-10-26T05:05:54.977Z | info | publish | adapt.done | {"articleId":35,"slug":"20261025-4d8d65","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1118 | 2026-10-26T05:05:54.981Z | info | publish | adapt.done | {"articleId":34,"slug":"20261025-ef87e6","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1119 | 2026-10-26T05:05:54.986Z | info | publish | adapt.done | {"articleId":33,"slug":"manufacturing-daily-20261025","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1120 | 2026-10-26T05:05:54.990Z | info | publish | adapt.done | {"articleId":32,"slug":"20261025-e04ae5","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1121 | 2026-10-26T05:05:54.994Z | info | publish | adapt.done | {"articleId":31,"slug":"20261025-e1f7a8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1122 | 2026-10-26T05:05:54.999Z | info | publish | adapt.done | {"articleId":30,"slug":"20261025-6dff6d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1123 | 2026-10-26T05:05:55.004Z | info | publish | adapt.done | {"articleId":29,"slug":"20261025-112ff4","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1124 | 2026-10-26T05:05:55.008Z | info | publish | adapt.done | {"articleId":28,"slug":"20261025-cb688d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1125 | 2026-10-26T05:05:55.012Z | info | publish | adapt.done | {"articleId":27,"slug":"20261025-4b68ec","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1126 | 2026-10-26T05:05:55.017Z | info | publish | adapt.done | {"articleId":26,"slug":"20261025-1a9b24","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1127 | 2026-10-26T05:05:55.021Z | info | publish | adapt.done | {"articleId":25,"slug":"20261025-42a61f","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1128 | 2026-10-26T05:05:55.025Z | info | publish | adapt.done | {"articleId":24,"slug":"20261025-99c2f2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1129 | 2026-10-26T05:05:55.030Z | info | publish | adapt.done | {"articleId":23,"slug":"20261025-be58e8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1130 | 2026-10-26T05:05:55.034Z | info | publish | adapt.done | {"articleId":22,"slug":"20261025-333582","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1131 | 2026-10-26T05:05:55.049Z | info | publish | adapt.done | {"articleId":21,"slug":"20261025-1b3759","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1132 | 2026-10-26T05:05:55.050Z | info | publish | batch.done | {"articles":20} |
+| 1133 | 2026-10-26T05:05:55.066Z | info | site | generate.done | {"articles":21,"intel":100,"pages":122} |
+| 1134 | 2026-10-26T05:05:55.066Z | info | pipeline | done | {"intel":{"results":{"zhihu":21,"media":22,"hn":24,"github":20,"lobsters":25},"total":112},"content":{"daily":37,"deep":[38,39,40]},"publish":20,"site":{"articl |
+| 1135 | 2026-10-26T05:05:56.515Z | info | cloud | deploy.triggered | {"repo":"q785845530/ai-tools-intel","via":"workflow_dispatch","by":"local-cron"} |
+| 1136 | 2026-10-26T05:05:57.187Z | info | wechat | token.obtained | {"expiresIn":7200,"via":"stable_token","force":false} |
+| 1137 | 2026-10-26T05:05:58.893Z | info | wechat | cover.uploaded | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_5gHOnp6d5yVsq8bWCHOIs0zJeiM8mUPb1XUpNmGBInc","bytes":137096} |
+| 1138 | 2026-10-26T05:06:01.689Z | info | wechat | draft.created | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_zBez2w5zV05G1kvKAvSGLtJ8Vk9qaZI39pVctCeWw_p","count":1} |
+| 1139 | 2026-10-26T05:06:01.691Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_zBez2w5zV05G1kvKAvSGLtJ8Vk9qaZI39pVctCeWw_p","articles":[37]} |
+| 1140 | 2026-10-26T05:06:01.691Z | info | pipeline | wechat.draft.synced | {"articleId":37,"title":"智能制造日报 / 2026-10-26：落地说、产业观察、技术前沿等 8 条动态","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
+| 1141 | 2026-10-26T05:06:01.691Z | info | pipeline | cron.enabled | {"intervalMs":3600000} |
+| 1142 | 2026-10-26T05:06:06.734Z | info | wechat | token.obtained | {"expiresIn":7200,"via":"stable_token","force":true} |
+| 1143 | 2026-10-26T05:21:00.453Z | info | config | tokens.unified | {"message":"统一令牌管理系统上线","files":["config/tokens.json","lib/config.js"],"modified":["lib/cloud.js","lib/wechat.js","lib/zhihu.js"],"removed":["config/credentials |
+| 1144 | 2026-10-26T06:06:01.692Z | info | pipeline | start | {} |
+| 1145 | 2026-10-26T06:06:02.243Z | info | zhihu | relevance.filtered | {"source":"zhihu-hot","skipped":20,"kept":2,"rule":"制造业强相关 / AI+垂类检索"} |
+| 1146 | 2026-10-26T06:06:02.243Z | info | intel | collect.zhihu.hot.ok | {"items":20,"saved":2} |
+| 1147 | 2026-10-26T06:06:02.824Z | info | intel | collect.zhihu.search.ok | {"query":"智能制造 AI 落地","items":10,"saved":0} |
+| 1148 | 2026-10-26T06:06:05.005Z | info | intel | collect.zhihu.search.ok | {"query":"工业大模型 应用","items":10,"saved":0} |
+| 1149 | 2026-10-26T06:06:06.992Z | info | intel | collect.zhihu.search.ok | {"query":"AI 质检 缺陷检测","items":10,"saved":0} |
+| 1150 | 2026-10-26T06:06:09.001Z | info | intel | collect.zhihu.search.ok | {"query":"智能工厂 数字化转型","items":10,"saved":0} |
+| 1151 | 2026-10-26T06:06:11.135Z | info | intel | collect.zhihu.search.ok | {"query":"工业机器人 具身智能","items":10,"saved":0} |
+| 1152 | 2026-10-26T06:06:12.636Z | info | intel | collect.zhihu.done | {"hot":2,"search":0,"errors":0} |
+| 1153 | 2026-10-26T06:06:12.637Z | info | intel | collect.zhihu.ok | {"count":2} |
+| 1154 | 2026-10-26T06:06:13.131Z | info | media | collect.gongkong.ok | {"found":30,"saved":0,"filtered":10} |
+| 1155 | 2026-10-26T06:06:14.828Z | debug | media | freshness.ofweek-im | {"stale_skipped":13,"undated":0} |
+| 1156 | 2026-10-26T06:06:14.865Z | info | media | collect.ofweek-im.ok | {"found":30,"saved":0,"filtered":13} |
+| 1157 | 2026-10-26T06:06:16.403Z | debug | media | freshness.eworks | {"stale_skipped":0,"undated":10} |
+| 1158 | 2026-10-26T06:06:16.417Z | info | media | collect.eworks.ok | {"found":10,"saved":0,"filtered":1} |
+| 1159 | 2026-10-26T06:06:17.618Z | info | media | collect.done | {"results":{"gongkong":{"found":30,"saved":0,"off":10},"ofweek-im":{"found":30,"saved":0,"off":13},"eworks":{"found":10,"saved":0,"off":1}},"total":0} |
+| 1160 | 2026-10-26T06:06:17.619Z | info | intel | collect.media.ok | {"count":0} |
+| 1161 | 2026-10-26T06:06:19.688Z | info | intel | relevance.filtered | {"filtered":24,"kept":24} |
+| 1162 | 2026-10-26T06:06:19.689Z | info | intel | collect.hn.ok | {"count":24} |
+| 1163 | 2026-10-26T06:06:21.493Z | info | intel | relevance.filtered | {"filtered":20,"kept":20} |
+| 1164 | 2026-10-26T06:06:21.493Z | info | intel | collect.github.ok | {"count":20} |
+| 1165 | 2026-10-26T06:06:22.243Z | info | intel | relevance.filtered | {"filtered":25,"kept":25} |
+| 1166 | 2026-10-26T06:06:22.243Z | info | intel | collect.lobsters.ok | {"count":25} |
+| 1167 | 2026-10-26T06:06:22.243Z | info | intel | collect.all.done | {"results":{"zhihu":2,"media":0,"hn":24,"github":20,"lobsters":25},"total":71} |
+| 1168 | 2026-10-26T06:06:22.251Z | info | generate | article.updated | {"articleId":37,"slug":"manufacturing-daily-20261026","kind":"daily","items":8} |
+| 1169 | 2026-10-26T06:06:22.253Z | info | generate | article.created | {"articleId":41,"slug":"20261026-3dabba","kind":"deep","theme":"case","source":"zhihu-search"} |
+| 1170 | 2026-10-26T06:06:22.255Z | info | generate | article.created | {"articleId":42,"slug":"20261026-ef8574","kind":"deep","theme":"case","source":"zhihu-search"} |
+| 1171 | 2026-10-26T06:06:22.257Z | info | generate | article.created | {"articleId":43,"slug":"20261026-7f83e2","kind":"deep","theme":"expo","source":"zhihu-search"} |
+| 1172 | 2026-10-26T06:06:22.258Z | info | generate | batch.done | {"daily":37,"deep":3} |
+| 1173 | 2026-10-26T06:06:22.262Z | info | publish | adapt.done | {"articleId":43,"slug":"20261026-7f83e2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1174 | 2026-10-26T06:06:22.266Z | info | publish | adapt.done | {"articleId":42,"slug":"20261026-ef8574","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1175 | 2026-10-26T06:06:22.270Z | info | publish | adapt.done | {"articleId":41,"slug":"20261026-3dabba","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1176 | 2026-10-26T06:06:22.274Z | info | publish | adapt.done | {"articleId":37,"slug":"manufacturing-daily-20261026","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1177 | 2026-10-26T06:06:22.278Z | info | publish | adapt.done | {"articleId":40,"slug":"20261026-f8dc5a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1178 | 2026-10-26T06:06:22.282Z | info | publish | adapt.done | {"articleId":39,"slug":"20261026-57a98a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1179 | 2026-10-26T06:06:22.286Z | info | publish | adapt.done | {"articleId":38,"slug":"20261026-741298","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1180 | 2026-10-26T06:06:22.290Z | info | publish | adapt.done | {"articleId":36,"slug":"20261025-5bcd50","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1181 | 2026-10-26T06:06:22.294Z | info | publish | adapt.done | {"articleId":35,"slug":"20261025-4d8d65","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1182 | 2026-10-26T06:06:22.299Z | info | publish | adapt.done | {"articleId":34,"slug":"20261025-ef87e6","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1183 | 2026-10-26T06:06:22.302Z | info | publish | adapt.done | {"articleId":33,"slug":"manufacturing-daily-20261025","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1184 | 2026-10-26T06:06:22.304Z | info | publish | adapt.done | {"articleId":32,"slug":"20261025-e04ae5","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1185 | 2026-10-26T06:06:22.307Z | info | publish | adapt.done | {"articleId":31,"slug":"20261025-e1f7a8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1186 | 2026-10-26T06:06:22.310Z | info | publish | adapt.done | {"articleId":30,"slug":"20261025-6dff6d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1187 | 2026-10-26T06:06:22.313Z | info | publish | adapt.done | {"articleId":29,"slug":"20261025-112ff4","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1188 | 2026-10-26T06:06:22.315Z | info | publish | adapt.done | {"articleId":28,"slug":"20261025-cb688d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1189 | 2026-10-26T06:06:22.318Z | info | publish | adapt.done | {"articleId":27,"slug":"20261025-4b68ec","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1190 | 2026-10-26T06:06:22.320Z | info | publish | adapt.done | {"articleId":26,"slug":"20261025-1a9b24","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1191 | 2026-10-26T06:06:22.322Z | info | publish | adapt.done | {"articleId":25,"slug":"20261025-42a61f","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1192 | 2026-10-26T06:06:22.324Z | info | publish | adapt.done | {"articleId":24,"slug":"20261025-99c2f2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1193 | 2026-10-26T06:06:22.326Z | info | publish | batch.done | {"articles":20} |
+| 1194 | 2026-10-26T06:06:22.338Z | info | site | generate.done | {"articles":24,"intel":100,"pages":125} |
+| 1195 | 2026-10-26T06:06:22.339Z | info | pipeline | done | {"intel":{"results":{"zhihu":2,"media":0,"hn":24,"github":20,"lobsters":25},"total":71},"content":{"daily":37,"deep":[41,42,43]},"publish":20,"site":{"articles" |
+| 1196 | 2026-10-26T06:06:23.853Z | info | cloud | deploy.triggered | {"repo":"q785845530/ai-tools-intel","via":"workflow_dispatch","by":"local-cron"} |
+| 1197 | 2026-10-26T06:06:25.426Z | info | wechat | cover.uploaded | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_3M2WEzhyaDYSHFXFLVb8vPJVE4Rh9AFchXINZxLhevI","bytes":137096} |
+| 1198 | 2026-10-26T06:06:28.442Z | info | wechat | draft.created | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_0qefULMnqeQXR_AqMI18vsDtzEOI94dvDNIStxP4R4W","count":1} |
+| 1199 | 2026-10-26T06:06:28.444Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_0qefULMnqeQXR_AqMI18vsDtzEOI94dvDNIStxP4R4W","articles":[43]} |
+| 1200 | 2026-10-26T06:06:28.444Z | info | pipeline | wechat.draft.synced | {"articleId":43,"title":"海康威视亮相2026中国工博会:物联感知+AI,加速工业场景数字化","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
+| 1201 | 2026-10-26T07:06:01.716Z | info | pipeline | start | {} |
+| 1202 | 2026-10-26T07:06:02.354Z | info | zhihu | relevance.filtered | {"source":"zhihu-hot","skipped":20,"kept":4,"rule":"制造业强相关 / AI+垂类检索"} |
+| 1203 | 2026-10-26T07:06:02.354Z | info | intel | collect.zhihu.hot.ok | {"items":20,"saved":4} |
+| 1204 | 2026-10-26T07:06:03.007Z | info | intel | collect.zhihu.search.ok | {"query":"智能制造 AI 落地","items":10,"saved":0} |
+| 1205 | 2026-10-26T07:06:05.073Z | info | intel | collect.zhihu.search.ok | {"query":"工业大模型 应用","items":10,"saved":0} |
+| 1206 | 2026-10-26T07:06:07.402Z | info | intel | collect.zhihu.search.ok | {"query":"AI 质检 缺陷检测","items":10,"saved":0} |
+| 1207 | 2026-10-26T07:06:09.571Z | info | intel | collect.zhihu.search.ok | {"query":"智能工厂 数字化转型","items":10,"saved":0} |
+| 1208 | 2026-10-26T07:06:11.742Z | info | intel | collect.zhihu.search.ok | {"query":"工业机器人 具身智能","items":10,"saved":0} |
+| 1209 | 2026-10-26T07:06:13.243Z | info | intel | collect.zhihu.done | {"hot":4,"search":0,"errors":0} |
+| 1210 | 2026-10-26T07:06:13.244Z | info | intel | collect.zhihu.ok | {"count":4} |
+| 1211 | 2026-10-26T07:06:13.700Z | info | media | collect.gongkong.ok | {"found":30,"saved":0,"filtered":10} |
+| 1212 | 2026-10-26T07:06:15.255Z | debug | media | freshness.ofweek-im | {"stale_skipped":13,"undated":0} |
+| 1213 | 2026-10-26T07:06:15.280Z | info | media | collect.ofweek-im.ok | {"found":30,"saved":1,"filtered":14} |
+| 1214 | 2026-10-26T07:06:16.792Z | debug | media | freshness.eworks | {"stale_skipped":0,"undated":10} |
+| 1215 | 2026-10-26T07:06:16.800Z | info | media | collect.eworks.ok | {"found":10,"saved":0,"filtered":1} |
+| 1216 | 2026-10-26T07:06:18.000Z | info | media | collect.done | {"results":{"gongkong":{"found":30,"saved":0,"off":10},"ofweek-im":{"found":30,"saved":1,"off":14},"eworks":{"found":10,"saved":0,"off":1}},"total":1} |
+| 1217 | 2026-10-26T07:06:18.001Z | info | intel | collect.media.ok | {"count":1} |
+| 1218 | 2026-10-26T07:06:19.143Z | info | intel | relevance.filtered | {"filtered":24,"kept":24} |
+| 1219 | 2026-10-26T07:06:19.143Z | info | intel | collect.hn.ok | {"count":24} |
+| 1220 | 2026-10-26T07:06:21.327Z | info | intel | relevance.filtered | {"filtered":20,"kept":20} |
+| 1221 | 2026-10-26T07:06:21.327Z | info | intel | collect.github.ok | {"count":20} |
+| 1222 | 2026-10-26T07:06:22.082Z | info | intel | relevance.filtered | {"filtered":25,"kept":25} |
+| 1223 | 2026-10-26T07:06:22.082Z | info | intel | collect.lobsters.ok | {"count":25} |
+| 1224 | 2026-10-26T07:06:22.083Z | info | intel | collect.all.done | {"results":{"zhihu":4,"media":1,"hn":24,"github":20,"lobsters":25},"total":74} |
+| 1225 | 2026-10-26T07:06:22.088Z | info | generate | article.updated | {"articleId":37,"slug":"manufacturing-daily-20261026","kind":"daily","items":8} |
+| 1226 | 2026-10-26T07:06:22.090Z | info | generate | article.created | {"articleId":44,"slug":"20261026-03fa67","kind":"deep","theme":"case","source":"zhihu-search"} |
+| 1227 | 2026-10-26T07:06:22.091Z | info | generate | batch.done | {"daily":37,"deep":1} |
+| 1228 | 2026-10-26T07:06:22.095Z | info | publish | adapt.done | {"articleId":44,"slug":"20261026-03fa67","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1229 | 2026-10-26T07:06:22.099Z | info | publish | adapt.done | {"articleId":37,"slug":"manufacturing-daily-20261026","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1230 | 2026-10-26T07:06:22.104Z | info | publish | adapt.done | {"articleId":43,"slug":"20261026-7f83e2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1231 | 2026-10-26T07:06:22.108Z | info | publish | adapt.done | {"articleId":42,"slug":"20261026-ef8574","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1232 | 2026-10-26T07:06:22.111Z | info | publish | adapt.done | {"articleId":41,"slug":"20261026-3dabba","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1233 | 2026-10-26T07:06:22.114Z | info | publish | adapt.done | {"articleId":40,"slug":"20261026-f8dc5a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1234 | 2026-10-26T07:06:22.117Z | info | publish | adapt.done | {"articleId":39,"slug":"20261026-57a98a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1235 | 2026-10-26T07:06:22.120Z | info | publish | adapt.done | {"articleId":38,"slug":"20261026-741298","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1236 | 2026-10-26T07:06:22.123Z | info | publish | adapt.done | {"articleId":36,"slug":"20261025-5bcd50","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1237 | 2026-10-26T07:06:22.128Z | info | publish | adapt.done | {"articleId":35,"slug":"20261025-4d8d65","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1238 | 2026-10-26T07:06:22.132Z | info | publish | adapt.done | {"articleId":34,"slug":"20261025-ef87e6","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1239 | 2026-10-26T07:06:22.135Z | info | publish | adapt.done | {"articleId":33,"slug":"manufacturing-daily-20261025","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1240 | 2026-10-26T07:06:22.139Z | info | publish | adapt.done | {"articleId":32,"slug":"20261025-e04ae5","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1241 | 2026-10-26T07:06:22.142Z | info | publish | adapt.done | {"articleId":31,"slug":"20261025-e1f7a8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1242 | 2026-10-26T07:06:22.146Z | info | publish | adapt.done | {"articleId":30,"slug":"20261025-6dff6d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1243 | 2026-10-26T07:06:22.150Z | info | publish | adapt.done | {"articleId":29,"slug":"20261025-112ff4","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1244 | 2026-10-26T07:06:22.152Z | info | publish | adapt.done | {"articleId":28,"slug":"20261025-cb688d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1245 | 2026-10-26T07:06:22.155Z | info | publish | adapt.done | {"articleId":27,"slug":"20261025-4b68ec","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1246 | 2026-10-26T07:06:22.162Z | info | publish | adapt.done | {"articleId":26,"slug":"20261025-1a9b24","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1247 | 2026-10-26T07:06:22.166Z | info | publish | adapt.done | {"articleId":25,"slug":"20261025-42a61f","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1248 | 2026-10-26T07:06:22.167Z | info | publish | batch.done | {"articles":20} |
+| 1249 | 2026-10-26T07:06:22.179Z | info | site | generate.done | {"articles":25,"intel":100,"pages":126} |
+| 1250 | 2026-10-26T07:06:22.179Z | info | pipeline | done | {"intel":{"results":{"zhihu":4,"media":1,"hn":24,"github":20,"lobsters":25},"total":74},"content":{"daily":37,"deep":[44]},"publish":20,"site":{"articles":25,"i |
+| 1251 | 2026-10-26T07:06:23.617Z | info | cloud | deploy.triggered | {"repo":"q785845530/ai-tools-intel","via":"workflow_dispatch","by":"local-cron"} |
+| 1252 | 2026-10-26T07:06:24.336Z | info | wechat | token.obtained | {"expiresIn":7200,"via":"stable_token","force":false} |
+| 1253 | 2026-10-26T07:06:25.853Z | info | wechat | cover.uploaded | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_-cXqe_Zfzc9ekw4lNTX4jitdgSA6qCAv64qaP8kNsYT","bytes":137096} |
+| 1254 | 2026-10-26T07:06:29.552Z | info | wechat | draft.created | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_3U2EDTFIrnaR2wVwu0J507gDqlAxLnduhxLF9DjE7_x","count":1} |
+| 1255 | 2026-10-26T07:06:29.553Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_3U2EDTFIrnaR2wVwu0J507gDqlAxLnduhxLF9DjE7_x","articles":[44]} |
+| 1256 | 2026-10-26T07:06:29.553Z | info | pipeline | wechat.draft.synced | {"articleId":44,"title":"给3万家工厂装上“AI大脑”,黑湖科技工博会工业AI规模落地","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
+| 1257 | 2026-10-26T17:53:36.378Z | info | server | start | {"port":8765,"root":"/workspace/ops/site/static"} |
+| 1258 | 2026-10-26T17:53:36.380Z | info | pipeline | start | {} |
+| 1259 | 2026-10-26T17:53:36.381Z | error | intel | collect.zhihu.hot.fail | {"error":"缺少知乎 Access Secret（config/tokens.json 或 ZHIHU_ACCESS_SECRET）"} |
+| 1260 | 2026-10-26T17:53:36.381Z | error | intel | collect.zhihu.search.fail | {"query":"智能制造 AI 落地","error":"缺少知乎 Access Secret（config/tokens.json 或 ZHIHU_ACCESS_SECRET）"} |
+| 1261 | 2026-10-26T17:53:37.884Z | error | intel | collect.zhihu.search.fail | {"query":"工业大模型 应用","error":"缺少知乎 Access Secret（config/tokens.json 或 ZHIHU_ACCESS_SECRET）"} |
+| 1262 | 2026-10-26T17:53:39.384Z | error | intel | collect.zhihu.search.fail | {"query":"AI 质检 缺陷检测","error":"缺少知乎 Access Secret（config/tokens.json 或 ZHIHU_ACCESS_SECRET）"} |
+| 1263 | 2026-10-26T17:53:40.886Z | error | intel | collect.zhihu.search.fail | {"query":"智能工厂 数字化转型","error":"缺少知乎 Access Secret（config/tokens.json 或 ZHIHU_ACCESS_SECRET）"} |
+| 1264 | 2026-10-26T17:53:42.388Z | error | intel | collect.zhihu.search.fail | {"query":"工业机器人 具身智能","error":"缺少知乎 Access Secret（config/tokens.json 或 ZHIHU_ACCESS_SECRET）"} |
+| 1265 | 2026-10-26T17:53:43.891Z | info | intel | collect.zhihu.done | {"hot":0,"search":0,"errors":6} |
+| 1266 | 2026-10-26T17:53:43.891Z | info | intel | collect.zhihu.ok | {"count":0} |
+| 1267 | 2026-10-26T17:53:44.803Z | info | media | collect.gongkong.ok | {"found":30,"saved":14,"filtered":7} |
+| 1268 | 2026-10-26T17:53:46.354Z | debug | media | freshness.ofweek-im | {"stale_skipped":13,"undated":0} |
+| 1269 | 2026-10-26T17:53:46.371Z | info | media | collect.ofweek-im.ok | {"found":30,"saved":2,"filtered":13} |
+| 1270 | 2026-10-26T17:53:47.891Z | debug | media | freshness.eworks | {"stale_skipped":0,"undated":10} |
+| 1271 | 2026-10-26T17:53:47.897Z | info | media | collect.eworks.ok | {"found":10,"saved":0,"filtered":1} |
+| 1272 | 2026-10-26T17:53:49.098Z | info | media | collect.done | {"results":{"gongkong":{"found":30,"saved":14,"off":7},"ofweek-im":{"found":30,"saved":2,"off":13},"eworks":{"found":10,"saved":0,"off":1}},"total":16} |
+| 1273 | 2026-10-26T17:53:49.099Z | info | intel | collect.media.ok | {"count":16} |
+| 1274 | 2026-10-26T17:53:49.816Z | info | intel | relevance.filtered | {"filtered":22,"kept":22} |
+| 1275 | 2026-10-26T17:53:49.816Z | info | intel | collect.hn.ok | {"count":22} |
+| 1276 | 2026-10-26T17:53:51.564Z | info | intel | relevance.filtered | {"filtered":20,"kept":20} |
+| 1277 | 2026-10-26T17:53:51.565Z | info | intel | collect.github.ok | {"count":20} |
+| 1278 | 2026-10-26T17:53:52.316Z | info | intel | relevance.filtered | {"filtered":25,"kept":25} |
+| 1279 | 2026-10-26T17:53:52.317Z | info | intel | collect.lobsters.ok | {"count":25} |
+| 1280 | 2026-10-26T17:53:52.317Z | info | intel | collect.all.done | {"results":{"zhihu":0,"media":16,"hn":22,"github":20,"lobsters":25},"total":83} |
+| 1281 | 2026-10-26T17:53:52.324Z | info | generate | article.updated | {"articleId":37,"slug":"manufacturing-daily-20261026","kind":"daily","items":8} |
+| 1282 | 2026-10-26T17:53:52.327Z | info | generate | article.created | {"articleId":45,"slug":"20261026-a002da","kind":"deep","theme":"case","source":"media-gongkong"} |
+| 1283 | 2026-10-26T17:53:52.329Z | info | generate | article.created | {"articleId":46,"slug":"20261026-ef748c","kind":"deep","theme":"case","source":"media-gongkong"} |
+| 1284 | 2026-10-26T17:53:52.332Z | info | generate | article.created | {"articleId":47,"slug":"20261026-f8f6d9","kind":"deep","theme":"trend","source":"media-gongkong"} |
+| 1285 | 2026-10-26T17:53:52.332Z | info | generate | batch.done | {"daily":37,"deep":3} |
+| 1286 | 2026-10-26T17:53:52.337Z | info | publish | adapt.done | {"articleId":47,"slug":"20261026-f8f6d9","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1287 | 2026-10-26T17:53:52.340Z | info | publish | adapt.done | {"articleId":46,"slug":"20261026-ef748c","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1288 | 2026-10-26T17:53:52.344Z | info | publish | adapt.done | {"articleId":45,"slug":"20261026-a002da","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1289 | 2026-10-26T17:53:52.347Z | info | publish | adapt.done | {"articleId":37,"slug":"manufacturing-daily-20261026","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1290 | 2026-10-26T17:53:52.350Z | info | publish | adapt.done | {"articleId":44,"slug":"20261026-03fa67","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1291 | 2026-10-26T17:53:52.355Z | info | publish | adapt.done | {"articleId":43,"slug":"20261026-7f83e2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1292 | 2026-10-26T17:53:52.363Z | info | publish | adapt.done | {"articleId":42,"slug":"20261026-ef8574","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1293 | 2026-10-26T17:53:52.367Z | info | publish | adapt.done | {"articleId":41,"slug":"20261026-3dabba","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1294 | 2026-10-26T17:53:52.372Z | info | publish | adapt.done | {"articleId":40,"slug":"20261026-f8dc5a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1295 | 2026-10-26T17:53:52.376Z | info | publish | adapt.done | {"articleId":39,"slug":"20261026-57a98a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1296 | 2026-10-26T17:53:52.379Z | info | publish | adapt.done | {"articleId":38,"slug":"20261026-741298","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1297 | 2026-10-26T17:53:52.381Z | info | publish | adapt.done | {"articleId":36,"slug":"20261025-5bcd50","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1298 | 2026-10-26T17:53:52.384Z | info | publish | adapt.done | {"articleId":35,"slug":"20261025-4d8d65","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1299 | 2026-10-26T17:53:52.387Z | info | publish | adapt.done | {"articleId":34,"slug":"20261025-ef87e6","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1300 | 2026-10-26T17:53:52.394Z | info | publish | adapt.done | {"articleId":33,"slug":"manufacturing-daily-20261025","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1301 | 2026-10-26T17:53:52.397Z | info | publish | adapt.done | {"articleId":32,"slug":"20261025-e04ae5","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1302 | 2026-10-26T17:53:52.400Z | info | publish | adapt.done | {"articleId":31,"slug":"20261025-e1f7a8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1303 | 2026-10-26T17:53:52.408Z | info | publish | adapt.done | {"articleId":30,"slug":"20261025-6dff6d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1304 | 2026-10-26T17:53:52.412Z | info | publish | adapt.done | {"articleId":29,"slug":"20261025-112ff4","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1305 | 2026-10-26T17:53:52.414Z | info | publish | adapt.done | {"articleId":28,"slug":"20261025-cb688d","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1306 | 2026-10-26T17:53:52.415Z | info | publish | batch.done | {"articles":20} |
+| 1307 | 2026-10-26T17:53:52.429Z | info | site | generate.done | {"articles":28,"intel":100,"pages":129} |
+| 1308 | 2026-10-26T17:53:52.430Z | info | pipeline | done | {"intel":{"results":{"zhihu":0,"media":16,"hn":22,"github":20,"lobsters":25},"total":83},"content":{"daily":37,"deep":[45,46,47]},"publish":20,"site":{"articles |
+| 1309 | 2026-10-26T17:53:53.807Z | info | cloud | deploy.triggered | {"repo":"q785845530/ai-tools-intel","via":"workflow_dispatch","by":"local-cron"} |
+| 1310 | 2026-10-26T17:53:54.554Z | info | wechat | token.obtained | {"expiresIn":7200,"via":"stable_token","force":false} |
+| 1311 | 2026-10-26T17:53:56.111Z | info | wechat | cover.uploaded | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_xv9zO4CfYjbNW5PFbQFphwUKD2v-kldk2XYYousTt0u","bytes":137096} |
+| 1312 | 2026-10-26T17:53:58.983Z | info | wechat | draft.created | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_wTgqiDMGPoQXyp_t3OiraHchnAK_931EpQhk3AH_Fkh","count":1} |
+| 1313 | 2026-10-26T17:53:58.984Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_wTgqiDMGPoQXyp_t3OiraHchnAK_931EpQhk3AH_Fkh","articles":[47]} |
+| 1314 | 2026-10-26T17:53:58.984Z | info | pipeline | wechat.draft.synced | {"articleId":47,"title":"从手动到自动：易普森防爆伺服电机助力石油鹤管升降换向智能化升级","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
+| 1315 | 2026-10-26T17:53:58.985Z | info | pipeline | cron.enabled | {"intervalMs":3600000} |
+| 1316 | 2026-10-26T18:10:36.498Z | info | server | start | {"port":8765,"root":"/workspace/ops/site/static"} |
+| 1317 | 2026-10-26T18:10:36.500Z | info | pipeline | start | {} |
+| 1318 | 2026-10-26T18:10:36.916Z | info | zhihu | relevance.filtered | {"source":"zhihu-hot","skipped":20,"kept":15,"rule":"制造业强相关 / AI+垂类检索"} |
+| 1319 | 2026-10-26T18:10:36.916Z | info | intel | collect.zhihu.hot.ok | {"items":20,"saved":15} |
+| 1320 | 2026-10-26T18:10:37.344Z | info | intel | collect.zhihu.search.ok | {"query":"智能制造 AI 落地","items":10,"saved":1} |
+| 1321 | 2026-10-26T18:10:39.435Z | info | intel | collect.zhihu.search.ok | {"query":"工业大模型 应用","items":10,"saved":0} |
+| 1322 | 2026-10-26T18:10:41.296Z | info | intel | collect.zhihu.search.ok | {"query":"AI 质检 缺陷检测","items":10,"saved":1} |
+| 1323 | 2026-10-26T18:10:43.214Z | info | intel | collect.zhihu.search.ok | {"query":"智能工厂 数字化转型","items":10,"saved":0} |
+| 1324 | 2026-10-26T18:10:45.412Z | info | intel | collect.zhihu.search.ok | {"query":"工业机器人 具身智能","items":10,"saved":1} |
+| 1325 | 2026-10-26T18:10:46.913Z | info | intel | collect.zhihu.done | {"hot":15,"search":3,"errors":0} |
+| 1326 | 2026-10-26T18:10:46.913Z | info | intel | collect.zhihu.ok | {"count":18} |
+| 1327 | 2026-10-26T18:10:47.405Z | info | media | collect.gongkong.ok | {"found":30,"saved":0,"filtered":7} |
+| 1328 | 2026-10-26T18:10:48.918Z | debug | media | freshness.ofweek-im | {"stale_skipped":13,"undated":0} |
+| 1329 | 2026-10-26T18:10:48.938Z | info | media | collect.ofweek-im.ok | {"found":30,"saved":0,"filtered":13} |
+| 1330 | 2026-10-26T18:10:50.672Z | debug | media | freshness.eworks | {"stale_skipped":0,"undated":10} |
+| 1331 | 2026-10-26T18:10:50.679Z | info | media | collect.eworks.ok | {"found":10,"saved":0,"filtered":1} |
+| 1332 | 2026-10-26T18:11:26.264Z | info | server | start | {"port":8765,"root":"/workspace/ops/site/static"} |
+| 1333 | 2026-10-26T18:11:26.266Z | info | pipeline | start | {} |
+| 1334 | 2026-10-26T18:11:26.560Z | info | zhihu | relevance.filtered | {"source":"zhihu-hot","skipped":20,"kept":0,"rule":"制造业强相关 / AI+垂类检索"} |
+| 1335 | 2026-10-26T18:11:26.560Z | info | intel | collect.zhihu.hot.ok | {"items":20,"saved":0} |
+| 1336 | 2026-10-26T18:11:26.938Z | info | intel | collect.zhihu.search.ok | {"query":"智能制造 AI 落地","items":10,"saved":0} |
+| 1337 | 2026-10-26T18:11:28.954Z | info | intel | collect.zhihu.search.ok | {"query":"工业大模型 应用","items":10,"saved":0} |
+| 1338 | 2026-10-26T18:11:30.975Z | info | intel | collect.zhihu.search.ok | {"query":"AI 质检 缺陷检测","items":10,"saved":0} |
+| 1339 | 2026-10-26T18:11:32.900Z | info | intel | collect.zhihu.search.ok | {"query":"智能工厂 数字化转型","items":10,"saved":0} |
+| 1340 | 2026-10-26T18:11:34.838Z | info | intel | collect.zhihu.search.ok | {"query":"工业机器人 具身智能","items":10,"saved":0} |
+| 1341 | 2026-10-26T18:11:36.339Z | info | intel | collect.zhihu.done | {"hot":0,"search":0,"errors":0} |
+| 1342 | 2026-10-26T18:11:36.340Z | info | intel | collect.zhihu.ok | {"count":0} |
+| 1343 | 2026-10-26T18:11:37.195Z | info | media | collect.gongkong.ok | {"found":30,"saved":0,"filtered":7} |
+| 1344 | 2026-10-26T18:11:38.740Z | debug | media | freshness.ofweek-im | {"stale_skipped":13,"undated":0} |
+| 1345 | 2026-10-26T18:11:38.756Z | info | media | collect.ofweek-im.ok | {"found":30,"saved":0,"filtered":13} |
+| 1346 | 2026-10-26T18:11:40.210Z | debug | media | freshness.eworks | {"stale_skipped":0,"undated":10} |
+| 1347 | 2026-10-26T18:11:40.221Z | info | media | collect.eworks.ok | {"found":10,"saved":0,"filtered":1} |
+| 1348 | 2026-10-26T18:11:41.421Z | info | media | collect.done | {"results":{"gongkong":{"found":30,"saved":0,"off":7},"ofweek-im":{"found":30,"saved":0,"off":13},"eworks":{"found":10,"saved":0,"off":1}},"total":0} |
+| 1349 | 2026-10-26T18:11:41.421Z | info | intel | collect.media.ok | {"count":0} |
+| 1350 | 2026-10-26T18:11:42.436Z | info | intel | relevance.filtered | {"filtered":21,"kept":21} |
+| 1351 | 2026-10-26T18:11:42.436Z | info | intel | collect.hn.ok | {"count":21} |
+| 1352 | 2026-10-26T18:11:44.103Z | info | intel | relevance.filtered | {"filtered":20,"kept":20} |
+| 1353 | 2026-10-26T18:11:44.103Z | info | intel | collect.github.ok | {"count":20} |
+| 1354 | 2026-10-26T18:11:44.892Z | info | intel | relevance.filtered | {"filtered":25,"kept":25} |
+| 1355 | 2026-10-26T18:11:44.892Z | info | intel | collect.lobsters.ok | {"count":25} |
+| 1356 | 2026-10-26T18:11:44.893Z | info | intel | collect.all.done | {"results":{"zhihu":0,"media":0,"hn":21,"github":20,"lobsters":25},"total":66} |
+| 1357 | 2026-10-26T18:11:44.907Z | info | generate | article.updated | {"articleId":37,"slug":"manufacturing-daily-20261026","kind":"daily","items":8} |
+| 1358 | 2026-10-26T18:11:44.910Z | info | generate | article.created | {"articleId":48,"slug":"20261026-e7ac09","kind":"deep","theme":"trend","source":"media-ofweek-im"} |
+| 1359 | 2026-10-26T18:11:44.912Z | info | generate | article.created | {"articleId":49,"slug":"20261026-65eab2","kind":"deep","theme":"trend","source":"media-ofweek-im"} |
+| 1360 | 2026-10-26T18:11:44.914Z | info | generate | article.created | {"articleId":50,"slug":"20261026-122712","kind":"deep","theme":"case","source":"media-ofweek-im"} |
+| 1361 | 2026-10-26T18:11:44.914Z | info | generate | batch.done | {"daily":37,"deep":3} |
+| 1362 | 2026-10-26T18:11:44.919Z | info | publish | adapt.done | {"articleId":50,"slug":"20261026-122712","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1363 | 2026-10-26T18:11:44.922Z | info | publish | adapt.done | {"articleId":49,"slug":"20261026-65eab2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1364 | 2026-10-26T18:11:44.926Z | info | publish | adapt.done | {"articleId":48,"slug":"20261026-e7ac09","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1365 | 2026-10-26T18:11:44.928Z | info | publish | adapt.done | {"articleId":37,"slug":"manufacturing-daily-20261026","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1366 | 2026-10-26T18:11:44.931Z | info | publish | adapt.done | {"articleId":47,"slug":"20261026-f8f6d9","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1367 | 2026-10-26T18:11:44.935Z | info | publish | adapt.done | {"articleId":46,"slug":"20261026-ef748c","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1368 | 2026-10-26T18:11:44.938Z | info | publish | adapt.done | {"articleId":45,"slug":"20261026-a002da","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1369 | 2026-10-26T18:11:44.940Z | info | publish | adapt.done | {"articleId":44,"slug":"20261026-03fa67","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1370 | 2026-10-26T18:11:44.942Z | info | publish | adapt.done | {"articleId":43,"slug":"20261026-7f83e2","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1371 | 2026-10-26T18:11:44.944Z | info | publish | adapt.done | {"articleId":42,"slug":"20261026-ef8574","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1372 | 2026-10-26T18:11:44.948Z | info | publish | adapt.done | {"articleId":41,"slug":"20261026-3dabba","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1373 | 2026-10-26T18:11:44.951Z | info | publish | adapt.done | {"articleId":40,"slug":"20261026-f8dc5a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1374 | 2026-10-26T18:11:44.953Z | info | publish | adapt.done | {"articleId":39,"slug":"20261026-57a98a","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1375 | 2026-10-26T18:11:44.957Z | info | publish | adapt.done | {"articleId":38,"slug":"20261026-741298","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1376 | 2026-10-26T18:11:44.959Z | info | publish | adapt.done | {"articleId":36,"slug":"20261025-5bcd50","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1377 | 2026-10-26T18:11:44.962Z | info | publish | adapt.done | {"articleId":35,"slug":"20261025-4d8d65","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1378 | 2026-10-26T18:11:44.964Z | info | publish | adapt.done | {"articleId":34,"slug":"20261025-ef87e6","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1379 | 2026-10-26T18:11:44.967Z | info | publish | adapt.done | {"articleId":33,"slug":"manufacturing-daily-20261025","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1380 | 2026-10-26T18:11:44.970Z | info | publish | adapt.done | {"articleId":32,"slug":"20261025-e04ae5","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1381 | 2026-10-26T18:11:44.973Z | info | publish | adapt.done | {"articleId":31,"slug":"20261025-e1f7a8","channels":["wechat","zhihu","xhs","toutiao"]} |
+| 1382 | 2026-10-26T18:11:44.974Z | info | publish | batch.done | {"articles":20} |
+| 1383 | 2026-10-26T18:11:44.989Z | info | site | generate.done | {"articles":31,"intel":100,"pages":132} |
+| 1384 | 2026-10-26T18:11:44.989Z | info | pipeline | done | {"intel":{"results":{"zhihu":0,"media":0,"hn":21,"github":20,"lobsters":25},"total":66},"content":{"daily":37,"deep":[48,49,50]},"publish":20,"site":{"articles" |
+| 1385 | 2026-10-26T18:11:46.407Z | info | cloud | deploy.triggered | {"repo":"q785845530/ai-tools-intel","via":"workflow_dispatch","by":"local-cron"} |
+| 1386 | 2026-10-26T18:11:48.005Z | info | wechat | cover.uploaded | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_yaVaamOcxyKkLXrxE3QLlj5RTaQGRTXcUqUu9T04vpL","bytes":137096} |
+| 1387 | 2026-10-26T18:11:50.982Z | info | wechat | draft.created | {"mediaId":"FkZ9XCO0BwnXzC2V7v9B_9r2XMukqCU3s5M0SrJWPJEhgPFzg9pprV-UxhtQGYgr","count":1} |
+| 1388 | 2026-10-26T18:11:50.983Z | info | wechat | bridge.draft.done | {"draftId":"FkZ9XCO0BwnXzC2V7v9B_9r2XMukqCU3s5M0SrJWPJEhgPFzg9pprV-UxhtQGYgr","articles":[50]} |
+| 1389 | 2026-10-26T18:11:50.984Z | info | pipeline | wechat.draft.synced | {"articleId":50,"title":"超37亿！西门子联合英伟达，打造“全AI驱动”工厂","draftId":"FkZ9XCO0BwnXzC2V7v9B…"} |
+| 1390 | 2026-10-26T18:11:50.984Z | info | pipeline | cron.enabled | {"intervalMs":3600000} |
 
 ---
 
-*报告结束。共 1080 条审计记录，全部列于上表，无删减。*
+*报告结束。共 1390 条审计记录，全部列于上表，无删减。*
