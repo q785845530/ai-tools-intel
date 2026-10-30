@@ -7,6 +7,7 @@
 //   3. 微信草稿每篇只建一次（publish_log 判重），绝不刷屏草稿箱
 'use strict';
 const { collectAll } = require('./lib/intel');
+const { enrichSummaries } = require('./lib/enrich');
 const { generateBatch } = require('./lib/generator');
 const { adaptBatch } = require('./lib/publish');
 const { generate: buildSite } = require('./lib/site');
@@ -37,6 +38,19 @@ async function wechatCooling() {
 async function pipeline() {
   audit.log('info', 'pipeline', 'start', {});
   const intel = await collectAll();
+  // ── 摘要回填：必须排在内容生成之前 ──────────────────────────────
+  // 实测 238 条 ok 记录里 237 条 summary 为空（media 只抓列表页标题、zhihu 上游不返回摘要），
+  // 没有正文就没有「核心观点」可提取，深文只能复读标题。这里按原文详情页回填。
+  // 限量 + 限速：单轮 30 条、站间 900ms，抓不到的源（知乎 403）记 unsupported 不反复重试。
+  let enrich = null;
+  try {
+    enrich = await enrichSummaries(30);
+    audit.log('info', 'pipeline', 'enrich.done', enrich);
+  } catch (e) {
+    // 回填失败不能拖垮主链路（情报站本身仍要更新）
+    audit.log('error', 'pipeline', 'enrich.fail', { error: e.message });
+  }
+
   let content = null;
   try {
     content = generateBatch();
@@ -51,7 +65,7 @@ async function pipeline() {
     audit.log('error', 'pipeline', 'publish.fail', { error: e.message });
   }
   const site = buildSite();
-  audit.log('info', 'pipeline', 'done', { intel, content, publish, site });
+  audit.log('info', 'pipeline', 'done', { intel, enrich, content, publish, site });
 
   // ── 旁路 1：云端部署（GitHub cron 对低活跃仓库会静默跳过，本地 dispatch 才是主通道）
   try {
