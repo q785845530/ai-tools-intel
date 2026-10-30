@@ -17,6 +17,11 @@ log() { echo "[$(date -u '+%Y-%m-%d %H:%M:%S')] $*"; }
 
 log "watchdog 启动（间隔 ${INTERVAL}s）"
 
+# 重启风暴熔断：主进程若连续快速退出（说明是配置/依赖问题，不是偶发被杀），
+# 无脑每 5 分钟拉一次只会把审计链刷满失败记录。连续 N 次拉起后 3 分钟内又死，就退避到 1 小时。
+CONSEC_FAIL=0
+CONSEC_MAX="${WATCHDOG_MAX_RESTART:-5}"
+
 while true; do
   if ! pgrep -f "$PATTERN" > /dev/null 2>&1; then
     log "主进程不在，拉起"
@@ -25,6 +30,18 @@ while true; do
     sleep 5
     if pgrep -f "$PATTERN" > /dev/null 2>&1; then
       log "拉起成功 $(pgrep -f "$PATTERN" | tr '\n' ' ')"
+      sleep 60
+      if ! pgrep -f "$PATTERN" > /dev/null 2>&1; then
+        CONSEC_FAIL=$((CONSEC_FAIL + 1))
+        log "⚠️ 拉起后 60s 内又退出（连续第 ${CONSEC_FAIL}/${CONSEC_MAX} 次）"
+        if [ "$CONSEC_FAIL" -ge "$CONSEC_MAX" ]; then
+          log "❌ 连续 ${CONSEC_FAIL} 次重启失败，退避 1 小时后重试（请检查 log/server-stdout.log）"
+          sleep 3600
+          CONSEC_FAIL=0
+        fi
+      else
+        CONSEC_FAIL=0
+      fi
     else
       log "拉起失败，日志尾部：$(tail -5 "$ROOT/log/server-stdout.log" 2>/dev/null | tr '\n' ' ')"
     fi

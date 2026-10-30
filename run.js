@@ -15,6 +15,25 @@ const { deployCloud } = require('./lib/cloud');
 const audit = require('./lib/audit');
 const { db } = require('./lib/db');
 
+/** 微信不可自愈错误的冷却闸：错误是配置类的（IP 白名单 / 凭据失效），
+ *  每小时重试没有任何意义，只会污染审计链。冷却期内直接跳过。 */
+const WECHAT_COOLDOWN_FILE = require('node:path').resolve(__dirname, 'data', 'wechat-cooldown.json');
+const WECHAT_COOLDOWN_MS = 6 * 3600 * 1000;
+
+function markWechatCooldown() {
+  try {
+    require('node:fs').writeFileSync(WECHAT_COOLDOWN_FILE,
+      JSON.stringify({ until: Date.now() + WECHAT_COOLDOWN_MS, at: new Date().toISOString() }), { mode: 0o600 });
+  } catch { /* 冷却文件写不了不应影响主流程 */ }
+}
+
+async function wechatCooling() {
+  try {
+    const j = JSON.parse(require('node:fs').readFileSync(WECHAT_COOLDOWN_FILE, 'utf8'));
+    return j.until && Date.now() < j.until;
+  } catch { return false; }
+}
+
 async function pipeline() {
   audit.log('info', 'pipeline', 'start', {});
   const intel = await collectAll();
@@ -42,10 +61,23 @@ async function pipeline() {
   }
 
   // ── 旁路 2：微信草稿（只给「最新的日报/深文」建一次草稿，判重后跳过）
-  try {
-    await syncWechatDraft();
-  } catch (e) {
-    audit.log('error', 'pipeline', 'wechat.fail', { error: e.message });
+  // 熔断：微信常见故障是「出口 IP 不在白名单」(40164)，这是配置问题，不是瞬时抖动。
+  // 之前每小时都重试一次，把同一条 40164 刷进审计链 3 次/天且永不自愈。
+  // 现在：命中此类不可自愈错误 → 记 warning 并进入 6 小时冷却，期间跳过微信同步。
+  if (await wechatCooling()) {
+    audit.log('info', 'pipeline', 'wechat.skipped', { reason: 'IFRAME_COOLDOWN' });
+  } else {
+    try {
+      await syncWechatDraft();
+    } catch (e) {
+      const fatal = /40164|40125|40013|invalid ip|not in whitelist|invalid appid|invalid secret/i.test(e.message);
+      audit.log(fatal ? 'warn' : 'error', 'pipeline', 'wechat.fail', {
+        error: e.message,
+        fatal,
+        hint: fatal ? '需人工到公众平台补白名单 / 修凭据，已进入 6 小时冷却' : undefined,
+      });
+      if (fatal) markWechatCooldown();
+    }
   }
 
   return { intel, content, publish, site };

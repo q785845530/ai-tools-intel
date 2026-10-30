@@ -35,6 +35,13 @@ if running; then
 fi
 
 mkdir -p "$ROOT/log"
+# 看护进程与主进程一起拉起：容器回收后台进程时两者可能同时被杀，
+# 但主进程若单独退出（未捕获异常 / OOM），watchdog 会在 5 分钟内拉回来。
+# 注意 watchdog 自己也要 setsid 脱组，否则同样会随父 shell 消失。
+if ! pgrep -f 'bash scripts/watchdog.sh' > /dev/null 2>&1; then
+  setsid nohup bash scripts/watchdog.sh >> "$ROOT/log/watchdog.log" 2>&1 < /dev/null &
+  disown 2>/dev/null || true
+fi
 setsid nohup node run.js --cron >> "$LOG" 2>&1 < /dev/null &
 disown 2>/dev/null || true
 sleep 4
