@@ -17,21 +17,19 @@
 //   node scripts/push-via-api.js            # 推送 main 上领先远端的全部提交
 //   node scripts/push-via-api.js --dry      # 只列出会做什么
 //   node scripts/push-via-api.js --verify   # 只校验远端内容是否与本地一致
+//
+// 也可以被 require（lib/push.js 的失败回退就用这条路）：
+//   const { pushViaApi, verifyRemote } = require('./scripts/push-via-api');
+//   const ok = await pushViaApi({ log: console.log });
 'use strict';
 
 const { execFileSync } = require('node:child_process');
-const fs = require('node:fs');
 const path = require('node:path');
 const { resolveToken } = require('../lib/token-source');
 
 const REPO = 'q785845530/ai-tools-intel';
 const BRANCH = 'main';
 const ROOT = path.resolve(__dirname, '..');
-
-const dry = process.argv.includes('--dry');
-const verifyOnly = process.argv.includes('--verify');
-const token = resolveToken('github').value;
-if (!token) { console.error('❌ 任务日记「关于」里没有 github 令牌'); process.exit(1); }
 
 function git(args) {
   return execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', maxBuffer: 128 * 1024 * 1024 }).trim();
@@ -67,6 +65,22 @@ async function api(method, endpoint, body) {
  *  网络抖动 + 5xx + 429 都重试；4xx（除 429）是逻辑错误，立即抛。
  *  实测连续 POST 250 个 blob 时会在中途 fetch failed，
  *  一次失败就前功尽弃 —— 所以必须重试。 */
+// 输出通道：独立运行时写 stdout，被 require 时由调用方传入
+let log = (...a) => console.log(...a);
+let logErr = (...a) => console.error(...a);
+let showProgress = true;
+function opts_progress() { return showProgress; }
+
+// 令牌：模块级，供 api() / apiRetry() 使用；由 pushViaApi() 入口赋值
+let token = null;
+function ensureToken(explicit) {
+  if (explicit) { token = explicit; return token; }
+  if (token) return token;
+  token = resolveToken('github').value;
+  if (!token) throw new Error('任务日记「关于」里没有 github 令牌');
+  return token;
+}
+
 async function apiRetry(method, endpoint, body, tries = 6) {
   let lastErr;
   for (let i = 0; i < tries; i++) {
@@ -79,7 +93,7 @@ async function apiRetry(method, endpoint, body, tries = 6) {
       if (!retriable) throw e;
       // 二级限流要等更久（GitHub 建议数分钟）
       const wait = rateLimited ? 60000 * (i + 1) : Math.min(8000, 600 * 2 ** i);
-      process.stdout.write(`    重试 ${i + 1}/${tries}（${e.message.slice(0, 40)}）等待 ${wait}ms\r`);
+      log(`    重试 ${i + 1}/${tries}（${e.message.slice(0, 40)}）等待 ${wait}ms`);
       await new Promise((r) => setTimeout(r, wait));
     }
   }
@@ -142,12 +156,12 @@ async function buildFullTree(commitSha) {
       if (PACE_MS) await new Promise((r) => setTimeout(r, PACE_MS));
       results[i] = { path: j.path, mode: j.mode, type: 'blob', sha: remoteSha };
       done++;
-      if (done % 40 === 0) process.stdout.write(`    已上传 ${done}/${jobs.length}  `);
+      if (done % 40 === 0) if (opts_progress()) process.stdout.write(`    已上传 ${done}/${jobs.length}  `);
     }
   }
 
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-  process.stdout.write(`\n`);
+  if (opts_progress()) process.stdout.write('\n');
 
   const tree = await apiRetry('POST', `/repos/${REPO}/git/trees`, { tree: results.filter(Boolean) });
   return tree.sha;
@@ -155,10 +169,10 @@ async function buildFullTree(commitSha) {
 
 async function pushCommit(sha, remoteParentSha) {
   const subject = git(['log', '-1', '--format=%s', sha]);
-  console.log(`\n  ── ${sha.slice(0, 8)}  ${subject.slice(0, 50)}`);
+  log(`  ── ${sha.slice(0, 8)}  ${subject.slice(0, 50)}`);
 
   const treeSha = await buildFullTree(sha);
-  console.log(`     remote tree ${treeSha.slice(0, 10)}  ← 本地 ${git(['rev-parse', `${sha}^{tree}`]).slice(0, 10)}`);
+  log(`     remote tree ${treeSha.slice(0, 10)}  ← 本地 ${git(['rev-parse', `${sha}^{tree}`]).slice(0, 10)}`);
 
   const commit = await apiRetry('POST', `/repos/${REPO}/git/commits`, {
     message: git(['log', '-1', '--format=%B', sha]),
@@ -175,7 +189,7 @@ async function pushCommit(sha, remoteParentSha) {
       date: git(['log', '-1', '--format=%cI', sha]),
     },
   });
-  console.log(`     remote commit ${commit.sha.slice(0, 8)}（本地 ${sha.slice(0, 8)}，SHA 不同属正常）`);
+  log(`     remote commit ${commit.sha.slice(0, 8)}（本地 ${sha.slice(0, 8)}，SHA 不同属正常）`);
   return commit.sha;
 }
 
@@ -199,41 +213,46 @@ async function verify(remoteCommitSha) {
 
   let ok = 0, diff = 0, missing = 0;
   for (const [p, sha] of local) {
-    if (!remote.has(p)) { missing++; if (missing <= 5) console.log(`  ✗ 远端缺 ${p}`); continue; }
+    if (!remote.has(p)) { missing++; if (missing <= 5) log(`  ✗ 远端缺 ${p}`); continue; }
     if (remote.get(p) === sha) ok++;
-    else { diff++; if (diff <= 5) console.log(`  ✗ 内容不同 ${p}`); }
+    else { diff++; if (diff <= 5) log(`  ✗ 内容不同 ${p}`); }
   }
   const extra = [...remote.keys()].filter((p) => !local.has(p));
-  console.log(`  本地文件 ${local.size}，远端 ${remote.size}`);
-  console.log(`  一致 ${ok}  内容不同 ${diff}  远端缺失 ${missing}  远端多余 ${extra.length}`);
-  if (extra.length && extra.length <= 5) extra.forEach((p) => console.log(`  ⚠️ 远端多余 ${p}`));
+  log(`  本地文件 ${local.size}，远端 ${remote.size}`);
+  log(`  一致 ${ok}  内容不同 ${diff}  远端缺失 ${missing}  远端多余 ${extra.length}`);
+  if (extra.length && extra.length <= 5) extra.forEach((p) => log(`  ⚠️ 远端多余 ${p}`));
   return diff === 0 && missing === 0;
 }
 
-(async () => {
-  console.log('════ GitHub API 推送 ════');
-  console.log(`  仓库 ${REPO}  分支 ${BRANCH}${dry ? '  （试运行）' : ''}`);
+/** 推送（或校验）入口。返回 true 表示最终内容与本地一致。 */
+async function pushViaApi(opts = {}) {
+  if (opts.log) log = opts.log;
+  if (opts.logErr) logErr = opts.logErr;
+  if (opts.quiet) showProgress = false;
+  const dry = opts.dry === true;
+  const verifyOnly = opts.verifyOnly === true;
+
+  ensureToken(opts.token);
+
+  log('════ GitHub API 通道 ════');
+  log(`  仓库 ${REPO}  分支 ${BRANCH}${dry ? '  （试运行）' : ''}`);
 
   const remoteHead = (await api('GET', `/repos/${REPO}/commits/${BRANCH}`)).sha;
   const localHead = git(['rev-parse', 'HEAD']);
-  console.log(`  远端 HEAD ${remoteHead.slice(0, 8)}`);
-  console.log(`  本地 HEAD ${localHead.slice(0, 8)}`);
+  log(`  远端 HEAD ${remoteHead.slice(0, 8)}`);
+  log(`  本地 HEAD ${localHead.slice(0, 8)}`);
 
-  if (verifyOnly) {
-    const good = await verify(remoteHead);
-    process.exit(good ? 0 : 1);
-  }
+  if (verifyOnly) return verify(remoteHead);
 
   if (remoteHead === localHead) {
-    console.log('  提交 SHA 已一致');
-    const good = await verify(remoteHead);
-    process.exit(good ? 0 : 1);
+    log('  提交 SHA 已一致');
+    return verify(remoteHead);
   }
 
   // 快进检查：远端必须是本地祖先（或内容等价）
   let fastForward = false;
   try {
-    execFileSync('git', ['merge-base', '--is-ancestor', remoteHead, localHead], { cwd: ROOT });
+    execFileSync('git', ['merge-base', '--is-ancestor', remoteHead, localHead], { cwd: ROOT, stdio: 'ignore' });
     fastForward = true;
   } catch { /* 不是祖先 */ }
 
@@ -241,37 +260,63 @@ async function verify(remoteCommitSha) {
   if (fastForward) {
     list = git(['rev-list', '--reverse', `${remoteHead}..${localHead}`]).split('\n').filter(Boolean);
   } else {
-    // 远端 HEAD 可能是我上一轮用 API 推的、SHA 与本地不同的等价提交。
-    // 这种情况下按「内容是否一致」判断，而不是按 SHA。
-    console.log('  远端不是本地祖先（可能是上一轮 API 推送产生的等价提交）');
-    const same = await verify(remoteHead);
-    if (same) { console.log('\n  ✅ 内容完全一致，无需再推'); process.exit(0); }
-    console.log('  内容有差异，将按本地 HEAD 强制对齐远端分支');
-    list = [localHead];
+    // 远端 HEAD 可能是上一轮用 API 推的、SHA 与本地不同的等价提交。
+    // 这时 git 的祖先判断失效，但可以按「远端 HEAD 的 tree 是否等于本地某祖先的 tree」
+    // 来精确恢复远端实际处于本地历史的哪个位置 —— 而不是粗暴地把整段历史压成一个提交。
+    const remoteTree = (await api('GET', `/repos/${REPO}/git/commits/${remoteHead}`)).tree.sha;
+
+    // 从本地 HEAD 逐代向上找：第一个 tree 与远端 HEAD 相同的提交，就是远端当前所处位置。
+    // 找到了，远端就等于是它 → 只需推它之后的提交。
+    let match = null;
+    for (const sha of git(['rev-list', '--reverse', localHead]).split('\n').filter(Boolean)) {
+      const tree = git(['rev-parse', `${sha}^{tree}`]);
+      if (tree === remoteTree) { match = sha; break; }
+    }
+
+    if (match) {
+      log(`  远端内容等价于本地 ${match.slice(0, 8)}（tree 一致），从其后增量推送`);
+      const rest = git(['rev-list', '--reverse', `${match}..${localHead}`]).split('\n').filter(Boolean);
+      if (rest.length === 0) { log('  ✅ 内容完全一致，无需再推'); return true; }
+      list = rest;
+    } else {
+      // 找不到等价祖先 —— 真正分叉了。先做整库内容校验，若一致就无需动；不一致再对齐。
+      log('  远端不是本地祖先，也找不到等价 tree（可能真实分叉）');
+      const same = await verify(remoteHead);
+      if (same) { log('  ✅ 内容完全一致，无需再推'); return true; }
+      log('  内容有差异，将按本地 HEAD 对齐远端分支');
+      list = [localHead];
+    }
   }
 
-  console.log(`  待推 ${list.length} 个提交`);
+  log(`  待推 ${list.length} 个提交`);
 
   if (dry) {
     for (const sha of list) {
-      console.log(`\n  ── ${sha.slice(0, 8)}  ${git(['log', '-1', '--format=%s', sha]).slice(0, 50)}`);
-      console.log(`     改动 ${git(['diff', '--name-only', `${git(['rev-parse', `${sha}^`])}..${sha}`]).split('\n').filter(Boolean).length} 个文件（将上传完整快照）`);
+      log(`  ── ${sha.slice(0, 8)}  ${git(['log', '-1', '--format=%s', sha]).slice(0, 50)}`);
     }
-    console.log('\n  试运行结束，未改动远端');
-    return;
+    log('  试运行结束，未改动远端');
+    return true;
   }
 
   let parent = remoteHead;
-  for (const sha of list) {
-    parent = await pushCommit(sha, parent);
-  }
+  for (const sha of list) parent = await pushCommit(sha, parent);
 
   await apiRetry('PATCH', `/repos/${REPO}/git/refs/heads/${BRANCH}`, { sha: parent, force: !fastForward });
 
   const after = (await api('GET', `/repos/${REPO}/commits/${BRANCH}`)).sha;
-  console.log(`\n  远端 HEAD 现在 ${after.slice(0, 8)}`);
+  log(`  远端 HEAD 现在 ${after.slice(0, 8)}`);
 
   const good = await verify(after);
-  console.log(good ? '\n  ✅ 推送完成，内容与本地完全一致' : '\n  ⚠️ 内容仍有差异，请检查上方明细');
-  process.exit(good ? 0 : 1);
-})().catch((e) => { console.error('\n❌ ' + e.message); process.exit(1); });
+  log(good ? '  ✅ 推送完成，内容与本地完全一致' : '  ⚠️ 内容仍有差异，请检查上方明细');
+  return good;
+}
+
+module.exports = { pushViaApi, verifyRemote: (opts = {}) => pushViaApi({ ...opts, verifyOnly: true }), REPO, BRANCH, ROOT };
+
+if (require.main === module) {
+  const dry = process.argv.includes('--dry');
+  const verifyOnly = process.argv.includes('--verify');
+  pushViaApi({ dry, verifyOnly })
+    .then((ok) => process.exit(ok ? 0 : 1))
+    .catch((e) => { console.error('\n❌ ' + e.message); process.exit(1); });
+}
