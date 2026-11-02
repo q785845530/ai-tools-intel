@@ -94,11 +94,15 @@ function isBinary(buf) {
 
 const blobCache = new Map();
 
-/** 上传一个文件内容，返回远端 blob sha */
+/** 上传一个 blob，返回远端 blob sha。
+ *
+ *  ⚠️ 内容必须来自 git 对象（`git cat-file blob`），**不能从磁盘读**：
+ *  实测踩坑 —— 工作区有未提交改动时，磁盘内容与该 commit 记录的内容不同，
+ *  于是推出去的 tree 和本地 commit 的 tree 对不上，历史变成"内容错位"。
+ *  gitBlobSha 是 commit 里记录的 blob 哈希，用它取内容才能保证一一对应。 */
 async function uploadBlob(rel, gitBlobSha) {
   if (blobCache.has(gitBlobSha)) return blobCache.get(gitBlobSha);
-  const abs = path.join(ROOT, rel);
-  const buf = fs.readFileSync(abs);
+  const buf = gitBuf(['cat-file', 'blob', gitBlobSha]);
   const body = isBinary(buf)
     ? { content: buf.toString('base64'), encoding: 'base64' }
     : { content: buf.toString('utf8'), encoding: 'utf-8' };
