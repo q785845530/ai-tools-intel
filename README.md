@@ -5,7 +5,10 @@
 ```
 run.js                主入口：采集→撰写→生成→起 HTTP 服务→每小时 cron
 lib/intel.js          情报采集：知乎检索 + 行业媒体（第二支柱）+ HN/GitHub/Lobsters
-lib/media.js          行业垂直媒体：工控网 / OFweek智能制造 / e-works（无 RSS，列表页提取，GBK 解码）
+lib/media.js          行业垂直媒体 5 源：工控网 / OFweek智能制造 / e-works / 智能制造网 / 机床商务网
+                      （无 RSS，列表页提取，GBK 解码，URL+锚点双路日期闸门）
+lib/wechat-manual.js  微信手动发布通道：导出可直接粘贴的 md（替代被 IP 白名单卡死的 API）
+lib/archive.js        稿件归档：status→archived，不删数据，可 --restore 恢复
 lib/generator.js      内容撰写：模板引擎 v1（1篇每日精选 + 3条单条速递），全部字段溯源
 lib/site.js           双层静态站：原创速递 + 情报流，含溯源块
 lib/server.js         零依赖 HTTP 服务（端口 8765）
@@ -184,3 +187,61 @@ node lib/audit.js tail 50  # 看最近记录
 - 内容原始稿：`content/`（drafts 草稿 / published 已发）
 - 封面图：`data/covers/`（零依赖 PNG 生成，900×383）
 - 凭据：令牌走任务日记「关于」令牌库（见上文「令牌与凭据」）；本地兜底 `config/tokens.json`（0600，**已被 .gitignore 排除，绝不提交**）
+## 2026-11-02 三项改造（用户决策落地）
+
+### ① 微信改手动通道（B 方案）
+
+**为什么**：容器出口 IP 每次请求都在漂移（实测 `38.190.210.250` / `156.224.76.205` /
+`154.84.154.37` / `120.239.145.77` / `120.239.145.111`），微信 IP 白名单永远对不上，
+40164 无法通过加白名单解决。
+
+**改成什么**：不再调 API 建草稿，改为把稿子导出成「可直接粘进编辑器」的 md：
+
+```
+content/wechat-queue/pending/<slug>.md   待发（标题/摘要/正文分区，含来源）
+content/wechat-queue/pending/index.md    每日清单
+content/wechat-queue/sent/               已发（移进来，不删）
+```
+
+操作：打开 index.md → 点开对应 md → 复制「【正文】」以下全部 → 粘进编辑器 →
+发完执行 `node lib/wechat-manual.js --done <slug>`。
+
+`run.js` 每轮自动导出新稿，纯本地文件操作，不会失败、不需要网络、不需要凭据。
+
+### ② 稿件归档
+
+```bash
+node lib/archive.js --older-than 48 --dry   # 先看会归档哪些
+node lib/archive.js --older-than 48         # 执行
+node lib/archive.js --restore 12,15         # 恢复
+```
+
+归档 = `status` 改为 `archived`，**不删任何行**。所有查询都带
+`status IN ('ready','published')`，归档后自然从站点/推送/队列消失，
+但原文、溯源、审计记录一条不少。
+
+### ③ 扩源：从 3 个加到 5 个
+
+新增两个垂直媒体（实测可达且结构规整）：
+
+| 源 | 列表页 | 提取方式 |
+|---|---|---|
+| 智能制造网 gkzhan.com | `/news/` | `<a title="…">…</a><span>MM-DD</span>` |
+| 机床商务网 jc35.com | `/news/` | 同上，162 条链接 |
+
+**日期闸门**：这两站 URL 是纯数字 id 不含日期，日期在锚点后的 `<span>` 里，
+所以新增 `anchorAgeMonths()`（跨年自动推算：算出来在"未来"就是去年的）。
+
+**同时修掉两个质量问题**（扩源后才暴露）：
+
+1. **低价值公告占位**：协会年会、领导来访、评奖喜讯、展会预告这类稿子在行业媒体里
+   占比很高（机床商务网 30 条里 6 条），它们确实在域界内，所以域界放宽会全放进来，
+   但对读者零信息增量。新增 `LOW_VALUE` 词表，命中判 off（不删，标 off）。
+   实测：5 条公告全挡住，3 条有实质内容的保留。
+
+2. **深度稿被单一来源垄断**：旧实现 `ORDER BY id DESC LIMIT 3` 会被
+   「最后一个入库的源」整批占满（实测 3 篇深度稿全来自机床商务网）。
+   改为 `balancedMediaPick()`：每个源各取 1 条轮转拼满，实测恢复为 3 个源各 1 篇。
+
+**扩源效果**：一轮新增 60 条情报（gkzhan 30 + jc35 30 全是新的），
+通过相关性闸门 39 条。
