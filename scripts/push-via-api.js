@@ -67,16 +67,18 @@ async function api(method, endpoint, body) {
  *  网络抖动 + 5xx + 429 都重试；4xx（除 429）是逻辑错误，立即抛。
  *  实测连续 POST 250 个 blob 时会在中途 fetch failed，
  *  一次失败就前功尽弃 —— 所以必须重试。 */
-async function apiRetry(method, endpoint, body, tries = 5) {
+async function apiRetry(method, endpoint, body, tries = 6) {
   let lastErr;
   for (let i = 0; i < tries; i++) {
     try {
       return await api(method, endpoint, body);
     } catch (e) {
       lastErr = e;
-      const retriable = e.status === undefined || e.status === 429 || e.status >= 500;
+      const rateLimited = e.status === 403 && /rate limit/i.test(e.message);
+      const retriable = e.status === undefined || e.status === 429 || e.status >= 500 || rateLimited;
       if (!retriable) throw e;
-      const wait = Math.min(8000, 600 * 2 ** i);
+      // 二级限流要等更久（GitHub 建议数分钟）
+      const wait = rateLimited ? 60000 * (i + 1) : Math.min(8000, 600 * 2 ** i);
       process.stdout.write(`    重试 ${i + 1}/${tries}（${e.message.slice(0, 40)}）等待 ${wait}ms\r`);
       await new Promise((r) => setTimeout(r, wait));
     }
@@ -119,9 +121,11 @@ async function buildFullTree(commitSha) {
     jobs.push({ path: rel, mode, sha });
   }
 
-  // 并发 8：串行传 500 个 blob 要几分钟且中间极易断；
-  // 并发太高又会被 GitHub 限流（次要限流是 900 点/分钟，每请求 1 点）。
-  const CONCURRENCY = 8;
+  // 并发 4 + 每请求 120ms 间隔：实测并发 8 传 500 个 blob 会触发
+  // GitHub 二级限流（403 secondary rate limit），整批作废。
+  // 4 并发 × 120ms ≈ 每秒 33 个请求，安全通过。
+  const CONCURRENCY = 4;
+  const PACE_MS = 120;
   const results = new Array(jobs.length);
   let done = 0;
   let cursor = 0;
@@ -131,6 +135,7 @@ async function buildFullTree(commitSha) {
       const i = cursor++;
       const j = jobs[i];
       const remoteSha = await uploadBlob(j.path, j.sha);
+      if (PACE_MS) await new Promise((r) => setTimeout(r, PACE_MS));
       results[i] = { path: j.path, mode: j.mode, type: 'blob', sha: remoteSha };
       done++;
       if (done % 40 === 0) process.stdout.write(`    已上传 ${done}/${jobs.length}  `);
