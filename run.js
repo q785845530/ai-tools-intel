@@ -1,10 +1,11 @@
-// run.js —— 运营平台主入口：采集 → 生成 → 适配 → 建站 → 云端部署 → 微信草稿
+// run.js —— 运营平台主入口：采集 → 生成 → 适配 → 建站 → 云端部署 → 微信待发队列
 // 用法：node run.js          （单次跑完+启动HTTP服务）
 //       node run.js --cron   （每小时自动跑，持续运行）
 // 设计原则：
 //   1. 服务优先 —— HTTP 服务在任何失败时必须存活（无人值守）
 //   2. 每步失败只留痕不阻断下一步（云端/微信都是旁路，挂了不影响主链路）
-//   3. 微信草稿每篇只建一次（publish_log 判重），绝不刷屏草稿箱
+//   3. 微信走【手动通道】：不再调 API 建草稿（容器出口 IP 漂移导致 40164 无解），
+//      改为把稿子整理成可直接粘贴的 md 文件，由人点发布。
 'use strict';
 const { collectAll } = require('./lib/intel');
 const { enrichSummaries } = require('./lib/enrich');
@@ -13,27 +14,9 @@ const { adaptBatch } = require('./lib/publish');
 const { generate: buildSite } = require('./lib/site');
 const { start } = require('./lib/server');
 const { deployCloud } = require('./lib/cloud');
+const { exportPending: exportWechatQueue } = require('./lib/wechat-manual');
 const audit = require('./lib/audit');
 const { db } = require('./lib/db');
-
-/** 微信不可自愈错误的冷却闸：错误是配置类的（IP 白名单 / 凭据失效），
- *  每小时重试没有任何意义，只会污染审计链。冷却期内直接跳过。 */
-const WECHAT_COOLDOWN_FILE = require('node:path').resolve(__dirname, 'data', 'wechat-cooldown.json');
-const WECHAT_COOLDOWN_MS = 6 * 3600 * 1000;
-
-function markWechatCooldown() {
-  try {
-    require('node:fs').writeFileSync(WECHAT_COOLDOWN_FILE,
-      JSON.stringify({ until: Date.now() + WECHAT_COOLDOWN_MS, at: new Date().toISOString() }), { mode: 0o600 });
-  } catch { /* 冷却文件写不了不应影响主流程 */ }
-}
-
-async function wechatCooling() {
-  try {
-    const j = JSON.parse(require('node:fs').readFileSync(WECHAT_COOLDOWN_FILE, 'utf8'));
-    return j.until && Date.now() < j.until;
-  } catch { return false; }
-}
 
 async function pipeline() {
   audit.log('info', 'pipeline', 'start', {});
@@ -74,48 +57,18 @@ async function pipeline() {
     audit.log('error', 'pipeline', 'cloud.fail', { error: e.message });
   }
 
-  // ── 旁路 2：微信草稿（只给「最新的日报/深文」建一次草稿，判重后跳过）
-  // 熔断：微信常见故障是「出口 IP 不在白名单」(40164)，这是配置问题，不是瞬时抖动。
-  // 之前每小时都重试一次，把同一条 40164 刷进审计链 3 次/天且永不自愈。
-  // 现在：命中此类不可自愈错误 → 记 warning 并进入 6 小时冷却，期间跳过微信同步。
-  if (await wechatCooling()) {
-    audit.log('info', 'pipeline', 'wechat.skipped', { reason: 'IFRAME_COOLDOWN' });
-  } else {
-    try {
-      await syncWechatDraft();
-    } catch (e) {
-      const fatal = /40164|40125|40013|invalid ip|not in whitelist|invalid appid|invalid secret/i.test(e.message);
-      audit.log(fatal ? 'warn' : 'error', 'pipeline', 'wechat.fail', {
-        error: e.message,
-        fatal,
-        hint: fatal ? '需人工到公众平台补白名单 / 修凭据，已进入 6 小时冷却' : undefined,
-      });
-      if (fatal) markWechatCooldown();
-    }
+  // ── 旁路 2：微信待发队列（B 方案，不再调 API）
+  // 背景：容器出口 IP 每次请求都在变，微信 IP 白名单永远对不上，40164 无法自愈。
+  // 2026-11-02 用户决策改手动通道：机器只整理稿子，人点发布。
+  // 这一步是纯本地文件操作，不会失败、不需要网络、不需要凭据。
+  try {
+    const r = exportWechatQueue({ limit: 20 });
+    audit.log('info', 'pipeline', 'wechat.queue.ok', { exported: r.exported, queueTotal: r.queueTotal });
+  } catch (e) {
+    audit.log('error', 'pipeline', 'wechat.queue.fail', { error: e.message });
   }
 
   return { intel, content, publish, site };
-}
-
-/** 把最新一篇未同步的 daily/deep 文章同步为微信草稿。
- *  注意：必须把选中的这篇直接交给 makeDraft —— 若改调 run()，
- *  run() 内部会按自己的排序重新选文章，判重就形同虚设（实测踩过：整点重复给同一篇建草稿）。 */
-async function syncWechatDraft() {
-  const { makeDraft } = require('./lib/wechat-publish');
-  const row = db.prepare(`
-    SELECT a.* FROM articles a
-    WHERE a.status IN ('ready','published') AND a.kind IN ('daily','deep')
-      AND a.relevance = 'ok'
-      AND NOT EXISTS (
-        SELECT 1 FROM publish_log p
-        WHERE p.article_id = a.id AND p.channel = 'wechat' AND p.status = 'draft_created'
-      )
-    ORDER BY CASE a.kind WHEN 'daily' THEN 0 ELSE 1 END, a.created_at DESC, a.id DESC
-    LIMIT 1
-  `).get();
-  if (!row) return; // 没有未同步的，静默跳过
-  const { draftId } = await makeDraft([row]);
-  audit.log('info', 'pipeline', 'wechat.draft.synced', { articleId: row.id, title: row.title.slice(0, 40), draftId: draftId.slice(0, 20) + '…' });
 }
 
 async function main() {
