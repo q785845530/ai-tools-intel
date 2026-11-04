@@ -3,6 +3,30 @@
   "intel": [
     {
       "source": "media-jc35",
+      "ext_id": "96456",
+      "title": "聚焦国际协作搭建合作平台——世界铸造组织铸造产业集群委员会在河北鸡泽揭牌",
+      "url": "https://www.jc35.com/news/detail/96456.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-04T13:35:36.640Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454368",
+      "title": "工程隐性成本成为竞争变量，西门子SINAMICS G200系列变频器如何为设备厂商减负？",
+      "url": "https://www.gongkong.com/news/202611/454368.html",
+      "summary": "2026年上半年，中国低压变频器市场呈现回暖态势。gongkong®数据显示，2026年上半年市场规模同比增长9.1%，预计全年仍将保持个位数增长。同期OEM市场表现尤为突出，AI相关产业链需求增长与出口市场拓展共同带动数据中心、锂电、半导体等行业较快增长，纺织机械、包装机械需求则总体保持平稳。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-04T13:34:56.193Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-jc35",
       "ext_id": "96458",
       "title": "《泸州市深入实施“人工智能 ”行动方案》印发",
       "url": "https://www.jc35.com/news/detail/96458.html",
@@ -167,7 +191,7 @@
       "published_at": null,
       "fetched_at": "2026-11-04T13:06:02.779Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -179,7 +203,7 @@
       "published_at": null,
       "fetched_at": "2026-11-04T13:06:02.779Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -335,7 +359,7 @@
       "published_at": null,
       "fetched_at": "2026-11-04T13:05:35.586Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -347,7 +371,7 @@
       "published_at": null,
       "fetched_at": "2026-11-04T13:05:35.586Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -587,7 +611,7 @@
       "published_at": null,
       "fetched_at": "2026-11-03T10:05:57.089Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -731,7 +755,7 @@
       "published_at": null,
       "fetched_at": "2026-11-03T10:05:48.479Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -743,7 +767,7 @@
       "published_at": null,
       "fetched_at": "2026-11-03T10:05:48.479Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -767,7 +791,7 @@
       "published_at": null,
       "fetched_at": "2026-11-03T10:05:48.479Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -4540,6 +4564,36 @@
   ],
   "articles": [
     {
+      "slug": "20261104-465b36",
+      "kind": "deep",
+      "title": "具身智能机器人定制怎么规划?本体选型、成本、测试与合作模式全解",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2100978169717305730)\n\n## 核心观点\n1. 具身智能机器人定制怎么规划?本体选型、成本、测试与合作模式全解\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [工业具身智能机器人:感知到执行全链路软硬件搭配与长效运营思路](article-24.html)\n- [从宇树、智元到特斯拉与Figure AI,2026具身智能机器人第一梯队出现了哪些新变化?](article-11.html)\n- [无界动力与京东达成战略合作：多维度合作加速推动具身智能商业化落地](article-15.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：具身智能机器人定制怎么规划?本体选型、成本、测试与合作模式全解](https://zhuanlan.zhihu.com/p/2100978169717305730)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2100978169717305730\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-04T13:35:42.833Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2100978169717305730\"]",
+      "source_ids": "[49]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-04T13:35:42.830Z",
+      "published_at": "2026-11-04T13:35:42.937Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261104",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-04：落地说、产业观察、技术前沿等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. 制造业AI应用如何选择适合自身生产场景的落地方案**\n\n- 制造业AI应用如何选择适合自身生产场景的落地方案\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2093999749191956113)\n\n**2. AI在制造业的落地场景有哪些?**\n\n- AI在制造业的落地场景有哪些?\n\n*来源：知乎* ｜ [🔗 原文](https://www.zhihu.com/question/9936241147/answer/2098700021319348831)\n\n**3. 制造业AI落地,工厂如何判断哪些生产环节适合优先改造?**\n\n- 制造业AI落地,工厂如何判断哪些生产环节适合优先改造?\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2091886719918411905)\n\n## 产业观察\n\n**1. 工程隐性成本成为竞争变量，西门子SINAMICS G200系列变频器如何为设备厂商减负？**\n\n- 2026年上半年，中国低压变频器市场呈现回暖态势。\n- gongkong®数据显示，2026年上半年市场规模同比增长9.1%，预计全年仍将保持个位数增长。\n\n*关键数字：「年上半年市场规模同比增长9.1%」*\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454368.html)\n\n**2. 航空插头连接器如何适应复杂工业工况？**\n\n- 设备空间受限、功率持续提升、维护频率增加和运行环境复杂，是工业连接选型中的常见问题。\n- 航空插头连接器需要围绕这些工况，在紧凑集成、快速锁紧、持续载流和环境防护之间取得匹配。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454429.html)\n\n**3. 航空插头连接器有哪些技术趋势？从凌科电气electronica 2026展品看四个选型方向**\n\n- 航空插头连接器正向高功率与紧凑化、出线结构优化、快插与可靠锁定、屏蔽与环境防护协同发展。\n- 对设备制造商而言，选型不仅要确认电流、电压和芯数，还要综合考虑安装空间、线缆走向、维护频率及运行环境。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454428.html)\n\n## 技术前沿\n\n**1. 科达利前三季度营收149.78亿元，机器人业务加快布局**\n\n- 科达利发布2026年第三季度报告，前三季度公司实现营业收入149.78亿元，同比增长41.25%；\n- 归属于上市公司股东的净利润15.27亿元，同比增长28.87%；\n\n*关键数字：「前三季度公司实现营业收入149.78亿元」、「同比增长41.25%」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197016.html)\n\n**2. 银河通用机器人与保利发展控股达成战略合作**\n\n- 11月3日，保利发展控股与北京银河通用机器人(以下简称银河通用机器人)在广州举行战略合作签约仪式。\n- 双方将发挥各自在城市空间运营与具身智能技术领域的优势，推动具身智能与住宅社区、商业空间及城市服务深度融合，\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197019.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-04T13:35:42.823Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2093999749191956113\",\"https://www.zhihu.com/question/9936241147/answer/2098700021319348831\",\"https://zhuanlan.zhihu.com/p/2091886719918411905\",\"https://www.gongkong.com/news/202611/454368.html\",\"https://www.gongkong.com/news/202611/454429.html\",\"https://www.gongkong.com/news/202611/454428.html\",\"https://www.gkzhan.com/news/detail/197016.html\",\"https://www.gkzhan.com/news/detail/197019.html\"]",
+      "source_ids": "[64,62,61,452,29,28,15,14]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-04T13:35:42.823Z",
+      "published_at": "2026-11-04T13:06:44.481Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261104-eeb4a1",
       "kind": "deep",
       "title": "智往未来亮相 CeMAT,实景仓储作业展示具身智能落地能力",
@@ -4581,21 +4635,6 @@
       "score": 0,
       "status": "published",
       "created_at": "2026-11-04T13:06:44.370Z",
-      "published_at": "2026-11-04T13:06:44.481Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261104",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-04：技术前沿、展会动态、落地说等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 深度学习实战-基于BiT-ResNet50的纺织品缺陷图像识别模型**\n\n- 深度学习实战-基于BiT-ResNet50的纺织品缺陷图像识别模型\n\n*来源：知乎 · 2 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2097777254621255031)\n\n## 展会动态\n\n**1. 具微科技发布特种具身 MOVENEW P3S:行业首个整机液冷系统本体,登顶全球工业四足市场**\n\n- 具微科技发布特种具身 MOVENEW P3S:行业首个整机液冷系统本体,登顶全球工业四足市场\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2101361886239388386)\n\n## 落地说\n\n**1. 智能制造真的能彻底改变传统工厂的生产模式吗?**\n\n- 智能制造真的能彻底改变传统工厂的生产模式吗?\n\n*来源：知乎* ｜ [🔗 原文](https://www.zhihu.com/question/2029515115041407742/answer/2101373355203084558)\n\n**2. 哪些行业最需要TSN？从制造、交通到能源看应用场景**\n\n- 过去，工业网络更多解决设备之间“能不能通信”的问题；\n- 如今，随着生产设备、控制系统和业务平台之间的协同不断加深，网络还需要进一步解决数据“能否按时、可靠地到达”的问题。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454420.html)\n\n**3. 资本持续加码创新赛道，近一周多家医药企业完成超亿元融资**\n\n- 2026年10月底(10月26日至31日)，百奥几何、宜诺生物等多家医药企业宣布完成超亿元融资。\n- 从整体来看，这些企业融资目的呈现出高度一致的指向，资金几乎全部投向“底层技术平台”的迭代与“产能/临床前”能力的建设。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197061.html)\n\n## 产业观察\n\n**1. 工业防水连接器如何降额使用？温度、线径与接线方式解析**\n\n- 标称50A的工业防水连接器，能否在高温机柜内持续通过50A？\n- 航空插头换用较细电缆后，是否仍能按额定电流使用？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454412.html)\n\n**2. 工业防水连接器批量采购如何评估TCO？航空插头长期成本解析**\n\n- 批量采购工业防水连接器，不能只比较报价，还应评估安装人工、质量检验、维护更换、故障停机及库存供应等费用。\n- 对于设备制造商，连接器是否便于装配、批量质量是否稳定、运行中是否需要额外检修，都会影响最终投入。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454411.html)\n\n## 政策风向\n\n**1. 全固态电池进入制造攻坚期，实验线自动化成为研发提效关键**\n\n- 全固态电池的产业化，正处在一个关键窗口期：量产尚未到来，攻坚已经开始。\n- 2026年7月1日，全球首部车用固态电池国家标准正式实施；\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197040.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-04T13:06:44.361Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2097777254621255031\",\"https://zhuanlan.zhihu.com/p/2101361886239388386\",\"https://www.zhihu.com/question/2029515115041407742/answer/2101373355203084558\",\"https://www.gongkong.com/news/202611/454412.html\",\"https://www.gongkong.com/news/202611/454411.html\",\"https://www.gongkong.com/news/202611/454420.html\",\"https://www.gkzhan.com/news/detail/197061.html\",\"https://www.gkzhan.com/news/detail/197040.html\"]",
-      "source_ids": "[27422,27433,27432,27466,27465,27463,27541,27531]",
-      "generator": "template-v2-manufacturing",
-      "score": 2,
-      "status": "published",
-      "created_at": "2026-11-04T13:06:44.361Z",
       "published_at": "2026-11-04T13:06:44.481Z",
       "relevance": "ok"
     },
@@ -6656,13 +6695,13 @@
     }
   ],
   "stats": {
-    "intel": 378,
-    "articles": 141,
+    "intel": 380,
+    "articles": 142,
     "prevIntel": 378,
     "prevArticles": 141,
-    "dbIntelOk": 378,
-    "dbArticlesOk": 141,
+    "dbIntelOk": 380,
+    "dbArticlesOk": 142,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-04T13:28:45.869Z"
+  "updated_at": "2026-11-04T13:35:43.078Z"
 }
