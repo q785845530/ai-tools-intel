@@ -6697,11 +6697,11 @@
   "stats": {
     "intel": 380,
     "articles": 142,
-    "prevIntel": 378,
-    "prevArticles": 141,
+    "prevIntel": 380,
+    "prevArticles": 142,
     "dbIntelOk": 380,
     "dbArticlesOk": 142,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-04T13:35:43.078Z"
+  "updated_at": "2026-11-04T13:35:43.196Z"
 }
