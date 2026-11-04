@@ -1,15 +1,21 @@
 name: Deploy ops-site to GitHub Pages
 
 # 自动触发：每小时 + 手动触发 + 有新提交时
+# 说明（2026-11-04 核实）：GitHub schedule 现在能正常触发（近 24h 11 次全 success），
+# 旧文档里「低活跃仓库 schedule 会静默跳过」的结论已不成立。
+# cloud/state.json 的回写 commit 由 workflow 自己产生，用 push.paths-ignore 阻断自触发循环。
 on:
   schedule:
     - cron: '17 * * * *'        # 每小时第17分钟，避开整点高峰
   workflow_dispatch:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'cloud/state.json'      # 状态回写不再触发本 workflow，避免无限循环
+      - 'docs/**'
 
 permissions:
-  contents: read
+  contents: write              # 需要回写 cloud/state.json
   pages: write
   id-token: write
 
@@ -27,6 +33,12 @@ jobs:
         with:
           node-version: '24'
 
+      # 云端每次 checkout 都是空库（data/ 不入库）。先从仓库里的纯文本状态
+      # cloud/state.json 还原跨轮累积的情报与文章，之后各步骤照常跑。
+      # 见 docs/HOSTING-PLAN.md。
+      - name: Restore cloud state
+        run: node lib/cloud-state.js restore
+
       # 在 Actions 里拉一次最新情报并生成静态站（复用同一套零依赖代码）
       # 知乎为垂类主源（智能制造+AI），需 ZHIHU_ACCESS_SECRET
       - name: Collect intel & generate site
@@ -38,6 +50,30 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ZHIHU_ACCESS_SECRET: ${{ secrets.ZHIHU_ACCESS_SECRET }}
+
+      # 把本轮新增的有效情报/文章导出回状态文件（只增不删），提交回仓库，
+      # 供下一轮 restore。没有变化时不提交，避免无意义 commit。
+      - name: Export & commit cloud state
+        run: |
+          node lib/cloud-state.js export
+          git config user.name  "ops-bot"
+          git config user.email "ops-bot@users.noreply.github.com"
+          git add cloud/state.json
+          if git diff --cached --quiet; then
+            echo "state unchanged, skip commit"
+          else
+            git commit -m "chore: 云端状态回写 [skip ci]"
+            # 并发/本地推送可能先落了新状态：先 rebase 再推，冲突时以并集重算。
+            # cloud-state export 本身是「只增不删并集」，重跑一次即可合并双方记录。
+            git pull --rebase origin main || {
+              echo "rebase 冲突，重算并集后重试";
+              git checkout --theirs cloud/state.json 2>/dev/null || true;
+              node lib/cloud-state.js export;
+              git add cloud/state.json;
+              git commit -m "chore: 云端状态回写（并集合并）[skip ci]" || true;
+            }
+            git push
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -15,6 +15,7 @@ const { generate: buildSite } = require('./lib/site');
 const { start } = require('./lib/server');
 const { deployCloud } = require('./lib/cloud');
 const { exportPending: exportWechatQueue } = require('./lib/wechat-manual');
+const cloudState = require('./lib/cloud-state');
 const audit = require('./lib/audit');
 const { db } = require('./lib/db');
 
@@ -50,7 +51,19 @@ async function pipeline() {
   const site = buildSite();
   audit.log('info', 'pipeline', 'done', { intel, enrich, content, publish, site });
 
-  // ── 旁路 1：云端部署（GitHub cron 对低活跃仓库会静默跳过，本地 dispatch 才是主通道）
+  // ── 旁路 0：导出跨轮状态到本地仓库（云端 Actions 为准的托管模式）
+  // 与云端共用同一份 cloud/state.json；本地新采的情报也进状态文件，随 lib/push.js
+  // 回传。任一端被回收，另一端都能从状态文件续上。见 docs/HOSTING-PLAN.md。
+  try {
+    const st = cloudState.export();
+    audit.log('info', 'pipeline', 'cloud.state.ok', st);
+  } catch (e) {
+    audit.log('error', 'pipeline', 'cloud.state.fail', { error: e.message });
+  }
+
+  // ── 旁路 1：云端部署（冗余）
+  // 2026-11-04 核实：GitHub schedule 现在能正常触发（近 24h 11 次全 success），
+  // 旧结论「低活跃仓库会静默跳过」已不成立。dispatch 降级为可选冗余，不再声称主通道。
   try {
     await deployCloud();
   } catch (e) {
