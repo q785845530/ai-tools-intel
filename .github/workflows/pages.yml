@@ -53,25 +53,32 @@ jobs:
 
       # 把本轮新增的有效情报/文章导出回状态文件（只增不删），提交回仓库，
       # 供下一轮 restore。没有变化时不提交，避免无意义 commit。
+      #
+      # 注意：只 add cloud/state.json 这一个文件。其它步骤（site.js 等）可能
+      # 在工作区留下未暂存变更，若用 git pull --rebase 会报
+      # "cannot pull with rebase: You have unstaged changes" 并误入假冲突分支，
+      # 导致重复提交（2026-11-04 实测踩过）。改为「push 失败再并集重算」。
       - name: Export & commit cloud state
         run: |
-          node lib/cloud-state.js export
           git config user.name  "ops-bot"
           git config user.email "ops-bot@users.noreply.github.com"
+          node lib/cloud-state.js export
           git add cloud/state.json
           if git diff --cached --quiet; then
-            echo "state unchanged, skip commit"
+            echo "state unchanged, skip commit"; exit 0
+          fi
+          git commit -m "chore: 云端状态回写 [skip ci]"
+          if git push; then
+            echo "state pushed"
           else
-            git commit -m "chore: 云端状态回写 [skip ci]"
-            # 并发/本地推送可能先落了新状态：先 rebase 再推，冲突时以并集重算。
-            # cloud-state export 本身是「只增不删并集」，重跑一次即可合并双方记录。
-            git pull --rebase origin main || {
-              echo "rebase 冲突，重算并集后重试";
-              git checkout --theirs cloud/state.json 2>/dev/null || true;
-              node lib/cloud-state.js export;
-              git add cloud/state.json;
-              git commit -m "chore: 云端状态回写（并集合并）[skip ci]" || true;
-            }
+            # 远端先于本 run 落地了新状态：拉下来，用【并集】重算再推。
+            # export 与磁盘状态做并集、只增不删，双方记录都不会丢。
+            echo "push rejected, merging by union"
+            git fetch origin main
+            git show FETCH_HEAD:cloud/state.json > cloud/state.json
+            node lib/cloud-state.js export
+            git add cloud/state.json
+            git commit -m "chore: 云端状态回写（并集合并）[skip ci]" || exit 0
             git push
           fi
 
