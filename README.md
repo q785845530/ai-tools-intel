@@ -1,9 +1,13 @@
 # ops 自动运营平台 · 部署与使用说明
 
-## 当前系统已跑通（本地，零依赖）
+## 当前系统已跑通（零依赖）
+
+> **主通道是云端 GitHub Actions**（每小时 `:17`），本地进程只是内部管理台 / 可选。
+> 见下文「运行架构」与 `docs/HOSTING-PLAN.md`。
 
 ```
-run.js                主入口：采集→撰写→生成→起 HTTP 服务→每小时 cron
+run.js                本地主入口：采集→撰写→生成→起 HTTP 服务→每小时 cron
+lib/cloud-state.js    跨轮状态持久化：cloud/state.json ↔ .db（restore/export，只增不删）
 lib/intel.js          情报采集：知乎检索 + 行业媒体（第二支柱）+ HN/GitHub/Lobsters
 lib/media.js          行业垂直媒体 5 源：工控网 / OFweek智能制造 / e-works / 智能制造网 / 机床商务网
                       （无 RSS，列表页提取，GBK 解码，URL+锚点双路日期闸门）
@@ -17,11 +21,14 @@ lib/db.js             SQLite WAL 数据基座（intel/articles/publish_log/metri
 lib/md.js             极简 Markdown 渲染
 ```
 
-## 启动
+## 启动（本地管理台，可选）
+
+> 云端 Actions 是内容生产主通道；**本地进程死了不影响公网更新**，只是少了
+> 内部管理台和一次冗余采集。不必为了「必须常驻」折腾进程托管。
 
 ```bash
 cd ops
-bash scripts/start.sh   # ✅ 推荐：常驻启动（setsid 脱离进程组，会话结束不会跟着死）
+bash scripts/start.sh   # 本地常驻（setsid 脱离进程组，会话结束不会跟着死）
 bash scripts/status.sh  # 看进程/本地站点/公网站点状态
 node run.js             # 单次采集+生成+启动服务（前台）
 # 端口默认 8765，可 OPS_PORT=8080 node run.js --cron
@@ -30,6 +37,8 @@ node run.js             # 单次采集+生成+启动服务（前台）
 > ⚠️ 别再用 `nohup node run.js --cron &`。在 agent 工具调用 / CI 这类非交互环境里，
 > 父 shell 退出会向整个进程组发信号，进程会"启动成功、几秒后消失"（本仓库实际踩过两次）。
 > `scripts/start.sh` 用 `setsid` 让它自成会话（PPID 变 1）才真正常驻。
+> 但容器本身会周期性回收后台进程（含 watchdog），所以这只改善、不保证 7×24 —— 这正是
+> 本次改造成「云端为准」的原因。
 
 ## 令牌与凭据
 
@@ -56,7 +65,12 @@ node run.js             # 单次采集+生成+启动服务（前台）
 
 | # | 真相 | 证据 | 处置 |
 |---|---|---|---|
-| 1 | **GitHub 定时任务从未触发过**（8 次运行全是 push/dispatch，schedule=0 次）。GitHub 对低活跃仓库的 schedule 会静默跳过，这是已知行为 | Actions API `event=schedule` total_count=0 | 新增 `lib/cloud.js`：本地整点跑完流水线后主动 `workflow_dispatch` 触发云端部署；GitHub cron 降级为冗余备份 |
+| 1 | **GitHub 定时任务从未触发过**（8 次运行全是 push/dispatch，schedule=0 次）。当时判断「GitHub 对低活跃仓库的 schedule 会静默跳过」 | Actions API `event=schedule` total_count=0（2026-10-26 当时） | 当时新增 `lib/cloud.js`：本地整点跑完流水线后主动 `workflow_dispatch` 触发云端部署；GitHub cron 降级为冗余备份 |
+
+> **2026-11-04 更正**：上表第 1 行的「schedule 会静默跳过」**已不成立**。当前实测近
+> 24h 触发分布：push 10 / workflow_dispatch 19 / **schedule 11 且全部 success**。
+> GitHub cron 已恢复正常，现在是内容生产的主通道；`lib/cloud.js` 的 dispatch 降级为
+> 可选的本地冗余，不再声称是「唯一可靠触发」。历史记录保留不删（事故复盘本身也是审计）。
 | 2 | **容器 8765 端口没有公网入站**，用户从自己电脑访问 `http://<容器IP>:8765` 必然超时——这不是故障，是容器网络隔离的边界 | 容器外回连 000；`ss -ltn` 监听正常 | 公网访问唯一入口 = GitHub Pages；本地服务定位为内部管理台 |
 | 3 | **微信草稿箱会重复刷同一篇**：整点重跑给同一天日报重复建草稿（22:48 和 00:37 各一次） | `publish_log` 4 条 draft_created 里 2 条同题 | `syncWechatDraft` 判重（`publish_log` NOT EXISTS），并把选中文章直接交 `makeDraft` 而非 `run()`（后者内部重排序会绕过判重）；已建草稿箱按同题只留最新 |
 | 4 | **知乎采集显示 0 条**：API 实际返回 5 组×10 条，但全部撞 UNIQUE 去重（当天已入库）——"运行正常但零增量"与"挂了"在旧日志里无法区分 | `search.ok {items:10, saved:0}` | 保留 `items/saved` 双字段；诊断时先看 saved 再看 items |
@@ -65,15 +79,40 @@ node run.js             # 单次采集+生成+启动服务（前台）
 阻断主流水线；同时每一步的"跳过/失败/成功"必须是三种可区分的审计事件——
 "没记录"和"没干活"是两回事。
 
-## 运行架构（当前生效）
+## 运行架构（2026-11-04 起：云端 Actions 为准）
+
+> 完整方案与选型论证见 `docs/HOSTING-PLAN.md`。
+
+**主通道 = GitHub Actions**（`schedule` 每小时 `:17`，实测稳定触发）：
 
 ```
-node run.js --cron（本地常驻，pid 见 ps）
- ├─ 整点流水线：采集(知乎+行业媒体+HN+GitHub+Lobsters) → 生成(日报+深文) → 适配(4平台) → 建站
- ├─ 旁路A lib/cloud.js：dispatch GitHub Actions → 云端重采重部署 Pages（公网内容源）
- └─ 旁路B syncWechatDraft：最新未同步文章 → 微信草稿（判重，每篇一次）
-公网：GitHub Pages（云端整点重建）｜ 内部：http://127.0.0.1:8765（含 /dashboard）
+GitHub Actions（ubuntu-latest，每小时 :17）
+ ├─ checkout（data/ 不入库 → 空库）
+ ├─ node lib/cloud-state.js restore          ← 从 cloud/state.json 还原跨轮累积状态
+ ├─ node lib/intel.js                        ← 采增量（去重键已在库，不重复采）
+ ├─ node lib/generator.js || true
+ ├─ node lib/publish.js adapt || true
+ ├─ node lib/site.js                         ← 用完整库生成静态站
+ ├─ node lib/cloud-state.js export           ← 导出新状态（只增不删）
+ ├─ git commit + push cloud/state.json       ← paths-ignore 阻断自触发循环
+ └─ upload-artifact → deploy-pages
+公网：https://q785845530.github.io/ai-tools-intel/
 ```
+
+**本地 = 内部管理台 / 可选**，不再是内容生产的必需环节：
+
+```
+node run.js --cron（容器内容易被回收，死了不影响公网更新）
+ ├─ 整点流水线：采集 → 生成 → 适配 → 建站
+ ├─ 旁路0 cloud-state export  ← 本地新采情报也写进 cloud/state.json，随 lib/push.js 回传
+ ├─ 旁路1 lib/cloud.js        ← 可选冗余：顺手 dispatch 一次云端
+ └─ 旁路2 微信待发队列        ← content/wechat-queue/（手动发布）
+内部：http://127.0.0.1:8765（含 /dashboard）｜ 无公网入站，容器网络隔离的正常边界
+```
+
+**两端共享同一份 `cloud/state.json`**（纯文本、入库、可 diff、可审计）：任一端被
+回收，另一端都能 `restore` 续上。状态文件只存 `relevance='ok'` 的有效情报与文章，
+`off` 记录仍留在本地 .db 与 `log/audit-*.jsonl`（审计日志本就入库），不删、不省略。
 
 仓库：`q785845530/ai-tools-intel`（公开）· 工作流：`.github/workflows/pages.yml`
 
@@ -89,7 +128,10 @@ node run.js --cron（本地常驻，pid 见 ps）
 | 公网可达验证 | ✅ HTTP 200 / 17385 bytes |
 
 运行方式：**每小时 `17 * * * *` 自动**采集 → 撰写 → 部署，无需人工干预。
-云端为全新空库，独立跑通完整流水线，不依赖本地数据。
+> 2026-11-04 更正：旧文档写「云端为全新空库，独立跑通完整流水线，不依赖本地数据」，
+> 那其实是个缺陷——空库重来导致去重失效、历史不跨轮累积。现已改为
+> `cloud/state.json` 跨轮持久化（详见 `docs/HOSTING-PLAN.md`）：云端仍是干净
+> checkout，但每轮先 `restore` 再采集、结束 `export` 回写，历史不再丢。
 
 > 手动重新部署：仓库 Actions 页 → "Deploy ops-site to GitHub Pages" → Run workflow
 
