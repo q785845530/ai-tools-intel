@@ -3,6 +3,30 @@
   "intel": [
     {
       "source": "media-jc35",
+      "ext_id": "96456",
+      "title": "聚焦国际协作搭建合作平台——世界铸造组织铸造产业集群委员会在河北鸡泽揭牌",
+      "url": "https://www.jc35.com/news/detail/96456.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-04T13:35:36.640Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454368",
+      "title": "工程隐性成本成为竞争变量，西门子SINAMICS G200系列变频器如何为设备厂商减负？",
+      "url": "https://www.gongkong.com/news/202611/454368.html",
+      "summary": "2026年上半年，中国低压变频器市场呈现回暖态势。gongkong®数据显示，2026年上半年市场规模同比增长9.1%，预计全年仍将保持个位数增长。同期OEM市场表现尤为突出，AI相关产业链需求增长与出口市场拓展共同带动数据中心、锂电、半导体等行业较快增长，纺织机械、包装机械需求则总体保持平稳。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-04T13:34:56.193Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-jc35",
       "ext_id": "96458",
       "title": "《泸州市深入实施“人工智能 ”行动方案》印发",
       "url": "https://www.jc35.com/news/detail/96458.html",
@@ -4540,6 +4564,21 @@
   ],
   "articles": [
     {
+      "slug": "20261104-465b36",
+      "kind": "deep",
+      "title": "具身智能机器人定制怎么规划?本体选型、成本、测试与合作模式全解",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2100978169717305730)\n\n## 核心观点\n1. 具身智能机器人定制怎么规划?本体选型、成本、测试与合作模式全解\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [工业具身智能机器人:感知到执行全链路软硬件搭配与长效运营思路](article-24.html)\n- [从宇树、智元到特斯拉与Figure AI,2026具身智能机器人第一梯队出现了哪些新变化?](article-11.html)\n- [无界动力与京东达成战略合作：多维度合作加速推动具身智能商业化落地](article-15.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：具身智能机器人定制怎么规划?本体选型、成本、测试与合作模式全解](https://zhuanlan.zhihu.com/p/2100978169717305730)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2100978169717305730\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-04T13:35:42.833Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2100978169717305730\"]",
+      "source_ids": "[49]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-04T13:35:42.830Z",
+      "published_at": "2026-11-04T13:35:42.937Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261104-eeb4a1",
       "kind": "deep",
       "title": "智往未来亮相 CeMAT,实景仓储作业展示具身智能落地能力",
@@ -6656,13 +6695,13 @@
     }
   ],
   "stats": {
-    "intel": 378,
-    "articles": 141,
-    "prevIntel": 378,
-    "prevArticles": 141,
+    "intel": 380,
+    "articles": 142,
+    "prevIntel": 380,
+    "prevArticles": 142,
     "dbIntelOk": 378,
     "dbArticlesOk": 141,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-04T13:36:53.284Z"
+  "updated_at": "2026-11-04T13:37:41.721Z"
 }
