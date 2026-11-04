@@ -311,7 +311,46 @@ async function pushViaApi(opts = {}) {
   return good;
 }
 
-module.exports = { pushViaApi, verifyRemote: (opts = {}) => pushViaApi({ ...opts, verifyOnly: true }), REPO, BRANCH, ROOT };
+/** 只读探针：远端 HEAD 是否是「本地历史里某个提交的等价物」。
+ *
+ *  用途：lib/push.js 遇到 GitHub git push 非快进时，先调它判断该非快进
+ *  是不是「上一轮 API 通道推送产生的等价提交」造成的。若是，则 API 通道能
+ *  精确定位等价点、只补增量提交，安全回退；若不是（找不到匹配 tree），
+ *  说明是真实分叉，必须拒绝 —— 不用 force 掩盖分叉。
+ *
+ *  返回 { alignable, match, pending }，alignable 为真时 match 是等价点 sha、
+ *  pending 是其后待推的提交数。不改动任何远端状态。 */
+async function canAlignViaApi(opts = {}) {
+  ensureToken(opts.token);
+  const remoteHead = (await api('GET', `/repos/${REPO}/commits/${BRANCH}`)).sha;
+  const localHead = git(['rev-parse', 'HEAD']);
+  if (remoteHead === localHead) return { alignable: true, match: localHead, pending: 0, reason: 'SHA 已一致' };
+
+  // 先看是不是正常的快进
+  let fastForward = false;
+  try {
+    execFileSync('git', ['merge-base', '--is-ancestor', remoteHead, localHead], { cwd: ROOT, stdio: 'ignore' });
+    fastForward = true;
+  } catch { /* 非快进 */ }
+  if (fastForward) return { alignable: true, match: remoteHead, pending: 0, reason: '正常快进' };
+
+  // 非快进：远端 HEAD 的 tree 是否等于本地某个祖先的 tree？
+  const remoteTree = (await api('GET', `/repos/${REPO}/git/commits/${remoteHead}`)).tree.sha;
+  for (const sha of git(['rev-list', '--reverse', localHead]).split('\n').filter(Boolean)) {
+    if (git(['rev-parse', `${sha}^{tree}`]) === remoteTree) {
+      const pending = git(['rev-list', '--reverse', `${sha}..${localHead}`]).split('\n').filter(Boolean).length;
+      return { alignable: true, match: sha, pending, reason: '远端是 API 等价提交，可增量对齐' };
+    }
+  }
+  return { alignable: false, match: null, pending: 0, reason: '真实分叉：远端 tree 在本地历史中找不到等价点' };
+}
+
+module.exports = {
+  pushViaApi,
+  verifyRemote: (opts = {}) => pushViaApi({ ...opts, verifyOnly: true }),
+  canAlignViaApi,
+  REPO, BRANCH, ROOT,
+};
 
 if (require.main === module) {
   const dry = process.argv.includes('--dry');
