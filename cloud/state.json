@@ -2,6 +2,18 @@
   "version": 1,
   "intel": [
     {
+      "source": "lobsters",
+      "ext_id": "httpslobstersspqzdyt",
+      "title": "GNU Mes and the 0.28 release",
+      "url": "https://ekaitz.elenq.tech/fasterMes10.html",
+      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/pqzdyt/gnu_mes_0_28_release\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "points": 0,
+      "published_at": "Thu, 05 Nov 2026 07:30:50 -0600",
+      "fetched_at": "2026-11-05T15:09:31.444Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
       "source": "zhihu-search",
       "ext_id": "2101701291047130923",
       "title": "6台人形机器人开始“造机器人”:舍弗勒太仓工厂把具身智能带进制造闭环 - 知乎",
@@ -7748,13 +7760,13 @@
     }
   ],
   "stats": {
-    "intel": 429,
+    "intel": 430,
     "articles": 173,
-    "prevIntel": 428,
-    "prevArticles": 172,
-    "dbIntelOk": 429,
+    "prevIntel": 429,
+    "prevArticles": 173,
+    "dbIntelOk": 430,
     "dbArticlesOk": 173,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T14:09:27.427Z"
+  "updated_at": "2026-11-05T15:09:31.718Z"
 }
