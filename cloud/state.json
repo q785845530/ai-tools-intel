@@ -2,6 +2,54 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gongkong",
+      "ext_id": "454460",
+      "title": "工件变形、图纸对不上？越擎科技iRobotCAM让机器人激光熔覆更精准",
+      "url": "https://www.gongkong.com/news/202611/454460.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T07:58:06.305Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454462",
+      "title": "华北工控MATX-6980：适用于安防大数据分析平台的工业AI主板",
+      "url": "https://www.gongkong.com/news/202611/454462.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T07:58:06.305Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454463",
+      "title": "华北工控丨国产化、多网口工业AI主板MATX-6557：以工控之基护航网络安全",
+      "url": "https://www.gongkong.com/news/202611/454463.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T07:58:06.305Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454465",
+      "title": "新品发布│安川大型工件搬运机器人GP700与GP400L发布，扩充重载阵容，助力智能制造升级",
+      "url": "https://www.gongkong.com/news/202611/454465.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T07:58:06.305Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-gkzhan",
       "ext_id": "197120",
       "title": "未来五年300万台机器人：京东物理AI加速成网",
@@ -5020,17 +5068,32 @@
   ],
   "articles": [
     {
+      "slug": "20261105-a75a2a",
+      "kind": "deep",
+      "title": "新品发布│安川大型工件搬运机器人GP700与GP400L发布，扩充重载阵容，助力智能制造升级",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：工控网 · 工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454465.html)\n\n## 核心观点\n1. 新品发布│安川大型工件搬运机器人GP700与GP400L发布，扩充重载阵容，助力智能制造升级\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [智能制造日报 | 2026-11-02：产业观察、落地说等 6 条动态](article-58.html)\n- [工业具身智能机器人:感知到执行全链路软硬件搭配与长效运营思路](article-51.html)\n- [从宇树、智元到特斯拉与Figure AI,2026具身智能机器人第一梯队出现了哪些新变化?](article-38.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：新品发布│安川大型工件搬运机器人GP700与GP400L发布，扩充重载阵容，助力](https://www.gongkong.com/news/202611/454465.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454465.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-05T07:59:03.568Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454465.html\"]",
+      "source_ids": "[498]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-05T07:59:03.565Z",
+      "published_at": "2026-11-05T07:59:03.673Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "manufacturing-daily-20261105",
       "kind": "daily",
       "title": "智能制造日报 | 2026-11-05：技术前沿、产业观察等 3 条动态",
       "dek": "过去 48 小时 3 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 具身创新，全栈极效！极智嘉以全仓智能，迈向24/7自主智能仓**\n\n- 具身创新，全栈极效！极智嘉以全仓智能，迈向24/7自主智能仓\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454457.html)\n\n**2. 未来五年300万台机器人：京东物理AI加速成网**\n\n- 未来五年300万台机器人：京东物理AI加速成网\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197120.html)\n\n## 产业观察\n\n**1. 智能经济深度观察丨破解高质量工业数据供给瓶颈**\n\n- 智能经济深度观察丨破解高质量工业数据供给瓶颈\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197119.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T07:09:36.195Z*\n",
-      "source_urls": "[\"https://www.gongkong.com/news/202611/454457.html\",\"https://www.gkzhan.com/news/detail/197120.html\",\"https://www.gkzhan.com/news/detail/197119.html\"]",
-      "source_ids": "[495,580,573]",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 工件变形、图纸对不上？越擎科技iRobotCAM让机器人激光熔覆更精准**\n\n- 工件变形、图纸对不上？越擎科技iRobotCAM让机器人激光熔覆更精准\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454460.html)\n\n## 产业观察\n\n**1. 华北工控MATX-6980：适用于安防大数据分析平台的工业AI主板**\n\n- 华北工控MATX-6980：适用于安防大数据分析平台的工业AI主板\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454462.html)\n\n**2. 华北工控丨国产化、多网口工业AI主板MATX-6557：以工控之基护航网络安全**\n\n- 华北工控丨国产化、多网口工业AI主板MATX-6557：以工控之基护航网络安全\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454463.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T07:59:03.562Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454460.html\",\"https://www.gongkong.com/news/202611/454462.html\",\"https://www.gongkong.com/news/202611/454463.html\"]",
+      "source_ids": "[502,500,499]",
       "generator": "template-v2-manufacturing",
       "score": 0,
       "status": "published",
-      "created_at": "2026-11-05T07:09:36.195Z",
+      "created_at": "2026-11-05T07:59:03.562Z",
       "published_at": "2026-11-05T03:09:59.642Z",
       "relevance": "ok"
     },
@@ -7541,13 +7604,13 @@
     }
   ],
   "stats": {
-    "intel": 418,
-    "articles": 168,
-    "prevIntel": 415,
+    "intel": 422,
+    "articles": 169,
+    "prevIntel": 418,
     "prevArticles": 168,
-    "dbIntelOk": 418,
-    "dbArticlesOk": 168,
+    "dbIntelOk": 422,
+    "dbArticlesOk": 169,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T07:09:36.916Z"
+  "updated_at": "2026-11-05T07:59:03.796Z"
 }
