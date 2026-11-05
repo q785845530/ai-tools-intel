@@ -7606,11 +7606,11 @@
   "stats": {
     "intel": 422,
     "articles": 169,
-    "prevIntel": 418,
-    "prevArticles": 168,
+    "prevIntel": 422,
+    "prevArticles": 169,
     "dbIntelOk": 422,
     "dbArticlesOk": 169,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T07:59:03.796Z"
+  "updated_at": "2026-11-05T08:09:33.618Z"
 }
