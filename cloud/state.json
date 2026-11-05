@@ -6946,11 +6946,11 @@
   "stats": {
     "intel": 382,
     "articles": 157,
-    "prevIntel": 380,
-    "prevArticles": 155,
+    "prevIntel": 382,
+    "prevArticles": 157,
     "dbIntelOk": 382,
     "dbArticlesOk": 157,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T01:05:57.712Z"
+  "updated_at": "2026-11-05T01:09:42.638Z"
 }
