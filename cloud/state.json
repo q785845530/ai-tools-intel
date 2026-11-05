@@ -2,6 +2,42 @@
   "version": 1,
   "intel": [
     {
+      "source": "hn",
+      "ext_id": "50372693",
+      "title": "AI triggers PCB shortage for PC makers as order books full until 2030, costs 12x",
+      "url": "https://www.tomshardware.com/pc-components/ai-demand-triggers-massive-pcb-shortage-for-pc-makers-as-order-books-full-until-2030-lead-times-stretch-to-30-months-as-material-costs-surge-12x",
+      "summary": null,
+      "points": 16,
+      "published_at": "2026-11-04T23:05:24Z",
+      "fetched_at": "2026-11-05T09:09:28.842Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197122",
+      "title": "中国制造开始“组队”了！三批先进制造业集群相继落子",
+      "url": "https://www.gkzhan.com/news/detail/197122.html",
+      "summary": "2026年11月4日，工业和信息化部对2026年国家先进制造业集群名单予以公示，16个集群进入公示环节，公示期至11月10日。至此，国家先进制造业集群培育已形成三批次接续推进的清晰脉络：2022年首批45个集群公布，2024年",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T09:09:14.957Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454466",
+      "title": "十余年只做一件事：鸿光环境以自主仪器与智慧运维深耕水质在线监测",
+      "url": "https://www.gongkong.com/news/202611/454466.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T09:08:42.572Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-gongkong",
       "ext_id": "454460",
       "title": "工件变形、图纸对不上？越擎科技iRobotCAM让机器人激光熔覆更精准",
@@ -5068,6 +5104,21 @@
   ],
   "articles": [
     {
+      "slug": "manufacturing-daily-20261105",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-05：产业观察等 3 条动态",
+      "dek": "过去 48 小时 3 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 十余年只做一件事：鸿光环境以自主仪器与智慧运维深耕水质在线监测**\n\n- 十余年只做一件事：鸿光环境以自主仪器与智慧运维深耕水质在线监测\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454466.html)\n\n**2. 中国制造开始“组队”了！三批先进制造业集群相继落子**\n\n- 2026年11月4日，工业和信息化部对2026年国家先进制造业集群名单予以公示，16个集群进入公示环节，公示期至11月10日。\n- 至此，国家先进制造业集群培育已形成三批次接续推进的清晰脉络：2022年首批45个集群公布，2024年\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197122.html)\n\n**3. AI triggers PCB shortage for PC makers as order books full until 2030, costs 12x**\n\n- AI triggers PCB shortage for PC makers as order books full until 2030, costs 12x\n\n*来源：Hacker News · 16 分* ｜ [🔗 原文](https://www.tomshardware.com/pc-components/ai-demand-triggers-massive-pcb-shortage-for-pc-makers-as-order-books-full-until-2030-lead-times-stretch-to-30-months-as-material-costs-surge-12x)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T09:09:30.187Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454466.html\",\"https://www.gkzhan.com/news/detail/197122.html\",\"https://www.tomshardware.com/pc-components/ai-demand-triggers-massive-pcb-shortage-for-pc-makers-as-order-books-full-until-2030-lead-times-stretch-to-30-months-as-material-costs-surge-12x\"]",
+      "source_ids": "[504,533,595]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-05T09:09:30.187Z",
+      "published_at": "2026-11-05T03:09:59.642Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261105-a75a2a",
       "kind": "deep",
       "title": "新品发布│安川大型工件搬运机器人GP700与GP400L发布，扩充重载阵容，助力智能制造升级",
@@ -5080,21 +5131,6 @@
       "status": "published",
       "created_at": "2026-11-05T07:59:03.565Z",
       "published_at": "2026-11-05T07:59:03.673Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261105",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-05：技术前沿、产业观察等 3 条动态",
-      "dek": "过去 48 小时 3 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 工件变形、图纸对不上？越擎科技iRobotCAM让机器人激光熔覆更精准**\n\n- 工件变形、图纸对不上？越擎科技iRobotCAM让机器人激光熔覆更精准\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454460.html)\n\n## 产业观察\n\n**1. 华北工控MATX-6980：适用于安防大数据分析平台的工业AI主板**\n\n- 华北工控MATX-6980：适用于安防大数据分析平台的工业AI主板\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454462.html)\n\n**2. 华北工控丨国产化、多网口工业AI主板MATX-6557：以工控之基护航网络安全**\n\n- 华北工控丨国产化、多网口工业AI主板MATX-6557：以工控之基护航网络安全\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454463.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T07:59:03.562Z*\n",
-      "source_urls": "[\"https://www.gongkong.com/news/202611/454460.html\",\"https://www.gongkong.com/news/202611/454462.html\",\"https://www.gongkong.com/news/202611/454463.html\"]",
-      "source_ids": "[502,500,499]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-05T07:59:03.562Z",
-      "published_at": "2026-11-05T03:09:59.642Z",
       "relevance": "ok"
     },
     {
@@ -7604,13 +7640,13 @@
     }
   ],
   "stats": {
-    "intel": 422,
+    "intel": 425,
     "articles": 169,
     "prevIntel": 422,
     "prevArticles": 169,
-    "dbIntelOk": 422,
+    "dbIntelOk": 425,
     "dbArticlesOk": 169,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T08:09:33.618Z"
+  "updated_at": "2026-11-05T09:09:30.380Z"
 }
