@@ -2,6 +2,42 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197120",
+      "title": "未来五年300万台机器人：京东物理AI加速成网",
+      "url": "https://www.gkzhan.com/news/detail/197120.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T07:09:20.350Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197119",
+      "title": "智能经济深度观察丨破解高质量工业数据供给瓶颈",
+      "url": "https://www.gkzhan.com/news/detail/197119.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T07:09:20.350Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454457",
+      "title": "具身创新，全栈极效！极智嘉以全仓智能，迈向24/7自主智能仓",
+      "url": "https://www.gongkong.com/news/202611/454457.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T07:08:47.183Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96478",
       "title": "普什宁江公司入选 “未来之星?2026探星川商”年度星谱企业",
@@ -4984,6 +5020,21 @@
   ],
   "articles": [
     {
+      "slug": "manufacturing-daily-20261105",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-05：技术前沿、产业观察等 3 条动态",
+      "dek": "过去 48 小时 3 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 具身创新，全栈极效！极智嘉以全仓智能，迈向24/7自主智能仓**\n\n- 具身创新，全栈极效！极智嘉以全仓智能，迈向24/7自主智能仓\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454457.html)\n\n**2. 未来五年300万台机器人：京东物理AI加速成网**\n\n- 未来五年300万台机器人：京东物理AI加速成网\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197120.html)\n\n## 产业观察\n\n**1. 智能经济深度观察丨破解高质量工业数据供给瓶颈**\n\n- 智能经济深度观察丨破解高质量工业数据供给瓶颈\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197119.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T07:09:36.195Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454457.html\",\"https://www.gkzhan.com/news/detail/197120.html\",\"https://www.gkzhan.com/news/detail/197119.html\"]",
+      "source_ids": "[495,580,573]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-05T07:09:36.195Z",
+      "published_at": "2026-11-05T03:09:59.642Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261105-8aa5e5",
       "kind": "deep",
       "title": "第十四届中国医药生物技术大会在珠海金湾圆满落幕",
@@ -5026,21 +5077,6 @@
       "status": "published",
       "created_at": "2026-11-05T06:09:45.446Z",
       "published_at": "2026-11-05T06:09:45.553Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261105",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-05：技术前沿、落地说等 4 条动态",
-      "dek": "过去 48 小时 4 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 2026树根科技物流机器人事业部全球新品发布会圆满举行**\n\n- 2026树根科技物流机器人事业部全球新品发布会圆满举行\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197111.html)\n\n**2. 埃斯顿：连续7个季度国内工业机器人市场第一**\n\n- 埃斯顿：连续7个季度国内工业机器人市场第一\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197115.html)\n\n## 落地说\n\n**1. 利元亨CNC加工自动生产线赋能精密制造少人化与柔性换产**\n\n- 利元亨CNC加工自动生产线赋能精密制造少人化与柔性换产\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197112.html)\n\n**2. 普什宁江公司入选 “未来之星?2026探星川商”年度星谱企业**\n\n- 【机床商务网栏目名企在线】近日，以“智行未来・向实启新”为主题的2026(第七届)未来大会在成都举行，普什宁江公司成功入选“未来之星・2026探星川商”年度星谱企业。\n- 作为五粮液集团旗下国家级专精特新“小巨人”企\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96478.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T06:09:45.441Z*\n",
-      "source_urls": "[\"https://www.gkzhan.com/news/detail/197111.html\",\"https://www.gkzhan.com/news/detail/197112.html\",\"https://www.gkzhan.com/news/detail/197115.html\",\"https://www.jc35.com/news/detail/96478.html\"]",
-      "source_ids": "[577,576,574,580]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-05T06:09:45.441Z",
-      "published_at": "2026-11-05T03:09:59.642Z",
       "relevance": "ok"
     },
     {
@@ -7505,13 +7541,13 @@
     }
   ],
   "stats": {
-    "intel": 415,
+    "intel": 418,
     "articles": 168,
-    "prevIntel": 408,
-    "prevArticles": 165,
-    "dbIntelOk": 415,
+    "prevIntel": 415,
+    "prevArticles": 168,
+    "dbIntelOk": 418,
     "dbArticlesOk": 168,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T06:09:45.697Z"
+  "updated_at": "2026-11-05T07:09:36.916Z"
 }
