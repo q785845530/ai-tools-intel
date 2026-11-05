@@ -3,6 +3,18 @@
   "intel": [
     {
       "source": "zhihu-search",
+      "ext_id": "2101270552308725407",
+      "title": "RLinf v0.4 正式发布!重塑真机强化学习工程与算法范式,加速具身智能在真实世界的规模化落地 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2101270552308725407",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T13:08:16.573Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "zhihu-search",
       "ext_id": "2101760516532315646",
       "title": "智能制造时代,传统工厂如何实现数字化转型? - 知乎",
       "url": "https://www.zhihu.com/question/1958854669104293577/answer/2101760516532315646",
@@ -5128,6 +5140,21 @@
   ],
   "articles": [
     {
+      "slug": "20261105-f60902",
+      "kind": "deep",
+      "title": "RLinf v0.4 正式发布!重塑真机强化学习工程与算法范式,加速具身智能在真实世界的规模化落地",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 · 无问芯穹 Infinigence ｜ [打开原文](https://zhuanlan.zhihu.com/p/2101270552308725407)\n\n## 核心观点\n1. RLinf v0.4 正式发布!重塑真机强化学习工程与算法范式,加速具身智能在真实世界的规模化落地\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [无界动力与京东达成战略合作：多维度合作加速推动具身智能商业化落地](article-45.html)\n- [把具身数采带进真实工厂!清研精准发布车规级Tsing-Ego PRO](article-55.html)\n- [智往未来亮相 CeMAT,实景仓储作业展示具身智能落地能力](article-32.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：RLinf v0.4 正式发布!重塑真机强化学习工程与算法范式,加速具身智能在真](https://zhuanlan.zhihu.com/p/2101270552308725407)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2101270552308725407\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-05T13:09:27.906Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2101270552308725407\"]",
+      "source_ids": "[493]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-05T13:09:27.902Z",
+      "published_at": "2026-11-05T13:09:28.006Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261105-a477b5",
       "kind": "deep",
       "title": "智能制造时代,传统工厂如何实现数字化转型?",
@@ -7694,13 +7721,13 @@
     }
   ],
   "stats": {
-    "intel": 427,
-    "articles": 171,
-    "prevIntel": 426,
-    "prevArticles": 170,
-    "dbIntelOk": 427,
-    "dbArticlesOk": 171,
+    "intel": 428,
+    "articles": 172,
+    "prevIntel": 427,
+    "prevArticles": 171,
+    "dbIntelOk": 428,
+    "dbArticlesOk": 172,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T12:09:25.908Z"
+  "updated_at": "2026-11-05T13:09:28.151Z"
 }
