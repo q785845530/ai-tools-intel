@@ -2,6 +2,42 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197102",
+      "title": "市场信息｜前三季度我国船舶、能源及工程机械领域运行情况",
+      "url": "https://www.gkzhan.com/news/detail/197102.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T05:09:14.301Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197103",
+      "title": "第37次全国铸造行业组织秘书长工作会议在湖北宜昌召开",
+      "url": "https://www.gkzhan.com/news/detail/197103.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T05:09:14.301Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454452",
+      "title": "风电法兰连接板拉伸成型液压机液压垫在深拉伸中的作用",
+      "url": "https://www.gongkong.com/news/202611/454452.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-05T05:08:39.924Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96463",
       "title": "中国机械联会领导调研山东省装备制造企业 并出席潍柴集团发展大会",
@@ -4864,6 +4900,21 @@
   ],
   "articles": [
     {
+      "slug": "manufacturing-daily-20261105",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-05：产业观察等 3 条动态",
+      "dek": "过去 48 小时 3 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 风电法兰连接板拉伸成型液压机液压垫在深拉伸中的作用**\n\n- 风电法兰连接板拉伸成型液压机液压垫在深拉伸中的作用\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454452.html)\n\n**2. 市场信息｜前三季度我国船舶、能源及工程机械领域运行情况**\n\n- 市场信息｜前三季度我国船舶、能源及工程机械领域运行情况\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197102.html)\n\n**3. 第37次全国铸造行业组织秘书长工作会议在湖北宜昌召开**\n\n- 第37次全国铸造行业组织秘书长工作会议在湖北宜昌召开\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197103.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T05:09:28.077Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454452.html\",\"https://www.gkzhan.com/news/detail/197102.html\",\"https://www.gkzhan.com/news/detail/197103.html\"]",
+      "source_ids": "[486,557,556]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-05T05:09:28.077Z",
+      "published_at": "2026-11-05T03:09:59.642Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261105-414b1d",
       "kind": "deep",
       "title": "立讯精密三季报稳增：营收2850亿元、净利130亿元",
@@ -4891,21 +4942,6 @@
       "status": "published",
       "created_at": "2026-11-05T04:09:19.268Z",
       "published_at": "2026-11-05T04:09:19.376Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261105",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-05：产业观察、技术前沿、政策风向等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 从单点自动化到全流程协同：智慧物流进入系统整合竞争时代**\n\n- 从单点自动化到全流程协同：智慧物流进入系统整合竞争时代\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454446.html)\n\n## 技术前沿\n\n**1. 海康机器人携全系产品亮相CeMAT，以\"具身智造 · 全域作业\"呈现全场景物流方案**\n\n- 海康机器人携全系产品亮相CeMAT，以\"具身智造 · 全域作业\"呈现全场景物流方案\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454447.html)\n\n**2. 大模型加持的工业安防摄像机背后，藏着怎样的存储考题？|安博会观察**\n\n- ​纵览今年多场安防展会，一个值得关注的变化是，安防视频系统的技术竞争正在向感知、分析与能效等多个维度展开。\n- 端侧AI让设备具备更强的事件识别与信息筛选能力，4K、8K把画面精度推上新水位，红外与4D成像提升了特定场景下的感知能力，相关技术正逐步应用于工业检测、轨道交通、智慧城市等场景。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454445.html)\n\n**3. 11月18-20日，南通工博会盛大开幕，江海明珠，期待您的光临！**\n\n- 11月18-20日，南通工博会盛大开幕，江海明珠，期待您的光临！\n- 南通机床展|机器人展|南通工博会欢迎您盛会启幕，搭建长三角智造合作标杆平台南通作为长三角重要工业基地、工业实力雄厚、产业链配套完善已形成船舶海工\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96475.html)\n\n## 政策风向\n\n**1. 关于公开征求98项行业标准报批意见的公示**\n\n- 关于公开征求《石墨化增碳剂》等98项行业标准报批意见的公示根据行业标准制修订计划，相关标准化技术组织已完成《石墨化增碳剂》等5项黑色冶金行业标准、《超硬磨料爆轰法多晶金刚石微粉》等4项机械行业标准、《数控\n\n*关键数字：「等98项」、「等5项」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197086.html)\n\n## 展会动态\n\n**1. 2026世界显示产业创新发展大会：五大新型显示核心配套突破性成果亮相**\n\n- 11月4日，以“显示无处不在·智慧改变视界”为主题的2026世界显示产业创新发展大会在成都空港国际会议中心举办。\n- 大会开幕式上，包含Micro-LED激光巨量转移设备、蒸发源蒸镀设备、超薄精密金属掩膜版、大英寸LCD偏光片\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197091.html)\n\n## 落地说\n\n**1. 关于2026年国家先进制造业集群名单的公示**\n\n- 关于2026年国家先进制造业集群名单的公示深入贯彻党中央、国务院关于加快培育先进制造业集群的决策部署，落实全国先进制造业大会精神，工业和信息化部组织开展2026年国家先进制造业集群遴选工作。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197087.html)\n\n**2. 中国机械联会领导调研山东省装备制造企业 并出席潍柴集团发展大会**\n\n- 中国机械联会领导调研山东省装备制造企业 并出席潍柴集团发展大会\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96463.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-05T04:09:19.260Z*\n",
-      "source_urls": "[\"https://www.gongkong.com/news/202611/454446.html\",\"https://www.gongkong.com/news/202611/454447.html\",\"https://www.gongkong.com/news/202611/454445.html\",\"https://www.gkzhan.com/news/detail/197086.html\",\"https://www.gkzhan.com/news/detail/197091.html\",\"https://www.gkzhan.com/news/detail/197087.html\",\"https://www.jc35.com/news/detail/96463.html\",\"https://www.jc35.com/news/detail/96475.html\"]",
-      "source_ids": "[493,476,470,515,513,10,546,538]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-05T04:09:19.260Z",
-      "published_at": "2026-11-05T03:09:59.642Z",
       "relevance": "ok"
     },
     {
@@ -7340,13 +7376,13 @@
     }
   ],
   "stats": {
-    "intel": 405,
+    "intel": 408,
     "articles": 165,
-    "prevIntel": 397,
-    "prevArticles": 163,
-    "dbIntelOk": 405,
+    "prevIntel": 405,
+    "prevArticles": 165,
+    "dbIntelOk": 408,
     "dbArticlesOk": 165,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-05T04:09:19.523Z"
+  "updated_at": "2026-11-05T05:09:28.407Z"
 }
