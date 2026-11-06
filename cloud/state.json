@@ -3,6 +3,78 @@
   "intel": [
     {
       "source": "media-jc35",
+      "ext_id": "96484",
+      "title": "宏观数据｜2026年9月我国汽车整车出口情况简析",
+      "url": "https://www.jc35.com/news/detail/96484.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T19:33:11.808Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-jc35",
+      "ext_id": "96485",
+      "title": "宏观数据｜2026年9月我国汽车整车进口情况简析",
+      "url": "https://www.jc35.com/news/detail/96485.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T19:33:11.808Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-jc35",
+      "ext_id": "96486",
+      "title": "宏观数据 | 2026年9月汽车零部件出口金额情况简析",
+      "url": "https://www.jc35.com/news/detail/96486.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T19:33:11.808Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-jc35",
+      "ext_id": "96487",
+      "title": "宏观数据｜2026年9月汽车零部件进口金额情况简析",
+      "url": "https://www.jc35.com/news/detail/96487.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T19:33:11.808Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197145",
+      "title": "“AI＋制造”专家谈 |宋志明：详解AI＋机械的进阶路径",
+      "url": "https://www.gkzhan.com/news/detail/197145.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T19:33:01.717Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197132",
+      "title": "张艺谋操刀！全球首个仿生人形机器人新闻主播正式发布",
+      "url": "https://www.gkzhan.com/news/detail/197132.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T19:33:01.717Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-jc35",
       "ext_id": "96474",
       "title": "展会邀约｜深圳展会 12J12 中勋精密 MHG1 新品首发",
       "url": "https://www.jc35.com/news/detail/96474.html",
@@ -155,7 +227,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:36.518Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -167,7 +239,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:36.518Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -203,7 +275,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:11.307Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -335,7 +407,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:13:52.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -347,7 +419,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:13:52.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -359,7 +431,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:13:52.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -371,7 +443,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:13:52.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -5644,6 +5716,66 @@
   ],
   "articles": [
     {
+      "slug": "20261106-78f070",
+      "kind": "deep",
+      "title": "出口高增、融资升温：3D打印消费级与工业端同步扩容",
+      "dek": "【产业观察】海关总署数据显示，2025年我国3D打印机出口503万台，同比增长33.2%；出口总额113.54亿元，首次突破百亿元大关，同比增长39.1%。进入2026年，",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197130.html)\n\n## 核心观点\n1. 海关总署数据显示，2025年我国3D打印机出口503万台，同比增长33.2%；\n2. 出口总额113.54亿元，首次突破百亿元大关，同比增长39.1%。\n3. 进入2026年，增势进一步加速：上半年累计出口362万台，同比增长90.2%，出口金额96.11亿\n\n## 内容概要\n海关总署数据显示，2025年我国3D打印机出口503万台，同比增长33.2%；出口总额113.54亿元，首次突破百亿元大关，同比增长39.1%。进入2026年，增势进一步加速：上半年累计出口362万台，同比增长90.2%，出口金额96.11亿\n\n## 实例分析\n**原文中的关键数字**\n- 「D打印机出口503万台」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n- 「同比增长33.2%」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n- 「出口总额113.54亿元」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：出口高增、融资升温：3D打印消费级与工业端同步扩容](https://www.gkzhan.com/news/detail/197130.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197130.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-06T19:33:14.449Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197130.html\"]",
+      "source_ids": "[13]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-06T19:33:14.449Z",
+      "published_at": "2026-11-06T19:33:14.542Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261106-13c075",
+      "kind": "deep",
+      "title": "算力为核、电力为基，松下携多样化AI基础设施元器件产品出展第九届进博会",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454528.html)\n\n## 核心观点\n1. 算力为核、电力为基，松下携多样化AI基础设施元器件产品出展第九届进博会\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：算力为核、电力为基，松下携多样化AI基础设施元器件产品出展第九届进博会](https://www.gongkong.com/news/202611/454528.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454528.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-06T19:33:14.447Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454528.html\"]",
+      "source_ids": "[28]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-06T19:33:14.446Z",
+      "published_at": "2026-11-06T19:33:14.542Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261106-bcb7a1",
+      "kind": "deep",
+      "title": "宏观数据｜2026年9月我国汽车整车进口情况简析",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：机床商务网 · 机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96485.html)\n\n## 核心观点\n1. 宏观数据｜2026年9月我国汽车整车进口情况简析\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-54.html)\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-29.html)\n- [埃斯顿2026年前三季度归母净利润大增1984.24%](article-20.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：宏观数据｜2026年9月我国汽车整车进口情况简析](https://www.jc35.com/news/detail/96485.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96485.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-06T19:33:14.445Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96485.html\"]",
+      "source_ids": "[615]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-06T19:33:14.443Z",
+      "published_at": "2026-11-06T19:33:14.542Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261106",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-06：落地说、展会动态、产业观察等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. 九载进博看西门子，在产业升级中坚守长期价值**\n\n- 连续九届进博会，我们见证了中国高水平对外开放的深化，也为深度扎根国内市场的跨国工业企业，提供了观察、对接中国产业真实需求的重要窗口。\n- 作为连续九年参与的“全勤生”，西门子的参展脉络并非单纯的新技术、新产品首发亮相，而是自身创新体系与国内产业升级需求不断对齐的外在体现。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454497.html)\n\n**2. 机器人生意, 造不如租｜巨潮**\n\n- 文｜谢泽锋 编辑｜杨旭然 当机器人行业还在争论何时能真正落地时，下游却是另一种景象。\n- 如今当一位求职者留言询问某家所谓“机器人公司”是否还在招聘测试岗时，他面对的可能并非智元、银河通用之类的机器人主机\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201927-8420-30710678.html)\n\n**3. 关于印发《实施全面节约战略行动方案》的通知**\n\n- 国家发展改革委等部门关于印发《实施全面节约战略行动方案》的通知各省、自治区、直辖市发展改革委、工业和信息化主管部门、自然资源主管部门、水利(水务)厅(局)、机关事务管理部门：为推进各类资源节约集约利用，维\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197150.html)\n\n## 展会动态\n\n**1. 进博会上的松下中国“先进制造”事业观察**\n\n- 第九届进博会上，松下以903平方米展台亮相5.1馆消费品展区，展台分为AI基础设施元器件展区、先进制造与解决方案展区、健康智能住空间展区三大区域。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454531.html)\n\n## 产业观察\n\n**1. 第九届进博会｜应答制造业高质量发展课题 松下聚焦先进制造业务解决方案**\n\n- 第九届进博会｜应答制造业高质量发展课题 松下聚焦先进制造业务解决方案\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454529.html)\n\n**2. “AI＋制造”专家谈 |宋志明：详解AI＋机械的进阶路径**\n\n- “AI＋制造”专家谈 |宋志明：详解AI＋机械的进阶路径\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197145.html)\n\n**3. 宏观数据｜2026年9月我国汽车整车出口情况简析**\n\n- 宏观数据｜2026年9月我国汽车整车出口情况简析\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96484.html)\n\n## 技术前沿\n\n**1. 张艺谋操刀！全球首个仿生人形机器人新闻主播正式发布**\n\n- 张艺谋操刀！全球首个仿生人形机器人新闻主播正式发布\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197132.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-06T19:33:14.437Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454497.html\",\"https://www.gongkong.com/news/202611/454531.html\",\"https://www.gongkong.com/news/202611/454529.html\",\"https://www.ofweek.com/im/2026-11/ART-201927-8420-30710678.html\",\"https://www.gkzhan.com/news/detail/197145.html\",\"https://www.gkzhan.com/news/detail/197132.html\",\"https://www.gkzhan.com/news/detail/197150.html\",\"https://www.jc35.com/news/detail/96484.html\"]",
+      "source_ids": "[31,30,29,17,585,584,14,616]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-06T19:33:14.437Z",
+      "published_at": "2026-11-06T03:30:47.451Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261106-027317",
       "kind": "deep",
       "title": "AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通",
@@ -5671,21 +5803,6 @@
       "status": "published",
       "created_at": "2026-11-06T12:14:51.626Z",
       "published_at": "2026-11-06T12:14:51.736Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261106",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-06：技术前沿、落地说、展会动态等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 新闻 | 新华网专访天洑董事长张明,聚焦工业世界模型**\n\n- 新闻 | 新华网专访天洑董事长张明,聚焦工业世界模型\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2101299297132222313)\n\n**2. 越来越热闹的具身智能, 为什么突然不好拿钱了？**\n\n- 这是思维AI社的第159篇原创 全文约1480字，阅读时长预计5分钟\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201920-12003-30710689.html)\n\n**3. 别等了, 人形机器人拿不到“大结果”了？**\n\n- 【潮汐商业评论/文】 在人形机器人最热的时候，几乎所有人都觉得，一个新的生产力时代，仿佛近在咫尺。\n- 舞台上的一次亮相，视频里的一段后空翻，都能让这个行业的想象力再往上走一点。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8420-30710687.html)\n\n## 落地说\n\n**1. 什么是工业AI,其在装备制造中如何实现落地?**\n\n- 什么是工业AI,其在装备制造中如何实现落地?\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://www.zhihu.com/question/1978177475881231985/answer/2100980012027475817)\n\n**2. 「CMRE 机械风险评估师」培训报名进行中 | 深耕风险评估实战，赋能企业合规出海**\n\n- 「CMRE 机械风险评估师」培训报名进行中 | 深耕风险评估实战，赋能企业合规出海\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454514.html)\n\n## 展会动态\n\n**1. 11.7 苏州|EDOP + 团子- AI亮相江苏 CIO 大会**\n\n- 11.7 苏州|EDOP + 团子- AI亮相江苏 CIO 大会\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2100606879353385463)\n\n## 产业观察\n\n**1. PowerTOP Plus工业连接器为什么成为“电气专家”们的共同选择？**\n\n- PowerTOP Plus工业连接器为什么成为“电气专家”们的共同选择？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454506.html)\n\n**2. CeMAT ASIA 2026｜从机械安全到人机共生，湾测为智慧物流筑牢“安全底座”**\n\n- CeMAT ASIA 2026｜从机械安全到人机共生，湾测为智慧物流筑牢“安全底座”\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454515.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-06T12:14:51.619Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2101299297132222313\",\"https://www.zhihu.com/question/1978177475881231985/answer/2100980012027475817\",\"https://zhuanlan.zhihu.com/p/2100606879353385463\",\"https://www.gongkong.com/news/202611/454506.html\",\"https://www.gongkong.com/news/202611/454514.html\",\"https://www.gongkong.com/news/202611/454515.html\",\"https://www.ofweek.com/im/2026-11/ART-201920-12003-30710689.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8420-30710687.html\"]",
-      "source_ids": "[473,461,458,534,529,528,541,540]",
-      "generator": "template-v2-manufacturing",
-      "score": 1,
-      "status": "published",
-      "created_at": "2026-11-06T12:14:51.619Z",
-      "published_at": "2026-11-06T03:30:47.451Z",
       "relevance": "ok"
     },
     {
@@ -8300,13 +8417,13 @@
     }
   ],
   "stats": {
-    "intel": 470,
-    "articles": 177,
-    "prevIntel": 434,
-    "prevArticles": 175,
-    "dbIntelOk": 470,
-    "dbArticlesOk": 177,
+    "intel": 476,
+    "articles": 180,
+    "prevIntel": 470,
+    "prevArticles": 177,
+    "dbIntelOk": 476,
+    "dbArticlesOk": 180,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-06T12:14:51.887Z"
+  "updated_at": "2026-11-06T19:33:14.768Z"
 }
