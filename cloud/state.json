@@ -2,6 +2,42 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-ofweek-im",
+      "ext_id": "30710610",
+      "title": "利润大跌超7成，华懋科技汽车主业疲软背后，袁晋清、林晖在下一盘什么棋？",
+      "url": "https://www.ofweek.com/im/2026-11/ART-201930-12003-30710610.html",
+      "summary": "出品 | 子弹财经 作者 | 王亚静 编辑 | 蛋总 美编 | 倩倩 审核 | 颂文 2026年前三季度，华懋科技以营收、利润双双下滑收尾——营收17.26亿元，同比下滑3.28%；归母净利润3884",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T03:29:44.882Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-ofweek-im",
+      "ext_id": "30710619",
+      "title": "松发股份，涅槃重生！",
+      "url": "https://www.ofweek.com/im/2026-11/ART-201930-12003-30710619.html",
+      "summary": "订单爆满的，不只有AI。 2025年以来，大模型带动算力基建产能极限拉伸，光纤、晶圆、电子布等企业纷纷发表公告称，公司核心产能已被长期锁定，订单排到2028年之后。 类似的逻辑，还在周期行业同步上演。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T03:29:44.882Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454474",
+      "title": "横河电机获选为LNG Canada二期项目主要自动化承包商",
+      "url": "https://www.gongkong.com/news/202611/454474.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-06T03:29:33.263Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "zhihu-hot",
       "ext_id": "2100904326705296766",
       "title": "东北最大煤制天然气项目正式投产，煤炭将被转化成天然气，煤制气是如何做到的？会是未来的发展方向吗？",
@@ -23,7 +59,7 @@
       "published_at": "Thu, 05 Nov 2026 07:30:50 -0600",
       "fetched_at": "2026-11-05T15:09:31.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -5176,6 +5212,21 @@
   ],
   "articles": [
     {
+      "slug": "manufacturing-daily-20261106",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-06：产业观察、技术前沿等 4 条动态",
+      "dek": "过去 48 小时 4 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 横河电机获选为LNG Canada二期项目主要自动化承包商**\n\n- 横河电机获选为LNG Canada二期项目主要自动化承包商\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454474.html)\n\n**2. 利润大跌超7成，华懋科技汽车主业疲软背后，袁晋清、林晖在下一盘什么棋？**\n\n- 出品 | 子弹财经 作者 | 王亚静 编辑 | 蛋总 美编 | 倩倩 审核 | 颂文 2026年前三季度，华懋科技以营收、利润双双下滑收尾——营收17.26亿元，同比下滑3.28%；\n\n*关键数字：「营收17.26亿元」、「同比下滑3.28%」*\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-12003-30710610.html)\n\n**3. GNU Mes and the 0.28 release**\n\n- a href=\"https://lobste.rs/s/pqzdyt/gnu_mes_0_28_release\"&gt;\n- Comments&lt;\n\n*来源：Lobsters* ｜ [🔗 原文](https://ekaitz.elenq.tech/fasterMes10.html)\n\n## 技术前沿\n\n**1. 松发股份，涅槃重生！**\n\n- 订单爆满的，不只有AI。\n- 2025年以来，大模型带动算力基建产能极限拉伸，光纤、晶圆、电子布等企业纷纷发表公告称，公司核心产能已被长期锁定，订单排到2028年之后。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-12003-30710619.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-06T03:30:47.362Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454474.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-12003-30710610.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-12003-30710619.html\",\"https://ekaitz.elenq.tech/fasterMes10.html\"]",
+      "source_ids": "[511,537,536,2]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-06T03:30:47.362Z",
+      "published_at": "2026-11-06T03:30:47.451Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261106-216d6e",
       "kind": "deep",
       "title": "东北最大煤制天然气项目正式投产，煤炭将被转化成天然气，煤制气是如何做到的？会是未来的发展方向吗？",
@@ -7787,13 +7838,13 @@
     }
   ],
   "stats": {
-    "intel": 431,
-    "articles": 174,
-    "prevIntel": 430,
-    "prevArticles": 173,
-    "dbIntelOk": 431,
-    "dbArticlesOk": 174,
+    "intel": 434,
+    "articles": 175,
+    "prevIntel": 431,
+    "prevArticles": 174,
+    "dbIntelOk": 434,
+    "dbArticlesOk": 175,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-06T00:09:27.418Z"
+  "updated_at": "2026-11-06T03:30:47.591Z"
 }
