@@ -11,7 +11,7 @@
       "published_at": null,
       "fetched_at": "2026-11-07T18:07:19.462Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -5752,6 +5752,21 @@
   ],
   "articles": [
     {
+      "slug": "20261107-44eff4",
+      "kind": "deep",
+      "title": "工博会新品 | 破解产线测温难题，海康微影发布红外测温分析系列摄像机",
+      "dek": "【展会动态】",
+      "body_md": "> 栏目：展会动态 ｜ 来源：OFweek智能制造 ｜ [打开原文](https://www.ofweek.com/im/2026-10/ART-201900-8300-30707082.html)\n\n## 核心观点\n1. 工博会新品 | 破解产线测温难题，海康微影发布红外测温分析系列摄像机\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 把发布信息转成采购清单线索：厂商集中发布的功能点，往往对应下一轮选型的必答项。\n- 对感兴趣型号记录公开参数与适配条件；展会热度不等于成熟度，要求厂商提供同工况案例。\n\n## 相关案例（站内）\n- [2026工博会 | 具脑磐石携手智动力发布工业重载人形解决方案](article-54.html)\n\n## 为什么制造业读者要关注\n展会和大会是行业风向的集中释放点。厂商集中发布什么，往往预示着下一轮采购清单里会出现什么。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：工博会新品 | 破解产线测温难题，海康微影发布红外测温分析系列摄像机](https://www.ofweek.com/im/2026-10/ART-201900-8300-30707082.html)\n\n原始地址（可复制/可点击）：https://www.ofweek.com/im/2026-10/ART-201900-8300-30707082.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-07T22:00:09.302Z*",
+      "source_urls": "[\"https://www.ofweek.com/im/2026-10/ART-201900-8300-30707082.html\"]",
+      "source_ids": "[1]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-07T22:00:09.298Z",
+      "published_at": "2026-11-07T22:00:09.411Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261028-794471",
       "kind": "deep",
       "title": "制造业AI应用落地的方法与路径是什么?",
@@ -8559,12 +8574,12 @@
   ],
   "stats": {
     "intel": 479,
-    "articles": 187,
-    "prevIntel": 477,
+    "articles": 188,
+    "prevIntel": 479,
     "prevArticles": 187,
     "dbIntelOk": 479,
-    "dbArticlesOk": 187,
+    "dbArticlesOk": 188,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-07T18:07:58.608Z"
+  "updated_at": "2026-11-07T22:00:09.527Z"
 }
