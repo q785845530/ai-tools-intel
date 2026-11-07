@@ -2,6 +2,18 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197179",
+      "title": "炬华科技预中标国家电网合计2.36亿元采购项目",
+      "url": "https://www.gkzhan.com/news/detail/197179.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-07T06:13:19.051Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96484",
       "title": "宏观数据｜2026年9月我国汽车整车出口情况简析",
@@ -47,7 +59,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T19:33:11.808Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -143,7 +155,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:36.518Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -155,7 +167,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:36.518Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -167,7 +179,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:36.518Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -323,7 +335,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:13:52.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -335,7 +347,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:13:52.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -347,7 +359,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:13:52.444Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -5716,6 +5728,66 @@
   ],
   "articles": [
     {
+      "slug": "20261107-6d0f97",
+      "kind": "deep",
+      "title": "提前两年，欣旺达动力为电池护照下了怎样一盘棋？",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197138.html)\n\n## 核心观点\n1. 提前两年，欣旺达动力为电池护照下了怎样一盘棋？\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：提前两年，欣旺达动力为电池护照下了怎样一盘棋？](https://www.gkzhan.com/news/detail/197138.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197138.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-07T06:13:31.148Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197138.html\"]",
+      "source_ids": "[12]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-07T06:13:31.147Z",
+      "published_at": "2026-11-07T06:13:31.256Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261107-0a02ca",
+      "kind": "deep",
+      "title": "宏观数据｜2026年9月汽车零部件进口金额情况简析",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96487.html)\n\n## 核心观点\n1. 宏观数据｜2026年9月汽车零部件进口金额情况简析\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [宏观数据｜2026年9月我国汽车整车进口情况简析](article-7.html)\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-61.html)\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-36.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：宏观数据｜2026年9月汽车零部件进口金额情况简析](https://www.jc35.com/news/detail/96487.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96487.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-07T06:13:31.146Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96487.html\"]",
+      "source_ids": "[4]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-07T06:13:31.144Z",
+      "published_at": "2026-11-07T06:13:31.256Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261107-426a8d",
+      "kind": "deep",
+      "title": "第三批工业和信息化部重点培育中试平台初步名单公示",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197129.html)\n\n## 核心观点\n1. 第三批工业和信息化部重点培育中试平台初步名单公示\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [新培育省级绿色工厂549家、绿色工业园区5家！浙江省这份名单公布→](article-70.html)\n- [关于印发《海南省制造业中试平台管理办法》的通知](article-59.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：第三批工业和信息化部重点培育中试平台初步名单公示](https://www.gkzhan.com/news/detail/197129.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197129.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-07T06:13:31.143Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197129.html\"]",
+      "source_ids": "[13]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-07T06:13:31.139Z",
+      "published_at": "2026-11-07T06:13:31.256Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261107",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-07：技术前沿、展会动态、产业观察等 5 条动态",
+      "dek": "过去 48 小时 5 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. ​德承工控DX-1300：边缘AI推理平台，NPU算力如何发挥作用？**\n\n- ​德承工控DX-1300：边缘AI推理平台，NPU算力如何发挥作用？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454522.html)\n\n## 展会动态\n\n**1. 富士胶片携压力定量化解决方案亮相NEPCON ASIA 2026 助力半导体与电子制造**\n\n- 富士胶片携压力定量化解决方案亮相NEPCON ASIA 2026 助力半导体与电子制造\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454519.html)\n\n## 产业观察\n\n**1. 西克学堂 | 机械安全设计必修课 ISO 13855 防护装置定位指南 下篇**\n\n- 西克学堂 | 机械安全设计必修课 ISO 13855 防护装置定位指南 下篇\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454520.html)\n\n**2. 炬华科技预中标国家电网合计2.36亿元采购项目**\n\n- 炬华科技预中标国家电网合计2.36亿元采购项目\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197179.html)\n\n**3. 2026年前三季度我国纺织行业经济运行基本平稳**\n\n- 2026年前三季度我国纺织行业经济运行基本平稳\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197131.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-07T06:13:31.134Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454522.html\",\"https://www.gongkong.com/news/202611/454519.html\",\"https://www.gongkong.com/news/202611/454520.html\",\"https://www.gkzhan.com/news/detail/197179.html\",\"https://www.gkzhan.com/news/detail/197131.html\"]",
+      "source_ids": "[29,28,27,643,14]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-07T06:13:31.134Z",
+      "published_at": "2026-11-07T00:09:59.073Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261107-f845f8",
       "kind": "deep",
       "title": "匠心淬炼显真功 技能比武展风采 ——普什宁江公司2026年加工中心技能比赛圆满落幕",
@@ -5757,21 +5829,6 @@
       "score": 0,
       "status": "published",
       "created_at": "2026-11-07T00:09:58.970Z",
-      "published_at": "2026-11-07T00:09:59.073Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261107",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-07：政策风向、产业观察、技术前沿等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 政策风向\n\n**1. 共建行业标尺｜和利时深度参与矿热炉智能冶炼团体标准编制**\n\n- 共建行业标尺｜和利时深度参与矿热炉智能冶炼团体标准编制\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454526.html)\n\n## 产业观察\n\n**1. 新能源汽车隔热铝板压制成型设备适用哪些钣金件？**\n\n- 新能源汽车隔热铝板压制成型设备适用哪些钣金件？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454525.html)\n\n**2. 西门子携手思格新能源共拓海外光储市场**\n\n- 西门子携手思格新能源共拓海外光储市场\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454511.html)\n\n**3. 关于加强智能体终端设备进网管理的通知**\n\n- 工业和信息化部办公厅关于加强智能体终端设备进网管理的通知工信厅信管〔2026〕42号各相关单位：智能体终端是指预置安装智能体的手机、平板、可穿戴设备等电信终端设备。\n- 为深入贯彻党的二十大和二十届历次全会精神，\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197152.html)\n\n## 技术前沿\n\n**1. 光轮智能携手宇树科技，共推具身智能规模化落地**\n\n- 具身智能正加速迈入产业落地的关键阶段。\n- 随着机器人运动控制、感知交互与模型能力不断突破，行业竞争的焦点正从单点能力展示，转向机器人能否在真实场景中稳定运行、持续进化并实现规模化复制。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197135.html)\n\n**2. 边缘智能：人工智能、物联网与5G的交汇点**\n\n- 边缘智能：人工智能、物联网与5G的交汇点\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197141.html)\n\n## 落地说\n\n**1. 中国机械联领导出席2026人工智能技术应用与技能发展报告会**\n\n- 【机床商务网栏目机床会议】11月4日下午，2026人工智能技术应用与技能发展报告会在荆州国际会展中心举行。\n- 本次报告会在第四届全国人工智能应用技术技能大赛期间举办，旨在充分发挥大赛平台作用，放大赛事“溢出”效\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96482.html)\n\n## 展会动态\n\n**1. 展会邀约｜深圳展会 12J12 中勋精密 MHG1 新品首发**\n\n- 展会邀约｜深圳展会 12J12 中勋精密 MHG1 新品首发\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96474.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-07T00:09:58.963Z*\n",
-      "source_urls": "[\"https://www.gongkong.com/news/202611/454526.html\",\"https://www.gongkong.com/news/202611/454525.html\",\"https://www.gongkong.com/news/202611/454511.html\",\"https://www.gkzhan.com/news/detail/197152.html\",\"https://www.gkzhan.com/news/detail/197135.html\",\"https://www.gkzhan.com/news/detail/197141.html\",\"https://www.jc35.com/news/detail/96482.html\",\"https://www.jc35.com/news/detail/96474.html\"]",
-      "source_ids": "[33,32,31,18,17,15,8,7]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-07T00:09:58.963Z",
       "published_at": "2026-11-07T00:09:59.073Z",
       "relevance": "ok"
     },
@@ -8477,13 +8534,13 @@
     }
   ],
   "stats": {
-    "intel": 476,
-    "articles": 184,
+    "intel": 477,
+    "articles": 187,
     "prevIntel": 476,
-    "prevArticles": 180,
-    "dbIntelOk": 476,
-    "dbArticlesOk": 184,
+    "prevArticles": 184,
+    "dbIntelOk": 477,
+    "dbArticlesOk": 187,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-07T00:09:59.224Z"
+  "updated_at": "2026-11-07T06:13:31.419Z"
 }
