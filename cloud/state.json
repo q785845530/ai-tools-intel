@@ -47,7 +47,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T19:33:11.808Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -131,7 +131,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:36.518Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -143,7 +143,7 @@
       "published_at": null,
       "fetched_at": "2026-11-06T12:14:36.518Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -5728,6 +5728,21 @@
   ],
   "articles": [
     {
+      "slug": "manufacturing-daily-20261107",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-07：产业观察、展会动态等 3 条动态",
+      "dek": "过去 48 小时 3 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 刷新历史纪录！全球芯片Q3销售额破3.47万亿元**\n\n- 刷新历史纪录！全球芯片Q3销售额破3.47万亿元\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197084.html)\n\n**2. 宏观数据 | 2026年9月汽车零部件出口金额情况简析**\n\n- 宏观数据 | 2026年9月汽车零部件出口金额情况简析\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96486.html)\n\n## 展会动态\n\n**1. 富士胶片携压力定量化解决方案亮相NEPCON ASIA 2026 助力半导体与电子制造**\n\n- 富士胶片携压力定量化解决方案亮相NEPCON ASIA 2026 助力半导体与电子制造\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197177.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-07T13:17:07.392Z*\n",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197084.html\",\"https://www.gkzhan.com/news/detail/197177.html\",\"https://www.jc35.com/news/detail/96486.html\"]",
+      "source_ids": "[12,11,4]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-07T13:17:07.392Z",
+      "published_at": "2026-11-07T00:09:59.073Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261107-6d0f97",
       "kind": "deep",
       "title": "提前两年，欣旺达动力为电池护照下了怎样一盘棋？",
@@ -5770,21 +5785,6 @@
       "status": "published",
       "created_at": "2026-11-07T06:13:31.139Z",
       "published_at": "2026-11-07T06:13:31.256Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261107",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-07：技术前沿、展会动态、产业观察等 5 条动态",
-      "dek": "过去 48 小时 5 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. ​德承工控DX-1300：边缘AI推理平台，NPU算力如何发挥作用？**\n\n- ​德承工控DX-1300：边缘AI推理平台，NPU算力如何发挥作用？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454522.html)\n\n## 展会动态\n\n**1. 富士胶片携压力定量化解决方案亮相NEPCON ASIA 2026 助力半导体与电子制造**\n\n- 富士胶片携压力定量化解决方案亮相NEPCON ASIA 2026 助力半导体与电子制造\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454519.html)\n\n## 产业观察\n\n**1. 西克学堂 | 机械安全设计必修课 ISO 13855 防护装置定位指南 下篇**\n\n- 西克学堂 | 机械安全设计必修课 ISO 13855 防护装置定位指南 下篇\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454520.html)\n\n**2. 炬华科技预中标国家电网合计2.36亿元采购项目**\n\n- 炬华科技预中标国家电网合计2.36亿元采购项目\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197179.html)\n\n**3. 2026年前三季度我国纺织行业经济运行基本平稳**\n\n- 2026年前三季度我国纺织行业经济运行基本平稳\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197131.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-07T06:13:31.134Z*\n",
-      "source_urls": "[\"https://www.gongkong.com/news/202611/454522.html\",\"https://www.gongkong.com/news/202611/454519.html\",\"https://www.gongkong.com/news/202611/454520.html\",\"https://www.gkzhan.com/news/detail/197179.html\",\"https://www.gkzhan.com/news/detail/197131.html\"]",
-      "source_ids": "[29,28,27,643,14]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-07T06:13:31.134Z",
-      "published_at": "2026-11-07T00:09:59.073Z",
       "relevance": "ok"
     },
     {
@@ -8536,11 +8536,11 @@
   "stats": {
     "intel": 477,
     "articles": 187,
-    "prevIntel": 476,
-    "prevArticles": 184,
+    "prevIntel": 477,
+    "prevArticles": 187,
     "dbIntelOk": 477,
     "dbArticlesOk": 187,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-07T06:13:31.419Z"
+  "updated_at": "2026-11-07T13:17:07.647Z"
 }
