@@ -2,6 +2,30 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-ofweek-im",
+      "ext_id": "30707082",
+      "title": "工博会新品 | 破解产线测温难题，海康微影发布红外测温分析系列摄像机",
+      "url": "https://www.ofweek.com/im/2026-10/ART-201900-8300-30707082.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-07T18:07:19.462Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2102544617392568223",
+      "title": "制造业AI应用落地的方法与路径是什么? - 知乎",
+      "url": "https://www.zhihu.com/question/2047946051567481916/answer/2102544617392568223",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-07T18:06:45.990Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-gkzhan",
       "ext_id": "197179",
       "title": "炬华科技预中标国家电网合计2.36亿元采购项目",
@@ -5728,6 +5752,21 @@
   ],
   "articles": [
     {
+      "slug": "20261028-794471",
+      "kind": "deep",
+      "title": "制造业AI应用落地的方法与路径是什么?",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：知乎 · Giselle ｜ [打开原文](https://www.zhihu.com/question/2047946051567481916/answer/2102544617392568223)\n\n## 核心观点\n1. 制造业AI应用落地的方法与路径是什么?\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [制造业AI应用如何选择适合自身生产场景的落地方案](article-46.html)\n- [企业AI应用亲测:从产线巡检到质检的落地复盘](article-68.html)\n- [定义下一代工业:TPT四大案例,揭示流程工业AI落地路径](article-69.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：制造业AI应用落地的方法与路径是什么?](https://www.zhihu.com/question/2047946051567481916/answer/2102544617392568223)\n\n原始地址（可复制/可点击）：https://www.zhihu.com/question/2047946051567481916/answer/2102544617392568223\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-07T18:07:58.343Z*",
+      "source_urls": "[\"https://www.zhihu.com/question/2047946051567481916/answer/2102544617392568223\"]",
+      "source_ids": "[504]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-07T18:07:58.339Z",
+      "published_at": "2026-10-28T02:01:46.202Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "manufacturing-daily-20261107",
       "kind": "daily",
       "title": "智能制造日报 | 2026-11-07：产业观察、展会动态等 3 条动态",
@@ -6685,21 +6724,6 @@
       "status": "published",
       "created_at": "2026-11-03T08:07:06.850Z",
       "published_at": "2026-11-03T08:07:06.907Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "20261028-794471",
-      "kind": "deep",
-      "title": "制造业AI应用落地的方法与路径是什么?",
-      "dek": "【落地说】",
-      "body_md": "> 栏目：落地说 ｜ 来源：知乎 · 迅易科技 ｜ [打开原文](https://www.zhihu.com/question/2047946051567481916/answer/2100892891556079387)\n\n## 核心观点\n1. 制造业AI应用落地的方法与路径是什么?\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [企业AI应用亲测:从产线巡检到质检的落地复盘](article-145.html)\n- [定义下一代工业:TPT四大案例,揭示流程工业AI落地路径](article-144.html)\n- [双双入选！格创东智两项工业AI成果获选湖北省人工智能典型应用场景](article-135.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：制造业AI应用落地的方法与路径是什么?](https://www.zhihu.com/question/2047946051567481916/answer/2100892891556079387)\n\n原始地址（可复制/可点击）：https://www.zhihu.com/question/2047946051567481916/answer/2100892891556079387\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-03T08:07:06.848Z*",
-      "source_urls": "[\"https://www.zhihu.com/question/2047946051567481916/answer/2100892891556079387\"]",
-      "source_ids": "[25650]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-03T08:07:06.847Z",
-      "published_at": "2026-10-28T02:01:46.202Z",
       "relevance": "ok"
     },
     {
@@ -8534,13 +8558,13 @@
     }
   ],
   "stats": {
-    "intel": 477,
+    "intel": 479,
     "articles": 187,
     "prevIntel": 477,
     "prevArticles": 187,
-    "dbIntelOk": 477,
+    "dbIntelOk": 479,
     "dbArticlesOk": 187,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-07T13:17:07.647Z"
+  "updated_at": "2026-11-07T18:07:58.608Z"
 }
