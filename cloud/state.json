@@ -2,6 +2,198 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197235",
+      "title": "具身智能重塑工业无人车：不再拼参数，开始拼“稳定干活”",
+      "url": "https://www.gkzhan.com/news/detail/197235.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:56:03.859Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197239",
+      "title": "从6G原型机到手术机器人：第九届进博会前沿新品集中亮相",
+      "url": "https://www.gkzhan.com/news/detail/197239.html",
+      "summary": "2026年11月5日至10日，第九届中国国际进口博览会(简称：进博会)在上海国家会展中心拉开帷幕。本届进博会再次凝聚全球创新力量，推动前沿技术对话，促进产业资源互通与成果转化。作为全球新品首发、前沿技术孵化的核",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:56:03.859Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197236",
+      "title": "通用全身控制的下一程：从单一技能控制器走向通用模型",
+      "url": "https://www.gkzhan.com/news/detail/197236.html",
+      "summary": "2026年11月2日，北京人形机器人创新中心正式发布基于「慧思开物」平台的Hi-WBC通用全身控制模型。该模型以让机器人运动技能服务真实任务为目标，推动全身控制从“动作展示”走向“实际作业”。其核心思路是“刚柔并",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:56:03.859Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454559",
+      "title": "欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级",
+      "url": "https://www.gongkong.com/news/202611/454559.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454560",
+      "title": "欧姆龙通用品巡展西安站丨新机亮相，数智化方案破局西北制造升级痛点",
+      "url": "https://www.gongkong.com/news/202611/454560.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454578",
+      "title": "和盛聚能新材料采购北广精仪三台材料电性能检测设备",
+      "url": "https://www.gongkong.com/news/202611/454578.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454564",
+      "title": "以高可靠快插设计回应工程需求，凌科电气LP系列工业连接器获德国红点奖",
+      "url": "https://www.gongkong.com/news/202611/454564.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454565",
+      "title": "释放 200 TOPS 边缘 AI 算力，EXEC-Q911 开发套件赋能智能制造与机器人行业",
+      "url": "https://www.gongkong.com/news/202611/454565.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454567",
+      "title": "宜鼎推出 GMSL2™ 相机开发套件，一站式整合多路相机与平台对接，加速边缘 AI 视觉应用落地",
+      "url": "https://www.gongkong.com/news/202611/454567.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454579",
+      "title": "户外储能电源如何选择工业防水连接器？凌科DK24双锁快插方案解析",
+      "url": "https://www.gongkong.com/news/202611/454579.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454570",
+      "title": "圆满收官｜艾迪科亮相 CeMAT ASIA，以位置传感赋能智慧物流",
+      "url": "https://www.gongkong.com/news/202611/454570.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454580",
+      "title": "玻璃钢电缆沟盖板模压液压机压制成型产品优势",
+      "url": "https://www.gongkong.com/news/202611/454580.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454581",
+      "title": "行云创新：AI CAD/CAE设计仿真一体化平台，多Agent串起设计仿真闭环",
+      "url": "https://www.gongkong.com/news/202611/454581.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454585",
+      "title": "NI 多通道 OPA 自动化测试解决方案",
+      "url": "https://www.gongkong.com/news/202611/454585.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454584",
+      "title": "和利时与国家工业信息安全发展研究中心深化交流合作",
+      "url": "https://www.gongkong.com/news/202611/454584.html",
+      "summary": "11月6日，国家工业信息安全发展研究中心主任江明涛一行到和利时集团调研交流，集团联席总裁方垒携相关负责同志热情接待。双方围绕工业控制系统、工业软件、工业人工智能应用等议题深入研讨，就深化战略合作、合力赋能制造业高质量发展达成广泛共识。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:55:27.643Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2103162393366943090",
+      "title": "英格玛亮相“2026江苏首席数智官大会”,共探制造产业AI转型新路径 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2103162393366943090",
+      "summary": "",
+      "points": 1,
+      "published_at": null,
+      "fetched_at": "2026-11-09T18:54:54.447Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96495",
       "title": "市场信息｜前三季度我国船舶、能源及工程机械领域运行情况",
@@ -95,7 +287,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:56.025Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -239,7 +431,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:44.269Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -287,7 +479,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:19.129Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -6232,6 +6424,66 @@
   ],
   "articles": [
     {
+      "slug": "20261109-b19b48",
+      "kind": "deep",
+      "title": "关于举办首届装备制造业工程师大会的通知",
+      "dek": "【政策风向】各有关单位:为落实国家“十五五”规划纲要部署，推动装备制造业高质量发展和技术创新，中国机械工业联合会定于2026年12月3日一6日在江苏省苏州金鸡湖国际会议中心",
+      "body_md": "> 栏目：政策风向 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96509.html)\n\n## 核心观点\n1. 各有关单位:为落实国家“十五五”规划纲要部署，推动装备制造业高质量发展和技术创新，中国机械工业联合会定于2026年12月3日一6日在江苏省苏州金鸡湖国际会议中心(苏州国际博览中心)举办2026装备制造业发展大会(EMF2\n\n## 内容概要\n各有关单位:为落实国家“十五五”规划纲要部署，推动装备制造业高质量发展和技术创新，中国机械工业联合会定于2026年12月3日一6日在江苏省苏州金鸡湖国际会议中心(苏州国际博览中心)举办2026装备制造业发展大会(EMF2\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 对照申报条件逐条自查：政策条目里「支持对象」「支持方式」「申报门槛」三段通常就是资格线，缺一项就不必投入准备成本。\n- 把资金/补贴条款换算成自己项目的投资回收期改善幅度，再决定值不值得走流程。\n\n## 相关案例（站内）\n- [关于印发《海南省制造业中试平台管理办法》的通知](article-69.html)\n\n## 为什么制造业读者要关注\n政策类信息往往决定未来 3—5 年的资金流向和改造优先级。对制造企业而言，早一步读懂导向，就早一步在项目立项和预算申报上占位。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：关于举办首届装备制造业工程师大会的通知](https://www.jc35.com/news/detail/96509.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96509.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-09T18:56:17.571Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96509.html\"]",
+      "source_ids": "[8]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-09T18:56:17.570Z",
+      "published_at": "2026-11-09T18:56:17.654Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261109-285ec3",
+      "kind": "deep",
+      "title": "我国预计每年新增6000亿度用电量：相当于3个上海",
+      "dek": "【政策风向】11月8日消息，AI算力发展越来越快，背后的用电需求也在不断增长。在11月6日国家发展改革委举行的新闻发布会上，国家能源局发展规划司副司长葛炬介绍，“十五五”时",
+      "body_md": "> 栏目：政策风向 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197219.html)\n\n## 核心观点\n1. 11月8日消息，AI算力发展越来越快，背后的用电需求也在不断增长。\n2. 在11月6日国家发展改革委举行的新闻发布会上，国家能源局发展规划司副司长葛炬介绍，“十五五”时期，随着算力等新兴产业快速发展，我国用电需求还将\n\n## 内容概要\n11月8日消息，AI算力发展越来越快，背后的用电需求也在不断增长。在11月6日国家发展改革委举行的新闻发布会上，国家能源局发展规划司副司长葛炬介绍，“十五五”时期，随着算力等新兴产业快速发展，我国用电需求还将\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 对照申报条件逐条自查：政策条目里「支持对象」「支持方式」「申报门槛」三段通常就是资格线，缺一项就不必投入准备成本。\n- 把资金/补贴条款换算成自己项目的投资回收期改善幅度，再决定值不值得走流程。\n\n## 为什么制造业读者要关注\n政策类信息往往决定未来 3—5 年的资金流向和改造优先级。对制造企业而言，早一步读懂导向，就早一步在项目立项和预算申报上占位。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：我国预计每年新增6000亿度用电量：相当于3个上海](https://www.gkzhan.com/news/detail/197219.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197219.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-09T18:56:17.569Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197219.html\"]",
+      "source_ids": "[20]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-09T18:56:17.567Z",
+      "published_at": "2026-11-09T18:56:17.654Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261109-ab3153",
+      "kind": "deep",
+      "title": "以高可靠快插设计回应工程需求，凌科电气LP系列工业连接器获德国红点奖",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：工控网 · 工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454564.html)\n\n## 核心观点\n1. 以高可靠快插设计回应工程需求，凌科电气LP系列工业连接器获德国红点奖\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [航空插头连接器供应商如何评估？从凌科电气electronica 2026展示看四项能力](article-47.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：以高可靠快插设计回应工程需求，凌科电气LP系列工业连接器获德国红点奖](https://www.gongkong.com/news/202611/454564.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454564.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-09T18:56:17.566Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454564.html\"]",
+      "source_ids": "[610]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-09T18:56:17.563Z",
+      "published_at": "2026-11-09T18:56:17.654Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261109",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-09：展会动态、产业观察、落地说等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 展会动态\n\n**1. 英格玛亮相“2026江苏首席数智官大会”,共探制造产业AI转型新路径**\n\n- 英格玛亮相“2026江苏首席数智官大会”,共探制造产业AI转型新路径\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103162393366943090)\n\n**2. 欧姆龙通用品巡展西安站丨新机亮相，数智化方案破局西北制造升级痛点**\n\n- 欧姆龙通用品巡展西安站丨新机亮相，数智化方案破局西北制造升级痛点\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454560.html)\n\n**3. 从6G原型机到手术机器人：第九届进博会前沿新品集中亮相**\n\n- 2026年11月5日至10日，第九届中国国际进口博览会(简称：进博会)在上海国家会展中心拉开帷幕。\n- 本届进博会再次凝聚全球创新力量，推动前沿技术对话，促进产业资源互通与成果转化。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197239.html)\n\n## 产业观察\n\n**1. 欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级**\n\n- 欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454559.html)\n\n**2. 和盛聚能新材料采购北广精仪三台材料电性能检测设备**\n\n- 和盛聚能新材料采购北广精仪三台材料电性能检测设备\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454578.html)\n\n## 落地说\n\n**1. 先导智能：固态湿法涂布设备，进入头部车企中试线！**\n\n- 维科网智能制造11月6日消息，近日，先导智能与某国内自主整车头部企业达成合作，为其全固态电池中试线提供固态湿法涂布设备，适配硫化物固态电池体系。\n- 硫化物湿法涂布，难在“一边成膜、一边防爆” 湿法涂布在\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8110-30710899.html)\n\n## 技术前沿\n\n**1. 具身智能重塑工业无人车：不再拼参数，开始拼“稳定干活”**\n\n- 具身智能重塑工业无人车：不再拼参数，开始拼“稳定干活”\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197235.html)\n\n**2. 通用全身控制的下一程：从单一技能控制器走向通用模型**\n\n- 2026年11月2日，北京人形机器人创新中心正式发布基于「慧思开物」平台的Hi-WBC通用全身控制模型。\n- 该模型以让机器人运动技能服务真实任务为目标，推动全身控制从“动作展示”走向“实际作业”。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197236.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-09T18:56:17.555Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2103162393366943090\",\"https://www.gongkong.com/news/202611/454559.html\",\"https://www.gongkong.com/news/202611/454560.html\",\"https://www.gongkong.com/news/202611/454578.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8110-30710899.html\",\"https://www.gkzhan.com/news/detail/197235.html\",\"https://www.gkzhan.com/news/detail/197239.html\",\"https://www.gkzhan.com/news/detail/197236.html\"]",
+      "source_ids": "[546,614,613,611,24,675,661,660]",
+      "generator": "template-v2-manufacturing",
+      "score": 1,
+      "status": "published",
+      "created_at": "2026-11-09T18:56:17.555Z",
+      "published_at": "2026-11-09T01:01:05.205Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261109-ec7df1",
       "kind": "deep",
       "title": "真实产线跑出规模化部署：它石智航携手安波福深化战略合作",
@@ -6274,21 +6526,6 @@
       "status": "published",
       "created_at": "2026-11-09T08:07:58.385Z",
       "published_at": "2026-11-09T08:07:58.477Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261109",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-09：技术前沿、落地说、产业观察等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 世界模型遇上通用模型,大晓机器人双脑协同架构如何帮助具身智能跨过自进化的关键一步?**\n\n- 世界模型遇上通用模型,大晓机器人双脑协同架构如何帮助具身智能跨过自进化的关键一步?\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103129884428072786)\n\n## 落地说\n\n**1. 矩形科技｜工业锅炉自动化控制系统应用方案**\n\n- 矩形科技｜工业锅炉自动化控制系统应用方案\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454534.html)\n\n**2. 卧龙280kW水冷低速永磁直驱电机赋能中非矿业： 200r/min大扭矩驱动，助力矿山降本增效**\n\n- 卧龙280kW水冷低速永磁直驱电机赋能中非矿业： 200r/min大扭矩驱动，助力矿山降本增效\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454539.html)\n\n**3. 中石油60%控股！与宇树、泛界合设公司, 油气机器人“验收权”不能交给外部厂商**\n\n- 中石油控股三方合营，锚定油气具身机器人标准定义。\n- 预见能源注意到，近日，北京市市场监管局公示了一则合营企业新设案：中国石油集团昆仑制造有限公司及其一致行动人昆仑资本，与宇树科技、北京泛界智能科技有限公\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201926-8420-30710853.html)\n\n## 产业观察\n\n**1. 奇石乐NCFL伺服压机系统全新升级：以安全为基，以力控为翼，赋能亚太智能制造**\n\n- 奇石乐NCFL伺服压机系统全新升级：以安全为基，以力控为翼，赋能亚太智能制造\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454545.html)\n\n**2. 实控人离婚给超8亿“分手费”，智能装备龙头三季报增收不增利**\n\n- 实控人离婚给超8亿“分手费”，智能装备龙头三季报增收不增利\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201928-12003-30710779.html)\n\n**3. 中建材信息：从实践出发，赋能多元行业数智化转型**\n\n- 中建材信息：从实践出发，赋能多元行业数智化转型\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197234.html)\n\n## 政策风向\n\n**1. 全国包装标准化技术委员会2026年度工作会议在京召开**\n\n- 全国包装标准化技术委员会2026年度工作会议在京召开\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197233.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-09T08:07:58.370Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2103129884428072786\",\"https://www.gongkong.com/news/202611/454534.html\",\"https://www.gongkong.com/news/202611/454539.html\",\"https://www.gongkong.com/news/202611/454545.html\",\"https://www.ofweek.com/im/2026-11/ART-201928-12003-30710779.html\",\"https://www.ofweek.com/im/2026-11/ART-201926-8420-30710853.html\",\"https://www.gkzhan.com/news/detail/197234.html\",\"https://www.gkzhan.com/news/detail/197233.html\"]",
-      "source_ids": "[554,581,575,574,595,592,648,635]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-09T08:07:58.370Z",
-      "published_at": "2026-11-09T01:01:05.205Z",
       "relevance": "ok"
     },
     {
@@ -9128,13 +9365,13 @@
     }
   ],
   "stats": {
-    "intel": 519,
-    "articles": 193,
-    "prevIntel": 484,
-    "prevArticles": 190,
-    "dbIntelOk": 519,
-    "dbArticlesOk": 193,
+    "intel": 535,
+    "articles": 196,
+    "prevIntel": 519,
+    "prevArticles": 193,
+    "dbIntelOk": 535,
+    "dbArticlesOk": 196,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-09T08:07:58.609Z"
+  "updated_at": "2026-11-09T18:56:17.784Z"
 }
