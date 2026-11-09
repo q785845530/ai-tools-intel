@@ -2,6 +2,54 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-jc35",
+      "ext_id": "96491",
+      "title": "一句话新闻：沈阳精锐“缸盖加工智能柔性生产线”交付",
+      "url": "https://www.jc35.com/news/detail/96491.html",
+      "summary": "【机床商务网栏目一句话新闻】新闻一句话，遍布全天下。大家好，我是机床商务网的编辑蔚然。下面由我为大家播报今天的机床一句话新闻。请看主要内容：近日，沈阳精锐数控机床有限公司自主研发的“缸盖加工智能柔性生",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T01:00:57.150Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-jc35",
+      "ext_id": "96492",
+      "title": "2026年第三季度金属成形机床产量数据统计",
+      "url": "https://www.jc35.com/news/detail/96492.html",
+      "summary": "9月2026年9月国内金属成形机床产量为1.7万台，同比增长6.3%。1-9月国内金属成形机床累计产量为14.2万台，累计增长6.8%。8月2026年8月国内金属成形机床产量为1.6万台，同比增长6.7%。1-8月国内金属成形机床累计产量为",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T01:00:57.150Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197183",
+      "title": "欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级",
+      "url": "https://www.gkzhan.com/news/detail/197183.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T01:00:45.895Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2103045719070340893",
+      "title": "人形机器人开始拼真活,光跑跳翻跟头的路子走不远了 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2103045719070340893",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-09T00:59:47.675Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "zhihu-hot",
       "ext_id": "2102304929872458272",
       "title": "马斯克称Cybertruck明年逐步停产，实际销量仅目标产能一成，曾爆火的赛博皮卡为何没能跑通商业化？",
@@ -5764,6 +5812,21 @@
   ],
   "articles": [
     {
+      "slug": "manufacturing-daily-20261109",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-09：技术前沿、产业观察、落地说等 4 条动态",
+      "dek": "过去 48 小时 4 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 人形机器人开始拼真活,光跑跳翻跟头的路子走不远了**\n\n- 人形机器人开始拼真活,光跑跳翻跟头的路子走不远了\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103045719070340893)\n\n## 产业观察\n\n**1. 欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级**\n\n- 欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197183.html)\n\n**2. 2026年第三季度金属成形机床产量数据统计**\n\n- 9月2026年9月国内金属成形机床产量为1.7万台，同比增长6.3%。\n- 1-9月国内金属成形机床累计产量为14.2万台，累计增长6.8%。\n\n*关键数字：「月国内金属成形机床产量为1.7万台」、「同比增长6.3%」*\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96492.html)\n\n## 落地说\n\n**1. 一句话新闻：沈阳精锐“缸盖加工智能柔性生产线”交付**\n\n- 【机床商务网栏目一句话新闻】新闻一句话，遍布全天下。\n- 大家好，我是机床商务网的编辑蔚然。\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96491.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-09T01:01:05.090Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2103045719070340893\",\"https://www.gkzhan.com/news/detail/197183.html\",\"https://www.jc35.com/news/detail/96491.html\",\"https://www.jc35.com/news/detail/96492.html\"]",
+      "source_ids": "[545,617,622,621]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-09T01:01:05.090Z",
+      "published_at": "2026-11-09T01:01:05.205Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261108-55ead1",
       "kind": "deep",
       "title": "马斯克称Cybertruck明年逐步停产，实际销量仅目标产能一成，曾爆火的赛博皮卡为何没能跑通商业化？",
@@ -8600,13 +8663,13 @@
     }
   ],
   "stats": {
-    "intel": 480,
-    "articles": 189,
-    "prevIntel": 479,
-    "prevArticles": 188,
-    "dbIntelOk": 480,
-    "dbArticlesOk": 189,
+    "intel": 484,
+    "articles": 190,
+    "prevIntel": 480,
+    "prevArticles": 189,
+    "dbIntelOk": 484,
+    "dbArticlesOk": 190,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-08T20:36:49.829Z"
+  "updated_at": "2026-11-09T01:01:05.330Z"
 }
