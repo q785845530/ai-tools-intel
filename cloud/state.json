@@ -2,6 +2,18 @@
   "version": 1,
   "intel": [
     {
+      "source": "zhihu-search",
+      "ext_id": "2103547862764335151",
+      "title": "对于传统制造企业而言,数字化转型最成功的路径是什么? - 知乎",
+      "url": "https://www.zhihu.com/question/1989658571185619684/answer/2103547862764335151",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-10T17:56:52.155Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96514",
       "title": "聚焦精密智造！海目星前沿装备硬核解题 NEPCON 2026",
@@ -167,7 +179,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:05:02.720Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -203,7 +215,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:04:39.104Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -215,7 +227,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:04:39.104Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -743,7 +755,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:56.025Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -803,7 +815,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:44.269Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -827,7 +839,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:44.269Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -1031,7 +1043,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:05.184Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -1043,7 +1055,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:05.184Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -1055,7 +1067,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:05.184Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -1067,7 +1079,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:05.184Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -6892,6 +6904,66 @@
   ],
   "articles": [
     {
+      "slug": "20261110-c273ca",
+      "kind": "deep",
+      "title": "【数据发布】2026年10月份居民消费价格同比上涨0.7%",
+      "dek": "【展会动态】【机床商务网栏目市场分析】2026年10月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.7%；食品价格下降2.9%，非食品价格上涨1",
+      "body_md": "> 栏目：展会动态 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96504.html)\n\n## 核心观点\n1. 【机床商务网栏目市场分析】2026年10月份，全国居民消费价格同比上涨0.7%。\n2. 其中，城市上涨0.7%，农村上涨0.7%；\n3. 食品价格下降2.9%，非食品价格上涨1.5%；\n\n## 内容概要\n【机床商务网栏目市场分析】2026年10月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.7%；食品价格下降2.9%，非食品价格上涨1.5%；消费品价格上涨0.8%，服务价格上涨0.7%。1—10月平均，全国居\n\n## 实例分析\n**原文中的关键数字**\n- 「全国居民消费价格同比上涨0.7%」——出自机床商务网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n- 「城市上涨0.7%」——出自机床商务网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n- 「农村上涨0.7%」——出自机床商务网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n\n**落到自己场景，可以这样做**\n- 把发布信息转成采购清单线索：厂商集中发布的功能点，往往对应下一轮选型的必答项。\n- 对感兴趣型号记录公开参数与适配条件；展会热度不等于成熟度，要求厂商提供同工况案例。\n\n## 相关案例（站内）\n- [宏观数据｜2026年9月我国汽车整车进口情况简析](article-26.html)\n- [宏观数据｜2026年9月汽车零部件进口金额情况简析](article-19.html)\n- [智能制造日报 | 2026-11-07：产业观察、展会动态等 3 条动态](article-17.html)\n\n## 为什么制造业读者要关注\n展会和大会是行业风向的集中释放点。厂商集中发布什么，往往预示着下一轮采购清单里会出现什么。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：【数据发布】2026年10月份居民消费价格同比上涨0.7%](https://www.jc35.com/news/detail/96504.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96504.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-10T17:58:03.633Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96504.html\"]",
+      "source_ids": "[62]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-10T17:58:03.632Z",
+      "published_at": "2026-11-10T17:58:03.721Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261110-b954e9",
+      "kind": "deep",
+      "title": "联泰科技金属3D打印自动化产线，如何构建鞋模量产车间？",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197230.html)\n\n## 核心观点\n1. 联泰科技金属3D打印自动化产线，如何构建鞋模量产车间？\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [出口高增、融资升温：3D打印消费级与工业端同步扩容](article-24.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：联泰科技金属3D打印自动化产线，如何构建鞋模量产车间？](https://www.gkzhan.com/news/detail/197230.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197230.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-10T17:58:03.631Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197230.html\"]",
+      "source_ids": "[67]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-10T17:58:03.630Z",
+      "published_at": "2026-11-10T17:58:03.721Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261110-5a5f6f",
+      "kind": "deep",
+      "title": "意法半导体STM32H7P微控制器集数字信号处理、边缘AI与实时控制于一体，满足工业应用的严苛要求",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454556.html)\n\n## 核心观点\n1. 意法半导体STM32H7P微控制器集数字信号处理、边缘AI与实时控制于一体，满足工业应用的严苛要求\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [双双入选！格创东智两项工业AI成果获选湖北省人工智能典型应用场景](article-93.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：意法半导体STM32H7P微控制器集数字信号处理、边缘AI与实时控制于一体，满足](https://www.gongkong.com/news/202611/454556.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454556.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-10T17:58:03.629Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454556.html\"]",
+      "source_ids": "[86]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-10T17:58:03.626Z",
+      "published_at": "2026-11-10T17:58:03.721Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261110",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-10：产业观察、落地说、政策风向等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 对于传统制造企业而言,数字化转型最成功的路径是什么?**\n\n- 对于传统制造企业而言,数字化转型最成功的路径是什么?\n\n*来源：知乎* ｜ [🔗 原文](https://www.zhihu.com/question/1989658571185619684/answer/2103547862764335151)\n\n**2. 意法半导体推出全新STM32工具，提升AI智能体编程准确性**\n\n- 意法半导体推出全新STM32工具，提升AI智能体编程准确性\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454557.html)\n\n## 落地说\n\n**1. 对话伦茨高昌兴：以差异化产品组合，回应多元场景需求**\n\n- ​当前中国物流装备市场，价格竞争持续，客户需求却同时向“低成本”与“高性能”两端拉伸。\n- CeMAT ASIA 2026期间，伦茨全国物流行业负责人高昌兴接受gongkong®专访，围绕物流自动化从单点设备走向系统级协同的趋势，高昌兴就硬件产品组合、软硬一体能力与本土化布局等方面，介绍了伦茨的实践与思考。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454541.html)\n\n**2. 【聚焦】非常规油气开采拉动石油机械压裂装备需求增长 我国市场国产化率高**\n\n- 石油机械压裂装备广泛应用于页岩油气、致密油气、煤层气等非常规油气资源的开采，以及常规油气田的增产改造作业领域 石油机械压裂装备是油气田增产改造的核心装备，用于水力压裂作业，通过地面高压泵组将具有一定黏\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8420-30711153.html)\n\n**3. 全国首个海上算力联盟落地珠海**\n\n- 全国首个海上算力联盟落地珠海\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197226.html)\n\n## 政策风向\n\n**1. 陶瓷粉末成型自动化产线液压机送料操作要求**\n\n- 在特种陶瓷、工业陶瓷的粉末压块成型生产中，自动化送料系统是整条成型产线的核心环节，送料是否均匀、布料精度是否稳定，直接决定陶瓷生坯的成型质量。\n- 很多坯体出现缺料、厚薄偏差、局部密度不一致、烧结开裂等问题，根源往往不在于液压主机压力，而是送料布料环节操作管控不到位。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454561.html)\n\n**2. 妙动科技Beni全球现货开售：机器人技术走进智能影像消费场景**\n\n- 2026 年 11 月 10 日，消费级机器人公司妙动科技宣布，旗下全球首款多地形跟拍机器人 Beni 正式开启现货发售：标准套装售价 4999 元、探索套装售价 5799 元，国内用户可通过京东商城\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30711143.html)\n\n## 技术前沿\n\n**1. 强化高质量工业数据供给，夯实智能经济发展基础**\n\n- 智能经济的竞争，表面是模型之争、算力之争，深层是高质量数据之争。\n- 工业是智能经济发展的主战场，高质量工业数据是人工智能赋能制造业的关键基础，业界以“七分在数据、三分在模型”强调其重要性。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197260.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-10T17:58:03.619Z*\n",
+      "source_urls": "[\"https://www.zhihu.com/question/1989658571185619684/answer/2103547862764335151\",\"https://www.gongkong.com/news/202611/454541.html\",\"https://www.gongkong.com/news/202611/454561.html\",\"https://www.gongkong.com/news/202611/454557.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8420-30711153.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30711143.html\",\"https://www.gkzhan.com/news/detail/197226.html\",\"https://www.gkzhan.com/news/detail/197260.html\"]",
+      "source_ids": "[633,89,88,87,18,17,69,14]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-10T17:58:03.619Z",
+      "published_at": "2026-11-10T02:16:37.386Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261110-f723cc",
       "kind": "deep",
       "title": "奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径",
@@ -6919,21 +6991,6 @@
       "status": "published",
       "created_at": "2026-11-10T10:05:17.223Z",
       "published_at": "2026-11-10T10:05:17.338Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261110",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-10：产业观察、落地说、技术前沿等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. PlantU FDC AI+ :AI让海量设备参数“会说话”,缺陷监测更精准、更高效**\n\n- PlantU FDC AI+ :AI让海量设备参数“会说话”,缺陷监测更精准、更高效\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2101742347646153860)\n\n**2. 新品 | 研祥智能NPC-5220-HG国产网络安全平台强势登场**\n\n- 新品 | 研祥智能NPC-5220-HG国产网络安全平台强势登场\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454597.html)\n\n**3. 聚焦复杂工业声场，智能语音国家制造业创新中心推出8麦智能线性阵列拾音器**\n\n- 聚焦复杂工业声场，智能语音国家制造业创新中心推出8麦智能线性阵列拾音器\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8110-30711065.html)\n\n## 落地说\n\n**1. 案例分享丨FPC焊后缺陷视觉检测**\n\n- 案例分享丨FPC焊后缺陷视觉检测\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2102087354886382441)\n\n## 技术前沿\n\n**1. 工业外观缺陷AI视觉检测现场怎么做:成像、判定与留图复核**\n\n- 工业外观缺陷AI视觉检测现场怎么做:成像、判定与留图复核\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2102878231787464574)\n\n**2. “眼脚手脑”全域协同，海康机器人具身智造演进与落地的背后逻辑**\n\n- “眼脚手脑”全域协同，海康机器人具身智造演进与落地的背后逻辑\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454598.html)\n\n**3. 双展齐发｜劢微机器人亮相上海CeMAT与韩国ROBOT WORLD 2026**\n\n- 双展齐发｜劢微机器人亮相上海CeMAT与韩国ROBOT WORLD 2026\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454602.html)\n\n## 政策风向\n\n**1. 【电动装备】国内首艘200TEU纯电智能远控集装箱海船建成**\n\n- 近日，国内首艘200TEU纯电智能远控集装箱海船建造完成，计划年底投入青岛港区域航线运营。\n- 这艘由山东远洋海运集团投资建造的“绿色智能船”，具备远程控制、自主驾驶、智能决策等功能，设计装载能力200标准\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201931-8110-30711084.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-10T10:05:17.217Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2101742347646153860\",\"https://zhuanlan.zhihu.com/p/2102087354886382441\",\"https://zhuanlan.zhihu.com/p/2102878231787464574\",\"https://www.gongkong.com/news/202611/454597.html\",\"https://www.gongkong.com/news/202611/454598.html\",\"https://www.gongkong.com/news/202611/454602.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8110-30711065.html\",\"https://www.ofweek.com/im/2026-11/ART-201931-8110-30711084.html\"]",
-      "source_ids": "[587,590,586,642,640,638,651,650]",
-      "generator": "template-v2-manufacturing",
-      "score": 1,
-      "status": "published",
-      "created_at": "2026-11-10T10:05:17.217Z",
-      "published_at": "2026-11-10T02:16:37.386Z",
       "relevance": "ok"
     },
     {
@@ -9923,13 +9980,13 @@
     }
   ],
   "stats": {
-    "intel": 574,
-    "articles": 202,
-    "prevIntel": 542,
-    "prevArticles": 200,
-    "dbIntelOk": 574,
-    "dbArticlesOk": 202,
+    "intel": 575,
+    "articles": 205,
+    "prevIntel": 574,
+    "prevArticles": 202,
+    "dbIntelOk": 575,
+    "dbArticlesOk": 205,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-10T10:05:17.453Z"
+  "updated_at": "2026-11-10T17:58:03.853Z"
 }
