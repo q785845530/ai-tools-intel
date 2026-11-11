@@ -2,6 +2,42 @@
   "version": 1,
   "intel": [
     {
+      "source": "hn",
+      "ext_id": "50455811",
+      "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+      "url": "https://news.ycombinator.com/item?id=50455811",
+      "summary": "Hi HN, we’re Alan and Akshay from Pomerado (<a href=\"https:&#x2F;&#x2F;pomerado.ai&#x2F;\">https:&#x2F;&#x2F;pomerado.ai&#x2F;</a>). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve.<p>Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airlines, banks, e-commerce, insurance portals, government sites, and legacy portals all lack APIs or MCPs and are common parts of person",
+      "points": 39,
+      "published_at": "2026-11-11T17:11:56Z",
+      "fetched_at": "2026-11-11T22:47:48.396Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-ofweek-im",
+      "ext_id": "30711344",
+      "title": "蓝色起源把火箭发动机成本砍到 1/4，目标一年发射 1000 次",
+      "url": "https://www.ofweek.com/im/2026-11/ART-201930-8140-30711344.html",
+      "summary": "Northstar 发动机零件减半、质量轻 30%、65% 可 3D 打印，制造成本只要 BE-4 的四分之一；起始推力 71.5 万磅，New Glenn 想一年飞 1000 次。 11 月 5 日",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-11T22:47:11.908Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-ofweek-im",
+      "ext_id": "30711361",
+      "title": "西门子能源进博会爆单！与电建、能建等多家央企签下合作背后, 西门子能源真正售卖的是中国出海的技术通行证",
+      "url": "https://www.ofweek.com/im/2026-11/ART-201930-8420-30711361.html",
+      "summary": "进博会央企与西门子能源签约，核心是借其资质出海，合作窗口随国产技术进展变化。 预见能源注意到，进博会期间，西门子能源展台接待的央企名单很长，包含国家能源投资集团、国家电网、南方电网、中国电建、中国石化",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-11T22:47:11.908Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-gkzhan",
       "ext_id": "197329",
       "title": "储能企业加速入局AIDC：从“备电配角”走向“算电一体化原生设计”",
@@ -479,7 +515,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:05:02.720Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -539,7 +575,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:05:02.720Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -551,7 +587,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:05:02.720Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -563,7 +599,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:05:02.720Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -707,7 +743,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:04:27.420Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -719,7 +755,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:04:27.420Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -731,7 +767,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:04:27.420Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -1043,7 +1079,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T18:55:27.643Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -1103,7 +1139,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:56.025Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -7300,6 +7336,66 @@
   ],
   "articles": [
     {
+      "slug": "20261111-6ad18a",
+      "kind": "deep",
+      "title": "优必选与天翼电信共推仿生人形机器人大规模市场应用",
+      "dek": "【落地说】11月9日，天翼电信终端有限公司（简称“天翼电信终端”）与深圳市优必选科技股份有限公司（简称“优必选”）正式签署全面战略合作协议。天翼电信终端副总经理桂烜、优必",
+      "body_md": "> 栏目：落地说 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197269.html)\n\n## 核心观点\n1. 11月9日，天翼电信终端有限公司（简称“天翼电信终端”）与深圳市优必选科技股份有限公司（简称“优必选”）正式签署全面战略合作协议。\n2. 天翼电信终端副总经理桂烜、优必选高级副总裁郝宝玉共同见证签约，双方授权代\n\n## 内容概要\n11月9日，天翼电信终端有限公司（简称“天翼电信终端”）与深圳市优必选科技股份有限公司（简称“优必选”）正式签署全面战略合作协议。天翼电信终端副总经理桂烜、优必选高级副总裁郝宝玉共同见证签约，双方授权代\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [人形机器人的第一份国标，越疆机器人参编](article-106.html)\n- [上海将推动8000台人形机器人进工厂](article-72.html)\n- [瞄准高危、高精度机器人协同作业，优必选联合项目拿下省科技进步一等奖](article-55.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：优必选与天翼电信共推仿生人形机器人大规模市场应用](https://www.gkzhan.com/news/detail/197269.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197269.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-11T22:47:49.672Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197269.html\"]",
+      "source_ids": "[45]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-11T22:47:49.671Z",
+      "published_at": "2026-11-11T22:47:49.766Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261111-d33c7e",
+      "kind": "deep",
+      "title": "NI 多通道 OPA 自动化测试解决方案",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454585.html)\n\n## 核心观点\n1. NI 多通道 OPA 自动化测试解决方案\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [2026工博会 | 具脑磐石携手智动力发布工业重载人形解决方案](article-81.html)\n- [大雄云AI OS建材行业数智化解决方案:赋能建材企业从规模赚钱走向管理赚钱](article-79.html)\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-67.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：NI 多通道 OPA 自动化测试解决方案](https://www.gongkong.com/news/202611/454585.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454585.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-11T22:47:49.669Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454585.html\"]",
+      "source_ids": "[87]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-11T22:47:49.668Z",
+      "published_at": "2026-11-11T22:47:49.766Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261111-07e7a9",
+      "kind": "deep",
+      "title": "国内首个新能源资源循环利用规模化产业项目启动建设",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96498.html)\n\n## 核心观点\n1. 国内首个新能源资源循环利用规模化产业项目启动建设\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：国内首个新能源资源循环利用规模化产业项目启动建设](https://www.jc35.com/news/detail/96498.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96498.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-11T22:47:49.666Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96498.html\"]",
+      "source_ids": "[92]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-11T22:47:49.663Z",
+      "published_at": "2026-11-11T22:47:49.766Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261111",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-11：产业观察、技术前沿、落地说等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. LMI Technologies 正式完成对 VITRONIC 焊缝检测业务的收购**\n\n- LMI Technologies 正式完成对 VITRONIC 焊缝检测业务的收购\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454613.html)\n\n**2. 欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级**\n\n- 欧姆龙工业自动化亮相2026进博会：以现场数字化赋能智造升级\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454610.html)\n\n**3. 蓝色起源把火箭发动机成本砍到 1/4，目标一年发射 1000 次**\n\n- Northstar 发动机零件减半、质量轻 30%、65% 可 3D 打印，制造成本只要 BE-4 的四分之一；\n- 起始推力 71.5 万磅，New Glenn 想一年飞 1000 次。\n\n*关键数字：「（见原文）30%」、「（见原文）65%」*\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8140-30711344.html)\n\n## 技术前沿\n\n**1. 融合CAD离线编程与双目视觉，越擎科技iRobotCAM破解机器人涂胶难题**\n\n- 融合CAD离线编程与双目视觉，越擎科技iRobotCAM破解机器人涂胶难题\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454611.html)\n\n**2. 步科股份前三季度营收7.50亿元，机器人业务占比升至56.55%**\n\n- 步科股份前三季度营收7.50亿元，机器人业务占比升至56.55%\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197286.html)\n\n## 落地说\n\n**1. 西门子能源进博会爆单！与电建、能建等多家央企签下合作背后, 西门子能源真正售卖的是中国出海的技术通行证**\n\n- 进博会央企与西门子能源签约，核心是借其资质出海，合作窗口随国产技术进展变化。\n- 预见能源注意到，进博会期间，西门子能源展台接待的央企名单很长，包含国家能源投资集团、国家电网、南方电网、中国电建、中国石化\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8420-30711361.html)\n\n**2. 总营收超百亿！7家阀门企业2026年前三季度业绩解读**\n\n- 作为装备制造的关键基础部件，工业阀门广泛服务于油气、核电、化工、市政水务等领域，行业景气度高度依赖下游资本开支节奏。\n- 仪表网整理了纽威股份、伟隆股份、江苏神通、方正阀门、中核科技、智能自控、神开股份7家A\n\n*关键数字：「神开股份7家」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197268.html)\n\n**3. 拓斯达发布工业双足人形机器人Star**\n\n- 近日，拓斯达在东莞举办的“TOPSDAY2026”全球开放日上发布全尺寸工业双足人形机器人Star。\n- 该机器人身高172厘米、重72公斤，双臂负载能力10公斤，主要面向工厂物料搬运、分拣等作业场景。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197249.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-11T22:47:49.655Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454613.html\",\"https://www.gongkong.com/news/202611/454611.html\",\"https://www.gongkong.com/news/202611/454610.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8140-30711344.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8420-30711361.html\",\"https://www.gkzhan.com/news/detail/197268.html\",\"https://www.gkzhan.com/news/detail/197249.html\",\"https://www.gkzhan.com/news/detail/197286.html\"]",
+      "source_ids": "[61,60,59,714,713,47,46,40]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-11T22:47:49.655Z",
+      "published_at": "2026-11-11T06:44:12.653Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261111-06df56",
       "kind": "deep",
       "title": "储能电容铝壳批量生产 冷挤压液压机工艺优化思路",
@@ -7342,21 +7438,6 @@
       "status": "published",
       "created_at": "2026-11-11T15:24:30.520Z",
       "published_at": "2026-11-11T15:24:30.603Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261111",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-11：产业观察、落地说、展会动态等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 工业 AI 不是噱头!制造业数字化转型,企业该从哪里起步?**\n\n- 工业 AI 不是噱头!制造业数字化转型,企业该从哪里起步?\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103866002337423563)\n\n**2. 智能制造与数字化转型:先评后建、两套成熟度怎么配套**\n\n- 智能制造与数字化转型:先评后建、两套成熟度怎么配套\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103988182463288035)\n\n**3. 产品速递—HFCF-F22磁通门电流传感器，实力出众**\n\n- 产品速递—HFCF-F22磁通门电流传感器，实力出众\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454675.html)\n\n## 落地说\n\n**1. 从工厂现场到智能体平台,中工互联智振:工业AI如何跨越落地障碍?**\n\n- 从工厂现场到智能体平台,中工互联智振:工业AI如何跨越落地障碍?\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103863340443423444)\n\n**2. 中国叫停软银收购瑞士 ABB 机器人业务，将对全球工业数据流转规则产生哪些影响？**\n\n- 中国已阻止软银收购ABB在华机器人业务。\n- 软银集团将于11月10日公布业绩…… 据《金融时报》报道，决策背后的顾虑与市场份额关系不大。\n\n*关键数字：「在总额53.75亿」*\n\n*来源：知乎热榜* ｜ [🔗 原文](https://www.zhihu.com/question/2102940552853448626)\n\n**3. 工控助力物流数智革命 | “机器换人”场景的嵌入式AI计算机应用**\n\n- 电商大促又将开始，包裹如潮水般涌入转运中心，传统依靠人力分拣、转运的作业模式由于效率低、出错率与成本较高正在被淘汰。\n- “机器换人”革新物流分拣、搬运与末端派送场景，转向自动化、数字化、智能化发展。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454676.html)\n\n## 展会动态\n\n**1. 圆满收官｜艾迪科亮相 CeMAT ASIA，以位置传感赋能智慧物流**\n\n- 圆满收官｜艾迪科亮相 CeMAT ASIA，以位置传感赋能智慧物流\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454570.html)\n\n## 技术前沿\n\n**1. 从能干活到可复制：物理AI为机器人进厂提供底层支撑**\n\n- 从能干活到可复制：物理AI为机器人进厂提供底层支撑\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197330.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-11T15:24:30.514Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2103866002337423563\",\"https://zhuanlan.zhihu.com/p/2103988182463288035\",\"https://zhuanlan.zhihu.com/p/2103863340443423444\",\"https://www.zhihu.com/question/2102940552853448626\",\"https://www.gongkong.com/news/202611/454675.html\",\"https://www.gongkong.com/news/202611/454676.html\",\"https://www.gongkong.com/news/202611/454570.html\",\"https://www.gkzhan.com/news/detail/197330.html\"]",
-      "source_ids": "[653,652,618,602,692,674,72,716]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-11T15:24:30.514Z",
-      "published_at": "2026-11-11T06:44:12.653Z",
       "relevance": "ok"
     },
     {
@@ -10511,13 +10592,13 @@
     }
   ],
   "stats": {
-    "intel": 608,
-    "articles": 214,
-    "prevIntel": 596,
-    "prevArticles": 211,
-    "dbIntelOk": 608,
-    "dbArticlesOk": 214,
+    "intel": 611,
+    "articles": 217,
+    "prevIntel": 608,
+    "prevArticles": 214,
+    "dbIntelOk": 611,
+    "dbArticlesOk": 217,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-11T15:24:30.820Z"
+  "updated_at": "2026-11-11T22:47:49.927Z"
 }
