@@ -2,6 +2,210 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197376",
+      "title": "国家电网正在用“碳足迹”，为中国制造提供出海“绿色通行证”",
+      "url": "https://www.gkzhan.com/news/detail/197376.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:55:11.476Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197372",
+      "title": "2026年度建材行业智能制造与人工智能十大科技进展征集",
+      "url": "https://www.gkzhan.com/news/detail/197372.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:55:11.476Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197347",
+      "title": "优必选携手永达首批400台超仿生人形机器人落地",
+      "url": "https://www.gkzhan.com/news/detail/197347.html",
+      "summary": "11月11日，人形机器人第一股优必选与国内头部豪华汽车经销服务上市集团永达汽车签署战略合作协议。根据协议，永达将采购400台优必选超仿生人形机器人U1Pro，优必选计划于今年内交付。双方发挥产品技术与渠道服务的互",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:55:11.476Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197378",
+      "title": "10万台在望！人形机器人开启“1—10”新阶段",
+      "url": "https://www.gkzhan.com/news/detail/197378.html",
+      "summary": "近日，华源证券发布研报指出，人形机器人产业正逐步从小批量验证迈向“1-10”新阶段，产业放量持续兑现，物理AI加速产业迭代。研报认为，这一阶段的核心特征，是产业从早期技术验证转向收入的可量化兑现与物理AI驱动",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:55:11.476Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-ofweek-im",
+      "ext_id": "30711481",
+      "title": "德布勒森的工厂，福建的账",
+      "url": "https://www.ofweek.com/im/2026-11/ART-201930-12003-30711481.html",
+      "summary": "出品I下海fallsea 撰文I胡不知 2025年，越南第一次取代中国，坐上美国最大服装供应国的位置。缝纫机确实走了——但海关的另一半账单，贴在纸的背面。什么搬得动，什么搬不动，这条线不画在国界上，画",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:45.816Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-ofweek-im",
+      "ext_id": "30711538",
+      "title": "白酒之后，泸州要再造一个千亿产业！",
+      "url": "https://www.ofweek.com/im/2026-11/ART-201924-12003-30711538.html",
+      "summary": "提到泸州，人们首先想到的往往是白酒。但在这座城市的工业版图中，化工同样有着深厚积累。如今，这份家底被寄予新的期待：培育白酒之后的第二个千亿级产业集群。 2025年，泸州能源和化工新材料产业链实现产值6",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:45.816Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454684",
+      "title": "别再东奔西跑：12月这4天，机床主力阵容聚齐深圳，等你来",
+      "url": "https://www.gongkong.com/news/202611/454684.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454686",
+      "title": "汽车下摆臂拉伸成型工艺 液压机压边力调控要点",
+      "url": "https://www.gongkong.com/news/202611/454686.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454688",
+      "title": "长效可靠｜适配 Ignition 的硬件，寿命超越工厂服役周期",
+      "url": "https://www.gongkong.com/news/202611/454688.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454689",
+      "title": "特控电子--AI边缘计算平台 MBOX-TUX",
+      "url": "https://www.gongkong.com/news/202611/454689.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454691",
+      "title": "PHIIDF2026盛会召开｜一场「综合能源×AI」的共振，以开放生态汇集产业同行力量",
+      "url": "https://www.gongkong.com/news/202611/454691.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454693",
+      "title": "【AI赋能炼化】基于XWorld工业世界模型的炼化企业调度异常处置",
+      "url": "https://www.gongkong.com/news/202611/454693.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454692",
+      "title": "九届全勤生，德国永恒力携AI仓储设计平台SMART Plus 3.0亮相",
+      "url": "https://www.gongkong.com/news/202611/454692.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454696",
+      "title": "小体积，大能量 | 华北工控SOMB-6581A助力实现仓储自动化拣选“机器换人”",
+      "url": "https://www.gongkong.com/news/202611/454696.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454703",
+      "title": "风光耦合制氢工艺仿真系统 | 图扑数字孪生",
+      "url": "https://www.gongkong.com/news/202611/454703.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454705",
+      "title": "茵梦达与荏原机械达成战略合作",
+      "url": "https://www.gongkong.com/news/202611/454705.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454707",
+      "title": "一张 A0 图纸落地之前：工业操作系统介绍中的文件下发与出图链路",
+      "url": "https://www.gongkong.com/news/202611/454707.html",
+      "summary": "讨论工业操作系统时，话题通常落在控制环：调度确定性、任务分区、硬件信任根、在线升级与控制任务互不挤占。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-12T12:54:32.789Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96512",
       "title": "大国重器“铸”就山海荣耀！“通用技术机床”匠心助阵辽超圆满收官",
@@ -155,7 +359,7 @@
       "published_at": null,
       "fetched_at": "2026-11-12T03:54:12.577Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -1319,7 +1523,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T08:07:56.025Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -7528,6 +7732,66 @@
   ],
   "articles": [
     {
+      "slug": "20261112-8dfa2b",
+      "kind": "deep",
+      "title": "关于2026年国家先进制造业集群名单的公示",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96496.html)\n\n## 核心观点\n1. 关于2026年国家先进制造业集群名单的公示\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-74.html)\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-99.html)\n- [奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径](article-22.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：关于2026年国家先进制造业集群名单的公示](https://www.jc35.com/news/detail/96496.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96496.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-12T12:55:25.872Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96496.html\"]",
+      "source_ids": "[110]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-12T12:55:25.871Z",
+      "published_at": "2026-11-12T12:55:25.950Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261112-8e72ca",
+      "kind": "deep",
+      "title": "特控电子--AI边缘计算平台 MBOX-TUX",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：工控网 · 工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454689.html)\n\n## 核心观点\n1. 特控电子--AI边缘计算平台 MBOX-TUX\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：特控电子--AI边缘计算平台 MBOX-TUX](https://www.gongkong.com/news/202611/454689.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454689.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-12T12:55:25.870Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454689.html\"]",
+      "source_ids": "[720]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-12T12:55:25.869Z",
+      "published_at": "2026-11-12T12:55:25.950Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261112-b79c50",
+      "kind": "deep",
+      "title": "国家电网正在用“碳足迹”，为中国制造提供出海“绿色通行证”",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 · 智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197376.html)\n\n## 核心观点\n1. 国家电网正在用“碳足迹”，为中国制造提供出海“绿色通行证”\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：国家电网正在用“碳足迹”，为中国制造提供出海“绿色通行证”](https://www.gkzhan.com/news/detail/197376.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197376.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-12T12:55:25.868Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197376.html\"]",
+      "source_ids": "[791]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-12T12:55:25.865Z",
+      "published_at": "2026-11-12T12:55:25.950Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261112",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-12：产业观察、落地说、展会动态等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 别再东奔西跑：12月这4天，机床主力阵容聚齐深圳，等你来**\n\n- 别再东奔西跑：12月这4天，机床主力阵容聚齐深圳，等你来\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454684.html)\n\n**2. 汽车下摆臂拉伸成型工艺 液压机压边力调控要点**\n\n- 汽车下摆臂拉伸成型工艺 液压机压边力调控要点\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454686.html)\n\n**3. 白酒之后，泸州要再造一个千亿产业！**\n\n- 提到泸州，人们首先想到的往往是白酒。\n- 2025年，泸州能源和化工新材料产业链实现产值6\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201924-12003-30711538.html)\n\n## 落地说\n\n**1. 长效可靠｜适配 Ignition 的硬件，寿命超越工厂服役周期**\n\n- 长效可靠｜适配 Ignition 的硬件，寿命超越工厂服役周期\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454688.html)\n\n**2. 德布勒森的工厂，福建的账**\n\n- 出品I下海fallsea 撰文I胡不知 2025年，越南第一次取代中国，坐上美国最大服装供应国的位置。\n- 缝纫机确实走了——但海关的另一半账单，贴在纸的背面。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-12003-30711481.html)\n\n**3. 优必选携手永达首批400台超仿生人形机器人落地**\n\n- 11月11日，人形机器人第一股优必选与国内头部豪华汽车经销服务上市集团永达汽车签署战略合作协议。\n- 根据协议，永达将采购400台优必选超仿生人形机器人U1Pro，优必选计划于今年内交付。\n\n*关键数字：「永达将采购400台」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197347.html)\n\n## 展会动态\n\n**1. 货到人、全流程无人化！老牌外企弗兰度如何在千亿仓储赛道打通“中小型物料管理”？**\n\n- “过去比的是提升高度、载重、速度；\n- ” 2026年11月3日至6日，亚洲国际物流技术与运输系统展览会（CeMAT ASIA 2026）在上海新国际博览中\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8600-30711381.html)\n\n## 技术前沿\n\n**1. 10万台在望！人形机器人开启“1—10”新阶段**\n\n- 近日，华源证券发布研报指出，人形机器人产业正逐步从小批量验证迈向“1-10”新阶段，产业放量持续兑现，物理AI加速产业迭代。\n- 研报认为，这一阶段的核心特征，是产业从早期技术验证转向收入的可量化兑现与物理AI驱动\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197378.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-12T12:55:25.859Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454684.html\",\"https://www.gongkong.com/news/202611/454686.html\",\"https://www.gongkong.com/news/202611/454688.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-12003-30711481.html\",\"https://www.ofweek.com/im/2026-11/ART-201924-12003-30711538.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8600-30711381.html\",\"https://www.gkzhan.com/news/detail/197347.html\",\"https://www.gkzhan.com/news/detail/197378.html\"]",
+      "source_ids": "[724,723,721,734,732,13,772,767]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-12T12:55:25.859Z",
+      "published_at": "2026-11-12T03:54:50.575Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261112-dc183f",
       "kind": "deep",
       "title": "【电动装备】大纵航运周口启动首批10艘甲醇混动船建造",
@@ -7569,21 +7833,6 @@
       "score": 0,
       "status": "published",
       "created_at": "2026-11-12T03:54:50.492Z",
-      "published_at": "2026-11-12T03:54:50.575Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261112",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-12：产业观察、政策风向、技术前沿等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 智启新能，数赋新生｜第25届中国自动化+数字化“新质奖”评选重磅开启**\n\n- 智启新能，数赋新生｜第25届中国自动化+数字化“新质奖”评选重磅开启\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454683.html)\n\n**2. TSN和EtherCAT如何协同？智能制造为什么需要两种网络能力**\n\n- TSN和EtherCAT如何协同？智能制造为什么需要两种网络能力\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454681.html)\n\n**3. 智能电动车全球销量第一，九号公司是如何“炼成”的？**\n\n- 智能电动车全球销量第一，九号公司是如何“炼成”的？\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-12003-30711303.html)\n\n## 政策风向\n\n**1. 松下出展第九届进博会圆满收官，三大事业领域锚定“十五五”发展新课题**\n\n- 11月10日，第九届中国国际进口博览会（以下简称“进博会”）圆满闭幕。\n- 作为连续九届参展的“老朋友”，松下以“理解时代课题 用技术给出答案”为主题，聚焦元器件、解决方案和智能生活三大领域，带来一批兼具技术价值与落地能力的创新产品与方案。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454680.html)\n\n**2. 工业产品碳足迹核算规则团体标准推荐清单（第四批）**\n\n- 工业产品碳足迹核算规则团体标准推荐清单（第四批）\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197352.html)\n\n## 技术前沿\n\n**1. 京东，在无锡成立新机器人公司！**\n\n- 维科网智能制造11月11日消息，无锡京东乾源科技有限公司于近日完成注册，注册资本5000万元 公开资料显示，乾源科技由西安京东信成信息技术有限公司全资持股，经营范围涵盖智能机器人研发、特殊作业机器人制\n\n*关键数字：「注册资本5000万元」*\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30711431.html)\n\n**2. 高质量 Token 国产算力底座的工程路径，江原科技四周年技术观察**\n\n- 大模型开始处理长文档和多步骤任务时，算力系统的价值有了更具体的衡量尺度。\n- 在达到业务要求的模型效果与响应速度后，每一笔算力投入能持续交付多少有效 Token？\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30711441.html)\n\n## 展会动态\n\n**1. 泰禾智能大米分选全场景产品重磅发布**\n\n- 泰禾智能大米分选全场景产品重磅发布\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197366.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-12T03:54:50.485Z*\n",
-      "source_urls": "[\"https://www.gongkong.com/news/202611/454683.html\",\"https://www.gongkong.com/news/202611/454681.html\",\"https://www.gongkong.com/news/202611/454680.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-12003-30711303.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30711431.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30711441.html\",\"https://www.gkzhan.com/news/detail/197366.html\",\"https://www.gkzhan.com/news/detail/197352.html\"]",
-      "source_ids": "[692,690,689,721,718,717,778,767]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-12T03:54:50.485Z",
       "published_at": "2026-11-12T03:54:50.575Z",
       "relevance": "ok"
     },
@@ -10844,13 +11093,13 @@
     }
   ],
   "stats": {
-    "intel": 627,
-    "articles": 221,
-    "prevIntel": 611,
-    "prevArticles": 217,
-    "dbIntelOk": 627,
-    "dbArticlesOk": 221,
+    "intel": 644,
+    "articles": 224,
+    "prevIntel": 627,
+    "prevArticles": 221,
+    "dbIntelOk": 644,
+    "dbArticlesOk": 224,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-12T03:54:50.695Z"
+  "updated_at": "2026-11-12T12:55:26.067Z"
 }
