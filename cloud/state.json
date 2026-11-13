@@ -2,6 +2,30 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197382",
+      "title": "从“怕错过”到“怕踩雷”，具身智能融资换挡",
+      "url": "https://www.gkzhan.com/news/detail/197382.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-13T01:57:06.465Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197383",
+      "title": "具身智能分岔口：本体补脑，脑公司找出口",
+      "url": "https://www.gkzhan.com/news/detail/197383.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-13T01:57:06.465Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "hn",
       "ext_id": "50471281",
       "title": "Show HN: Kapso – Iterative learning from enterprise data",
@@ -239,7 +263,7 @@
       "published_at": null,
       "fetched_at": "2026-11-12T12:54:32.789Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -263,7 +287,7 @@
       "published_at": null,
       "fetched_at": "2026-11-12T03:54:47.557Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -539,7 +563,7 @@
       "published_at": null,
       "fetched_at": "2026-11-11T15:23:44.428Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -563,7 +587,7 @@
       "published_at": null,
       "fetched_at": "2026-11-11T15:23:44.428Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -635,7 +659,7 @@
       "published_at": null,
       "fetched_at": "2026-11-11T06:44:09.731Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -767,7 +791,7 @@
       "published_at": null,
       "fetched_at": "2026-11-11T06:43:58.029Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -899,7 +923,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:05:14.639Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -959,7 +983,7 @@
       "published_at": null,
       "fetched_at": "2026-11-10T10:05:02.720Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -1487,7 +1511,7 @@
       "published_at": null,
       "fetched_at": "2026-11-09T18:55:27.643Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -7768,6 +7792,66 @@
   ],
   "articles": [
     {
+      "slug": "20261113-2c374a",
+      "kind": "deep",
+      "title": "智控物流｜伟创电气携多样化智慧物流运动控制方案亮相 CeMAT ASIA 2026",
+      "dek": "【展会动态】【机床商务网栏目企业参展】2026年11月3日，CeMATASIA亚洲国际物流技术与运输系统展览会(上海物流展)在上海新国际博览中心盛大开幕。伟创电气携旗下智慧",
+      "body_md": "> 栏目：展会动态 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96518.html)\n\n## 核心观点\n1. 【机床商务网栏目企业参展】2026年11月3日，CeMATASIA亚洲国际物流技术与运输系统展览会(上海物流展)在上海新国际博览中心盛大开幕。\n2. 伟创电气携旗下智慧物流驱动产品矩阵及一体化系统解决方案亮相，围绕智能分拣、提\n\n## 内容概要\n【机床商务网栏目企业参展】2026年11月3日，CeMATASIA亚洲国际物流技术与运输系统展览会(上海物流展)在上海新国际博览中心盛大开幕。伟创电气携旗下智慧物流驱动产品矩阵及一体化系统解决方案亮相，围绕智能分拣、提\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 把发布信息转成采购清单线索：厂商集中发布的功能点，往往对应下一轮选型的必答项。\n- 对感兴趣型号记录公开参数与适配条件；展会热度不等于成熟度，要求厂商提供同工况案例。\n\n## 相关案例（站内）\n- [智往未来亮相 CeMAT,实景仓储作业展示具身智能落地能力](article-89.html)\n- [航空插头连接器供应商如何评估？从凌科电气electronica 2026展示看四项能力](article-81.html)\n- [2026工博会 | 具脑磐石携手智动力发布工业重载人形解决方案](article-94.html)\n\n## 为什么制造业读者要关注\n展会和大会是行业风向的集中释放点。厂商集中发布什么，往往预示着下一轮采购清单里会出现什么。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：智控物流｜伟创电气携多样化智慧物流运动控制方案亮相 CeMAT ASIA 202](https://www.jc35.com/news/detail/96518.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96518.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-13T01:57:21.887Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96518.html\"]",
+      "source_ids": "[75]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-13T01:57:21.886Z",
+      "published_at": "2026-11-13T01:57:21.981Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261113-443ead",
+      "kind": "deep",
+      "title": "多重力量共振：人工智能加速发展的底层逻辑与未来路径",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197257.html)\n\n## 核心观点\n1. 多重力量共振：人工智能加速发展的底层逻辑与未来路径\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径](article-28.html)\n- [双双入选！格创东智两项工业AI成果获选湖北省人工智能典型应用场景](article-118.html)\n- [《泸州市深入实施“人工智能 ”行动方案》印发](article-83.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：多重力量共振：人工智能加速发展的底层逻辑与未来路径](https://www.gkzhan.com/news/detail/197257.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197257.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-13T01:57:21.884Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197257.html\"]",
+      "source_ids": "[80]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-13T01:57:21.882Z",
+      "published_at": "2026-11-13T01:57:21.981Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261113-8fc551",
+      "kind": "deep",
+      "title": "玻璃钢电缆沟盖板模压液压机压制成型产品优势",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454580.html)\n\n## 核心观点\n1. 玻璃钢电缆沟盖板模压液压机压制成型产品优势\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [汽车减震气囊壳体拉伸成型液压机模具调试要点](article-131.html)\n- [储能电容铝壳批量生产 冷挤压液压机工艺优化思路](article-15.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：玻璃钢电缆沟盖板模压液压机压制成型产品优势](https://www.gongkong.com/news/202611/454580.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454580.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-13T01:57:21.881Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454580.html\"]",
+      "source_ids": "[124]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-13T01:57:21.878Z",
+      "published_at": "2026-11-13T01:57:21.981Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261113",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-13：落地说、产业观察、技术前沿等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. 减负、提速、降门槛：东集SEV400视觉传感器如何重塑3C智造的“眼睛”？**\n\n- 在消费电子、计算机及通信（3C）行业，产线永远处在“螺蛳壳里做道场”的极限状态。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454677.html)\n\n**2. 一张 A0 图纸落地之前：工业操作系统介绍中的文件下发与出图链路**\n\n- 讨论工业操作系统时，话题通常落在控制环：调度确定性、任务分区、硬件信任根、在线升级与控制任务互不挤占。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454707.html)\n\n**3. 广州敏嘉连任广州工业机器人制造和应用产业联盟轮值理事长单位**\n\n- 【机床商务网栏目名企在线】2026年10月31日下午，广州工业机器人制造和应用产业联盟第二届第一次会员大会暨换届大会在广州南沙国际会展中心隆重召开。\n- 大会审议通过第一届理事会工作报告、监事工作报告和财务工作报告\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96526.html)\n\n## 产业观察\n\n**1. Anybus ComBricks 确保 ATEX 油罐车自动化**\n\n- Anybus ComBricks 确保 ATEX 油罐车自动化\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454670.html)\n\n**2. 从3周等到20周，高端汽车PCB怎么也缺货了？**\n\n- 过去两三周就能交付的货，如今要等上20周。\n- 中国PCB产值全球占比超57%，命门却可能攥在更上游的一台织机手里。\n\n*关键数字：「中国PCB产值全球占比超57%」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197290.html)\n\n**3. 2026年全国行业职业技能竞赛——第二届全国汽车工业新技术技能竞赛在武汉开幕**\n\n- 2026年全国行业职业技能竞赛——第二届全国汽车工业新技术技能竞赛在武汉开幕\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96517.html)\n\n## 技术前沿\n\n**1. 从“怕错过”到“怕踩雷”，具身智能融资换挡**\n\n- 从“怕错过”到“怕踩雷”，具身智能融资换挡\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197382.html)\n\n**2. 具身智能分岔口：本体补脑，脑公司找出口**\n\n- 具身智能分岔口：本体补脑，脑公司找出口\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197383.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-13T01:57:21.869Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454677.html\",\"https://www.gongkong.com/news/202611/454670.html\",\"https://www.gongkong.com/news/202611/454707.html\",\"https://www.gkzhan.com/news/detail/197382.html\",\"https://www.gkzhan.com/news/detail/197383.html\",\"https://www.gkzhan.com/news/detail/197290.html\",\"https://www.jc35.com/news/detail/96526.html\",\"https://www.jc35.com/news/detail/96517.html\"]",
+      "source_ids": "[47,45,20,803,797,64,53,22]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-13T01:57:21.869Z",
+      "published_at": "2026-11-13T01:57:21.981Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261112-8385e9",
       "kind": "deep",
       "title": "2027青岛3月金属加工展与7月机床展如何选？一文看清定位与场馆！",
@@ -11174,13 +11258,13 @@
     }
   ],
   "stats": {
-    "intel": 647,
-    "articles": 227,
-    "prevIntel": 644,
-    "prevArticles": 224,
-    "dbIntelOk": 647,
-    "dbArticlesOk": 227,
+    "intel": 649,
+    "articles": 231,
+    "prevIntel": 647,
+    "prevArticles": 227,
+    "dbIntelOk": 649,
+    "dbArticlesOk": 231,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-12T20:56:21.219Z"
+  "updated_at": "2026-11-13T01:57:22.449Z"
 }
