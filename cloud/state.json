@@ -155,7 +155,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T02:06:04.236Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -167,7 +167,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T02:06:04.236Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -839,7 +839,7 @@
       "published_at": null,
       "fetched_at": "2026-11-13T09:42:55.720Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -1439,7 +1439,7 @@
       "published_at": null,
       "fetched_at": "2026-11-11T06:43:58.029Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -1451,7 +1451,7 @@
       "published_at": null,
       "fetched_at": "2026-11-11T06:43:58.029Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -8344,6 +8344,51 @@
   ],
   "articles": [
     {
+      "slug": "20261114-72dc58",
+      "kind": "deep",
+      "title": "友讯达中标合计1.96亿元国家电网项目",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197326.html)\n\n## 核心观点\n1. 友讯达中标合计1.96亿元国家电网项目\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [国家电网正在用“碳足迹”，为中国制造提供出海“绿色通行证”](article-42.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：友讯达中标合计1.96亿元国家电网项目](https://www.gkzhan.com/news/detail/197326.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197326.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T07:05:39.464Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197326.html\"]",
+      "source_ids": "[120]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T07:05:39.463Z",
+      "published_at": "2026-11-14T07:05:39.530Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261114-b6a428",
+      "kind": "deep",
+      "title": "出口快讯丨1~10月全国纺织品服装出口2591亿美元",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197295.html)\n\n## 核心观点\n1. 出口快讯丨1~10月全国纺织品服装出口2591亿美元\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [1-10月我国汽车产销同比下降](article-32.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：出口快讯丨1~10月全国纺织品服装出口2591亿美元](https://www.gkzhan.com/news/detail/197295.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197295.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T07:05:39.462Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197295.html\"]",
+      "source_ids": "[121]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T07:05:39.458Z",
+      "published_at": "2026-11-14T07:05:39.530Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261114",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-14：产业观察等 3 条动态",
+      "dek": "过去 48 小时 3 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 中控技术与中海壳牌聚力打造石化行业智能化示范项目**\n\n- 中控技术与中海壳牌聚力打造石化行业智能化示范项目\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197412.html)\n\n**2. AI眼镜规模化提速：无屏先行，迈向全天候日常佩戴**\n\n- AI眼镜规模化提速：无屏先行，迈向全天候日常佩戴\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197430.html)\n\n**3. 共建联合创新中心！北汽 × 新紫光发力先进舱驾控一体芯片**\n\n- 共建联合创新中心！北汽 × 新紫光发力先进舱驾控一体芯片\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197434.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-14T07:05:39.455Z*\n",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197412.html\",\"https://www.gkzhan.com/news/detail/197430.html\",\"https://www.gkzhan.com/news/detail/197434.html\"]",
+      "source_ids": "[70,14,13]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T07:05:39.455Z",
+      "published_at": "2026-11-14T01:06:33.402Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261114-1cf97f",
       "kind": "deep",
       "title": "一句话新闻：2026年前三季度机床工具行业经济运行情况",
@@ -8386,21 +8431,6 @@
       "status": "published",
       "created_at": "2026-11-14T06:43:15.013Z",
       "published_at": "2026-11-14T06:43:15.128Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261114",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-14：产业观察等 3 条动态",
-      "dek": "过去 48 小时 3 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 高质量 Token 国产算力底座的工程路径，江原科技四周年技术观察**\n\n- 高质量 Token 国产算力底座的工程路径，江原科技四周年技术观察\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30711441.html)\n\n**2. 智能电动车全球销量第一，九号公司是如何“炼成”的？**\n\n- 智能电动车全球销量第一，九号公司是如何“炼成”的？\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-12003-30711303.html)\n\n**3. 船舶行业：国内造船三大指标市场份额全球领先 驶入“绿色+智能”新航道**\n\n- 船舶行业：国内造船三大指标市场份额全球领先 驶入“绿色+智能”新航道\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8420-30711619.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-14T06:43:15.009Z*\n",
-      "source_urls": "[\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30711441.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-12003-30711303.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8420-30711619.html\"]",
-      "source_ids": "[21,19,17]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-14T06:43:15.009Z",
-      "published_at": "2026-11-14T01:06:33.402Z",
       "relevance": "ok"
     },
     {
@@ -12471,12 +12501,12 @@
   ],
   "stats": {
     "intel": 695,
-    "articles": 275,
+    "articles": 277,
     "prevIntel": 695,
-    "prevArticles": 273,
+    "prevArticles": 275,
     "dbIntelOk": 695,
-    "dbArticlesOk": 275,
+    "dbArticlesOk": 277,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-14T06:43:15.298Z"
+  "updated_at": "2026-11-14T07:05:39.818Z"
 }
