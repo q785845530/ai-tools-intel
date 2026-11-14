@@ -155,7 +155,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:01:11.032Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -167,7 +167,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:01:11.032Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -323,7 +323,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:58.704Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -347,7 +347,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:58.704Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -359,7 +359,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:58.704Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -395,7 +395,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:38.258Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -443,7 +443,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:36.208Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -455,7 +455,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:36.208Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -491,7 +491,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:33.867Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -503,7 +503,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:33.867Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -515,7 +515,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:33.867Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -8164,6 +8164,66 @@
   ],
   "articles": [
     {
+      "slug": "20261110-f723cc",
+      "kind": "deep",
+      "title": "奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2102068616153904299)\n\n## 核心观点\n1. 奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-134.html)\n- [制造业AI应用落地的方法与路径是什么?](article-135.html)\n- [智能制造日报 | 2026-11-14：展会动态、落地说、技术前沿等 8 条动态](article-258.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径](https://zhuanlan.zhihu.com/p/2102068616153904299)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2102068616153904299\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T01:06:33.303Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2102068616153904299\"]",
+      "source_ids": "[41]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T01:06:33.302Z",
+      "published_at": "2026-11-10T10:05:17.338Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261114-6dcbdc",
+      "kind": "deep",
+      "title": "PlantU FDC AI+ :AI让海量设备参数“会说话”,缺陷监测更精准、更高效",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2101742347646153860)\n\n## 核心观点\n1. PlantU FDC AI+ :AI让海量设备参数“会说话”,缺陷监测更精准、更高效\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [行云创新：AI CAD/CAE设计仿真一体化平台，多Agent串起设计仿真闭环](article-16.html)\n- [12月4日,AiDD 深圳站,行云创新带来大模型赋能工业 CAD/CAE 实战分享](article-259.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**新近出现**（1 分）。\n\n## 原文入口\n[打开原文：PlantU FDC AI+ :AI让海量设备参数“会说话”,缺陷监测更精准、更](https://zhuanlan.zhihu.com/p/2101742347646153860)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2101742347646153860\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T01:06:33.300Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2101742347646153860\"]",
+      "source_ids": "[33]",
+      "generator": "template-v2-manufacturing",
+      "score": 1,
+      "status": "published",
+      "created_at": "2026-11-14T01:06:33.299Z",
+      "published_at": "2026-11-14T01:06:33.402Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261114-e7ade8",
+      "kind": "deep",
+      "title": "12月4日,AiDD 深圳站,行云创新带来大模型赋能工业 CAD/CAE 实战分享",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2104602791851340115)\n\n## 核心观点\n1. 12月4日,AiDD 深圳站,行云创新带来大模型赋能工业 CAD/CAE 实战分享\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [行云创新：AI CAD/CAE设计仿真一体化平台，多Agent串起设计仿真闭环](article-16.html)\n- [AD-Copilot:让多模态大模型首次”看穿”工业缺陷,超越普通人类检测员](article-130.html)\n- [工业大模型有哪些典型的应用方向?](article-129.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**新近出现**（1 分）。\n\n## 原文入口\n[打开原文：12月4日,AiDD 深圳站,行云创新带来大模型赋能工业 CAD/CAE 实战分](https://zhuanlan.zhihu.com/p/2104602791851340115)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2104602791851340115\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T01:06:33.298Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2104602791851340115\"]",
+      "source_ids": "[37]",
+      "generator": "template-v2-manufacturing",
+      "score": 1,
+      "status": "published",
+      "created_at": "2026-11-14T01:06:33.293Z",
+      "published_at": "2026-11-14T01:06:33.402Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261114",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-14：展会动态、落地说、技术前沿等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 展会动态\n\n**1. 11.7 苏州|EDOP + 团子- AI亮相江苏 CIO 大会**\n\n- 11.7 苏州|EDOP + 团子- AI亮相江苏 CIO 大会\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2100606879353385463)\n\n## 落地说\n\n**1. 什么是工业AI,其在装备制造中如何实现落地?**\n\n- 什么是工业AI,其在装备制造中如何实现落地?\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://www.zhihu.com/question/1978177475881231985/answer/2100980012027475817)\n\n**2. 九载进博看西门子，在产业升级中坚守长期价值**\n\n- 连续九届进博会，我们见证了中国高水平对外开放的深化，也为深度扎根国内市场的跨国工业企业，提供了观察、对接中国产业真实需求的重要窗口。\n- 作为连续九年参与的“全勤生”，西门子的参展脉络并非单纯的新技术、新产品首发亮相，而是自身创新体系与国内产业升级需求不断对齐的外在体现。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454497.html)\n\n**3. 对话伦茨高昌兴：以差异化产品组合，回应多元场景需求**\n\n- ​当前中国物流装备市场，价格竞争持续，客户需求却同时向“低成本”与“高性能”两端拉伸。\n- CeMAT ASIA 2026期间，伦茨全国物流行业负责人高昌兴接受gongkong®专访，围绕物流自动化从单点设备走向系统级协同的趋势，高昌兴就硬件产品组合、软硬一体能力与本土化布局等方面，介绍了伦茨的实践与思考。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454541.html)\n\n## 技术前沿\n\n**1. 新闻 | 新华网专访天洑董事长张明,聚焦工业世界模型**\n\n- 新闻 | 新华网专访天洑董事长张明,聚焦工业世界模型\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2101299297132222313)\n\n**2. 机器人生意，造不如租｜巨潮**\n\n- 机器人生意，造不如租｜巨潮\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201927-8420-30710678.html)\n\n**3. 别等了，人形机器人拿不到“大结果”了？**\n\n- 别等了，人形机器人拿不到“大结果”了？\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8420-30710687.html)\n\n## 产业观察\n\n**1. 格创东智 FDE 一线手记｜师傅说“凭经验”，AI 怎么学？**\n\n- 在制造业客户的多个工业 AI 项目中，格创东智 FDE 团队深入业务现场，围绕良率监控、异常单处理、设备分析等高精度需求，帮助客户梳理业务规则、打通数据与系统，将 AI 能力落实到具体工作流程中。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454740.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-14T01:06:33.285Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2100606879353385463\",\"https://www.zhihu.com/question/1978177475881231985/answer/2100980012027475817\",\"https://zhuanlan.zhihu.com/p/2101299297132222313\",\"https://www.gongkong.com/news/202611/454497.html\",\"https://www.gongkong.com/news/202611/454541.html\",\"https://www.gongkong.com/news/202611/454740.html\",\"https://www.ofweek.com/im/2026-11/ART-201927-8420-30710678.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8420-30710687.html\"]",
+      "source_ids": "[43,42,38,30,29,27,14,13]",
+      "generator": "template-v2-manufacturing",
+      "score": 1,
+      "status": "published",
+      "created_at": "2026-11-14T01:06:33.285Z",
+      "published_at": "2026-11-14T01:06:33.402Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261113-c142b7",
       "kind": "deep",
       "title": "当折弯遇上自动化：ByCell Bend Smart 如何破解制造难题？",
@@ -8746,21 +8806,6 @@
       "status": "published",
       "created_at": "2026-11-10T17:58:03.626Z",
       "published_at": "2026-11-10T17:58:03.721Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "20261110-f723cc",
-      "kind": "deep",
-      "title": "奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径",
-      "dek": "【展会动态】",
-      "body_md": "> 栏目：展会动态 ｜ 来源：知乎 · 奇点智能StartDT ｜ [打开原文](https://zhuanlan.zhihu.com/p/2102068616153904299)\n\n## 核心观点\n1. 奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 把发布信息转成采购清单线索：厂商集中发布的功能点，往往对应下一轮选型的必答项。\n- 对感兴趣型号记录公开参数与适配条件；展会热度不等于成熟度，要求厂商提供同工况案例。\n\n## 相关案例（站内）\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-78.html)\n- [制造业AI应用落地的方法与路径是什么?](article-14.html)\n- [双双入选！格创东智两项工业AI成果获选湖北省人工智能典型应用场景](article-91.html)\n\n## 为什么制造业读者要关注\n展会和大会是行业风向的集中释放点。厂商集中发布什么，往往预示着下一轮采购清单里会出现什么。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径](https://zhuanlan.zhihu.com/p/2102068616153904299)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2102068616153904299\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-10T10:05:17.227Z*",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2102068616153904299\"]",
-      "source_ids": "[564]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-10T10:05:17.226Z",
-      "published_at": "2026-11-10T10:05:17.338Z",
       "relevance": "ok"
     },
     {
@@ -12021,12 +12066,12 @@
   ],
   "stats": {
     "intel": 680,
-    "articles": 257,
+    "articles": 260,
     "prevIntel": 680,
-    "prevArticles": 239,
-    "dbIntelOk": 671,
-    "dbArticlesOk": 257,
+    "prevArticles": 257,
+    "dbIntelOk": 680,
+    "dbArticlesOk": 260,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-14T01:01:30.272Z"
+  "updated_at": "2026-11-14T01:06:33.572Z"
 }
