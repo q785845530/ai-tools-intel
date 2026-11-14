@@ -2,6 +2,54 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197432",
+      "title": "索尔思首单落地！锐翔智能切入光模块自动化设备赛道",
+      "url": "https://www.gkzhan.com/news/detail/197432.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-14T02:06:04.236Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197434",
+      "title": "共建联合创新中心！北汽 × 新紫光发力先进舱驾控一体芯片",
+      "url": "https://www.gkzhan.com/news/detail/197434.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-14T02:06:04.236Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197430",
+      "title": "AI眼镜规模化提速：无屏先行，迈向全天候日常佩戴",
+      "url": "https://www.gkzhan.com/news/detail/197430.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-14T02:06:04.236Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2104860164000162048",
+      "title": "双11十五连冠:海尔智家AI转型价值兑现 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2104860164000162048",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-14T02:04:38.900Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-eworks",
       "ext_id": "156870",
       "title": "用AI“逆向”知名商业软件，值得宣扬吗？",
@@ -95,7 +143,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:01:11.032Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -143,7 +191,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:01:11.032Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -275,7 +323,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:58.704Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -311,7 +359,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:58.704Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -335,7 +383,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:58.704Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -407,7 +455,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:38.258Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -419,7 +467,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:38.258Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -431,7 +479,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:38.258Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -467,7 +515,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:33.867Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -479,7 +527,7 @@
       "published_at": null,
       "fetched_at": "2026-11-14T01:00:33.867Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -8164,6 +8212,66 @@
   ],
   "articles": [
     {
+      "slug": "20261114-c3ef99",
+      "kind": "deep",
+      "title": "工业外观缺陷AI视觉检测现场怎么做:成像、判定与留图复核",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2102878231787464574)\n\n## 核心观点\n1. 工业外观缺陷AI视觉检测现场怎么做:成像、判定与留图复核\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核](article-69.html)\n- [AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通](article-68.html)\n- [一张不良品照片都没有,AI竟然也能检测缺陷?原来还有这种玩法!](article-140.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：工业外观缺陷AI视觉检测现场怎么做:成像、判定与留图复核](https://zhuanlan.zhihu.com/p/2102878231787464574)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2102878231787464574\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T02:06:17.994Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2102878231787464574\"]",
+      "source_ids": "[34]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T02:06:17.993Z",
+      "published_at": "2026-11-14T02:06:18.093Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261106-3fbdb9",
+      "kind": "deep",
+      "title": "AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2099447827525121733)\n\n## 核心观点\n1. AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通](article-68.html)\n- [【AI赋能】基于PyQt+YOLO+DeepSeek的顶盖焊缺陷检测系统(详细介绍)](article-131.html)\n- [一张不良品照片都没有,AI竟然也能检测缺陷?原来还有这种玩法!](article-140.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核](https://zhuanlan.zhihu.com/p/2099447827525121733)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2099447827525121733\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T02:06:17.991Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2099447827525121733\"]",
+      "source_ids": "[35]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T02:06:17.990Z",
+      "published_at": "2026-11-06T12:14:51.736Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261106-027317",
+      "kind": "deep",
+      "title": "AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2101111588086363092)\n\n## 核心观点\n1. AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核](article-69.html)\n- [【AI赋能】基于PyQt+YOLO+DeepSeek的顶盖焊缺陷检测系统(详细介绍)](article-131.html)\n- [一张不良品照片都没有,AI竟然也能检测缺陷?原来还有这种玩法!](article-140.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通](https://zhuanlan.zhihu.com/p/2101111588086363092)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2101111588086363092\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-14T02:06:17.989Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2101111588086363092\"]",
+      "source_ids": "[36]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T02:06:17.985Z",
+      "published_at": "2026-11-06T12:14:51.736Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261114",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-14：产业观察、落地说、技术前沿等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 双11十五连冠:海尔智家AI转型价值兑现**\n\n- 双11十五连冠:海尔智家AI转型价值兑现\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2104860164000162048)\n\n**2. 营收承压、单季转亏,AI转型能否助力中控技术扭转困局?**\n\n- 营收承压、单季转亏,AI转型能否助力中控技术扭转困局?\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2104599332641039611)\n\n**3. 图尔克 新品速递 | 状态监测小能手，CMVT-M8TE振动传感器**\n\n- 图尔克的CMVT-M8TE振动传感器通过IO-Link输出高达 64kHz的原始加速度数据，并可以在TAS振动监测器中进行频率分析，无需控制器。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454741.html)\n\n## 落地说\n\n**1. 从工厂现场到智能体平台,中工互联智振:工业AI如何跨越落地障碍?**\n\n- 从工厂现场到智能体平台,中工互联智振:工业AI如何跨越落地障碍?\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103863340443423444)\n\n**2. 筑牢数据底座，ABB推进流程工业迈向自主运营**\n\n- 在近日举办的2026年中国国际进口博览会现场，ABB重点展出了以Ethernet-APL技术筑基的未来智能工厂整体方案，同步呈现该技术在巴斯夫湛江一体化基地的标杆应用成果。\n- 展会期间，ABB副总裁、能源工业中国区业务负责人范骁鹏接受工控网专访，围绕Ethernet-APL的场景落地路径、产业生态建设，以及流程工业自主运营的演进方向展开深度交流。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454708.html)\n\n**3. Anybus诊断提高霍克集团的物流可靠性**\n\n- Anybus诊断提高霍克集团的物流可靠性\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454737.html)\n\n## 技术前沿\n\n**1. 越来越热闹的具身智能，为什么突然不好拿钱了？**\n\n- 越来越热闹的具身智能，为什么突然不好拿钱了？\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201920-12003-30710689.html)\n\n## 展会动态\n\n**1. 货到人、全流程无人化！老牌外企弗兰度如何在千亿仓储赛道打通“中小型物料管理”？**\n\n- “过去比的是提升高度、载重、速度；\n- ” 2026年11月3日至6日，亚洲国际物流技术与运输系统展览会（CeMAT ASIA 2026）在上海新国际博览中\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8600-30711381.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-14T02:06:17.977Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2104860164000162048\",\"https://zhuanlan.zhihu.com/p/2103863340443423444\",\"https://zhuanlan.zhihu.com/p/2104599332641039611\",\"https://www.gongkong.com/news/202611/454708.html\",\"https://www.gongkong.com/news/202611/454741.html\",\"https://www.gongkong.com/news/202611/454737.html\",\"https://www.ofweek.com/im/2026-11/ART-201920-12003-30710689.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8600-30711381.html\"]",
+      "source_ids": "[702,40,39,28,26,23,12,8]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-14T02:06:17.977Z",
+      "published_at": "2026-11-14T01:06:33.402Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261110-f723cc",
       "kind": "deep",
       "title": "奇点智能亮相2026 沃邦AI人工智能应用大会,共探制造业AI落地路径",
@@ -8205,21 +8313,6 @@
       "score": 1,
       "status": "published",
       "created_at": "2026-11-14T01:06:33.293Z",
-      "published_at": "2026-11-14T01:06:33.402Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261114",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-14：展会动态、落地说、技术前沿等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 展会动态\n\n**1. 11.7 苏州|EDOP + 团子- AI亮相江苏 CIO 大会**\n\n- 11.7 苏州|EDOP + 团子- AI亮相江苏 CIO 大会\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2100606879353385463)\n\n## 落地说\n\n**1. 什么是工业AI,其在装备制造中如何实现落地?**\n\n- 什么是工业AI,其在装备制造中如何实现落地?\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://www.zhihu.com/question/1978177475881231985/answer/2100980012027475817)\n\n**2. 九载进博看西门子，在产业升级中坚守长期价值**\n\n- 连续九届进博会，我们见证了中国高水平对外开放的深化，也为深度扎根国内市场的跨国工业企业，提供了观察、对接中国产业真实需求的重要窗口。\n- 作为连续九年参与的“全勤生”，西门子的参展脉络并非单纯的新技术、新产品首发亮相，而是自身创新体系与国内产业升级需求不断对齐的外在体现。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454497.html)\n\n**3. 对话伦茨高昌兴：以差异化产品组合，回应多元场景需求**\n\n- ​当前中国物流装备市场，价格竞争持续，客户需求却同时向“低成本”与“高性能”两端拉伸。\n- CeMAT ASIA 2026期间，伦茨全国物流行业负责人高昌兴接受gongkong®专访，围绕物流自动化从单点设备走向系统级协同的趋势，高昌兴就硬件产品组合、软硬一体能力与本土化布局等方面，介绍了伦茨的实践与思考。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454541.html)\n\n## 技术前沿\n\n**1. 新闻 | 新华网专访天洑董事长张明,聚焦工业世界模型**\n\n- 新闻 | 新华网专访天洑董事长张明,聚焦工业世界模型\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2101299297132222313)\n\n**2. 机器人生意，造不如租｜巨潮**\n\n- 机器人生意，造不如租｜巨潮\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201927-8420-30710678.html)\n\n**3. 别等了，人形机器人拿不到“大结果”了？**\n\n- 别等了，人形机器人拿不到“大结果”了？\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8420-30710687.html)\n\n## 产业观察\n\n**1. 格创东智 FDE 一线手记｜师傅说“凭经验”，AI 怎么学？**\n\n- 在制造业客户的多个工业 AI 项目中，格创东智 FDE 团队深入业务现场，围绕良率监控、异常单处理、设备分析等高精度需求，帮助客户梳理业务规则、打通数据与系统，将 AI 能力落实到具体工作流程中。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454740.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-14T01:06:33.285Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2100606879353385463\",\"https://www.zhihu.com/question/1978177475881231985/answer/2100980012027475817\",\"https://zhuanlan.zhihu.com/p/2101299297132222313\",\"https://www.gongkong.com/news/202611/454497.html\",\"https://www.gongkong.com/news/202611/454541.html\",\"https://www.gongkong.com/news/202611/454740.html\",\"https://www.ofweek.com/im/2026-11/ART-201927-8420-30710678.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8420-30710687.html\"]",
-      "source_ids": "[43,42,38,30,29,27,14,13]",
-      "generator": "template-v2-manufacturing",
-      "score": 1,
-      "status": "published",
-      "created_at": "2026-11-14T01:06:33.285Z",
       "published_at": "2026-11-14T01:06:33.402Z",
       "relevance": "ok"
     },
@@ -9166,36 +9259,6 @@
       "status": "published",
       "created_at": "2026-11-06T19:33:14.437Z",
       "published_at": "2026-11-06T03:30:47.451Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "20261106-027317",
-      "kind": "deep",
-      "title": "AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通",
-      "dek": "【技术前沿】",
-      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 · 知乎用户CEMBsg ｜ [打开原文](https://zhuanlan.zhihu.com/p/2101111588086363092)\n\n## 核心观点\n1. AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核](article-176.html)\n- [【AI赋能】基于PyQt+YOLO+DeepSeek的顶盖焊缺陷检测系统(详细介绍)](article-46.html)\n- [一张不良品照片都没有,AI竟然也能检测缺陷?原来还有这种玩法!](article-55.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：AI视觉外观缺陷检测系统工位联调验收:触发、采图、判定与剔除怎么走通](https://zhuanlan.zhihu.com/p/2101111588086363092)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2101111588086363092\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-06T12:14:51.632Z*",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2101111588086363092\"]",
-      "source_ids": "[479]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-06T12:14:51.631Z",
-      "published_at": "2026-11-06T12:14:51.736Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "20261106-3fbdb9",
-      "kind": "deep",
-      "title": "AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核",
-      "dek": "【技术前沿】",
-      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 · 知乎用户CEMBsg ｜ [打开原文](https://zhuanlan.zhihu.com/p/2099447827525121733)\n\n## 核心观点\n1. AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [【AI赋能】基于PyQt+YOLO+DeepSeek的顶盖焊缺陷检测系统(详细介绍)](article-46.html)\n- [一张不良品照片都没有,AI竟然也能检测缺陷?原来还有这种玩法!](article-55.html)\n- [汽车产线端侧AI视觉质检完整指南](article-54.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：AI视觉外观缺陷检测现场:划伤脏污破损怎么判、怎么留图复核](https://zhuanlan.zhihu.com/p/2099447827525121733)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2099447827525121733\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-06T12:14:51.629Z*",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2099447827525121733\"]",
-      "source_ids": "[480]",
-      "generator": "template-v2-manufacturing",
-      "score": 0,
-      "status": "published",
-      "created_at": "2026-11-06T12:14:51.626Z",
-      "published_at": "2026-11-06T12:14:51.736Z",
       "relevance": "ok"
     },
     {
@@ -12065,13 +12128,13 @@
     }
   ],
   "stats": {
-    "intel": 680,
-    "articles": 260,
+    "intel": 684,
+    "articles": 261,
     "prevIntel": 680,
-    "prevArticles": 257,
-    "dbIntelOk": 680,
-    "dbArticlesOk": 260,
+    "prevArticles": 260,
+    "dbIntelOk": 684,
+    "dbArticlesOk": 261,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-14T01:06:33.572Z"
+  "updated_at": "2026-11-14T02:06:18.256Z"
 }
