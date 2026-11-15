@@ -2,6 +2,18 @@
   "version": 1,
   "intel": [
     {
+      "source": "zhihu-search",
+      "ext_id": "2105414689731757030",
+      "title": "机器人没有ChatGPT时刻,京东工业在珞石找到了答案 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2105414689731757030",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-15T14:50:37.890Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-gkzhan",
       "ext_id": "197453",
       "title": "嘉腾机器人与软通天驰智行达成战略合作",
@@ -8368,6 +8380,21 @@
   ],
   "articles": [
     {
+      "slug": "20261115-979126",
+      "kind": "deep",
+      "title": "机器人没有ChatGPT时刻,京东工业在珞石找到了答案",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 · 曾宪勇 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2105414689731757030)\n\n## 核心观点\n1. 机器人没有ChatGPT时刻,京东工业在珞石找到了答案\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [工业具身智能机器人:感知到执行全链路软硬件搭配与长效运营思路](article-161.html)\n- [工业机器人,正在悄悄进入下半场](article-140.html)\n- [新品发布│安川大型工件搬运机器人GP700与GP400L发布，扩充重载阵容，助力智能制造升级](article-100.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：机器人没有ChatGPT时刻,京东工业在珞石找到了答案](https://zhuanlan.zhihu.com/p/2105414689731757030)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2105414689731757030\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-15T14:51:50.344Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2105414689731757030\"]",
+      "source_ids": "[767]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-15T14:51:50.339Z",
+      "published_at": "2026-11-15T14:51:50.438Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261115-7a57c8",
       "kind": "deep",
       "title": "嘉腾机器人与软通天驰智行达成战略合作",
@@ -12539,13 +12566,13 @@
     }
   ],
   "stats": {
-    "intel": 697,
-    "articles": 278,
-    "prevIntel": 696,
-    "prevArticles": 277,
-    "dbIntelOk": 697,
-    "dbArticlesOk": 278,
+    "intel": 698,
+    "articles": 279,
+    "prevIntel": 697,
+    "prevArticles": 278,
+    "dbIntelOk": 698,
+    "dbArticlesOk": 279,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-15T06:47:38.843Z"
+  "updated_at": "2026-11-15T14:51:50.692Z"
 }
