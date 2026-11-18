@@ -2,6 +2,66 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gkzhan",
+      "ext_id": "197551",
+      "title": "中国石化官宣启动乌兰察布绿氢及输氢管道项目",
+      "url": "https://www.gkzhan.com/news/detail/197551.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-18T02:58:42.064Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197552",
+      "title": "华为云携手福龙马官宣新一代清扫机器人启动预售",
+      "url": "https://www.gkzhan.com/news/detail/197552.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-18T02:58:42.064Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197555",
+      "title": "2026年10月份规模以上工业增加值增长4.8%",
+      "url": "https://www.gkzhan.com/news/detail/197555.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-18T02:58:42.064Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197549",
+      "title": "机器人、AI芯片多项目拿到数亿元融资",
+      "url": "https://www.gkzhan.com/news/detail/197549.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-18T02:58:42.064Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454815",
+      "title": "物流传感器赛道跑出“ 国产第一 ”：长江传感小方型光电登顶",
+      "url": "https://www.gongkong.com/news/202611/454815.html",
+      "summary": "在中国物流传感器市场，外资品牌长期占据主导地位。2025 年，基恩士、西克、欧姆龙、松下、倍加福包揽了中国工业传感器整体市场的前五席位；在技术壁垒更高的位移传感器领域，基恩士单一品牌市占率更超 60% 。在这样的格局中，国产品牌要争取一个“第一 ”，价格从来不是充分条件。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-18T02:57:55.639Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96572",
       "title": "一句话新闻：大族激光智能装备集团全球经销商大会圆满举办",
@@ -95,7 +155,7 @@
       "published_at": null,
       "fetched_at": "2026-11-17T12:05:10.563Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -275,7 +335,7 @@
       "published_at": null,
       "fetched_at": "2026-11-17T12:04:26.777Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -287,7 +347,7 @@
       "published_at": null,
       "fetched_at": "2026-11-17T12:04:26.777Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -455,7 +515,7 @@
       "published_at": null,
       "fetched_at": "2026-11-17T02:30:51.970Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -9208,6 +9268,66 @@
   ],
   "articles": [
     {
+      "slug": "20261118-044ea5",
+      "kind": "deep",
+      "title": "端侧AI丨AI工作站系列技术规范参编单位征集启动",
+      "dek": "【落地说】随着大模型技术与智能体应用的快速发展，AI算力正向端侧加速迁移。端侧AI工作站作为承载大规模端侧模型部署与智能体运行的算力设备，正成为端侧智能的重要载体，产业需",
+      "body_md": "> 栏目：落地说 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197536.html)\n\n## 核心观点\n1. 随着大模型技术与智能体应用的快速发展，AI算力正向端侧加速迁移。\n2. 端侧AI工作站作为承载大规模端侧模型部署与智能体运行的算力设备，正成为端侧智能的重要载体，产业需求持续增长。\n3. 然而，当前产业仍缺乏统一的技术要\n\n## 内容概要\n随着大模型技术与智能体应用的快速发展，AI算力正向端侧加速迁移。端侧AI工作站作为承载大规模端侧模型部署与智能体运行的算力设备，正成为端侧智能的重要载体，产业需求持续增长。然而，当前产业仍缺乏统一的技术要\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [汽车产线端侧AI视觉质检完整指南](article-175.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：端侧AI丨AI工作站系列技术规范参编单位征集启动](https://www.gkzhan.com/news/detail/197536.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197536.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-18T02:58:59.164Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197536.html\"]",
+      "source_ids": "[8]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-18T02:58:59.163Z",
+      "published_at": "2026-11-18T02:58:59.282Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261118-3c75c4",
+      "kind": "deep",
+      "title": "数百台机器人落地常州！它石智航携手艾博格打造工业具身原生应用样板，迈向规模落地新阶段",
+      "dek": "【落地说】11月16日，在2026常州工业具身智能创新大会上，它石智航创始人、董事长李震宇表示，公司在常州的产业化布局正在提速：一方面以千台级量产为起点、面向未来走向万台",
+      "body_md": "> 栏目：落地说 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454810.html)\n\n## 核心观点\n1. 11月16日，在2026常州工业具身智能创新大会上，它石智航创始人、董事长李震宇表示，公司在常州的产业化布局正在提速：一方面以千台级量产为起点、面向未来走向万台级规模；\n2. 另一方面与常州线束制造企业艾博格签署战略合作，推动机器人进入真实产线，加快工业具身智能的规模化落地。\n\n## 内容概要\n11月16日，在2026常州工业具身智能创新大会上，它石智航创始人、董事长李震宇表示，公司在常州的产业化布局正在提速：一方面以千台级量产为起点、面向未来走向万台级规模；另一方面与常州线束制造企业艾博格签署战略合作，推动机器人进入真实产线，加快工业具身智能的规模化落地。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [真实产线跑出规模化部署：它石智航携手安波福深化战略合作](article-90.html)\n- [工业具身智能机器人:感知到执行全链路软硬件搭配与长效运营思路](article-179.html)\n- [优必选与天翼电信共推仿生人形机器人大规模市场应用](article-67.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：数百台机器人落地常州！它石智航携手艾博格打造工业具身原生应用样板，迈向规模落地新](https://www.gongkong.com/news/202611/454810.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454810.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-18T02:58:59.161Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454810.html\"]",
+      "source_ids": "[23]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-18T02:58:59.158Z",
+      "published_at": "2026-11-18T02:58:59.282Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261118-16a96a",
+      "kind": "deep",
+      "title": "机器人、AI芯片多项目拿到数亿元融资",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：智能制造网 · 智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197549.html)\n\n## 核心观点\n1. 机器人、AI芯片多项目拿到数亿元融资\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [优理奇机器人(UniX AI)完成5亿元Pre-A轮融资](article-58.html)\n- [瞄准高危、高精度机器人协同作业，优必选联合项目拿下省科技进步一等奖](article-132.html)\n- [从宇树、智元到特斯拉与Figure AI,2026具身智能机器人第一梯队出现了哪些新变化?](article-166.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：机器人、AI芯片多项目拿到数亿元融资](https://www.gkzhan.com/news/detail/197549.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197549.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-18T02:58:59.157Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197549.html\"]",
+      "source_ids": "[917]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-18T02:58:59.149Z",
+      "published_at": "2026-11-18T02:58:59.282Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261118",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-18：产业观察、落地说、政策风向等 6 条动态",
+      "dek": "过去 48 小时 6 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 物流传感器赛道跑出“ 国产第一 ”：长江传感小方型光电登顶**\n\n- 在中国物流传感器市场，外资品牌长期占据主导地位。\n- 2025 年，基恩士、西克、欧姆龙、松下、倍加福包揽了中国工业传感器整体市场的前五席位；\n\n*关键数字：「（见原文）60%」*\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454815.html)\n\n**2. 中国石化官宣启动乌兰察布绿氢及输氢管道项目**\n\n- 中国石化官宣启动乌兰察布绿氢及输氢管道项目\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197551.html)\n\n**3. 2026年10月份规模以上工业增加值增长4.8%**\n\n- 2026年10月份规模以上工业增加值增长4.8%\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197555.html)\n\n## 落地说\n\n**1. ​德承工控MD-3000：产线视觉检测算力平台的选配思路**\n\n- ​德承工控MD-3000：产线视觉检测算力平台的选配思路\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454783.html)\n\n## 政策风向\n\n**1. 从盲区到全域：施耐德电气以断路器为核心的电化学储能直流保护之道**\n\n- 新能源发电具有间歇性特点，部署储能系统是推动新能源规模化发展的关键基础设施。\n- 工业园区光储充一体化项目，本质是把光伏、储能、充电与能源管理整合到同一张微网之中。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454812.html)\n\n## 技术前沿\n\n**1. 华为云携手福龙马官宣新一代清扫机器人启动预售**\n\n- 华为云携手福龙马官宣新一代清扫机器人启动预售\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197552.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-18T02:58:59.141Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454815.html\",\"https://www.gongkong.com/news/202611/454783.html\",\"https://www.gongkong.com/news/202611/454812.html\",\"https://www.gkzhan.com/news/detail/197551.html\",\"https://www.gkzhan.com/news/detail/197552.html\",\"https://www.gkzhan.com/news/detail/197555.html\"]",
+      "source_ids": "[844,38,24,934,933,924]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-18T02:58:59.141Z",
+      "published_at": "2026-11-18T02:58:59.282Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261117-417130",
       "kind": "deep",
       "title": "2027北方刀具节&丞华济南机床展宣传邀约深入汽车配件交易会",
@@ -13649,13 +13769,13 @@
     }
   ],
   "stats": {
-    "intel": 767,
-    "articles": 296,
+    "intel": 772,
+    "articles": 300,
     "prevIntel": 767,
-    "prevArticles": 293,
-    "dbIntelOk": 767,
-    "dbArticlesOk": 296,
+    "prevArticles": 296,
+    "dbIntelOk": 772,
+    "dbArticlesOk": 300,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-17T21:05:17.942Z"
+  "updated_at": "2026-11-18T02:58:59.513Z"
 }
