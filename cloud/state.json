@@ -3,6 +3,66 @@
   "intel": [
     {
       "source": "hn",
+      "ext_id": "50552140",
+      "title": "Show HN: Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+      "url": "https://springcraft-ai.github.io/springrep/",
+      "summary": "Hey HN, I’m Tony. I’m a co-founder of Springcraft, where we have been doing a lot of CAD modeling for robot parts. Our team kept running into limitations with existing kernels, and so I decided to write a new B-rep kernel and a new comprehensive, kernel-agnostic B-rep conformance test suite. Both are available today under MIT licenses.<p>The kernel, springrep, is written in safe Rust with no dependencies. It covers a broad range of our mechanical CAD needs, including advanced fillets, sweeps, lo",
+      "points": 21,
+      "published_at": "2026-11-18T21:08:47Z",
+      "fetched_at": "2026-11-19T02:40:42.115Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2104581145136518395",
+      "title": "从单点突破到全域赋能 上海国资国企加快制造业数智化转型 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2104581145136518395",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-19T02:39:15.258Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2103084399541723967",
+      "title": "“AI+”专项行动落地1000个场景,拼的是这三笔账 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2103084399541723967",
+      "summary": "",
+      "points": 1,
+      "published_at": null,
+      "fetched_at": "2026-11-19T02:39:12.780Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2104672847193032515",
+      "title": "AI为笔,江淮为卷:安徽与华为共绘一幅产业智能化的长卷 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2104672847193032515",
+      "summary": "",
+      "points": 1,
+      "published_at": null,
+      "fetched_at": "2026-11-19T02:39:10.393Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2103193846423335981",
+      "title": "从单厂数字化到集团化“AI+制造”,一家全球化汽配巨头的智能制造晋级之路 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2103193846423335981",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-19T02:39:07.949Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "hn",
       "ext_id": "50548660",
       "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
       "url": "https://news.ycombinator.com/item?id=50548660",
@@ -179,7 +239,7 @@
       "published_at": null,
       "fetched_at": "2026-11-18T11:56:07.469Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -191,7 +251,7 @@
       "published_at": null,
       "fetched_at": "2026-11-18T11:56:07.469Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -335,7 +395,7 @@
       "published_at": null,
       "fetched_at": "2026-11-18T11:55:27.428Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -347,7 +407,7 @@
       "published_at": null,
       "fetched_at": "2026-11-18T11:55:27.428Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -611,7 +671,7 @@
       "published_at": null,
       "fetched_at": "2026-11-17T12:04:26.777Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -9616,6 +9676,36 @@
   ],
   "articles": [
     {
+      "slug": "20261119-7c2af9",
+      "kind": "deep",
+      "title": "从单厂数字化到集团化“AI+制造”,一家全球化汽配巨头的智能制造晋级之路",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：知乎 · 创业邦 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2103193846423335981)\n\n## 核心观点\n1. 从单厂数字化到集团化“AI+制造”,一家全球化汽配巨头的智能制造晋级之路\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [智能制造时代,传统工厂如何实现数字化转型?](article-123.html)\n- [全球首个具身智能焊接训练场落户南京江北新区,构建智能制造创新平台](article-125.html)\n- [智能制造日报 | 2026-11-19：政策风向、产业观察、展会动态等 8 条动态](article-307.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：从单厂数字化到集团化“AI+制造”,一家全球化汽配巨头的智能制造晋级之路](https://zhuanlan.zhihu.com/p/2103193846423335981)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2103193846423335981\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-19T02:40:43.153Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2103193846423335981\"]",
+      "source_ids": "[829]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-19T02:40:43.148Z",
+      "published_at": "2026-11-19T02:40:43.256Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261119",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-19：政策风向、产业观察、展会动态等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 政策风向\n\n**1. “AI+”专项行动落地1000个场景,拼的是这三笔账**\n\n- “AI+”专项行动落地1000个场景,拼的是这三笔账\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2103084399541723967)\n\n**2. 6G部省协同试点名单公布！6G产业下一步拼什么**\n\n- 2026年11月17日，工业和信息化部办公厅复函同意北京、上海、江苏、浙江、广东等8省市开展6G创新发展部省协同试点，任务指向明确：围绕新型终端、关键器件、操作系统、卫星互联网等关联产业，面向沉浸式通信、工业制\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197580.html)\n\n## 产业观察\n\n**1. AI为笔,江淮为卷:安徽与华为共绘一幅产业智能化的长卷**\n\n- AI为笔,江淮为卷:安徽与华为共绘一幅产业智能化的长卷\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2104672847193032515)\n\n**2. 从单点突破到全域赋能 上海国资国企加快制造业数智化转型**\n\n- 从单点突破到全域赋能 上海国资国企加快制造业数智化转型\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2104581145136518395)\n\n**3. 框架式红冲热模锻成型液压机的设计优点与操作规范**\n\n- 在铜铝管件、阀体、异形接头等精密锻件生产中，红冲热模锻工艺对设备的刚性、抗偏载能力、压力控制精度都有着较高要求，框架式红冲热模锻成型液压机凭借独特的闭式框架结构，成为多向模锻生产的主流设备。\n- 和传统四柱液压机对比，该机型结构紧凑、承载能力强，能够适配侧向油缸同步挤压的工况，满足无飞边闭式锻造的生产需求，稳定锻件成型质量。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454840.html)\n\n## 展会动态\n\n**1. 和利时受邀参加2026第九届工业互联网创新发展大会并分享工业智能化转型实践**\n\n- 和利时受邀参加2026第九届工业互联网创新发展大会并分享工业智能化转型实践\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454795.html)\n\n## 技术前沿\n\n**1. 5G CPE、星闪和有线怎么分工？工业无线改造要算清三笔账**\n\n- 一条产线上，视觉工位换个位置就要重新放线，一组 RS485 仪表想加几个点位却得拆开桥架，机器人末端线缆则可能因为反复弯折需要停机维修。\n- 三个问题都可以考虑无线，改造优先级却可能完全不同。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454841.html)\n\n**2. 115家世界500强企业参会：全球企业到深圳APEC谈什么？**\n\n- 一场谈人工智能的讨论，坐在一起的是百度、宇树科技、工商银行、普华永道和万事达卡。\n- 模型和机器人之外，银行关心技术投入能否持续、风险怎样控制；\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197572.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-19T02:40:43.141Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2103084399541723967\",\"https://zhuanlan.zhihu.com/p/2104672847193032515\",\"https://zhuanlan.zhihu.com/p/2104581145136518395\",\"https://www.gongkong.com/news/202611/454795.html\",\"https://www.gongkong.com/news/202611/454841.html\",\"https://www.gongkong.com/news/202611/454840.html\",\"https://www.gkzhan.com/news/detail/197580.html\",\"https://www.gkzhan.com/news/detail/197572.html\"]",
+      "source_ids": "[847,833,852,51,29,28,16,15]",
+      "generator": "template-v2-manufacturing",
+      "score": 1,
+      "status": "published",
+      "created_at": "2026-11-19T02:40:43.141Z",
+      "published_at": "2026-11-19T02:40:43.256Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261118-ae4546",
       "kind": "deep",
       "title": "bauma展前剧透｜ifm重新定义工程机械的「感知、决策、执行」",
@@ -14207,13 +14297,13 @@
     }
   ],
   "stats": {
-    "intel": 801,
-    "articles": 306,
-    "prevIntel": 799,
-    "prevArticles": 303,
-    "dbIntelOk": 801,
-    "dbArticlesOk": 306,
+    "intel": 806,
+    "articles": 308,
+    "prevIntel": 801,
+    "prevArticles": 306,
+    "dbIntelOk": 806,
+    "dbArticlesOk": 308,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-18T20:42:06.473Z"
+  "updated_at": "2026-11-19T02:40:43.447Z"
 }
