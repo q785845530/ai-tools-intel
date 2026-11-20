@@ -119,7 +119,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:53:52.851Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -263,7 +263,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:53:38.663Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -395,7 +395,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T02:25:08.962Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -467,7 +467,7 @@
       "published_at": null,
       "fetched_at": "2026-11-19T11:53:13.610Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -479,7 +479,7 @@
       "published_at": null,
       "fetched_at": "2026-11-19T11:53:13.610Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -575,7 +575,7 @@
       "published_at": null,
       "fetched_at": "2026-11-19T11:53:01.402Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -587,7 +587,7 @@
       "published_at": null,
       "fetched_at": "2026-11-19T11:53:01.402Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -671,7 +671,7 @@
       "published_at": null,
       "fetched_at": "2026-11-19T11:52:26.521Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -683,7 +683,7 @@
       "published_at": null,
       "fetched_at": "2026-11-19T11:52:26.521Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -695,7 +695,7 @@
       "published_at": null,
       "fetched_at": "2026-11-19T11:52:26.521Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -923,7 +923,7 @@
       "published_at": null,
       "fetched_at": "2026-11-18T11:56:07.469Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -10420,6 +10420,66 @@
   ],
   "articles": [
     {
+      "slug": "20261120-e6e1ed",
+      "kind": "deep",
+      "title": "茵梦达亮相2026（厦门）第三届现代渔业装备发展大会",
+      "dek": "【展会动态】茵梦达低压电机事业部携全线高效电机产品家族参展，事业部高级专家冯金泉先生在现场发表主题演讲。",
+      "body_md": "> 栏目：展会动态 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454921.html)\n\n## 核心观点\n1. 茵梦达低压电机事业部携全线高效电机产品家族参展，事业部高级专家冯金泉先生在现场发表主题演讲。\n\n## 内容概要\n茵梦达低压电机事业部携全线高效电机产品家族参展，事业部高级专家冯金泉先生在现场发表主题演讲。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 把发布信息转成采购清单线索：厂商集中发布的功能点，往往对应下一轮选型的必答项。\n- 对感兴趣型号记录公开参数与适配条件；展会热度不等于成熟度，要求厂商提供同工况案例。\n\n## 相关案例（站内）\n- [智控物流｜伟创电气携多样化智慧物流运动控制方案亮相 CeMAT ASIA 2026](article-78.html)\n- [聚焦精密智造！海目星前沿装备硬核解题 NEPCON 2026](article-72.html)\n- [智能制造日报 | 2026-11-02：产业观察、落地说等 6 条动态](article-210.html)\n\n## 为什么制造业读者要关注\n展会和大会是行业风向的集中释放点。厂商集中发布什么，往往预示着下一轮采购清单里会出现什么。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：茵梦达亮相2026（厦门）第三届现代渔业装备发展大会](https://www.gongkong.com/news/202611/454921.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454921.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-20T20:31:50.293Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454921.html\"]",
+      "source_ids": "[22]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-20T20:31:50.292Z",
+      "published_at": "2026-11-20T20:31:50.356Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261120-5d1f32",
+      "kind": "deep",
+      "title": "中国北方刀具节&2027丞华济南机床展宣传邀约走进?永年紧固件展",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96575.html)\n\n## 核心观点\n1. 中国北方刀具节&2027丞华济南机床展宣传邀约走进?永年紧固件展\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [2027青岛3月金属加工展与7月机床展如何选？一文看清定位与场馆！](article-81.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：中国北方刀具节&2027丞华济南机床展宣传邀约走进?永年紧固件展](https://www.jc35.com/news/detail/96575.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96575.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-20T20:31:50.291Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96575.html\"]",
+      "source_ids": "[39]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-20T20:31:50.290Z",
+      "published_at": "2026-11-20T20:31:50.356Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261120-4b64dd",
+      "kind": "deep",
+      "title": "一份重磅名单，透露中国“人工智能＋”能源产业格局",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197571.html)\n\n## 核心观点\n1. 一份重磅名单，透露中国“人工智能＋”能源产业格局\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [双双入选！格创东智两项工业AI成果获选湖北省人工智能典型应用场景](article-211.html)\n- [《泸州市深入实施“人工智能 ”行动方案》印发](article-175.html)\n- [国务院办公厅发文：减缓人工智能应用就业替代影响](article-167.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：一份重磅名单，透露中国“人工智能＋”能源产业格局](https://www.gkzhan.com/news/detail/197571.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197571.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-20T20:31:50.289Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197571.html\"]",
+      "source_ids": "[77]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-20T20:31:50.286Z",
+      "published_at": "2026-11-20T20:31:50.356Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261120",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-20：产业观察、落地说、展会动态等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 解锁车载AI工控 | 华北工控BIS-6690P-B10高负载、丰富扩展、坚固耐用**\n\n- 解锁车载AI工控 | 华北工控BIS-6690P-B10高负载、丰富扩展、坚固耐用\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454862.html)\n\n**2. 【工业AI赋能】和利时XMagital®智能系统助力沧州赞宇打造化工行业智能安全管控新标杆**\n\n- 【工业AI赋能】和利时XMagital®智能系统助力沧州赞宇打造化工行业智能安全管控新标杆\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454859.html)\n\n**3. 数据简报 | 2026年10月汽车出口情况简析**\n\n- 数据简报 | 2026年10月汽车出口情况简析\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96581.html)\n\n## 落地说\n\n**1. 华北工控BIS-6960NV-Z10提供275 TOPS算力：赋能AI机器人多元化场景落地**\n\n- 华北工控BIS-6960NV-Z10提供275 TOPS算力：赋能AI机器人多元化场景落地\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454861.html)\n\n**2. 汇川技术又一新合作落地，瞄准医药工业智能化！**\n\n- 维科网智能制造11月19日消息，国药工程、长韬科技与汇川技术于近日签署战略合作协议。\n- 三方将围绕医药工业数字化、智能化建设，在制药装备、产线、车间及公用工程维度联合打造一体化解决方案。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30712645.html)\n\n**3. 西安交大杨树明教授团队在新型图像传感器领域取得重要进展**\n\n- 二维材料在光电器件中展示出巨大的应用前景，由二维材料构建的图像传感器逐步成为下一代光学成像系统的有力竞争者，但由于二维材料仅有原子级厚度，目前尚缺乏通用的信号读出电路。\n- 针对上述问题，西安交通大学机械工\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197583.html)\n\n## 展会动态\n\n**1. 2026世界智能制造大会开幕**\n\n- 11月19日，2026世界智能制造大会在江苏南京开幕。\n- 大会以“大力发展新一代智能制造，持续做大做强先进制造业”为主题，设置1场主题大会、1场市场化展览，同期举办10场以上专题活动和30余场产业生态系列活动。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197588.html)\n\n## 政策风向\n\n**1. 关于征集2026年第五批智能制造标准项目建议的通知**\n\n- 国家智能制造标准化总体组智标总[2026]15号关于征集2026年第五批智能制造标准项目建议的通知各有关单位：为加快推进智能制造标准化工作，按照《国家智能制造标准化总体组章程》，现向各有关单位公开征集智能制造领城\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197598.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-20T20:31:50.280Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454862.html\",\"https://www.gongkong.com/news/202611/454861.html\",\"https://www.gongkong.com/news/202611/454859.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30712645.html\",\"https://www.gkzhan.com/news/detail/197588.html\",\"https://www.gkzhan.com/news/detail/197583.html\",\"https://www.gkzhan.com/news/detail/197598.html\",\"https://www.jc35.com/news/detail/96581.html\"]",
+      "source_ids": "[58,57,56,10,49,48,33,40]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-20T20:31:50.280Z",
+      "published_at": "2026-11-20T02:25:22.563Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261120-9adc3b",
       "kind": "deep",
       "title": "长飞公司副总裁郑昕:以AI重塑生产范式,用光底座承载海量数据",
@@ -10447,21 +10507,6 @@
       "status": "published",
       "created_at": "2026-11-20T11:54:33.102Z",
       "published_at": "2026-11-20T11:54:33.208Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261120",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-20：产业观察、技术前沿、落地说等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 京东物理AI探向纵深**\n\n- 京东物理AI探向纵深\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2107114135662217198)\n\n**2. 让政务服务“数智化”：华北工控BIS-6360FT-A10夯实政务自助终端算力底座**\n\n- 让政务服务“数智化”：华北工控BIS-6360FT-A10夯实政务自助终端算力底座\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454892.html)\n\n**3. 安谋科技ICCAD 2026：携手共绘 Agentic AI时代计算芯未来**\n\n- 安谋科技ICCAD 2026：携手共绘 Agentic AI时代计算芯未来\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30712642.html)\n\n## 技术前沿\n\n**1. 当具身智能重新定义工业机器人,“懂工艺、会干活、能落地”不再是空话**\n\n- 当具身智能重新定义工业机器人,“懂工艺、会干活、能落地”不再是空话\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2107188661381027021)\n\n**2. APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力**\n\n- 央视镜头里的PHAIN数据手套：从人手操作到机器人训练数据 APEC 期间，PHAIN 梵因动力自主研发的 G03 Pro T 数据手套亮相央视新闻《聊会儿APEC》。\n- 公司首席科学家 Peter\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30712783.html)\n\n## 落地说\n\n**1. 全国炼企唯一!入选2026年领航级智能工厂培育名单**\n\n- 全国炼企唯一!入选2026年领航级智能工厂培育名单\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2107134472223249419)\n\n**2. 奇石乐压电技术助力焊接力控精准落地，筑牢焊接质量防线**\n\n- 奇石乐压电技术助力焊接力控精准落地，筑牢焊接质量防线\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454895.html)\n\n**3. Innodisk 丨宜鼎国际集团边缘 AI 解决方案**\n\n- Innodisk 丨宜鼎国际集团边缘 AI 解决方案\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454901.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-20T11:54:33.094Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2107114135662217198\",\"https://zhuanlan.zhihu.com/p/2107188661381027021\",\"https://zhuanlan.zhihu.com/p/2107134472223249419\",\"https://www.gongkong.com/news/202611/454892.html\",\"https://www.gongkong.com/news/202611/454895.html\",\"https://www.gongkong.com/news/202611/454901.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30712642.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30712783.html\"]",
-      "source_ids": "[867,907,900,938,936,935,951,946]",
-      "generator": "template-v2-manufacturing",
-      "score": 1,
-      "status": "published",
-      "created_at": "2026-11-20T11:54:33.094Z",
-      "published_at": "2026-11-20T02:25:22.563Z",
       "relevance": "ok"
     },
     {
@@ -15222,12 +15267,12 @@
   ],
   "stats": {
     "intel": 868,
-    "articles": 320,
-    "prevIntel": 841,
-    "prevArticles": 318,
+    "articles": 323,
+    "prevIntel": 868,
+    "prevArticles": 320,
     "dbIntelOk": 868,
-    "dbArticlesOk": 320,
+    "dbArticlesOk": 323,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-20T11:54:33.400Z"
+  "updated_at": "2026-11-20T20:31:50.606Z"
 }
