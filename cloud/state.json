@@ -23,7 +23,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:54:30.380Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -35,7 +35,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:54:30.380Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -47,7 +47,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:54:30.380Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -83,7 +83,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:54:18.979Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -95,7 +95,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:54:18.979Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -215,7 +215,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:53:38.663Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -227,7 +227,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:53:38.663Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -239,7 +239,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:53:38.663Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -251,7 +251,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T11:53:38.663Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -407,7 +407,7 @@
       "published_at": null,
       "fetched_at": "2026-11-20T02:25:08.962Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -911,7 +911,7 @@
       "published_at": null,
       "fetched_at": "2026-11-18T11:56:07.469Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -10420,6 +10420,66 @@
   ],
   "articles": [
     {
+      "slug": "20261121-44205a",
+      "kind": "deep",
+      "title": "2026年“5G 工业互联网”融合应用城市试点申报工作启动",
+      "dek": "【政策风向】",
+      "body_md": "> 栏目：政策风向 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96602.html)\n\n## 核心观点\n1. 2026年“5G 工业互联网”融合应用城市试点申报工作启动\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 对照申报条件逐条自查：政策条目里「支持对象」「支持方式」「申报门槛」三段通常就是资格线，缺一项就不必投入准备成本。\n- 把资金/补贴条款换算成自己项目的投资回收期改善幅度，再决定值不值得走流程。\n\n## 相关案例（站内）\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-200.html)\n- [2026工博会 | 具脑磐石携手智动力发布工业重载人形解决方案](article-189.html)\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-175.html)\n\n## 为什么制造业读者要关注\n政策类信息往往决定未来 3—5 年的资金流向和改造优先级。对制造企业而言，早一步读懂导向，就早一步在项目立项和预算申报上占位。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：2026年“5G 工业互联网”融合应用城市试点申报工作启动](https://www.jc35.com/news/detail/96602.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96602.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-21T02:28:54.896Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96602.html\"]",
+      "source_ids": "[2]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-21T02:28:54.894Z",
+      "published_at": "2026-11-21T02:28:54.996Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261121-721c84",
+      "kind": "deep",
+      "title": "Innodisk 丨 宜鼎 PCIe Gen5 SSD 解决方案，驱动下一代数据中心智能化演进",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454912.html)\n\n## 核心观点\n1. Innodisk 丨 宜鼎 PCIe Gen5 SSD 解决方案，驱动下一代数据中心智能化演进\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-175.html)\n- [把具身数采带进真实工厂!清研精准发布车规级Tsing-Ego PRO](article-207.html)\n- [2026工博会 | 具脑磐石携手智动力发布工业重载人形解决方案](article-189.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：Innodisk 丨 宜鼎 PCIe Gen5 SSD 解决方案，驱动下一代数据](https://www.gongkong.com/news/202611/454912.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454912.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-21T02:28:54.892Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454912.html\"]",
+      "source_ids": "[18]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-21T02:28:54.890Z",
+      "published_at": "2026-11-21T02:28:54.996Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261121-374794",
+      "kind": "deep",
+      "title": "人形机器人大小脑，一定要“分家”吗？",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197563.html)\n\n## 核心观点\n1. 人形机器人大小脑，一定要“分家”吗？\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [优必选与天翼电信共推仿生人形机器人大规模市场应用](article-94.html)\n- [人形机器人的第一份国标，越疆机器人参编](article-215.html)\n- [上海将推动8000台人形机器人进工厂](article-180.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：人形机器人大小脑，一定要“分家”吗？](https://www.gkzhan.com/news/detail/197563.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197563.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-21T02:28:54.889Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197563.html\"]",
+      "source_ids": "[76]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-21T02:28:54.881Z",
+      "published_at": "2026-11-21T02:28:54.996Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261121",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-21：产业观察、落地说、政策风向等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 轴类工件锻造成型液压机锻造改善锻件金属流线效果**\n\n- 轴类工件锻造成型液压机锻造改善锻件金属流线效果\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454916.html)\n\n**2. 旭之源机械臂专用电源AMR系列**\n\n- 旭之源机械臂专用电源AMR系列\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454918.html)\n\n**3. 具有IO-LINK协议的模拟量输出电感式传感器**\n\n- 具有IO-LINK协议的模拟量输出电感式传感器\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454915.html)\n\n## 落地说\n\n**1. 34个上榜！2026年度领航级智能工厂培育名单公布**\n\n- 关于印发2026年度领航级智能工厂培育名单的通知工信厅联通装函〔2026〕562号各省、自治区、直辖市及计划单列市、新疆生产建设兵团工业和信息化、发展改革、财政、国资、市场监管、数据主管部门：为贯彻落实全国先进\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197594.html)\n\n**2. 上榜领航级智能工厂！高端能源装备领域首批领航智造标杆在上海电气诞生**\n\n- 【机床商务网栏目国内新闻】11月19日上午，2026世界智能制造大会在南京召开。\n- 会上，工业和信息化部公布全国第二批领航级智能工厂培育名单，上海电气电站设备有限公司“工业智能驱动的高端能源装备全价值链提升智能工\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96606.html)\n\n## 政策风向\n\n**1. 2026年“5G＋工业互联网”融合应用城市试点申报**\n\n- 2026年“5G＋工业互联网”融合应用城市试点申报\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197616.html)\n\n**2. 《以标准提升引领轻工业优化升级实施方案》来了！**\n\n- 《以标准提升引领轻工业优化升级实施方案》来了！\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197629.html)\n\n## 展会动态\n\n**1. 智汇金陵聚势能，造领未来启新程 2026第十一届世界智能制造博览会在南京开幕**\n\n- 【机床商务网栏目展会快报】2026第十一届世界智能制造大会在南京国际博览中心拉开帷幕。\n- 同期举办一场市场化博览会，本届大会以“大力发展新一代智能制造、持续做大做强先进制造业”为主题，5.5万平方米的展厅里，630\n\n*关键数字：「（见原文）5.5万」*\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96611.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-21T02:28:54.872Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454916.html\",\"https://www.gongkong.com/news/202611/454918.html\",\"https://www.gongkong.com/news/202611/454915.html\",\"https://www.gkzhan.com/news/detail/197594.html\",\"https://www.gkzhan.com/news/detail/197616.html\",\"https://www.gkzhan.com/news/detail/197629.html\",\"https://www.jc35.com/news/detail/96611.html\",\"https://www.jc35.com/news/detail/96606.html\"]",
+      "source_ids": "[21,20,19,34,8,7,4,3]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-21T02:28:54.872Z",
+      "published_at": "2026-11-21T02:28:54.996Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261120-e6e1ed",
       "kind": "deep",
       "title": "茵梦达亮相2026（厦门）第三届现代渔业装备发展大会",
@@ -15267,12 +15327,12 @@
   ],
   "stats": {
     "intel": 868,
-    "articles": 323,
+    "articles": 327,
     "prevIntel": 868,
-    "prevArticles": 320,
+    "prevArticles": 323,
     "dbIntelOk": 868,
-    "dbArticlesOk": 323,
+    "dbArticlesOk": 327,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-20T20:31:50.606Z"
+  "updated_at": "2026-11-21T02:28:55.178Z"
 }
