@@ -2,6 +2,54 @@
   "version": 1,
   "intel": [
     {
+      "source": "lobsters",
+      "ext_id": "httpslobsterss32rhzb",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "points": 0,
+      "published_at": "Sat, 21 Nov 2026 20:03:46 -0600",
+      "fetched_at": "2026-11-22T08:09:17.187Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "hn",
+      "ext_id": "50596511",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "summary": null,
+      "points": 61,
+      "published_at": "2026-11-22T05:11:43Z",
+      "fetched_at": "2026-11-22T08:09:16.317Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197634",
+      "title": "利润大增超90%，京东工业Q3业绩出炉！",
+      "url": "https://www.gkzhan.com/news/detail/197634.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-22T08:09:03.131Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197635",
+      "title": "年产机械臂约2000条！国内机器人关节头部研发商落子合肥",
+      "url": "https://www.gkzhan.com/news/detail/197635.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-22T08:09:03.131Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "zhihu-search",
       "ext_id": "2106752298840019573",
       "title": "无问芯穹联合清华大学、智元发布“群体经验学习”范式,96台真机验证具身智能持续进化新路径 - 知乎",
@@ -23,7 +71,7 @@
       "published_at": "2026-11-20T21:53:39Z",
       "fetched_at": "2026-11-21T11:24:29.890Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -10456,6 +10504,21 @@
   ],
   "articles": [
     {
+      "slug": "manufacturing-daily-20261122",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-22：产业观察、技术前沿等 4 条动态",
+      "dek": "过去 48 小时 4 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 利润大增超90%，京东工业Q3业绩出炉！**\n\n- 利润大增超90%，京东工业Q3业绩出炉！\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197634.html)\n\n**2. AI Supply Chain Security: What Canary Tokens Found**\n\n- AI Supply Chain Security: What Canary Tokens Found\n\n*来源：Hacker News · 61 分* ｜ [🔗 原文](https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens)\n\n**3. Leaky AI supply chain is exposing secret user data at an alarming rate**\n\n- Leaky AI supply chain is exposing secret user data at an alarming rate\n\n*来源：Hacker News · 21 分* ｜ [🔗 原文](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/)\n\n## 技术前沿\n\n**1. 年产机械臂约2000条！国内机器人关节头部研发商落子合肥**\n\n- 年产机械臂约2000条！国内机器人关节头部研发商落子合肥\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197635.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-22T08:09:17.250Z*\n",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197634.html\",\"https://www.gkzhan.com/news/detail/197635.html\",\"https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens\",\"https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/\"]",
+      "source_ids": "[1037,1036,1071,2]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-22T08:09:17.250Z",
+      "published_at": "2026-11-22T08:09:17.355Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261121-b29e6f",
       "kind": "deep",
       "title": "无问芯穹联合清华大学、智元发布“群体经验学习”范式,96台真机验证具身智能持续进化新路径",
@@ -15422,13 +15485,13 @@
     }
   ],
   "stats": {
-    "intel": 871,
-    "articles": 331,
+    "intel": 875,
+    "articles": 332,
     "prevIntel": 871,
     "prevArticles": 331,
-    "dbIntelOk": 871,
-    "dbArticlesOk": 331,
+    "dbIntelOk": 875,
+    "dbArticlesOk": 332,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-22T00:26:55.712Z"
+  "updated_at": "2026-11-22T08:09:17.537Z"
 }
