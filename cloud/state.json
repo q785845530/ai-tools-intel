@@ -2,6 +2,30 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gongkong",
+      "ext_id": "454924",
+      "title": "向深水区突围，汇川技术携手中信重工筑牢国产工业操作系统与控制器自主底座",
+      "url": "https://www.gongkong.com/news/202611/454924.html",
+      "summary": "在近日由中国电子信息产业发展研究院主办的2026工业操作系统大会上，中信重工工业操作系统（CXWOS）与汇川技术EVO800中大型PLC深度适配联合行动正式发布，这既是一次技术成果的亮相，也是一次垂直场景下工控自主化路径的行业探索。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-22T16:24:24.933Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "454926",
+      "title": "如何通过SSD SMART监控硬盘健康状态？",
+      "url": "https://www.gongkong.com/news/202611/454926.html",
+      "summary": "SSD SMART就像是硬盘的健康体检报告，可持续采集运行时长、工作温度、总写入数据、剩余寿命、备用闪存空间、异常断电次数等关键信息，让运维人员实时掌握硬盘运行状态。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-22T16:24:24.933Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "lobsters",
       "ext_id": "httpslobsterss32rhzb",
       "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
@@ -11,7 +35,7 @@
       "published_at": "Sat, 21 Nov 2026 20:03:46 -0600",
       "fetched_at": "2026-11-22T08:09:17.187Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "hn",
@@ -10506,15 +10530,15 @@
     {
       "slug": "manufacturing-daily-20261122",
       "kind": "daily",
-      "title": "智能制造日报 | 2026-11-22：产业观察、技术前沿等 4 条动态",
-      "dek": "过去 48 小时 4 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 利润大增超90%，京东工业Q3业绩出炉！**\n\n- 利润大增超90%，京东工业Q3业绩出炉！\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197634.html)\n\n**2. AI Supply Chain Security: What Canary Tokens Found**\n\n- AI Supply Chain Security: What Canary Tokens Found\n\n*来源：Hacker News · 61 分* ｜ [🔗 原文](https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens)\n\n**3. Leaky AI supply chain is exposing secret user data at an alarming rate**\n\n- Leaky AI supply chain is exposing secret user data at an alarming rate\n\n*来源：Hacker News · 21 分* ｜ [🔗 原文](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/)\n\n## 技术前沿\n\n**1. 年产机械臂约2000条！国内机器人关节头部研发商落子合肥**\n\n- 年产机械臂约2000条！国内机器人关节头部研发商落子合肥\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197635.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-22T08:09:17.250Z*\n",
-      "source_urls": "[\"https://www.gkzhan.com/news/detail/197634.html\",\"https://www.gkzhan.com/news/detail/197635.html\",\"https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens\",\"https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/\"]",
-      "source_ids": "[1037,1036,1071,2]",
+      "title": "智能制造日报 | 2026-11-22：展会动态、产业观察等 3 条动态",
+      "dek": "过去 48 小时 3 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 展会动态\n\n**1. 向深水区突围，汇川技术携手中信重工筑牢国产工业操作系统与控制器自主底座**\n\n- 在近日由中国电子信息产业发展研究院主办的2026工业操作系统大会上，中信重工工业操作系统（CXWOS）与汇川技术EVO800中大型PLC深度适配联合行动正式发布，这既是一次技术成果的亮相，也是一次垂直场景下工控自主化路径的行业探索。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454924.html)\n\n## 产业观察\n\n**1. 如何通过SSD SMART监控硬盘健康状态？**\n\n- SSD SMART就像是硬盘的健康体检报告，可持续采集运行时长、工作温度、总写入数据、剩余寿命、备用闪存空间、异常断电次数等关键信息，让运维人员实时掌握硬盘运行状态。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454926.html)\n\n**2. Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced**\n\n- a href=\"https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai\"&gt;\n- Comments&lt;\n\n*来源：Lobsters* ｜ [🔗 原文](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-22T16:25:20.007Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454924.html\",\"https://www.gongkong.com/news/202611/454926.html\",\"https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/\"]",
+      "source_ids": "[947,946,1]",
       "generator": "template-v2-manufacturing",
       "score": 0,
       "status": "published",
-      "created_at": "2026-11-22T08:09:17.250Z",
+      "created_at": "2026-11-22T16:25:20.007Z",
       "published_at": "2026-11-22T08:09:17.355Z",
       "relevance": "ok"
     },
@@ -15485,13 +15509,13 @@
     }
   ],
   "stats": {
-    "intel": 875,
+    "intel": 877,
     "articles": 332,
-    "prevIntel": 871,
-    "prevArticles": 331,
-    "dbIntelOk": 875,
+    "prevIntel": 875,
+    "prevArticles": 332,
+    "dbIntelOk": 877,
     "dbArticlesOk": 332,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-22T08:09:17.537Z"
+  "updated_at": "2026-11-22T16:25:20.289Z"
 }
