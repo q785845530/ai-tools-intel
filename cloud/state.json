@@ -131,7 +131,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:26.913Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -143,7 +143,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:26.913Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -191,7 +191,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:01.821Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -203,7 +203,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:01.821Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -215,7 +215,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:01.821Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -239,7 +239,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:01.821Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -623,7 +623,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:54:31.264Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -719,7 +719,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:53:50.273Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -731,7 +731,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:53:50.273Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -743,7 +743,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:53:50.273Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -755,7 +755,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:53:50.273Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -11476,6 +11476,66 @@
   ],
   "articles": [
     {
+      "slug": "20261124-5d55a8",
+      "kind": "deep",
+      "title": "拆飞机供电？AI公司的算力焦虑已经卷到电力端",
+      "dek": "【产业观察】",
+      "body_md": "> 栏目：产业观察 ｜ 来源：OFweek智能制造 ｜ [打开原文](https://www.ofweek.com/im/2026-11/ART-201927-12003-30713308.html)\n\n## 核心观点\n1. 拆飞机供电？AI公司的算力焦虑已经卷到电力端\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 识别分歧点：趋势讨论的价值在于「谁不认同、为什么」，分歧处往往藏着风险或机会。\n- 把趋势转成自己的观察指标：设定 2—3 个可量化的跟踪信号（招标数量、人才岗位、专利数），按季度回看。\n\n## 相关案例（站内）\n- [算力为核、电力为基，松下携多样化AI基础设施元器件产品出展第九届进博会](article-153.html)\n\n## 为什么制造业读者要关注\n趋势类讨论反映的是行业共识的形成过程。看清分歧在哪里，比记住结论更有用。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：拆飞机供电？AI公司的算力焦虑已经卷到电力端](https://www.ofweek.com/im/2026-11/ART-201927-12003-30713308.html)\n\n原始地址（可复制/可点击）：https://www.ofweek.com/im/2026-11/ART-201927-12003-30713308.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-24T23:32:31.026Z*",
+      "source_urls": "[\"https://www.ofweek.com/im/2026-11/ART-201927-12003-30713308.html\"]",
+      "source_ids": "[16]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T23:32:31.024Z",
+      "published_at": "2026-11-24T23:32:31.128Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261124-7f45cd",
+      "kind": "deep",
+      "title": "超1亿台 我国5G＋工业互联网已覆盖全部工业大类",
+      "dek": "【落地说】11月22日消息，据央视报道，全国“5G+工业互联网”项目已超2.7万个。目前，我国5G应用已融入全部97个国民经济大类，工业互联网已覆盖全部41个工业大类。工",
+      "body_md": "> 栏目：落地说 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197668.html)\n\n## 核心观点\n1. 11月22日消息，据央视报道，全国“5G+工业互联网”项目已超2.7万个。\n2. 目前，我国5G应用已融入全部97个国民经济大类，工业互联网已覆盖全部41个工业大类。\n3. 工厂建设方面，我国已建成1260家5G工厂，培育超过360家具有一\n\n## 内容概要\n11月22日消息，据央视报道，全国“5G+工业互联网”项目已超2.7万个。目前，我国5G应用已融入全部97个国民经济大类，工业互联网已覆盖全部41个工业大类。工厂建设方面，我国已建成1260家5G工厂，培育超过360家具有一\n\n## 实例分析\n**原文中的关键数字**\n- 「项目已超2.7万」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n- 「我国已建成1260家」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n- 「培育超过360家」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [双环传动子公司环智云创入选浙江省第七批省级工业互联网平台名单](article-95.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：超1亿台 我国5G＋工业互联网已覆盖全部工业大类](https://www.gkzhan.com/news/detail/197668.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197668.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-24T23:32:31.023Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197668.html\"]",
+      "source_ids": "[52]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T23:32:31.021Z",
+      "published_at": "2026-11-24T23:32:31.128Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261124-7f4f8c",
+      "kind": "deep",
+      "title": "【下午14:00直播】从设备可视化到高效交付：岳昇 HMI 2026 助力中国设备制造提质增效",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454950.html)\n\n## 核心观点\n1. 【下午14:00直播】从设备可视化到高效交付：岳昇 HMI 2026 助力中国设备制造提质增效\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [智能制造日报 | 2026-11-02：产业观察、落地说等 6 条动态](article-236.html)\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-223.html)\n- [从宇树、智元到特斯拉与Figure AI,2026具身智能机器人第一梯队出现了哪些新变化?](article-216.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：【下午14:00直播】从设备可视化到高效交付：岳昇 HMI 2026 助力中国设](https://www.gongkong.com/news/202611/454950.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454950.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-24T23:32:31.019Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454950.html\"]",
+      "source_ids": "[60]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T23:32:31.015Z",
+      "published_at": "2026-11-24T23:32:31.128Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261124",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-24：落地说、技术前沿、产业观察等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. 从现场组装到一体化部署 户外路由器如何简化设备联网**\n\n- 从现场组装到一体化部署 户外路由器如何简化设备联网\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454953.html)\n\n**2. 第六镜叉车AI影像防撞预警系统上线！**\n\n- 第六镜叉车AI影像防撞预警系统上线！\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454951.html)\n\n**3. 佰维企业级 DDR5 RDIMM：以高带宽、高可靠支撑AI服务器与数据中心稳定运行**\n\n- 佰维企业级 DDR5 RDIMM：以高带宽、高可靠支撑AI服务器与数据中心稳定运行\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454959.html)\n\n## 技术前沿\n\n**1. 机器狗进入下半场, 扛起了具身智能的半边天**\n\n- 人形机器人抢走了聚光灯，但机器狗才是赚钱养家的长子。\n- 从产品形态、落地场景和商业模式上看，机器狗已经迎来了属于它的下半场。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201920-8420-30713328.html)\n\n**2. 人形机器人灵巧手行业首个标准正式发布！**\n\n- 近日，工业和信息化部发布2026年第30号公告，批准274项行业标准。\n- 其中，由工业和信息化部人形机器人与具身智能标准化技术委员会(MIIT/TC8)归口管理的5项人形机器人领域标准正式发布，自发布之日起实施。\n\n*关键数字：「批准274项」、「归口管理的5项」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197694.html)\n\n**3. 珞石机器人在港股上市后，宣布冲击A股！**\n\n- 近日，珞石机器人在港股上市四个多月后，发布公告称，为促进其业务增长、增强其整体竞争力，并支持其实现经营目标及长期发展战略，其已决定启动首次公开发行人民币普通股及于深圳证券交易所上市计划。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197705.html)\n\n## 产业观察\n\n**1. 英伟达财报炸裂，却失去黄仁勋，市场在担心什么 ？**\n\n- 作者：龚进辉 黄仁勋卸任英伟达CEO一周后，英伟达交出一份十分炸裂的成绩单。\n- 表面上看，英伟达2027财年第三季度是AI硬件景气度的又一次确认。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201927-12003-30713332.html)\n\n**2. AI造药火了：谷歌旗下公司完成50亿美元融资**\n\n- AI造药火了：谷歌旗下公司完成50亿美元融资\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201926-12005-30713316.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-24T23:32:31.006Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454953.html\",\"https://www.gongkong.com/news/202611/454951.html\",\"https://www.gongkong.com/news/202611/454959.html\",\"https://www.ofweek.com/im/2026-11/ART-201920-8420-30713328.html\",\"https://www.ofweek.com/im/2026-11/ART-201927-12003-30713332.html\",\"https://www.ofweek.com/im/2026-11/ART-201926-12005-30713316.html\",\"https://www.gkzhan.com/news/detail/197694.html\",\"https://www.gkzhan.com/news/detail/197705.html\"]",
+      "source_ids": "[63,62,61,20,18,17,12,11]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T23:32:31.006Z",
+      "published_at": "2026-11-24T02:20:20.998Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261124-7d12ca",
       "kind": "deep",
       "title": "全国最大煤炭下水港，AI给煤“定身价”",
@@ -11518,21 +11578,6 @@
       "status": "published",
       "created_at": "2026-11-24T13:57:41.087Z",
       "published_at": "2026-11-24T13:57:41.162Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261124",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-24：技术前沿、展会动态、产业观察等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 工业产品外观缺陷检测:AI视觉判定一致性怎么核对(记录筛选与留图复核)**\n\n- 工业产品外观缺陷检测:AI视觉判定一致性怎么核对(记录筛选与留图复核)\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2105432953476195002)\n\n**2. 新时达“强韧关节”问世，为具身智能注入核心动能**\n\n- 新时达“强韧关节”问世，为具身智能注入核心动能\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454985.html)\n\n## 展会动态\n\n**1. 不止运控，磁驱启航！新时达发布磁驱全栈电控解决方案，助力智能输送新升级**\n\n- 不止运控，磁驱启航！新时达发布磁驱全栈电控解决方案，助力智能输送新升级\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454984.html)\n\n## 产业观察\n\n**1. 研祥集团如何布局海外市场？AI³战略助力全球产业升级**\n\n- 研祥集团如何布局海外市场？AI³战略助力全球产业升级\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454987.html)\n\n**2. 重塑计算，领航 AI 时代：AMD 携手生态伙伴推动 Agentic AI 基础设施创新**\n\n- 重塑计算，领航 AI 时代：AMD 携手生态伙伴推动 Agentic AI 基础设施创新\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30712756.html)\n\n**3. 瑞松科技：±0.01毫米的跃迁，撬动AI算力新战场**\n\n- 瑞松科技：±0.01毫米的跃迁，撬动AI算力新战场\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-12003-30713156.html)\n\n## 落地说\n\n**1. 电池厂抢滩匈牙利**\n\n- 出品I下海fallsea撰文I胡不知 匈牙利人花了四年买一座电池厂，买到的却是一张中国工厂的复印件，连复印机都是卖家自带的。\n- 2026年8月25日，匈牙利德布勒森，宁德时代那条试产中的电芯线停了下来，\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201929-8420-30713329.html)\n\n**2. 歌尔股份入选2026年领航级智能工厂培育名单**\n\n- 歌尔股份入选2026年领航级智能工厂培育名单\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197717.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-24T13:57:41.081Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2105432953476195002\",\"https://www.gongkong.com/news/202611/454984.html\",\"https://www.gongkong.com/news/202611/454985.html\",\"https://www.gongkong.com/news/202611/454987.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30712756.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-12003-30713156.html\",\"https://www.ofweek.com/im/2026-11/ART-201929-8420-30713329.html\",\"https://www.gkzhan.com/news/detail/197717.html\"]",
-      "source_ids": "[966,1016,1015,1012,1033,1030,1022,1083]",
-      "generator": "template-v2-manufacturing",
-      "score": 1,
-      "status": "published",
-      "created_at": "2026-11-24T13:57:41.081Z",
-      "published_at": "2026-11-24T02:20:20.998Z",
       "relevance": "ok"
     },
     {
@@ -16668,12 +16713,12 @@
   ],
   "stats": {
     "intel": 956,
-    "articles": 346,
-    "prevIntel": 916,
-    "prevArticles": 343,
+    "articles": 349,
+    "prevIntel": 956,
+    "prevArticles": 346,
     "dbIntelOk": 956,
-    "dbArticlesOk": 346,
+    "dbArticlesOk": 349,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-24T13:57:41.406Z"
+  "updated_at": "2026-11-24T23:32:31.317Z"
 }
