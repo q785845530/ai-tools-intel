@@ -3,6 +3,54 @@
   "intel": [
     {
       "source": "media-gkzhan",
+      "ext_id": "197682",
+      "title": "大模型×具身智能，大华双子星开启全域智能巡检",
+      "url": "https://www.gkzhan.com/news/detail/197682.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-24T02:20:06.169Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197687",
+      "title": "智元携手长电科技，以工业部署态赋能芯片制造",
+      "url": "https://www.gkzhan.com/news/detail/197687.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-24T02:20:06.169Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197684",
+      "title": "三秒节拍“考”住人形机器人：车企撤下产线试点，转向人机协同",
+      "url": "https://www.gkzhan.com/news/detail/197684.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-24T02:20:06.169Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-ofweek-im",
+      "ext_id": "30713127",
+      "title": "蚂蚁领投近7亿元新融资，流向理想系杭州机器人“新贵”",
+      "url": "https://www.ofweek.com/im/2026-11/ART-201900-8400-30713127.html",
+      "summary": "维科网智能制造11月23日消息，具身机器人开发商至简动力（Simplexity Robotics）完成1亿美元（约合人民币6.67亿元）新一轮融资。 本轮融资由蚂蚁集团领投，阿里巴巴、腾讯、红杉中国、",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-24T02:19:40.993Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
       "ext_id": "197659",
       "title": "联想合肥产业基地入选领航级智能工厂名单",
       "url": "https://www.gkzhan.com/news/detail/197659.html",
@@ -107,7 +155,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:54:31.264Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -239,7 +287,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:53:50.273Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -251,7 +299,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:53:50.273Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -395,7 +443,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T03:46:26.733Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -407,7 +455,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T03:46:26.733Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -419,7 +467,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T03:46:26.733Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -10948,6 +10996,66 @@
   ],
   "articles": [
     {
+      "slug": "20261124-e33479",
+      "kind": "deep",
+      "title": "碰撞断电，车门也能开——GB 48001-2026 落地，车规超级电容成刚需",
+      "dek": "【落地说】新能源汽车碰撞、起火时会瞬间断电，电动门把手随之失效——车门打不开，逃生和救援都受阻。这个藏在门把手里的隐患，如今有了一部强制国标来\"兜底\"。",
+      "body_md": "> 栏目：落地说 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454957.html)\n\n## 核心观点\n1. 新能源汽车碰撞、起火时会瞬间断电，电动门把手随之失效——车门打不开，逃生和救援都受阻。\n2. 这个藏在门把手里的隐患，如今有了一部强制国标来\"兜底\"。\n\n## 内容概要\n新能源汽车碰撞、起火时会瞬间断电，电动门把手随之失效——车门打不开，逃生和救援都受阻。这个藏在门把手里的隐患，如今有了一部强制国标来\"兜底\"。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [智能制造日报 | 2026-11-06：落地说、展会动态、产业观察等 8 条动态](article-148.html)\n- [智能制造日报 | 2026-11-12：产业观察、落地说等 6 条动态](article-103.html)\n- [智能制造日报 | 2026-11-24：政策风向、产业观察、技术前沿等 7 条动态](article-340.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：碰撞断电，车门也能开——GB 48001-2026 落地，车规超级电容成刚需](https://www.gongkong.com/news/202611/454957.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454957.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-24T02:20:20.898Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454957.html\"]",
+      "source_ids": "[20]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T02:20:20.897Z",
+      "published_at": "2026-11-24T02:20:20.998Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261124-19a29d",
+      "kind": "deep",
+      "title": "重磅！2026世界智能制造十大科技进展发布",
+      "dek": "【展会动态】2026年11月19-21日，2026世界智能制造大会在南京召开。开幕式上，国际智能制造联盟学术委员会主任、中国工程院院士李培根代表国际智能制造联盟、中国科协智",
+      "body_md": "> 栏目：展会动态 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197670.html)\n\n## 核心观点\n1. 2026年11月19-21日，2026世界智能制造大会在南京召开。\n2. 开幕式上，国际智能制造联盟学术委员会主任、中国工程院院士李培根代表国际智能制造联盟、中国科协智能制造学会联合体隆重发布“2026世界智能制造十大科技进展\n\n## 内容概要\n2026年11月19-21日，2026世界智能制造大会在南京召开。开幕式上，国际智能制造联盟学术委员会主任、中国工程院院士李培根代表国际智能制造联盟、中国科协智能制造学会联合体隆重发布“2026世界智能制造十大科技进展\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 把发布信息转成采购清单线索：厂商集中发布的功能点，往往对应下一轮选型的必答项。\n- 对感兴趣型号记录公开参数与适配条件；展会热度不等于成熟度，要求厂商提供同工况案例。\n\n## 相关案例（站内）\n- [智能制造日报 | 2026-11-24：政策风向、产业观察、技术前沿等 7 条动态](article-340.html)\n- [智能制造日报 | 2026-11-02：产业观察、落地说等 6 条动态](article-229.html)\n- [智能制造日报 | 2026-11-03：落地说、技术前沿等 5 条动态](article-206.html)\n\n## 为什么制造业读者要关注\n展会和大会是行业风向的集中释放点。厂商集中发布什么，往往预示着下一轮采购清单里会出现什么。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：重磅！2026世界智能制造十大科技进展发布](https://www.gkzhan.com/news/detail/197670.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197670.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-24T02:20:20.895Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197670.html\"]",
+      "source_ids": "[9]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T02:20:20.893Z",
+      "published_at": "2026-11-24T02:20:20.998Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261124-eb329f",
+      "kind": "deep",
+      "title": "supOSFlash 上架WorkBuddy！一句话，让工厂系统用上AI",
+      "dek": "【落地说】依托supOS工厂操作系统的数据底座与智能体底座能力，用户可在WorkBuddy中连接工业数据和业务系统，通过自然语言开展数据查询、业务分析、智能体开发等操作。",
+      "body_md": "> 栏目：落地说 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/454958.html)\n\n## 核心观点\n1. 依托supOS工厂操作系统的数据底座与智能体底座能力，用户可在WorkBuddy中连接工业数据和业务系统，通过自然语言开展数据查询、业务分析、智能体开发等操作。\n\n## 内容概要\n依托supOS工厂操作系统的数据底座与智能体底座能力，用户可在WorkBuddy中连接工业数据和业务系统，通过自然语言开展数据查询、业务分析、智能体开发等操作。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：supOSFlash 上架WorkBuddy！一句话，让工厂系统用上AI](https://www.gongkong.com/news/202611/454958.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/454958.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-24T02:20:20.892Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454958.html\"]",
+      "source_ids": "[21]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T02:20:20.887Z",
+      "published_at": "2026-11-24T02:20:20.998Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261124",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-24：政策风向、产业观察、技术前沿等 7 条动态",
+      "dek": "过去 48 小时 7 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 政策风向\n\n**1. 凌华智能丨基础型 COM Express Type 6 计算模块，搭载国产海光C86-4G系列处理器**\n\n- COMEx-6HG4是凌华智能推出的首款基于海光集成显卡芯片的国产自主化嵌入式计算产品。\n- 该产品搭载了海光信息新推出的C86-4G 34xx系列处理器，作为性能领先的C86架构国产处理器，核心/线程从4核到8核灵活配置，满足不同负载下的性能与功耗平衡需求。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454942.html)\n\n**2. 三秒节拍“考”住人形机器人：车企撤下产线试点，转向人机协同**\n\n- 三秒节拍“考”住人形机器人：车企撤下产线试点，转向人机协同\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197684.html)\n\n## 产业观察\n\n**1. 格创东智集团化AI SPC，6大能力贯通质量分析与集团协同**\n\n- 一个基地的质量异常，如何快速找到关键线索？\n- 多个基地的质量表现，如何统一评价、协同改善？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454944.html)\n\n**2. 全国最大煤炭下水港，AI给煤“定身价”**\n\n- 全国最大煤炭下水港，AI给煤“定身价”\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/454941.html)\n\n## 技术前沿\n\n**1. 蚂蚁领投近7亿元新融资，流向理想系杭州机器人“新贵”**\n\n- 维科网智能制造11月23日消息，具身机器人开发商至简动力（Simplexity Robotics）完成1亿美元（约合人民币6.67亿元）新一轮融资。\n- 本轮融资由蚂蚁集团领投，阿里巴巴、腾讯、红杉中国、\n\n*关键数字：「完成1亿」、「约合人民币6.67亿元」*\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8400-30713127.html)\n\n**2. 大模型×具身智能，大华双子星开启全域智能巡检**\n\n- 大模型×具身智能，大华双子星开启全域智能巡检\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197682.html)\n\n## 落地说\n\n**1. 智元携手长电科技，以工业部署态赋能芯片制造**\n\n- 智元携手长电科技，以工业部署态赋能芯片制造\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197687.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-24T02:20:20.880Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/454942.html\",\"https://www.gongkong.com/news/202611/454944.html\",\"https://www.gongkong.com/news/202611/454941.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8400-30713127.html\",\"https://www.gkzhan.com/news/detail/197682.html\",\"https://www.gkzhan.com/news/detail/197687.html\",\"https://www.gkzhan.com/news/detail/197684.html\"]",
+      "source_ids": "[35,34,33,1017,1080,1078,1062]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-24T02:20:20.880Z",
+      "published_at": "2026-11-24T02:20:20.998Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261123-bd7eb1",
       "kind": "deep",
       "title": "柯力传感投知行机器人，推进机器人末端感知、执行一体化方案落地",
@@ -16034,13 +16142,13 @@
     }
   ],
   "stats": {
-    "intel": 912,
-    "articles": 339,
-    "prevIntel": 890,
-    "prevArticles": 336,
-    "dbIntelOk": 912,
-    "dbArticlesOk": 339,
+    "intel": 916,
+    "articles": 343,
+    "prevIntel": 912,
+    "prevArticles": 339,
+    "dbIntelOk": 916,
+    "dbArticlesOk": 343,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-23T14:54:46.286Z"
+  "updated_at": "2026-11-24T02:20:21.183Z"
 }
