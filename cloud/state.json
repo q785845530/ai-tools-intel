@@ -2,6 +2,126 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-gongkong",
+      "ext_id": "455054",
+      "title": "工控\"大脑\"之争：当工业 AI 落地，谁能撑起国产控制系统的底座？",
+      "url": "https://www.gongkong.com/news/202611/455054.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "455055",
+      "title": "​设备出海，交付只是开始：映翰通以工业物联网技术支撑海外部署与持续运行",
+      "url": "https://www.gongkong.com/news/202611/455055.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "455064",
+      "title": "和利时助力世界首个300兆瓦人工硐室型压缩空气储能电站“源储一号”成功并网",
+      "url": "https://www.gongkong.com/news/202611/455064.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "455065",
+      "title": "人形机器人如何走出“隔离区”？中科第五纪「纪灵」率先闯关",
+      "url": "https://www.gongkong.com/news/202611/455065.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "455066",
+      "title": "以自主可控+工业智能定义未来工厂|和利时亮相 2026 国家工业软件大会",
+      "url": "https://www.gongkong.com/news/202611/455066.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "455070",
+      "title": "全国首条超百公里纯氢长输管道启运——和利时控制系统护航绿氢\"大动脉\"",
+      "url": "https://www.gongkong.com/news/202611/455070.html",
+      "summary": "会议宣布，全国首条超百公里纯氢长输管道——达茂旗至包头市区195公里氢气长输管道正式启运。和利时为全流程自动化监控、安全联锁保护及全线智慧管控提供一体化解决方案，全面支撑包头山北山南的绿氢“大动脉”安全投运。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "455053",
+      "title": "化繁为简，埃斯顿EMP800如何提升高端装备运动控制效能？",
+      "url": "https://www.gongkong.com/news/202611/455053.html",
+      "summary": "​2026年上半年，中国中大型PLC市场规模约39.5亿元，同比增长15.8%。其中，中型PLC增长约20%，超过七成应用于OEM设备。细探其中走势可以发现，电子制造、半导体、动力电池等领域的设备投资，为中大型PLC带来增长机会，也将控制系统的竞争推向更复杂的运动控制与工艺应用。设备工艺日趋复杂，如何将复杂的控制逻辑转化为可靠的设备表现，同时降低开发与调试的复杂度，成为高端运动控制的重要课题。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gongkong",
+      "ext_id": "455063",
+      "title": "工业设备背后的交互之变，HMI升级迎来新课题",
+      "url": "https://www.gongkong.com/news/202611/455063.html",
+      "summary": "​2025年，中国HMI市场规模约56亿元，同比增长5.7%。市场规模稳步增长，竞争却愈发集中，前三家厂商合计占比达到47.5%。随着设备功能不断丰富，HMI如何兼顾当下应用与未来扩展已成为重要课题。西门子SIMATIC HMI Unified面板以原生Web技术为基础，在画面开发、多点触控、远程访问和应用扩展等方面全面升级，提供面向未来的可视化方案。",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:50.084Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2106025864425226572",
+      "title": "聚轩大圣云AI平台助力企业快速实现数字化2.0 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2106025864425226572",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:25.595Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2105608974129222200",
+      "title": "解读《浙江省人工智能赋能制造业数字化转型实施方案(2026-2030年)》 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2105608974129222200",
+      "summary": "",
+      "points": 1,
+      "published_at": null,
+      "fetched_at": "2026-11-25T19:25:20.539Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-jc35",
       "ext_id": "96617",
       "title": "美国IMTS2026考察报告（二）：从展会看机床技术发展趋势及展会观感",
@@ -215,7 +335,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:51:54.090Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -479,7 +599,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:49:55.744Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -503,7 +623,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:49:53.335Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -551,7 +671,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:49:46.241Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -563,7 +683,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:49:46.241Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -671,7 +791,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:26.913Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -12040,6 +12160,66 @@
   ],
   "articles": [
     {
+      "slug": "20261125-76bb26",
+      "kind": "deep",
+      "title": "全球首个无隔离作业具身人形机器人,中科第五纪「纪灵」通过全套欧盟工业级CE认证",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2108652072832980856)\n\n## 核心观点\n1. 全球首个无隔离作业具身人形机器人,中科第五纪「纪灵」通过全套欧盟工业级CE认证\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 相关案例（站内）\n- [工业具身智能机器人:感知到执行全链路软硬件搭配与长效运营思路](article-236.html)\n- [6台人形机器人开始“造机器人”:舍弗勒太仓工厂把具身智能带进制造闭环](article-166.html)\n- [人形机器人的第一份国标，越疆机器人参编](article-245.html)\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：全球首个无隔离作业具身人形机器人,中科第五纪「纪灵」通过全套欧盟工业级CE认证](https://zhuanlan.zhihu.com/p/2108652072832980856)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2108652072832980856\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-25T19:26:41.466Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2108652072832980856\"]",
+      "source_ids": "[40]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-25T19:26:41.464Z",
+      "published_at": "2026-11-25T19:26:41.542Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261125-3a2ac2",
+      "kind": "deep",
+      "title": "走进佳世达智能工厂:一条产线背后,数智化的三道关",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2106745073660606098)\n\n## 核心观点\n1. 走进佳世达智能工厂:一条产线背后,数智化的三道关\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：走进佳世达智能工厂:一条产线背后,数智化的三道关](https://zhuanlan.zhihu.com/p/2106745073660606098)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2106745073660606098\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-25T19:26:41.463Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2106745073660606098\"]",
+      "source_ids": "[42]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-25T19:26:41.462Z",
+      "published_at": "2026-11-25T19:26:41.542Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261125-fcb1d3",
+      "kind": "deep",
+      "title": "工控\"大脑\"之争:当工业 AI 落地,谁能撑起国产控制系统的底座?",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：知乎 ｜ [打开原文](https://zhuanlan.zhihu.com/p/2108941893648245253)\n\n## 核心观点\n1. 工控\"大脑\"之争:当工业 AI 落地,谁能撑起国产控制系统的底座?\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [定义下一代工业:TPT四大案例,揭示流程工业AI落地路径](article-235.html)\n- [企业AI落地实战效果:企业ai本地化部署,年营收已超5000万元!](article-139.html)\n- [双双入选！格创东智两项工业AI成果获选湖北省人工智能典型应用场景](article-244.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：工控\"大脑\"之争:当工业 AI 落地,谁能撑起国产控制系统的底座?](https://zhuanlan.zhihu.com/p/2108941893648245253)\n\n原始地址（可复制/可点击）：https://zhuanlan.zhihu.com/p/2108941893648245253\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-25T19:26:41.461Z*",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2108941893648245253\"]",
+      "source_ids": "[46]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-25T19:26:41.458Z",
+      "published_at": "2026-11-25T19:26:41.542Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261125",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-25：产业观察、落地说、技术前沿等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 产业观察\n\n**1. 解读《浙江省人工智能赋能制造业数字化转型实施方案(2026-2030年)》**\n\n- 解读《浙江省人工智能赋能制造业数字化转型实施方案(2026-2030年)》\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2105608974129222200)\n\n**2. 和利时助力世界首个300兆瓦人工硐室型压缩空气储能电站“源储一号”成功并网**\n\n- 和利时助力世界首个300兆瓦人工硐室型压缩空气储能电站“源储一号”成功并网\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455064.html)\n\n**3. 2026年浙江省“人工智能＋制造”场景“揭榜挂帅”入围名单**\n\n- 2026年浙江省“人工智能＋制造”场景“揭榜挂帅”入围名单\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197720.html)\n\n## 落地说\n\n**1. FDE工程师职责与制造业AI落地**\n\n- FDE工程师职责与制造业AI落地\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2105956344520089895)\n\n**2. 聚轩大圣云AI平台助力企业快速实现数字化2.0**\n\n- 聚轩大圣云AI平台助力企业快速实现数字化2.0\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2106025864425226572)\n\n**3. 工控\"大脑\"之争：当工业 AI 落地，谁能撑起国产控制系统的底座？**\n\n- 工控\"大脑\"之争：当工业 AI 落地，谁能撑起国产控制系统的底座？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455054.html)\n\n## 技术前沿\n\n**1. 人形机器人如何走出“隔离区”？中科第五纪「纪灵」率先闯关**\n\n- 人形机器人如何走出“隔离区”？中科第五纪「纪灵」率先闯关\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455065.html)\n\n## 政策风向\n\n**1. 全球首张人形机器人UL3300认证落地**\n\n- 近日，启元机器人旗下启元Q1、启元T1两款产品顺利通过中国CR、欧盟CE、美国UL三项产品认证。\n- 多项国际产品认证落地，标志着启元机器人达标全球高端安全质量标准，夯实全球化布局的合规底座，打通面向全球市场的商业化\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197727.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-25T19:26:41.440Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2105608974129222200\",\"https://zhuanlan.zhihu.com/p/2105956344520089895\",\"https://zhuanlan.zhihu.com/p/2106025864425226572\",\"https://www.gongkong.com/news/202611/455054.html\",\"https://www.gongkong.com/news/202611/455064.html\",\"https://www.gongkong.com/news/202611/455065.html\",\"https://www.gkzhan.com/news/detail/197720.html\",\"https://www.gkzhan.com/news/detail/197727.html\"]",
+      "source_ids": "[1028,47,1046,1092,1084,1083,56,18]",
+      "generator": "template-v2-manufacturing",
+      "score": 1,
+      "status": "published",
+      "created_at": "2026-11-25T19:26:41.440Z",
+      "published_at": "2026-11-25T08:52:14.782Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261125-58dad5",
       "kind": "deep",
       "title": "小批量质检新利器|K2 VisionOne AI 图像检测仪,破解轴承抽检痛点",
@@ -12081,21 +12261,6 @@
       "score": 1,
       "status": "published",
       "created_at": "2026-11-25T08:52:14.717Z",
-      "published_at": "2026-11-25T08:52:14.782Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261125",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-25：技术前沿、落地说、产业观察等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 技术前沿\n\n**1. 刚刚,华为首个具身世界模型来了!国产算力训出,拿下双冠**\n\n- 刚刚,华为首个具身世界模型来了!国产算力训出,拿下双冠\n\n*来源：知乎 · 6 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2105729871456609091)\n\n**2. Agentic Robots:跳出单体策略的“瓮中之脑”,以四大工程支柱重构具身智能系统闭环**\n\n- Agentic Robots:跳出单体策略的“瓮中之脑”,以四大工程支柱重构具身智能系统闭环\n\n*来源：知乎 · 3 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2106681001183400323)\n\n**3. 出手AI芯片、机器人, 蓝思科技老板的野心更大了**\n\n- 文源 | 源媒汇 作者 | 谢春生 中国女首富的商业帝国，越来越大了。\n- 11月24日，芯爱科技（南京）股份有限公司拟首次公开发行股票并上市，已聘请国泰海通作为其首次公开发行股票的辅导机构。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-12003-30713472.html)\n\n## 落地说\n\n**1. 智造“兴”实力 | 解码中兴通讯领航工厂的八年进阶路**\n\n- 智造“兴”实力 | 解码中兴通讯领航工厂的八年进阶路\n\n*来源：知乎 · 6 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2108952824298074338)\n\n**2. 山东省关于遴选应急农机产能储备企业的通告**\n\n- 山东省关于遴选应急农机产能储备企业的通告\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197763.html)\n\n## 产业观察\n\n**1. 检漏仪实现双工业以太网接口**\n\n- 检漏仪实现双工业以太网接口\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455018.html)\n\n**2. 质量即竞争力：PeakAvenue以AI驱动的数字主线筑牢质量底座**\n\n- 质量即竞争力：PeakAvenue以AI驱动的数字主线筑牢质量底座\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455016.html)\n\n**3. 工业设备如何在本地持续学习**\n\n- 工业设备如何在本地持续学习\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455032.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-25T08:52:14.712Z*\n",
-      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2105729871456609091\",\"https://zhuanlan.zhihu.com/p/2108952824298074338\",\"https://zhuanlan.zhihu.com/p/2106681001183400323\",\"https://www.gongkong.com/news/202611/455018.html\",\"https://www.gongkong.com/news/202611/455016.html\",\"https://www.gongkong.com/news/202611/455032.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-12003-30713472.html\",\"https://www.gkzhan.com/news/detail/197763.html\"]",
-      "source_ids": "[1026,1007,1017,1056,1055,1049,1062,1109]",
-      "generator": "template-v2-manufacturing",
-      "score": 6,
-      "status": "published",
-      "created_at": "2026-11-25T08:52:14.712Z",
       "published_at": "2026-11-25T08:52:14.782Z",
       "relevance": "ok"
     },
@@ -17336,13 +17501,13 @@
     }
   ],
   "stats": {
-    "intel": 1003,
-    "articles": 353,
-    "prevIntel": 956,
-    "prevArticles": 349,
-    "dbIntelOk": 1003,
-    "dbArticlesOk": 353,
+    "intel": 1013,
+    "articles": 356,
+    "prevIntel": 1003,
+    "prevArticles": 353,
+    "dbIntelOk": 1013,
+    "dbArticlesOk": 356,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-25T08:52:14.989Z"
+  "updated_at": "2026-11-25T19:26:41.668Z"
 }
