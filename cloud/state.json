@@ -587,7 +587,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:52:12.343Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -599,7 +599,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:52:12.343Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -707,7 +707,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:51:54.090Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -719,7 +719,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:51:54.090Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -743,7 +743,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:51:54.090Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -959,7 +959,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:50:28.859Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -971,7 +971,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:50:28.859Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -983,7 +983,7 @@
       "published_at": null,
       "fetched_at": "2026-11-25T08:50:28.859Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -1163,7 +1163,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:38.066Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -1547,7 +1547,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:56:47.625Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -1715,7 +1715,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:54:31.264Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -12580,6 +12580,66 @@
   ],
   "articles": [
     {
+      "slug": "20261126-1428a5",
+      "kind": "deep",
+      "title": "西马克集团完成奥托昆普瑞典厚板厂冷矫直机自动化升级并通过最终验收",
+      "dek": "【落地说】西马克于2012年为奥托昆普德格福什厚板厂提供的冷矫直机。SUMMARY概要•本次一级自动化系统升级替换了老旧的自动化硬件和控制系统架构。•安装和调试在计划检修",
+      "body_md": "> 栏目：落地说 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96626.html)\n\n## 核心观点\n1. 西马克于2012年为奥托昆普德格福什厚板厂提供的冷矫直机。\n2. SUMMARY概要•本次一级自动化系统升级替换了老旧的自动化硬件和控制系统架构。\n3. •安装和调试在计划检修期内仅用10天即告完成，冷矫直机如期恢复生产。\n\n## 内容概要\n西马克于2012年为奥托昆普德格福什厚板厂提供的冷矫直机。SUMMARY概要•本次一级自动化系统升级替换了老旧的自动化硬件和控制系统架构。•安装和调试在计划检修期内仅用10天即告完成，冷矫直机如期恢复生产。•现代\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：西马克集团完成奥托昆普瑞典厚板厂冷矫直机自动化升级并通过最终验收](https://www.jc35.com/news/detail/96626.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96626.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-26T22:26:32.133Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96626.html\"]",
+      "source_ids": "[97]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-26T22:26:32.132Z",
+      "published_at": "2026-11-26T22:26:32.232Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261126-94c1b7",
+      "kind": "deep",
+      "title": "LMI丨GoPxL 1.6 正式发布：新增自有 AI 模型部署等功能！",
+      "dek": "【落地说】LMI正式发布GoPxL 1.6版本。新版本推出自有AI模型部署与Gocator 2500轮廓检测优先级设置两大全新功能，并对工具列表、OCR字符识别、2D检测",
+      "body_md": "> 栏目：落地说 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/455014.html)\n\n## 核心观点\n1. LMI正式发布GoPxL 1.6版本。\n2. 新版本推出自有AI模型部署与Gocator 2500轮廓检测优先级设置两大全新功能，并对工具列表、OCR字符识别、2D检测与AI训练及全平台交互进行了深度优化，全面提升检测性能、灵活性与易用性，让检测工作流的构建更快速、部署更轻松、管理更简单。\n\n## 内容概要\nLMI正式发布GoPxL 1.6版本。新版本推出自有AI模型部署与Gocator 2500轮廓检测优先级设置两大全新功能，并对工具列表、OCR字符识别、2D检测与AI训练及全平台交互进行了深度优化，全面提升检测性能、灵活性与易用性，让检测工作流的构建更快速、部署更轻松、管理更简单。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [把具身数采带进真实工厂!清研精准发布车规级Tsing-Ego PRO](article-247.html)\n- [开源免费商用,蓝沃AI发布机加工图纸工艺解析大模型沃土](article-231.html)\n- [RLinf v0.4 正式发布!重塑真机强化学习工程与算法范式,加速具身智能在真实世界的规模化落地](article-178.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：LMI丨GoPxL 1.6 正式发布：新增自有 AI 模型部署等功能！](https://www.gongkong.com/news/202611/455014.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/455014.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-26T22:26:32.131Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/455014.html\"]",
+      "source_ids": "[129]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-26T22:26:32.129Z",
+      "published_at": "2026-11-26T22:26:32.232Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261126-a7a017",
+      "kind": "deep",
+      "title": "签约订单重新报价！AI服务器厂商要求最高涨价45%",
+      "dek": "【落地说】11月23日消息，据报道，戴尔、惠普企业(HPE)、联想及超微电脑(SuperMicro)等厂商正要求客户为已签订的AI服务器订单支付更高价格，部分订单涨幅达到",
+      "body_md": "> 栏目：落地说 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197663.html)\n\n## 核心观点\n1. 11月23日消息，据报道，戴尔、惠普企业(HPE)、联想及超微电脑(SuperMicro)等厂商正要求客户为已签订的AI服务器订单支付更高价格，部分订单涨幅达到25%至45%。\n2. 这些服务器通常搭载英伟达或AMDGPU以及内存芯片、网络设\n\n## 内容概要\n11月23日消息，据报道，戴尔、惠普企业(HPE)、联想及超微电脑(SuperMicro)等厂商正要求客户为已签订的AI服务器订单支付更高价格，部分订单涨幅达到25%至45%。这些服务器通常搭载英伟达或AMDGPU以及内存芯片、网络设\n\n## 实例分析\n**原文中的关键数字**\n- 「部分订单涨幅达到25%」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n- 「至45%」——出自智能制造网的报道口径。套用到自己场景前，建议回原文核对它的统计边界（时间窗、样本范围、口径定义）。\n\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：签约订单重新报价！AI服务器厂商要求最高涨价45%](https://www.gkzhan.com/news/detail/197663.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197663.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-26T22:26:32.128Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197663.html\"]",
+      "source_ids": "[143]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-26T22:26:32.124Z",
+      "published_at": "2026-11-26T22:26:32.232Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261126",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-26：落地说、产业观察、展会动态等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. ABB将收购施乐百，拓展暖通空调与工业冷却应用产品组合**\n\n- ABB已签署协议，将收购施乐百（Ziehl-Abegg）。\n- 交易企业价值为26.5亿美元，股权价值为22.2亿美元。\n\n*关键数字：「交易企业价值为26.5亿」、「股权价值为22.2亿」*\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455042.html)\n\n**2. 西门子将AI智能体带入流程行业**\n\n- 西门子已将 Eigen 工程智能体拓展至流程行业。\n- 该智能体将在纽伦堡 SPS 2026展会上亮相，适用于运行 SIMATIC PCS 7 version 10 及以上版本的工厂。\n\n*关键数字：「（见原文）20%」、「（见原文）60%」*\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455043.html)\n\n**3. 京东德国“智狼”仓投用，超700台自研“智狼”机器人**\n\n- 近期，京东物流已完成在德国奥伯豪森1号仓智能化设备的规模部署，投用超700台自研“智狼”机器人、“天狼”机器人等自动化设备，单日出入库货物处理量可达35万件，相较此前的传统操作模式，全流程履约效率提升3倍，\n\n*关键数字：「投用超700台」、「单日出入库货物处理量可达35万件」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197753.html)\n\n## 产业观察\n\n**1. 从“被动保护”到“主动管理”：ABB智能终端配电方案，如何“守护您的每一天”？**\n\n- 国家消防救援局公布的2025年全国火灾数据显示：全年电气故障引发火灾25.9万起，占火灾总数的30.8%；\n- 在居住场所，这一比例高达44%。\n\n*关键数字：「全年电气故障引发火灾25.9万」、「占火灾总数的30.8%」*\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455041.html)\n\n**2. 2026年7月各金属材料产量统计**\n\n- 【机床商务网栏目机床上下游】小编根据中商产业研究院数据整理了2026年7月各金属产量情况。\n- )生铁2026年7月国内生铁产量为6835.0万吨，当月同比下降4.5%；\n\n*关键数字：「月国内生铁产量为6835.0万吨」、「当月同比下降4.5%」*\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96634.html)\n\n## 展会动态\n\n**1. 合计24.1亿元！两家公司接连签算力大单**\n\n- 11月20日晚，弘信电子公告子公司签了7.45亿元算力技术服务协议。\n- 11月23日晚间，蜂助手发布公告称，签了一份16.64亿元算力服务器销售合同，两笔金额加在一起，合计24.1亿元。\n\n*关键数字：「弘信电子公告子公司签了7.45亿元」、「签了一份16.64亿元」*\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197743.html)\n\n**2. 中国机械工业联合会领导出席2026郑州数智化与先进装备制造业协同创新发展大会**\n\n- 11月21日下午，2026郑州数智化与先进装备制造业协同创新发展大会在郑州国际会展中心举行。\n- 本次大会作为2026郑州数智化与先进装备制造业跨境贸易博览会的重要活动，旨在推进数智技术与装备制造业深度融合，搭建产业创\n\n*来源：机床商务网* ｜ [🔗 原文](https://www.jc35.com/news/detail/96638.html)\n\n## 技术前沿\n\n**1. 机器人准备“组队上班”！6G发展大会，未来生活提前开箱**\n\n- 机器人准备“组队上班”！6G发展大会，未来生活提前开箱\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197733.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-26T22:26:32.117Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/455042.html\",\"https://www.gongkong.com/news/202611/455041.html\",\"https://www.gongkong.com/news/202611/455043.html\",\"https://www.gkzhan.com/news/detail/197753.html\",\"https://www.gkzhan.com/news/detail/197743.html\",\"https://www.gkzhan.com/news/detail/197733.html\",\"https://www.jc35.com/news/detail/96638.html\",\"https://www.jc35.com/news/detail/96634.html\"]",
+      "source_ids": "[82,81,80,62,60,59,50,49]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-26T22:26:32.117Z",
+      "published_at": "2026-11-26T02:55:52.727Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261126-888c01",
       "kind": "deep",
       "title": "安全协议栈助力机器人合规",
@@ -12622,21 +12682,6 @@
       "status": "published",
       "created_at": "2026-11-26T12:51:49.720Z",
       "published_at": "2026-11-26T12:51:49.832Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261126",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-26：落地说、展会动态、产业观察等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. 34家领航级智能工厂亮相,AI正在改变制造业,中小型制造企业应该如何抓住机会?**\n\n- 34家领航级智能工厂亮相,AI正在改变制造业,中小型制造企业应该如何抓住机会?\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://www.zhihu.com/question/2107401871736545653/answer/2109302701704077921)\n\n**2. 具身智能迈向生产力,浙江人形 SPIRE 2.0 打通工业场景应用链路**\n\n- 具身智能迈向生产力,浙江人形 SPIRE 2.0 打通工业场景应用链路\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2109262831711475657)\n\n## 展会动态\n\n**1. 和利时亮相第二十一届中国智能交通大会，展示“AI+边缘智能”轨道交通应用实践**\n\n- 和利时亮相第二十一届中国智能交通大会，展示“AI+边缘智能”轨道交通应用实践\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455067.html)\n\n## 产业观察\n\n**1. B40板卡适配三大工业以太网**\n\n- B40板卡适配三大工业以太网\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455074.html)\n\n**2. 焊接系统接入双工业以太网**\n\n- 焊接系统接入双工业以太网\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455075.html)\n\n**3. 半个月两单超4800万：亿嘉和把无人环卫卖成了“基础设施”**\n\n- 本站转载并注明自其它来源（非智能制造网）的作品，目的在于传递更多信息，并不代表本站赞同其观点或和对其真实性负责，不承担此类作品侵权行为的直接责任及连带责任。\n- 如其他媒体、平台或个人从本站转载时，必须保留本站注明的作品第一来源，并自负版权等法律责任。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197796.html)\n\n## 技术前沿\n\n**1. 爱仕达与智元机器人签署灵犀系列产品千台生产合作协议**\n\n- 爱仕达与智元机器人签署灵犀系列产品千台生产合作协议\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197803.html)\n\n**2. 铁建重工铲运机器人在2026上海宝马展全球首发**\n\n- 铁建重工铲运机器人在2026上海宝马展全球首发\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197808.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-26T12:51:49.708Z*\n",
-      "source_urls": "[\"https://www.zhihu.com/question/2107401871736545653/answer/2109302701704077921\",\"https://zhuanlan.zhihu.com/p/2109262831711475657\",\"https://www.gongkong.com/news/202611/455067.html\",\"https://www.gongkong.com/news/202611/455074.html\",\"https://www.gongkong.com/news/202611/455075.html\",\"https://www.gkzhan.com/news/detail/197803.html\",\"https://www.gkzhan.com/news/detail/197808.html\",\"https://www.gkzhan.com/news/detail/197796.html\"]",
-      "source_ids": "[1081,1082,1121,1118,1117,1188,1187,1167]",
-      "generator": "template-v2-manufacturing",
-      "score": 1,
-      "status": "published",
-      "created_at": "2026-11-26T12:51:49.708Z",
-      "published_at": "2026-11-26T02:55:52.727Z",
       "relevance": "ok"
     },
     {
@@ -18027,12 +18072,12 @@
   ],
   "stats": {
     "intel": 1048,
-    "articles": 363,
-    "prevIntel": 1021,
-    "prevArticles": 360,
+    "articles": 366,
+    "prevIntel": 1048,
+    "prevArticles": 363,
     "dbIntelOk": 1048,
-    "dbArticlesOk": 363,
+    "dbArticlesOk": 366,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-26T12:51:50.020Z"
+  "updated_at": "2026-11-26T22:26:32.396Z"
 }
