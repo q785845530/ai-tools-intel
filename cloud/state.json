@@ -107,7 +107,7 @@
       "published_at": null,
       "fetched_at": "2026-11-27T15:15:57.626Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -119,7 +119,7 @@
       "published_at": null,
       "fetched_at": "2026-11-27T15:15:57.626Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -131,7 +131,7 @@
       "published_at": null,
       "fetched_at": "2026-11-27T15:15:57.626Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -743,7 +743,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:51:33.841Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -755,7 +755,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:51:33.841Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -899,7 +899,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:50:49.915Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -911,7 +911,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:50:49.915Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -923,7 +923,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:50:49.915Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "zhihu-search",
@@ -1775,7 +1775,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:57:38.066Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-jc35",
@@ -2159,7 +2159,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:56:47.625Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -2327,7 +2327,7 @@
       "published_at": null,
       "fetched_at": "2026-11-23T14:54:31.264Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gkzhan",
@@ -13204,6 +13204,66 @@
   ],
   "articles": [
     {
+      "slug": "20261127-7ea6e6",
+      "kind": "deep",
+      "title": "普什宁江公司通过“三标”管理体系再认证现场审核",
+      "dek": "【政策风向】【机床商务网栏目名企在线】11月18日至20日，中国质量认证中心对普什宁江公司2026年质量、环境、职业健康安全(“三标”)管理体系进行再认证审核。公司顺利通过",
+      "body_md": "> 栏目：政策风向 ｜ 来源：机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96624.html)\n\n## 核心观点\n1. 【机床商务网栏目名企在线】11月18日至20日，中国质量认证中心对普什宁江公司2026年质量、环境、职业健康安全(“三标”)管理体系进行再认证审核。\n2. 公司顺利通过本次现场再认证审核，各受审部门体系运行总体符合标准要\n\n## 内容概要\n【机床商务网栏目名企在线】11月18日至20日，中国质量认证中心对普什宁江公司2026年质量、环境、职业健康安全(“三标”)管理体系进行再认证审核。公司顺利通过本次现场再认证审核，各受审部门体系运行总体符合标准要\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 对照申报条件逐条自查：政策条目里「支持对象」「支持方式」「申报门槛」三段通常就是资格线，缺一项就不必投入准备成本。\n- 把资金/补贴条款换算成自己项目的投资回收期改善幅度，再决定值不值得走流程。\n\n## 相关案例（站内）\n- [匠心淬炼显真功 技能比武展风采 ——普什宁江公司2026年加工中心技能比赛圆满落幕](article-176.html)\n\n## 为什么制造业读者要关注\n政策类信息往往决定未来 3—5 年的资金流向和改造优先级。对制造企业而言，早一步读懂导向，就早一步在项目立项和预算申报上占位。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：普什宁江公司通过“三标”管理体系再认证现场审核](https://www.jc35.com/news/detail/96624.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96624.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-27T23:36:07.449Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96624.html\"]",
+      "source_ids": "[148]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-27T23:36:07.448Z",
+      "published_at": "2026-11-27T23:36:07.541Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261127-391e2a",
+      "kind": "deep",
+      "title": "青岛华仕达真空定径保温管生产线—硬核赋能保温管材智造",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/455010.html)\n\n## 核心观点\n1. 青岛华仕达真空定径保温管生产线—硬核赋能保温管材智造\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：青岛华仕达真空定径保温管生产线—硬核赋能保温管材智造](https://www.gongkong.com/news/202611/455010.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/455010.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-27T23:36:07.446Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/455010.html\"]",
+      "source_ids": "[180]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-27T23:36:07.445Z",
+      "published_at": "2026-11-27T23:36:07.541Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261127-426e54",
+      "kind": "deep",
+      "title": "全球第一！80后造出光模块设备龙头并冲刺IPO",
+      "dek": "【落地说】11月23日消息，苏州猎奇智能设备股份有限公司将于2026年11月26日开启创业板新股申购，申购代码301661。这家由80后罗超创办的企业，已是全球光模块贴片",
+      "body_md": "> 栏目：落地说 ｜ 来源：智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197662.html)\n\n## 核心观点\n1. 11月23日消息，苏州猎奇智能设备股份有限公司将于2026年11月26日开启创业板新股申购，申购代码301661。\n2. 这家由80后罗超创办的企业，已是全球光模块贴片设备细分赛道龙头。\n3. 罗超2001年在昆山担任机械设计工程师，多年深\n\n## 内容概要\n11月23日消息，苏州猎奇智能设备股份有限公司将于2026年11月26日开启创业板新股申购，申购代码301661。这家由80后罗超创办的企业，已是全球光模块贴片设备细分赛道龙头。罗超2001年在昆山担任机械设计工程师，多年深\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：全球第一！80后造出光模块设备龙头并冲刺IPO](https://www.gkzhan.com/news/detail/197662.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197662.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-27T23:36:07.444Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197662.html\"]",
+      "source_ids": "[194]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-27T23:36:07.440Z",
+      "published_at": "2026-11-27T23:36:07.541Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261127",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-27：展会动态、产业观察、落地说等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 展会动态\n\n**1. 拥抱无限可能：赫优讯在2026年SPS展会上发布netX 902和netX 912**\n\n- 赫优讯系统自动化有限公司（Hilscher Gesellschaft für Systemautomation mbH）在2026年智能生产解决方案展（SPS 2026）上正式发布了两款支持千兆位速率的新型网络控制器：netX 902和netX 912。\n- 在德国著名的自动化与工业通讯贸易展上，用户和感兴趣的参观者详细了解了这两款产品的架构、功能及集成方案。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455111.html)\n\n## 产业观察\n\n**1. 谁能抓住下一波消费浪潮？爱普生解锁柔性制造新商机**\n\n- 随着个性化消费风口的到来，多介质、定制化、小批量的生产模式，已经成为潮玩文创产业的新趋势。\n- 依托 PrecisionCore 打印头技术，爱普生联合合作伙伴打造多品类打印方案，从平面文创到立体手办，万物皆可印，不再让创意受材质、工艺限制，以简单高效的个性化定制，赋能小批量、多品类、快上新的商业模式繁荣生长。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455108.html)\n\n**2. 带载线性温变速率：芯片快速温变试验箱选型的核心指标**\n\n- 芯片快速温变试验箱的参数表上，“15℃/min”是一个常见数字。\n- 但同一个数字，在空载与带载、线性与平均之间，指向的可能是两种完全不同的试验现实。\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201927-8210-30714007.html)\n\n## 落地说\n\n**1. 西门子升级自动化产品组合，加速迈向 AI 驱动的自主生产**\n\n- 在SPS 2026 展会期间，西门子展示了工业 AI 如何贯穿工业自动化的全周期——从规划与工程中的 AI 智能体，到车间现场的物理 AI，进而实现“目标导向的自动化”：制造商只需定义生产目标，工业 AI 便会自行规划实现路径，或由 AI 智能体直接执行任务。\n- 西门子正在其位于爱尔兰根的电子工厂开发基于 AI 的机器人应用，用于实现来料的自主拆包。\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455093.html)\n\n**2. 万台下线之后, 个人机器人需要第二张良率表**\n\n- 作者 | 临川 来源 | 科技投研圈 11月8日，上纬新材旗下启元机器人宣布第10000台个人机器人下线。\n- 公司披露的产线数据还包括，整机代工厂日产能从10台\n\n*关键数字：「新材旗下启元机器人宣布第10000台」、「从第5000台」*\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201929-8420-30714003.html)\n\n**3. ABB机器人为宝马新一代车型生产提供超1700台机器人**\n\n- ABB机器人将为宝马集团新一代新世代(“NeueKlasse”)车型生产提供1700多台大型工业机器人，助力宝马集团向电动化转型。\n- 这些高性能工业机器人将用于宝马集团德国慕尼黑工厂和中国铁西工厂的车身车间，执行焊接、涂胶\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197804.html)\n\n## 技术前沿\n\n**1. 王兴兴惊人观点：“未来5到10年, 中国机器人年产量并有望超过汽车”**\n\n- 11月27日收盘，宇树科技已经突破3200亿，失地正在逐步收复。\n- 昨天，创始人王兴兴在WISE2026台上谈起机器人量产。\n\n*关键数字：「宇树科技已经突破3200亿」、「创始人王兴兴在WISE2026台」*\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201929-12003-30714018.html)\n\n## 政策风向\n\n**1. 6G要来了：试点名单先行，建设方案定盘，制造场景被推到前排**\n\n- 2026年11月，6G从愿景讨论骤然提速为有方案、有名单、有场景的产业行动。\n- 近日，工信部复函同意北京市等8个省(市)开展6G创新发展部省协同试点工作。\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197805.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-27T23:36:07.432Z*\n",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/455111.html\",\"https://www.gongkong.com/news/202611/455108.html\",\"https://www.gongkong.com/news/202611/455093.html\",\"https://www.ofweek.com/im/2026-11/ART-201929-12003-30714018.html\",\"https://www.ofweek.com/im/2026-11/ART-201927-8210-30714007.html\",\"https://www.ofweek.com/im/2026-11/ART-201929-8420-30714003.html\",\"https://www.gkzhan.com/news/detail/197805.html\",\"https://www.gkzhan.com/news/detail/197804.html\"]",
+      "source_ids": "[77,76,75,11,10,9,63,62]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-27T23:36:07.432Z",
+      "published_at": "2026-11-27T05:09:13.908Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261127-c33ee6",
       "kind": "deep",
       "title": "了解工业插头插座，先从掌握它们的特点开始",
@@ -13246,21 +13306,6 @@
       "status": "published",
       "created_at": "2026-11-27T15:16:36.102Z",
       "published_at": "2026-11-27T15:16:36.197Z",
-      "relevance": "ok"
-    },
-    {
-      "slug": "manufacturing-daily-20261127",
-      "kind": "daily",
-      "title": "智能制造日报 | 2026-11-27：落地说、产业观察、技术前沿等 8 条动态",
-      "dek": "过去 48 小时 8 条智能制造相关动态",
-      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. 制造业AI落地,踩过最大的坑是什么?**\n\n- 制造业AI落地,踩过最大的坑是什么?\n\n*来源：知乎 · 2 分* ｜ [🔗 原文](https://www.zhihu.com/question/2056040857845897172/answer/2109665262677108052)\n\n**2. 2026年了,AI智能体在制造业到底有没有真正落地?**\n\n- 2026年了,AI智能体在制造业到底有没有真正落地?\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://www.zhihu.com/question/2031303046278402525/answer/2109213108765979389)\n\n## 产业观察\n\n**1. 品牌动态|枫清科技葛爽:以AI4S打通化工能源、新材料与先进制造“研产”闭环**\n\n- 品牌动态|枫清科技葛爽:以AI4S打通化工能源、新材料与先进制造“研产”闭环\n\n*来源：知乎 · 1 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2109733386214455237)\n\n**2. PowerCube无线物流方案**\n\n- PowerCube无线物流方案\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455124.html)\n\n**3. 什么是工业连接器？它起什么作用？具备哪些特点？**\n\n- 什么是工业连接器？它起什么作用？具备哪些特点？\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455128.html)\n\n## 技术前沿\n\n**1. 机器人PCIe接口互联方案**\n\n- 机器人PCIe接口互联方案\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455125.html)\n\n**2. 人形机器人的 “表演式创业”, 落幕了！**\n\n- 人形机器人的 “表演式创业”, 落幕了！\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201930-8420-30713967.html)\n\n## 政策风向\n\n**1. 八部门发布服务贸易新规划，中国制造如何从卖产品到卖服务？**\n\n- 八部门发布服务贸易新规划，中国制造如何从卖产品到卖服务？\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201926-12003-30713977.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-27T15:16:36.095Z*\n",
-      "source_urls": "[\"https://www.zhihu.com/question/2056040857845897172/answer/2109665262677108052\",\"https://zhuanlan.zhihu.com/p/2109733386214455237\",\"https://www.zhihu.com/question/2031303046278402525/answer/2109213108765979389\",\"https://www.gongkong.com/news/202611/455124.html\",\"https://www.gongkong.com/news/202611/455125.html\",\"https://www.gongkong.com/news/202611/455128.html\",\"https://www.ofweek.com/im/2026-11/ART-201930-8420-30713967.html\",\"https://www.ofweek.com/im/2026-11/ART-201926-12003-30713977.html\"]",
-      "source_ids": "[1091,1100,1095,1169,1168,1167,1181,1180]",
-      "generator": "template-v2-manufacturing",
-      "score": 2,
-      "status": "published",
-      "created_at": "2026-11-27T15:16:36.095Z",
-      "published_at": "2026-11-27T05:09:13.908Z",
       "relevance": "ok"
     },
     {
@@ -18801,12 +18846,12 @@
   ],
   "stats": {
     "intel": 1100,
-    "articles": 373,
-    "prevIntel": 1070,
-    "prevArticles": 370,
+    "articles": 376,
+    "prevIntel": 1100,
+    "prevArticles": 373,
     "dbIntelOk": 1100,
-    "dbArticlesOk": 373,
+    "dbArticlesOk": 376,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-27T15:16:36.356Z"
+  "updated_at": "2026-11-27T23:36:07.713Z"
 }
