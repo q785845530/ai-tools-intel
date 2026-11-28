@@ -2,6 +2,210 @@
   "version": 1,
   "intel": [
     {
+      "source": "media-jc35",
+      "ext_id": "96669",
+      "title": "公告！工业和信息化部节能与综合利用司确定2026年度研究课题入选单位",
+      "url": "https://www.jc35.com/news/detail/96669.html",
+      "summary": "工业和信息化部节能与综合利用司2026年度研究课题入选单位名单：生产者责任延伸制度在动力电池领域落地实施管理机制研究课题的承担单位为，动力电池再生材料使用比例提升路径和激励政策举措研究课题的承担单位为中汽",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:03:03.646Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-jc35",
+      "ext_id": "96670",
+      "title": "我国将牵头制定全球首个油气生产物联网国际标准",
+      "url": "https://www.jc35.com/news/detail/96670.html",
+      "summary": "近日，由我国自主提出的国际标准提案《物联网在陆上油气生产中的应用》在国际电工委员会(IEC)成功立项，这是由我国牵头制定的全球首个油气生产物联网领域国际标准，标志着我国在能源数字化国际规则制定上取得新的突",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:03:03.646Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-jc35",
+      "ext_id": "96672",
+      "title": "一句话新闻：海德曼入选2026年浙江省人工智能应用标杆企业",
+      "url": "https://www.jc35.com/news/detail/96672.html",
+      "summary": "【机床商务网栏目一句话新闻】新闻一句话，遍布全天下。大家好，我是机床商务网的编辑蔚然。下面由我为大家播报今天的机床一句话新闻。请看主要内容：近日，浙江省经济和信息化厅公布2026年浙江省人工智能应用标杆企",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:03:03.646Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-jc35",
+      "ext_id": "96676",
+      "title": "2026装备制造业发展大会新闻发布会在苏州举行",
+      "url": "https://www.jc35.com/news/detail/96676.html",
+      "summary": "11月26日，2026装备制造业发展大会(EMF2026)新闻发布会在苏州举行。中国机械工业联合会党委常委、副会长罗俊杰，副秘书长夏闻迪，苏州国际博览中心管理有限公司副总经理叶喜春出席发布会。罗俊杰作信息发布，介绍大",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:03:03.646Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197886",
+      "title": "智元精灵G2产线方案获联合国工发组织「可部署解决方案奖」",
+      "url": "https://www.gkzhan.com/news/detail/197886.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197889",
+      "title": "具身智能出海公司索塔无界完成数千万元天使轮融资",
+      "url": "https://www.gkzhan.com/news/detail/197889.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197890",
+      "title": "中标5.01亿元！广东省域第六个大型网侧储能项目",
+      "url": "https://www.gkzhan.com/news/detail/197890.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197900",
+      "title": "牧伦食品总部及智慧工厂项目落户金霞",
+      "url": "https://www.gkzhan.com/news/detail/197900.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197898",
+      "title": "从分选线到冻干车间，食品机械串起川渝柠檬深加工链条",
+      "url": "https://www.gkzhan.com/news/detail/197898.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197908",
+      "title": "E-Bot Day 2026人形机器人开发者大会暨具身智能嘉年华在北京亦庄举办",
+      "url": "https://www.gkzhan.com/news/detail/197908.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197836",
+      "title": "锚定工业确定性网络，三旺通信为何布局6G？",
+      "url": "https://www.gkzhan.com/news/detail/197836.html",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197905",
+      "title": "超40个机器人项目在2026亦庄具身智能嘉年华“秀绝活”",
+      "url": "https://www.gkzhan.com/news/detail/197905.html",
+      "summary": "11月25日，E-BotDay2026人形机器人开发者大会暨具身智能嘉年华在北京亦庄举行。活动现场，40余支头部具身开发团队携一批脑洞满满的机器人项目集中亮相、同台路演，把前沿技术转化为看得见、摸得到的沉浸式人机互动体",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197867",
+      "title": "首批基于鸿蒙操作系统的工业关键产品检测试点成果发布",
+      "url": "https://www.gkzhan.com/news/detail/197867.html",
+      "summary": "《首批基于鸿蒙操作系统的工业关键产品检测试点成果》在2026年11月25日召开的2026年工业信息安全大会上正式发布。该成果的发布标志着我国工业领域自主操作系统检测认证工作迈出关键一步，为筑牢工业控制系统安全底座",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197888",
+      "title": "人形机器人与具身智能训练场高质量发展倡议正式发布",
+      "url": "https://www.gkzhan.com/news/detail/197888.html",
+      "summary": "11月25日，2026人形机器人开发者大会在北京亦庄顺利举办。会上举行了《人形机器人与具身智能训练场高质量发展倡议》(以下简称《倡议》)发布仪式。《倡议》由国家工业信息安全发展研究中心、开放原子开源基金会联合发",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "media-gkzhan",
+      "ext_id": "197904",
+      "title": "国产GPU进入放量期：推理先行，训练侧仍待验证",
+      "url": "https://www.gkzhan.com/news/detail/197904.html",
+      "summary": "国产GPU已经走过“能不能做出产品”的阶段，进入规模化交付与收入兑现期。2026年前三季度，头部厂商收入普遍高速增长，盈利质量出现实质性改善，部分企业已进入持续盈利通道。在顶尖大模型的基础预训练环节，国产算",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:02:52.275Z",
+      "relevance": "ok",
+      "used": 0
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2109309612528817507",
+      "title": "肉眼盯守变云端站岗,车间来了“新管家” - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2109309612528817507",
+      "summary": "",
+      "points": 3,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:01:52.257Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
+      "source": "zhihu-search",
+      "ext_id": "2110030397543338696",
+      "title": "让生态协同成为智造生产力,华为与伙伴在宁波跑出AI落地加速度 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2110030397543338696",
+      "summary": "",
+      "points": 0,
+      "published_at": null,
+      "fetched_at": "2026-11-28T08:01:46.841Z",
+      "relevance": "ok",
+      "used": 1
+    },
+    {
       "source": "media-gkzhan",
       "ext_id": "197861",
       "title": "从0.67%到21.86%：神州控股科捷把具身智能机器人送进真仓干真活",
@@ -83,7 +287,7 @@
       "published_at": null,
       "fetched_at": "2026-11-27T15:15:57.626Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -95,7 +299,7 @@
       "published_at": null,
       "fetched_at": "2026-11-27T15:15:57.626Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-ofweek-im",
@@ -863,7 +1067,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:50:49.915Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -875,7 +1079,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:50:49.915Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -887,7 +1091,7 @@
       "published_at": null,
       "fetched_at": "2026-11-26T12:50:49.915Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -2147,7 +2351,7 @@
       "published_at": null,
       "fetched_at": "2026-11-24T13:56:47.625Z",
       "relevance": "ok",
-      "used": 0
+      "used": 1
     },
     {
       "source": "media-gongkong",
@@ -13204,6 +13408,66 @@
   ],
   "articles": [
     {
+      "slug": "20261128-fba1ba",
+      "kind": "deep",
+      "title": "海康机器人MV-HPS 1.0｜高效存图，专为海量小文件打造的存储方案",
+      "dek": "【技术前沿】",
+      "body_md": "> 栏目：技术前沿 ｜ 来源：工控网 ｜ [打开原文](https://www.gongkong.com/news/202611/455009.html)\n\n## 核心观点\n1. 海康机器人MV-HPS 1.0｜高效存图，专为海量小文件打造的存储方案\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 先界定适用边界：工况（温度/节拍/材质）、数据前提（有无历史样本）、部署条件（边缘算力/网络），任一项不满足就该先做小样验证。\n- 用自有数据做 POC，验收指标在开工前白纸黑字约定（检出率/误报率/节拍），避免「演示效果好、上线不稳定」。\n\n## 为什么制造业读者要关注\n技术是否成熟，不看 PPT 看产线上的稳定性。关注这类进展时，建议重点看它的适用边界：什么工况下有效，什么条件下会失效。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：海康机器人MV-HPS 1.0｜高效存图，专为海量小文件打造的存储方案](https://www.gongkong.com/news/202611/455009.html)\n\n原始地址（可复制/可点击）：https://www.gongkong.com/news/202611/455009.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-28T08:03:06.386Z*",
+      "source_urls": "[\"https://www.gongkong.com/news/202611/455009.html\"]",
+      "source_ids": "[179]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-28T08:03:06.384Z",
+      "published_at": "2026-11-28T08:03:06.479Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261128-7c33ee",
+      "kind": "deep",
+      "title": "智元精灵G2产线方案获联合国工发组织「可部署解决方案奖」",
+      "dek": "【落地说】",
+      "body_md": "> 栏目：落地说 ｜ 来源：智能制造网 · 智能制造网 ｜ [打开原文](https://www.gkzhan.com/news/detail/197886.html)\n\n## 核心观点\n1. 智元精灵G2产线方案获联合国工发组织「可部署解决方案奖」\n\n## 内容概要\n该条目暂无公开摘要，建议直接点开原文获取一手信息。\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [2026工博会 | 具脑磐石携手智动力发布工业重载人形解决方案](article-242.html)\n- [大雄云AI OS建材行业数智化解决方案:赋能建材企业从规模赚钱走向管理赚钱](article-240.html)\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-228.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：智元精灵G2产线方案获联合国工发组织「可部署解决方案奖」](https://www.gkzhan.com/news/detail/197886.html)\n\n原始地址（可复制/可点击）：https://www.gkzhan.com/news/detail/197886.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-28T08:03:06.383Z*",
+      "source_urls": "[\"https://www.gkzhan.com/news/detail/197886.html\"]",
+      "source_ids": "[1269]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-28T08:03:06.381Z",
+      "published_at": "2026-11-28T08:03:06.479Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "20261128-000732",
+      "kind": "deep",
+      "title": "公告！工业和信息化部节能与综合利用司确定2026年度研究课题入选单位",
+      "dek": "【落地说】工业和信息化部节能与综合利用司2026年度研究课题入选单位名单：生产者责任延伸制度在动力电池领域落地实施管理机制研究课题的承担单位为，动力电池再生材料使用比例提",
+      "body_md": "> 栏目：落地说 ｜ 来源：机床商务网 · 机床商务网 ｜ [打开原文](https://www.jc35.com/news/detail/96669.html)\n\n## 核心观点\n1. 工业和信息化部节能与综合利用司2026年度研究课题入选单位名单：生产者责任延伸制度在动力电池领域落地实施管理机制研究课题的承担单位为，动力电池再生材料使用比例提升路径和激励政策举措研究课题的承担单位为中汽\n\n## 内容概要\n工业和信息化部节能与综合利用司2026年度研究课题入选单位名单：生产者责任延伸制度在动力电池领域落地实施管理机制研究课题的承担单位为，动力电池再生材料使用比例提升路径和激励政策举措研究课题的承担单位为中汽\n\n## 实例分析\n**落到自己场景，可以这样做**\n- 还原对方的决策链：谁立项、谁出钱、谁验收，判断这个案例和自己的组织结构是否可比。\n- 重点找「投入产出」字段：停机时间、改造周期、验收标准——这些通常比宣传结果更有参考价值。\n\n## 相关案例（站内）\n- [第三批工业和信息化部重点培育中试平台初步名单公示](article-178.html)\n- [关于2026年度智能制造系统解决方案“揭榜挂帅”项目的公示](article-228.html)\n- [2026年了,AI智能体在制造业到底有没有真正落地?](article-253.html)\n\n## 为什么制造业读者要关注\n同行已经跑通的路径，是最低成本的参考。落地案例的价值不在于「别人做了什么」，而在于它暴露了哪些坑、哪些环节真的省下了钱。\n\n本条在社区中的信号强度：**值得留意**。\n\n## 原文入口\n[打开原文：公告！工业和信息化部节能与综合利用司确定2026年度研究课题入选单位](https://www.jc35.com/news/detail/96669.html)\n\n原始地址（可复制/可点击）：https://www.jc35.com/news/detail/96669.html\n\n---\n*本条由 ops-intel 自动化系统基于公开数据生成：核心观点为原文摘要的机器摘句（未改写），实例分析为通用方法论，不构成投资/采购建议。生成时间：2026-11-28T08:03:06.380Z*",
+      "source_urls": "[\"https://www.jc35.com/news/detail/96669.html\"]",
+      "source_ids": "[1277]",
+      "generator": "template-v2-manufacturing",
+      "score": 0,
+      "status": "published",
+      "created_at": "2026-11-28T08:03:06.375Z",
+      "published_at": "2026-11-28T08:03:06.479Z",
+      "relevance": "ok"
+    },
+    {
+      "slug": "manufacturing-daily-20261128",
+      "kind": "daily",
+      "title": "智能制造日报 | 2026-11-28：落地说、技术前沿、产业观察等 8 条动态",
+      "dek": "过去 48 小时 8 条智能制造相关动态",
+      "body_md": "> 本期覆盖过去 48 小时，按行业栏目归类。每条均可点原文核验，不做二手转述。\n\n## 落地说\n\n**1. 肉眼盯守变云端站岗,车间来了“新管家”**\n\n- 肉眼盯守变云端站岗,车间来了“新管家”\n\n*来源：知乎 · 3 分* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2109309612528817507)\n\n**2. 让生态协同成为智造生产力,华为与伙伴在宁波跑出AI落地加速度**\n\n- 让生态协同成为智造生产力,华为与伙伴在宁波跑出AI落地加速度\n\n*来源：知乎* ｜ [🔗 原文](https://zhuanlan.zhihu.com/p/2110030397543338696)\n\n**3. 华北工控嵌入式主板ATX-6171，助力边缘AI部署与多智能体协同**\n\n- 华北工控嵌入式主板ATX-6171，助力边缘AI部署与多智能体协同\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455097.html)\n\n## 技术前沿\n\n**1. 华北工控EMB-4168：最高算力99 TOPS，专为边缘AI计算平台设计**\n\n- 华北工控EMB-4168：最高算力99 TOPS，专为边缘AI计算平台设计\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455098.html)\n\n**2. 宇树王兴兴的2000万台机器人：制造账好算, 需求账难还**\n\n- 出品 | 何玺 排版 | 叶媛 11月26日，WISE2026大会。\n- 王兴兴给出一个判断：5到10年内，中国机器人产量有望超过汽车，年产量超过2000万台。\n\n*关键数字：「年产量超过2000万台」*\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201929-8420-30714004.html)\n\n**3. 具身智能出海公司索塔无界完成数千万元天使轮融资**\n\n- 具身智能出海公司索塔无界完成数千万元天使轮融资\n\n*来源：智能制造网* ｜ [🔗 原文](https://www.gkzhan.com/news/detail/197889.html)\n\n## 产业观察\n\n**1. SPS2026丨德国纽伦堡，CONTROLWAY科瑞与全球工业同行共话智造**\n\n- SPS2026丨德国纽伦堡，CONTROLWAY科瑞与全球工业同行共话智造\n\n*来源：工控网* ｜ [🔗 原文](https://www.gongkong.com/news/202611/455094.html)\n\n**2. CITE2027四月将启幕：以AI之光，链接亚太电子新未来**\n\n- CITE2027四月将启幕：以AI之光，链接亚太电子新未来\n\n*来源：OFweek智能制造* ｜ [🔗 原文](https://www.ofweek.com/im/2026-11/ART-201900-8100-30713998.html)\n\n---\n\n**编者按**：以上为自动化系统按公开数据聚合的行业动态，供快速建立信息面。涉及具体选型与投资决策，请以厂商实测和正式文档为准。\n\n*ops-intel 自动生成（template-v2-manufacturing），全部字段来自原始 API。生成时间：2026-11-28T08:03:06.367Z*\n",
+      "source_urls": "[\"https://zhuanlan.zhihu.com/p/2109309612528817507\",\"https://zhuanlan.zhihu.com/p/2110030397543338696\",\"https://www.gongkong.com/news/202611/455098.html\",\"https://www.gongkong.com/news/202611/455097.html\",\"https://www.gongkong.com/news/202611/455094.html\",\"https://www.ofweek.com/im/2026-11/ART-201929-8420-30714004.html\",\"https://www.ofweek.com/im/2026-11/ART-201900-8100-30713998.html\",\"https://www.gkzhan.com/news/detail/197889.html\"]",
+      "source_ids": "[1141,1121,74,73,72,8,7,1268]",
+      "generator": "template-v2-manufacturing",
+      "score": 3,
+      "status": "published",
+      "created_at": "2026-11-28T08:03:06.367Z",
+      "published_at": "2026-11-28T08:03:06.479Z",
+      "relevance": "ok"
+    },
+    {
       "slug": "20261127-7ea6e6",
       "kind": "deep",
       "title": "普什宁江公司通过“三标”管理体系再认证现场审核",
@@ -18845,13 +19109,13 @@
     }
   ],
   "stats": {
-    "intel": 1100,
-    "articles": 376,
+    "intel": 1117,
+    "articles": 380,
     "prevIntel": 1100,
-    "prevArticles": 373,
-    "dbIntelOk": 1100,
-    "dbArticlesOk": 376,
+    "prevArticles": 376,
+    "dbIntelOk": 1117,
+    "dbArticlesOk": 380,
     "trimmedIntel": 0
   },
-  "updated_at": "2026-11-27T23:36:07.713Z"
+  "updated_at": "2026-11-28T08:03:06.669Z"
 }
